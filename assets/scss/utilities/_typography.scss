@@ -1,0 +1,132 @@
+p {
+	font-size:1.125rem;
+	line-height:1.75em;
+	font-weight:400;
+	font-family:$font-text;
+	& + p {
+		//margin-top:14px;
+	}
+}
+.pLarge {
+	&, p {
+		font-size:1.5rem;
+		line-height:1.75em;
+		font-weight:400;
+		font-family:$font-text;
+	}
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, .h1 {
+	font-size:7.500rem;
+	line-height:1.083em;
+	font-weight:900;
+	font-family:$font-display;
+}
+
+h2, .h2 {
+	font-size:3.75rem;
+	line-height:1.167em;
+	font-weight:900;
+	font-family:$font-display;
+	span {
+		font-weight:normal;
+	}
+}
+
+h3, .h3 {
+	font-size:2.250rem;
+	line-height:1.09em;
+	font-weight:700;
+	font-family:$font-text;
+}
+
+h4, .h4 {
+	font-size:1.25rem;
+	line-height:1.2em;
+	letter-spacing:.1em;
+	font-family:$font-mono;
+}
+
+h5, .h5 {
+	font-size:.875rem;
+	line-height:1.750em;
+	letter-spacing:.15em;
+	text-transform:uppercase;
+	font-weight:600;
+	font-family:$font-mono;
+}
+
+h6, .h6 {
+	font-size:.75rem;
+	line-height:1.217em;
+	letter-spacing:.1em;
+	text-transform:uppercase;
+	font-weight:400;
+	font-family:$font-mono;
+}
+
+
+
+.btn {
+	text-decoration:none;
+}
+
+.btn-outline {
+	font-size:1.125rem;
+	line-height:1.216em;
+	text-transform:uppercase;
+	letter-spacing:.1em;
+	font-family:$font-mono;
+	text-align:center;
+	padding:12px 23px;
+}
+
+@mixin buttonArrowActual {
+  	content:"";
+	display:inline-block;
+	width:18px;
+	height:18px;
+	background:url('../images/arrow.svg') no-repeat center center;
+	background-size:contain;
+	transition:all 0.15s ease-out;
+}
+
+.buttonArrow {
+	
+	background:transparent;
+	border:none;
+	padding:0;
+	cursor:pointer;
+	&:not(.left) {
+		&:after {
+			@include buttonArrowActual;
+			margin-left:6px;
+			transform:translate(0,4px);
+		}
+		&:hover {
+			&:after {
+				transform:translate(3px,4px);
+			}
+		}
+	}
+	&.left {
+		&:before {
+			@include buttonArrowActual;
+			margin-right:7px;
+			transform:translate(0,4px) scaleX(-1);
+		}
+		&:hover {
+			&:before {
+				transform:translate(-3px,4px) scaleX(-1);
+			}
+		}
+	}
+	&:hover {
+		
+	}
+}

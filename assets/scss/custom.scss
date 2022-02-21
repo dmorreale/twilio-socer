@@ -1,0 +1,161 @@
+@font-face {
+  font-family: 'Twilio Sans Display';
+  src: local('TwilioSansDisplay-Heavy'), local('TwilioSansDisplay-Heavy'),
+      url('../fonts/TwilioSansDisplay-Heavy.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Twilio Sans Display';
+  src: local('TwilioSansDisplay-HeavyItl'), local('TwilioSansDisplay-HeavyItl'),
+      url('../fonts/TwilioSansDisplay-HeavyItl.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Twilio Sans Display';
+  src: local('TwilioSansDisplay-Regular'), local('TwilioSansDisplay-Regular'),
+      url('../fonts/TwilioSansDisplay-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Twilio Sans Display';
+  src: local('TwilioSansDisplay-RegularItl'), local('TwilioSansDisplay-RegularItl'),
+      url('../fonts/TwilioSansDisplay-RegularItl.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Twilio Sans Mono';
+  src: local('TwilioSansMono-Bold'), local('TwilioSansMono-Bold'),
+      url('../fonts/TwilioSansMono-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Twilio Sans Mono';
+  src: local('TwilioSansMono-BoldItl'), local('TwilioSansMono-BoldItl'),
+      url('../fonts/TwilioSansMono-BoldItl.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Twilio Sans Mono';
+  src: local('TwilioSansMono-Regular'), local('TwilioSansMono-Regular'),
+      url('../fonts/TwilioSansMono-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Twilio Sans Mono';
+  src: local('TwilioSansMono-RegularItl'), local('TwilioSansMono-RegularItl'),
+      url('../fonts/TwilioSansMono-RegularItl.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Twilio Sans Mono';
+  src: local('TwilioSansMono-Semibold'), local('TwilioSansMono-Semibold'),
+      url('../fonts/TwilioSansMono-Semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Twilio Sans Mono';
+  src: local('TwilioSansMono-SemiboldItl'), local('TwilioSansMono-SemiboldItl'),
+      url('../fonts/TwilioSansMono-SemiboldItl.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Twilio Sans Text';
+  src: local('TwilioSansText-Bold'), local('TwilioSansText-Bold'),
+      url('../fonts/TwilioSansText-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Twilio Sans Text';
+  src: local('TwilioSansText-BoldItl'), local('TwilioSansText-BoldItl'),
+      url('../fonts/TwilioSansText-BoldItl.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Twilio Sans Text';
+  src: local('TwilioSansText-Regular'), local('TwilioSansText-Regular'),
+      url('../fonts/TwilioSansText-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Twilio Sans Text';
+  src: local('TwilioSansText-RegularItl'), local('TwilioSansText-RegularItl'),
+      url('../fonts/TwilioSansText-RegularItl.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+
+//Add variable overrides up here
+
+/*
+font-weights:
+
+*/
+
+//Typography
+$font-display: 'Twilio Sans Display', sans-serif;
+$font-mono: 'Twilio Sans Mono', sans-serif;
+$font-text: 'Twilio Sans Text', sans-serif;
+
+//Colors
+$blue:              #06033A;
+$orange:            #FEF5EE;
+$red:               #F22F46;
+$light-red:         #FCCFCF;
+$gray:              #C4C4C4;
+
+
+
+$aos-distance: 6px;
+$aos-distance-slide: 8px;
+
+
+@import "../vendor/aos/aos.scss";
+
+body {
+  margin:0;
+  padding:0;
+}
+
+.pageWrapper {
+
+  //utilities
+  @import 'utilities/typography';
+  @import 'utilities/helpers';
+  @import 'utilities/spacing';
+  @import 'utilities/colors';
+
+  //modules
+  //@import 'modules/block-homeHero';
+
+  * {
+    padding:0;
+    margin:0;
+  }
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  background-color:$orange;
+
+  &.hide {
+    opacity:0;
+  }
+
+  .img-cover {
+    max-width:100%;
+    height:100%;
+    object-fit:cover;
+  }
+}

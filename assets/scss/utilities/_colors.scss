@@ -1,0 +1,11 @@
+.text-white {
+	* {
+		color:white;
+	}
+	.btn-outline {
+		border:1px solid $gray;
+	}
+}
+.bg-blue {
+	background-color:$blue;
+}
