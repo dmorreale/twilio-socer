@@ -637,6 +637,13 @@ body {
     text-transform: uppercase;
     font-weight: 400;
     font-family: "Twilio Sans Mono", sans-serif; }
+  .pageWrapper .eyebrow {
+    font-family: "Twilio Sans Mono", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.15em; }
   .pageWrapper .btn {
     text-decoration: none; }
   .pageWrapper .btn-outline {
@@ -682,6 +689,8 @@ body {
     border: 1px solid #C4C4C4; }
   .pageWrapper .bg-blue {
     background-color: #06033A; }
+  .pageWrapper .trends--list {
+    border-top: 1px solid #F22F46; }
   .pageWrapper * {
     padding: 0;
     margin: 0; }

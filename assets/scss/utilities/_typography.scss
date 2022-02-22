@@ -70,7 +70,15 @@ h6, .h6 {
 	font-family:$font-mono;
 }
 
-
+.eyebrow{
+	font-family: $font-mono;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 25px;
+	letter-spacing: 0.15em;
+	text-transform:uppercase;
+}
 
 .btn {
 	text-decoration:none;

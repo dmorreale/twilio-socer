@@ -136,9 +136,13 @@ body {
   @import 'utilities/helpers';
   @import 'utilities/spacing';
   @import 'utilities/colors';
+  @import 'utilities/layout';
 
   //modules
   //@import 'modules/block-homeHero';
+  @import 'modules/trends';
+  @import 'modules/prefooter';
+  
 
   * {
     padding:0;
