@@ -676,20 +676,6 @@ body {
       transform: translate(0, 4px) scaleX(-1); }
     .pageWrapper .buttonArrow.left:hover:before {
       transform: translate(-3px, 4px) scaleX(-1); }
-  .pageWrapper .bulletList p {
-    padding-left: 25px;
-    position: relative; }
-    .pageWrapper .bulletList p:before {
-      content: "";
-      display: block;
-      width: 7px;
-      height: 7px;
-      border-radius: 50%;
-      position: absolute;
-      top: 6px;
-      left: 0; }
-  .pageWrapper .results h1 {
-    font-size: 1.750rem; }
   .pageWrapper .text-white * {
     color: white; }
   .pageWrapper .text-white .btn-outline {
