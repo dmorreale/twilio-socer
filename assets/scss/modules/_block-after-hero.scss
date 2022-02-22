@@ -1,0 +1,38 @@
+.block-after-hero {
+	.space-left {
+		max-width:calc(100% - 120px);
+		margin-left:120px;
+		margin-top:-120px;
+		margin-bottom:81px;
+	}
+	.fourEightyWidth {
+		margin-top:450px;
+	}
+	.pullquotelarge {
+		max-width:500px;
+		margin-top:226px;
+	}
+}
+
+.two-col {
+	.content {
+		display:flex;
+		flex-flow:row;
+		justify-content:space-between;
+	}
+	.column {
+		width:calc(50% - 40px);
+	}
+}
+
+.fourEightyWidth {
+	max-width:480px;
+}
+
+
+.pLarge + p {
+	margin-top:40px;
+}
+p + p {
+	margin-top:30px;
+}
