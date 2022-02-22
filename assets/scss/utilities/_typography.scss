@@ -80,6 +80,17 @@ h6, .h6 {
 	text-transform:uppercase;
 }
 
+.pullquote{
+	//styleName: SOCER Pullquote Large;
+	font-family: $font-display;
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 64px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
 .btn {
 	text-decoration:none;
 }
