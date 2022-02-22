@@ -645,6 +645,25 @@ body {
     line-height: 25px;
     letter-spacing: 0.15em;
     text-transform: uppercase; }
+  .pageWrapper .pullquotelarge {
+    font-size: 3.75rem;
+    line-height: 1.067em;
+    font-weight: 400;
+    font-family: "Twilio Sans Display", sans-serif; }
+    .pageWrapper .pullquotelarge span {
+      display: inline-block;
+      position: relative;
+      top: 0;
+      left: 0; }
+      .pageWrapper .pullquotelarge span:before {
+        content: "";
+        position: absolute;
+        top: -22px;
+        left: -21px;
+        width: calc(100% + 44px);
+        height: calc(100% + 40px);
+        background: url(../images/circle-red.svg) no-repeat center center;
+        background-size: contain; }
   .pageWrapper .pullquote {
     font-family: "Twilio Sans Display", sans-serif;
     font-size: 60px;
@@ -700,6 +719,45 @@ body {
     border: 1px solid #C4C4C4; }
   .pageWrapper .bg-blue {
     background-color: #06033A; }
+  .pageWrapper .block-hero {
+    padding-bottom: 180px; }
+    .pageWrapper .block-hero .leftOfImage {
+      z-index: 2;
+      display: flex;
+      flex-flow: column;
+      align-items: flex-start; }
+    .pageWrapper .block-hero .leftImageHero {
+      width: calc(50% - 40px);
+      height: auto;
+      position: absolute;
+      top: 0;
+      right: 0; }
+    .pageWrapper .block-hero h1 {
+      margin: 27px 0 42px 0; }
+    .pageWrapper .block-hero .downArrowRed {
+      margin: 45px 0 0 0; }
+  .pageWrapper .block-after-hero .space-left {
+    max-width: calc(100% - 120px);
+    margin-left: 120px;
+    margin-top: -120px;
+    margin-bottom: 81px; }
+  .pageWrapper .block-after-hero .fourEightyWidth {
+    margin-top: 450px; }
+  .pageWrapper .block-after-hero .pullquotelarge {
+    max-width: 500px;
+    margin-top: 226px; }
+  .pageWrapper .two-col .content {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between; }
+  .pageWrapper .two-col .column {
+    width: calc(50% - 40px); }
+  .pageWrapper .fourEightyWidth {
+    max-width: 480px; }
+  .pageWrapper .pLarge + p {
+    margin-top: 40px; }
+  .pageWrapper p + p {
+    margin-top: 30px; }
   .pageWrapper .trends--list {
     border-top: 1px solid #F22F46;
     background: #FFF; }
@@ -740,5 +798,19 @@ body {
     max-width: 100%;
     height: 100%;
     object-fit: cover; }
+  .pageWrapper .img-fluid {
+    width: 100%;
+    height: auto; }
+  .pageWrapper .container {
+    margin-left: 40px;
+    margin-right: 40px; }
+  .pageWrapper .content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1360px; }
+  .pageWrapper .relative {
+    position: relative;
+    top: 0;
+    left: 0; }
 
 /*# sourceMappingURL=custom.css.map */
