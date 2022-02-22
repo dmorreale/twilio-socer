@@ -643,7 +643,8 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 25px;
-    letter-spacing: 0.15em; }
+    letter-spacing: 0.15em;
+    text-transform: uppercase; }
   .pageWrapper .btn {
     text-decoration: none; }
   .pageWrapper .btn-outline {
@@ -689,8 +690,38 @@ body {
     border: 1px solid #C4C4C4; }
   .pageWrapper .bg-blue {
     background-color: #06033A; }
-  .pageWrapper .trends--list {
-    border-top: 1px solid #F22F46; }
+  .pageWrapper .trends {
+    background: #FFF; }
+    .pageWrapper .trends span {
+      display: inline-block; }
+    .pageWrapper .trends .eyebrow {
+      display: inline-block;
+      margin-bottom: 8px; }
+    .pageWrapper .trends--list {
+      border-top: 1px solid #F22F46; }
+    .pageWrapper .trends--item {
+      padding: 40px;
+      border-bottom: 1px solid #F22F46;
+      text-decoration: none;
+      color: #121C2D; }
+    .pageWrapper .trends h3 {
+      font-family: "Twilio Sans Display", sans-serif;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 72px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-bottom: 40px; }
+    .pageWrapper .trends h5 {
+      margin-bottom: 40px; }
+    .pageWrapper .trends img {
+      width: 80px;
+      height: auto; }
+    .pageWrapper .trends .read-more {
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: 0em; }
   .pageWrapper * {
     padding: 0;
     margin: 0; }
