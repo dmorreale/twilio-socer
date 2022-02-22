@@ -1,17 +1,8 @@
 .trends{
-    background:#FFF;
-
-    span{
-        display:inline-block;
-    }
-
-    .eyebrow{
-        display:inline-block;
-        margin-bottom: 8px;
-    }
 
     &--list{
         border-top:1px solid $red;
+        background:#FFF;
     }
 
     &--item{
@@ -19,6 +10,15 @@
         border-bottom:1px solid $red;
         text-decoration: none;
         color:$dark;
+        display:block;
+    }
+
+    span{
+        display:block;
+    }
+
+    span.eyebrow{
+        margin-bottom: 8px;
     }
 
     h3{
@@ -29,7 +29,7 @@
         line-height: 72px;
         letter-spacing: 0em;
         text-align: left;
-        margin-bottom:40px;
+        margin-bottom:30px;
     }
 
     h5{

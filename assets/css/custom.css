@@ -684,44 +684,45 @@ body {
       transform: translate(0, 4px) scaleX(-1); }
     .pageWrapper .buttonArrow.left:hover:before {
       transform: translate(-3px, 4px) scaleX(-1); }
+  .pageWrapper .hide-xl {
+    display: none; }
   .pageWrapper .text-white * {
     color: white; }
   .pageWrapper .text-white .btn-outline {
     border: 1px solid #C4C4C4; }
   .pageWrapper .bg-blue {
     background-color: #06033A; }
-  .pageWrapper .trends {
+  .pageWrapper .trends--list {
+    border-top: 1px solid #F22F46;
     background: #FFF; }
-    .pageWrapper .trends span {
-      display: inline-block; }
-    .pageWrapper .trends .eyebrow {
-      display: inline-block;
-      margin-bottom: 8px; }
-    .pageWrapper .trends--list {
-      border-top: 1px solid #F22F46; }
-    .pageWrapper .trends--item {
-      padding: 40px;
-      border-bottom: 1px solid #F22F46;
-      text-decoration: none;
-      color: #121C2D; }
-    .pageWrapper .trends h3 {
-      font-family: "Twilio Sans Display", sans-serif;
-      font-size: 60px;
-      font-style: normal;
-      font-weight: 900;
-      line-height: 72px;
-      letter-spacing: 0em;
-      text-align: left;
-      margin-bottom: 40px; }
-    .pageWrapper .trends h5 {
-      margin-bottom: 40px; }
-    .pageWrapper .trends img {
-      width: 80px;
-      height: auto; }
-    .pageWrapper .trends .read-more {
-      font-size: 16px;
-      line-height: 28px;
-      letter-spacing: 0em; }
+  .pageWrapper .trends--item {
+    padding: 40px;
+    border-bottom: 1px solid #F22F46;
+    text-decoration: none;
+    color: #121C2D;
+    display: block; }
+  .pageWrapper .trends span {
+    display: block; }
+  .pageWrapper .trends span.eyebrow {
+    margin-bottom: 8px; }
+  .pageWrapper .trends h3 {
+    font-family: "Twilio Sans Display", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px; }
+  .pageWrapper .trends h5 {
+    margin-bottom: 40px; }
+  .pageWrapper .trends img {
+    width: 80px;
+    height: auto; }
+  .pageWrapper .trends .read-more {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0em; }
   .pageWrapper * {
     padding: 0;
     margin: 0; }
