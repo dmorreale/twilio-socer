@@ -9,3 +9,8 @@
 .bg-blue {
 	background-color:$blue;
 }
+.bg-grid{
+	background:#FEECEC url(../images/grid-pattern.svg) repeat center/cover;
+	border-top:1px solid $red;
+	border-bottom:1px solid $red;
+}

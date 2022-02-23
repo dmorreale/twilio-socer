@@ -645,6 +645,8 @@ body {
     line-height: 25px;
     letter-spacing: 0.15em;
     text-transform: uppercase; }
+    .pageWrapper .eyebrow.red {
+      color: #F22F46; }
   .pageWrapper .pullquotelarge {
     font-size: 3.75rem;
     line-height: 1.067em;
@@ -713,12 +715,29 @@ body {
       transform: translate(-3px, 4px) scaleX(-1); }
   .pageWrapper .hide-xl {
     display: none; }
+  .pageWrapper section {
+    padding-top: 80px;
+    padding-bottom: 100px; }
+  .pageWrapper .pt-128 {
+    padding-top: 128px; }
+  .pageWrapper .pt-148 {
+    padding-top: 148px; }
+  .pageWrapper .pb-172 {
+    padding-bottom: 172px; }
+  .pageWrapper .pt-192 {
+    padding-top: 192px; }
+  .pageWrapper .pb-192 {
+    padding-bottom: 192px; }
   .pageWrapper .text-white * {
     color: white; }
   .pageWrapper .text-white .btn-outline {
     border: 1px solid #C4C4C4; }
   .pageWrapper .bg-blue {
     background-color: #06033A; }
+  .pageWrapper .bg-grid {
+    background: #FEECEC url(../images/grid-pattern.svg) repeat center/cover;
+    border-top: 1px solid #F22F46;
+    border-bottom: 1px solid #F22F46; }
   .pageWrapper .block-hero {
     padding-bottom: 180px; }
     .pageWrapper .block-hero .leftOfImage {
@@ -759,9 +778,28 @@ body {
     margin-top: 40px; }
   .pageWrapper p + p {
     margin-top: 30px; }
+  .pageWrapper .testimonial .quote {
+    font-family: "Twilio Sans Text", sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em; }
+  .pageWrapper .testimonial .citation {
+    font-family: "Twilio Sans Mono", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.15em; }
+  .pageWrapper .casestudy {
+    border: 1px solid #F22F46; }
+    .pageWrapper .casestudy .case {
+      background: #FFF; }
   .pageWrapper .trends--list {
     border-top: 1px solid #F22F46;
-    background: #FFF; }
+    background: #FFF;
+    margin: 0 -40px; }
   .pageWrapper .trends--item {
     padding: 40px;
     border-bottom: 1px solid #F22F46;

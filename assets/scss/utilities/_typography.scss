@@ -79,6 +79,10 @@ h6, .h6 {
 	line-height: 25px;
 	letter-spacing: 0.15em;
 	text-transform:uppercase;
+
+	&.red{
+		color:$red;
+	}
 }
 
 .pullquotelarge {

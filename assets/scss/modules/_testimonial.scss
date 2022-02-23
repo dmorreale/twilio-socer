@@ -1,0 +1,19 @@
+.testimonial{
+    
+    .quote{
+        font-family: $font-text;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0em;
+    }
+    .citation{
+        font-family: $font-mono;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.15em;
+    }
+}
