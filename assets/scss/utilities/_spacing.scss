@@ -41,6 +41,7 @@ p + p {
 .pb-192{
     padding-bottom: 192px;
 }
+
 .pb-484{
     padding-bottom:484px;
 }
@@ -56,6 +57,30 @@ p + p {
 .mb-200{
     margin-bottom:200px;
 }
+.pb-484{
+    padding-bottom:484px;
+}
+
+.mr-40{
+    margin-right:40px;
+}
+
+.mt-75{
+    margin-top:75px;
+}
+
+.mt-110{
+    margin-top:150px;
+}
+
+.mt-150{
+    margin-top:150px;
+}
+
+.mb-200{
+    margin-bottom:200px;
+}
+
 
 
 .fourEightyWidth {
@@ -85,9 +110,30 @@ p + p {
 		width:calc(50% - 40px);
 	}
 }
+
 .center {
 	display:flex;
 	.centerMe {
 		margin:0 auto;
+	}
+}
+
+.unequalTwoColumn {
+	.content {
+		display:flex;
+		flex-flow:row;
+		justify-content:flex-start;
+	}
+	.column {
+		max-width:calc(50% - 40px);
+		&.smaller {
+			padding:0 40px;
+			img {
+				max-width:280px;
+				position:relative;
+				top:21%;
+				left:0;
+			}
+		}
 	}
 }

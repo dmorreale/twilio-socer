@@ -33,7 +33,7 @@ h2, .h2 {
 	line-height:1.167em;
 	font-weight:900;
 	font-family:$font-display;
-	span {
+	span:not(.circle) {
 		font-weight:normal;
 	}
 	margin-bottom:24px;
@@ -42,7 +42,7 @@ h2, .h2 {
 h3, .h3 {
 	font-size:2.250rem;
 	line-height:1.09em;
-	font-weight:700;
+	font-weight:400;
 	font-family:$font-text;
 }
 
@@ -69,6 +69,10 @@ h6, .h6 {
 	text-transform:uppercase;
 	font-weight:400;
 	font-family:$font-mono;
+	&.citation {
+		letter-spacing:.15em;
+		line-height:1.5em;
+	}
 }
 
 
@@ -91,33 +95,33 @@ h6, .h6 {
 	line-height:1.067em;
 	font-weight:400;
 	font-family:$font-display;
-	span {
-		display:inline-block;
-		position:relative;
-		top:0;
-		left:0;
-		&:before {
-			content:"";
-			position:absolute;
-			top:-22px;
-			left:-21px;
-			width:calc(100% + 44px);
-			height:calc(100% + 40px);
-			background:url(../images/circle-red.svg) no-repeat center center;
-			background-size:contain;
-		}
-	}
+	
 }
 
-.pullquote{
-	//styleName: SOCER Pullquote Large;
-	font-family: $font-display;
-	font-size: 60px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 64px;
-	letter-spacing: 0em;
-	text-align: left;
+span.circle, span.underline {
+	display:inline-block;
+	position:relative;
+	top:0;
+	left:0;
+	&:before {
+		content:"";
+		position:absolute;
+		background-size:contain !important;
+	}
+	&.circle:before {
+		top:-22px;
+		left:-21px;
+		width:calc(100% + 44px);
+		height:calc(100% + 40px);
+		background:url(../images/circle-red.svg) no-repeat center center;
+	}
+	&.underline:before {
+		top:calc(50% + 1px);
+		left:-7px;
+		width:calc(100% + 14px);
+		height:100%;
+		background:url(../images/curved-red-underline.svg) no-repeat center center;
+	}
 }
 
 .btn {
@@ -132,6 +136,13 @@ h6, .h6 {
 	font-family:$font-mono;
 	text-align:center;
 	padding:12px 23px;
+}
+
+.subhead {
+	font-size:1.875rem;
+	line-height:1.3em;
+	font-weight:400;
+	font-family:$font-text;
 }
 
 @mixin buttonArrowActual {
