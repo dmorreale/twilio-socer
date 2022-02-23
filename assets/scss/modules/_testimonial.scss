@@ -1,19 +1,27 @@
-.testimonial{
-    
-    .quote{
-        font-family: $font-text;
-        font-size: 24px;
-        font-style: italic;
-        font-weight: 400;
-        line-height: 38px;
-        letter-spacing: 0em;
+.testimonial {
+    padding-bottom:480px;
+    .content {
+        padding:40px;
     }
-    .citation{
-        font-family: $font-mono;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 18px;
-        letter-spacing: 0.15em;
+
+    .portrait {
+        position:absolute;
+        top:40px;
+        left:40px;
+        width:100%;
+        max-width:240px;
+        height:auto;
+    }
+
+    .testimonial-text {
+        margin-left:280px;
+    }
+
+    .pLarge {
+        font-style:italic;
+    }
+
+    .citation {
+        margin:16px 0 30px 0;
     }
 }

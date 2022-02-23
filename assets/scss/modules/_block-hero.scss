@@ -22,4 +22,16 @@
 	.downArrowRed {
 		margin:45px 0 0 0;
 	}
+	&.trends {
+		padding-bottom:167px;
+		.eyebrow {
+			margin-top:18px;
+		}
+		h1 {
+			margin:21px 0 66px 0;
+		}
+		.subhead {
+			max-width:50%;
+		}
+	}
 }

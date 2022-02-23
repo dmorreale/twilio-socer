@@ -146,6 +146,9 @@ body {
   @import 'modules/largestat';
   @import 'modules/trends';
   @import 'modules/prefooter';
+  @import 'modules/block-singlePullQuote';
+  @import 'modules/block-twiliodata';
+
 
   * {
     padding:0;

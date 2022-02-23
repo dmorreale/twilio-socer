@@ -616,7 +616,7 @@ body {
   .pageWrapper h3, .pageWrapper .h3 {
     font-size: 2.250rem;
     line-height: 1.09em;
-    font-weight: 700;
+    font-weight: 400;
     font-family: "Twilio Sans Text", sans-serif; }
   .pageWrapper h4, .pageWrapper .h4 {
     font-size: 1.25rem;
@@ -637,6 +637,9 @@ body {
     text-transform: uppercase;
     font-weight: 400;
     font-family: "Twilio Sans Mono", sans-serif; }
+    .pageWrapper h6.citation, .pageWrapper .h6.citation {
+      letter-spacing: .15em;
+      line-height: 1.5em; }
   .pageWrapper .eyebrow {
     font-family: "Twilio Sans Mono", sans-serif;
     font-size: 14px;
@@ -660,20 +663,19 @@ body {
       .pageWrapper .pullquotelarge span:before {
         content: "";
         position: absolute;
+        background-size: contain; }
+      .pageWrapper .pullquotelarge span.circle:before {
         top: -22px;
         left: -21px;
         width: calc(100% + 44px);
         height: calc(100% + 40px);
-        background: url(../images/circle-red.svg) no-repeat center center;
-        background-size: contain; }
-  .pageWrapper .pullquote {
-    font-family: "Twilio Sans Display", sans-serif;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 64px;
-    letter-spacing: 0em;
-    text-align: left; }
+        background: url(../images/circle-red.svg) no-repeat center center; }
+      .pageWrapper .pullquotelarge span.underline:before {
+        top: calc(50% + 1px);
+        left: -7px;
+        width: calc(100% + 14px);
+        height: 100%;
+        background: url(../images/curved-red-underline.svg) no-repeat center center; }
   .pageWrapper .btn {
     text-decoration: none; }
   .pageWrapper .btn-outline {
@@ -684,6 +686,11 @@ body {
     font-family: "Twilio Sans Mono", sans-serif;
     text-align: center;
     padding: 12px 23px; }
+  .pageWrapper .subhead {
+    font-size: 1.875rem;
+    line-height: 1.3em;
+    font-weight: 400;
+    font-family: "Twilio Sans Text", sans-serif; }
   .pageWrapper .buttonArrow {
     background: transparent;
     border: none;
@@ -722,6 +729,12 @@ body {
   .pageWrapper section {
     padding-top: 80px;
     padding-bottom: 100px; }
+  .pageWrapper h3 + p, .pageWrapper .h3 + p {
+    margin-top: 38px; }
+  .pageWrapper .pLarge + p {
+    margin-top: 40px; }
+  .pageWrapper p + p {
+    margin-top: 30px; }
   .pageWrapper .p-40 {
     padding: 40px; }
   .pageWrapper .pt-128 {
@@ -734,10 +747,31 @@ body {
     padding-top: 192px; }
   .pageWrapper .pb-192 {
     padding-bottom: 192px; }
+  .pageWrapper .fourEightyWidth {
+    max-width: 480px; }
+  .pageWrapper .twoFiftyWidth {
+    max-width: 252px; }
+  .pageWrapper .threeSixtyWidth {
+    max-width: 360px; }
+  .pageWrapper .moveUp {
+    margin-top: -120px; }
+  .pageWrapper .two-col .content {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+  .pageWrapper .two-col .column {
+    width: calc(50% - 40px); }
+  .pageWrapper .center {
+    display: flex; }
+    .pageWrapper .center .centerMe {
+      margin: 0 auto; }
   .pageWrapper .text-white * {
     color: white; }
   .pageWrapper .text-white .btn-outline {
     border: 1px solid #C4C4C4; }
+  .pageWrapper .bg-white {
+    background-color: white; }
   .pageWrapper .bg-blue {
     background-color: #06033A; }
   .pageWrapper .bg-grid {
@@ -790,6 +824,14 @@ body {
       margin: 27px 0 42px 0; }
     .pageWrapper .block-hero .downArrowRed {
       margin: 45px 0 0 0; }
+    .pageWrapper .block-hero.trends {
+      padding-bottom: 167px; }
+      .pageWrapper .block-hero.trends .eyebrow {
+        margin-top: 18px; }
+      .pageWrapper .block-hero.trends h1 {
+        margin: 21px 0 66px 0; }
+      .pageWrapper .block-hero.trends .subhead {
+        max-width: 50%; }
   .pageWrapper .block-after-hero {
     padding: 0; }
     .pageWrapper .block-after-hero .space-left {
@@ -804,41 +846,25 @@ body {
     .pageWrapper .block-after-hero .twoFiftyWidth {
       margin-top: 188px;
       margin-bottom: 160px; }
-  .pageWrapper .two-col .content {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    flex-wrap: wrap; }
-  .pageWrapper .two-col .column {
-    width: calc(50% - 40px); }
-  .pageWrapper .fourEightyWidth {
-    max-width: 480px; }
-  .pageWrapper .twoFiftyWidth {
-    max-width: 252px; }
-  .pageWrapper .threeSixtyWidth {
-    max-width: 360px; }
-  .pageWrapper .pTopForty {
-    padding-top: 40px; }
-  .pageWrapper .moveUp {
-    margin-top: -120px; }
-  .pageWrapper .pLarge + p {
-    margin-top: 40px; }
-  .pageWrapper p + p {
-    margin-top: 30px; }
-  .pageWrapper .testimonial .quote {
-    font-family: "Twilio Sans Text", sans-serif;
-    font-size: 24px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 38px;
-    letter-spacing: 0em; }
-  .pageWrapper .testimonial .citation {
-    font-family: "Twilio Sans Mono", sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0.15em; }
+  .pageWrapper .trends + .block-after-hero {
+    padding-top: 140px; }
+  .pageWrapper .testimonial {
+    padding-bottom: 480px; }
+    .pageWrapper .testimonial .content {
+      padding: 40px; }
+    .pageWrapper .testimonial .portrait {
+      position: absolute;
+      top: 40px;
+      left: 40px;
+      width: 100%;
+      max-width: 240px;
+      height: auto; }
+    .pageWrapper .testimonial .testimonial-text {
+      margin-left: 280px; }
+    .pageWrapper .testimonial .pLarge {
+      font-style: italic; }
+    .pageWrapper .testimonial .citation {
+      margin: 16px 0 30px 0; }
   .pageWrapper .casestudy .case {
     background: #FFF;
     border: 1px solid #F22F46; }
@@ -928,6 +954,14 @@ body {
     font-size: 16px;
     line-height: 28px;
     letter-spacing: 0em; }
+  .pageWrapper .pullQuoteSingle {
+    margin-top: 75px; }
+    .pageWrapper .pullQuoteSingle .content {
+      max-width: 1010px; }
+  .pageWrapper .twiliodata .column.center {
+    width: 100%; }
+    .pageWrapper .twiliodata .column.center .centerMe {
+      width: calc(50% - 40px); }
   .pageWrapper * {
     padding: 0;
     margin: 0; }
