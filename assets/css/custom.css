@@ -749,7 +749,8 @@ body {
   .pageWrapper .two-col .content {
     display: flex;
     flex-flow: row;
-    justify-content: space-between; }
+    justify-content: space-between;
+    flex-wrap: wrap; }
   .pageWrapper .two-col .column {
     width: calc(50% - 40px); }
   .pageWrapper .fourEightyWidth {
