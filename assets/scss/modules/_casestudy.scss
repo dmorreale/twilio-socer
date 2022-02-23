@@ -1,9 +1,61 @@
 .casestudy{
-    border:1px solid $red;
 
     .case{
         background:#FFF;
+        border:1px solid $red;
     }
 
-    
+    h2{
+        padding:26px 38px;
+        border-bottom:1px solid $red;
+    }
+
+    h6{
+        padding:12px 24px;
+        font-family: $font-mono;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0.1em;
+        border-bottom:1px solid $red;
+    }
+
+    .column.quarter{
+        border-right:1px solid $red;
+    }
+
+    .column{
+        &.quarter, &.half{
+            padding-bottom:72px;
+            position:relative;
+
+            h6{
+                margin-bottom:72px;
+            }
+
+            IMG{
+                position: relative;
+                display:block;
+                margin:0 auto;
+            }
+        }
+    }
+
+    .two-column{
+        padding:40px;
+        justify-content: space-between;
+
+        h4{
+            margin-bottom:28px;
+        }
+
+        .column{
+            width:calc(50% - 20px);
+        }
+    }
+
+    p{
+        font-family: $font-mono;
+    }
 }

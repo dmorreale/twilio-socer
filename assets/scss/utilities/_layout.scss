@@ -1,0 +1,15 @@
+.row{
+    display:flex;
+
+    &.three-column .column{
+        width:calc(33.3% - 1px);
+    }
+
+    > .quarter{
+        width:25%;
+    }
+
+    > .half{
+        width:50%;
+    }
+}
