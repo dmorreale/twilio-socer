@@ -11,7 +11,7 @@
     h3{
         position: relative;
         color:#FFF;
-        width:120%;
+        width:136%;
         z-index: 1;
         font-size:80px;
         line-height: 84px;
@@ -28,5 +28,15 @@
         display:block;
         width:90px;
         height: auto;
+    }
+}
+
+.casestudy{
+    position: relative;
+    z-index: 1;
+    margin-bottom:-871px;
+
+    + .largestat{
+        padding-top:910px;
     }
 }
