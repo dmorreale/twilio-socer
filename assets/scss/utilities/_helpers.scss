@@ -1,8 +1,12 @@
 .hide-xl{
-    display:none;
+    display:none !important;
 }
 
 .border-top-red{
     border-top:1px solid $red;
+}
+
+.text-center{
+    text-align: center;
 }
 

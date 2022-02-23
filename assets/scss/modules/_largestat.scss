@@ -1,0 +1,32 @@
+.largestat{
+    margin-bottom:130px;
+
+    .eyebrow{
+        display: block;
+        font-size:16px;
+        line-height: 20px;
+        margin-bottom:20px;
+    }
+
+    h3{
+        position: relative;
+        color:#FFF;
+        width:120%;
+        z-index: 1;
+        font-size:80px;
+        line-height: 84px;
+    }
+
+    .two-column .column:first-child{
+        width:47%;
+    }
+    .two-column .column:last-child{
+        width:53%;
+    }
+
+    .logo{
+        display:block;
+        width:90px;
+        height: auto;
+    }
+}

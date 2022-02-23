@@ -1,0 +1,21 @@
+.social{
+    display:inline-block;
+    text-decoration: none;
+    text-align: center;
+    width:90px;
+    height: 90px;
+    border:1px solid $dark;
+    border-radius: 50%;
+    
+    img{
+        display: inline-block;
+        line-height: 30px;
+        width:30px;
+        height:auto;
+    }
+}
+
+.sharing{
+    margin-bottom:168px;
+    text-align: center;
+}
