@@ -122,6 +122,10 @@ $aos-distance-slide: 8px;
 
 @import "../vendor/aos/aos.scss";
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin:0;
   padding:0;

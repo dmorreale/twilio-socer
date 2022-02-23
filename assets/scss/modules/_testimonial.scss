@@ -1,4 +1,25 @@
 .testimonial{
+    .row{
+        padding:40px 40px 68px;
+        background-color:#FFF;
+
+        .column{
+            width: calc(100% - 280px);
+        }
+
+        .column:first-child{
+            width:240px;
+            margin-right:40px;
+
+            img{
+                width:100%;
+                max-width: 240px;
+                height: auto;
+                display:block;
+                position: absolute;
+            }
+        }
+    }
     
     .quote{
         font-family: $font-text;

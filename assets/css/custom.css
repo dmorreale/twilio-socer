@@ -580,6 +580,9 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos], [data-aos][data-aos][data-
       transform: perspective(2500px) rotateX(100deg); }
       html:not(.no-js) [data-aos='flip-down'].aos-animate {
         transform: perspective(2500px) rotateX(0); } }
+* {
+  box-sizing: border-box; }
+
 body {
   margin: 0;
   padding: 0; }
@@ -610,7 +613,8 @@ body {
     font-size: 3.75rem;
     line-height: 1.167em;
     font-weight: 900;
-    font-family: "Twilio Sans Display", sans-serif; }
+    font-family: "Twilio Sans Display", sans-serif;
+    margin-bottom: 24px; }
     .pageWrapper h2 span, .pageWrapper .h2 span {
       font-weight: normal; }
   .pageWrapper h3, .pageWrapper .h3 {
@@ -734,6 +738,14 @@ body {
     padding-top: 192px; }
   .pageWrapper .pb-192 {
     padding-bottom: 192px; }
+  .pageWrapper .pb-484 {
+    padding-bottom: 484px; }
+  .pageWrapper .mr-40 {
+    margin-right: 40px; }
+  .pageWrapper .mt-150 {
+    margin-top: 150px; }
+  .pageWrapper .mb-200 {
+    margin-bottom: 200px; }
   .pageWrapper .text-white * {
     color: white; }
   .pageWrapper .text-white .btn-outline {
@@ -764,15 +776,18 @@ body {
     width: 90px;
     height: 90px;
     border: 1px solid #121C2D;
-    border-radius: 50%; }
+    border-radius: 50%;
+    margin: 0 20px; }
     .pageWrapper .social img {
-      display: inline-block;
-      line-height: 30px;
-      width: 30px;
-      height: auto; }
+      width: auto;
+      height: 30px;
+      margin: 30px 0; }
   .pageWrapper .sharing {
-    margin-bottom: 168px;
+    margin-top: 128px;
+    margin-bottom: 48px;
     text-align: center; }
+    .pageWrapper .sharing h2 {
+      margin-bottom: 42px; }
   .pageWrapper .block-hero {
     padding-bottom: 180px; }
     .pageWrapper .block-hero .leftOfImage {
@@ -790,6 +805,13 @@ body {
       margin: 27px 0 42px 0; }
     .pageWrapper .block-hero .downArrowRed {
       margin: 45px 0 0 0; }
+    .pageWrapper .block-hero p.subhead {
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 39px;
+      letter-spacing: 0em;
+      max-width: 680px; }
   .pageWrapper .block-after-hero {
     padding: 0; }
     .pageWrapper .block-after-hero .space-left {
@@ -825,6 +847,20 @@ body {
     margin-top: 40px; }
   .pageWrapper p + p {
     margin-top: 30px; }
+  .pageWrapper .testimonial .row {
+    padding: 40px 40px 68px;
+    background-color: #FFF; }
+    .pageWrapper .testimonial .row .column {
+      width: calc(100% - 280px); }
+    .pageWrapper .testimonial .row .column:first-child {
+      width: 240px;
+      margin-right: 40px; }
+      .pageWrapper .testimonial .row .column:first-child img {
+        width: 100%;
+        max-width: 240px;
+        height: auto;
+        display: block;
+        position: absolute; }
   .pageWrapper .testimonial .quote {
     font-family: "Twilio Sans Text", sans-serif;
     font-size: 24px;
@@ -873,7 +909,9 @@ body {
     .pageWrapper .casestudy .two-column .column {
       width: calc(50% - 20px); }
   .pageWrapper .casestudy p {
-    font-family: "Twilio Sans Mono", sans-serif; }
+    font-family: "Twilio Sans Mono", sans-serif;
+    font-size: 1rem;
+    line-height: 1.75; }
   .pageWrapper .largestat {
     margin-bottom: 130px; }
     .pageWrapper .largestat .eyebrow {
@@ -884,7 +922,7 @@ body {
     .pageWrapper .largestat h3 {
       position: relative;
       color: #FFF;
-      width: 120%;
+      width: 136%;
       z-index: 1;
       font-size: 80px;
       line-height: 84px; }
@@ -896,6 +934,12 @@ body {
       display: block;
       width: 90px;
       height: auto; }
+  .pageWrapper .casestudy {
+    position: relative;
+    z-index: 1;
+    margin-bottom: -871px; }
+    .pageWrapper .casestudy + .largestat {
+      padding-top: 910px; }
   .pageWrapper .trends--list {
     border-top: 1px solid #F22F46;
     background: #FFF;
@@ -928,6 +972,8 @@ body {
     font-size: 16px;
     line-height: 28px;
     letter-spacing: 0em; }
+  .pageWrapper .prefooter h5 {
+    margin-bottom: 18px; }
   .pageWrapper * {
     padding: 0;
     margin: 0; }
