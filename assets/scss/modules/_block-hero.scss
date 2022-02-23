@@ -22,14 +22,16 @@
 	.downArrowRed {
 		margin:45px 0 0 0;
 	}
-
-	p.subhead{
-		font-size: 30px;
-		font-style: normal;
-		font-weight: 400;
-		line-height: 39px;
-		letter-spacing: 0em;
-		max-width:680px;
+	&.trends {
+		padding-bottom:167px;
+		.eyebrow {
+			margin-top:18px;
+		}
+		h1 {
+			margin:21px 0 66px 0;
+		}
+		.subhead {
+			max-width:50%;
+		}
 	}
-
 }
