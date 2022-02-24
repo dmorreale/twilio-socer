@@ -1,5 +1,15 @@
 .pullQuoteSingle {
+	padding-top:63px;
+	padding-bottom:90px;
 	.content {
 		max-width:1010px;
+	}
+	.pullquotelarge {
+		margin-bottom:0;
+	}
+	@media screen and (max-width:1439px)
+	{
+		padding-top:50px;
+		padding-bottom:70px;
 	}
 }

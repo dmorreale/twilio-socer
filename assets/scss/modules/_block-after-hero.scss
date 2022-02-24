@@ -17,18 +17,6 @@
 	}
 }
 
-.two-col {
-	.content {
-		display:flex;
-		flex-flow:row;
-		justify-content:space-between;
-		flex-wrap: wrap;
-	}
-	.column {
-		width:calc(50% - 40px);
-	}
-}
-
 .fourEightyWidth {
 	max-width:480px;
 }

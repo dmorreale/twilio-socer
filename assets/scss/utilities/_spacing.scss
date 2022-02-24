@@ -137,3 +137,20 @@ p + p {
 		}
 	}
 }
+
+
+@media screen and (max-width:1439px)
+{
+	.mt-75 {
+		margin-top:61px;
+	}
+}
+@media screen and (max-width:1199px)
+{
+	.pt-128 {
+	    padding-top:92px;
+	}
+	.two-col .column {
+		width:100%;
+	}
+}

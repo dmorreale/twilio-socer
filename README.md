@@ -16,3 +16,4 @@ QA - ??
 Todo:
 
 Check text colors
+Design does not cover small mobile screens < 375px - need to double check this screen on the site
