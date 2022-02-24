@@ -60,6 +60,11 @@
 			width:12px;
 			height:14px;
 			margin-right:9px;
+			transform:rotate(0deg);
+			&, span {
+				transition:all .5s cubic-bezier(0.87, 0, 0.13, 1);
+				transform-origin:center;
+			}
 			span {
 				position:absolute;
 				left:0;
@@ -74,7 +79,28 @@
 				}
 				&.line2 {
 					top:50%;
-					transform:translate(0,-50%);
+					left:50%;
+					transform:translate(-50%,-50%);
+				}
+			}
+		}
+		&.active {
+			span.icon {
+				transform:rotate(-180deg);
+				span {
+					&.line1 {
+						transform:rotate(-45deg);
+						top:50%;
+						width:18px;
+					}
+					&.line3 {
+						transform:rotate(45deg);
+						bottom:calc(50% - 1px);
+						width:18px;
+					}
+					&.line2 {
+						width:0;
+					}
 				}
 			}
 		}
@@ -99,16 +125,16 @@
 		opacity:0;
 		background-color:$blue;
 		padding-top:180px;
-	}
-	.nav-wrapper {
-		&.active {
-			.nav-dropDown {
-				opacity:1;
-				z-index:20
-			}
+		li {
+			margin-top:32px;
 		}
 	}
-	
+	.nav-wrapper.active {
+		.nav-dropDown {
+			opacity:1;
+			z-index:20
+		}
+	}
 }
 
 .nav-cta ul a {

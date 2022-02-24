@@ -14,14 +14,14 @@ $(document).ready(function() {
 
 	$('.nav-cta__button--hamburger').click(function() {
 		if($(this).hasClass('active')) {
-			$(this).removeClass('active');
+			$(this).removeClass('active').find('.text').text('Menu');
 			$('.nav-wrapper.active').removeClass('active');
-			//$('body').removeClass('noScroll');
+			$('body').removeClass('noScroll');
 		}
 		else {
-			$(this).addClass('active');
+			$(this).addClass('active').find('.text').text('Close');
 			$('.nav-wrapper').addClass('active');
-			//$('body').addClass('noScroll');
+			$('body').addClass('noScroll');
 		}
 	});
 

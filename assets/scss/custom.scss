@@ -161,8 +161,9 @@ body {
 	-moz-osx-font-smoothing: grayscale;
   background-color:$orange;
 
-  &.noScroll {
+  &.noScroll main {
     overflow:hidden;
+    height:101vh;
   }
 
   &.hide {

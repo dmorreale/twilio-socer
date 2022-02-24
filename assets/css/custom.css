@@ -695,35 +695,14 @@ body {
     line-height: 1.3em;
     font-weight: 400;
     font-family: "Twilio Sans Text", sans-serif; }
-  .pageWrapper .buttonArrow {
-    background: transparent;
-    border: none;
-    padding: 0;
-    cursor: pointer; }
-    .pageWrapper .buttonArrow:not(.left):after {
-      content: "";
-      display: inline-block;
-      width: 18px;
-      height: 18px;
-      background: url("../images/arrow.svg") no-repeat center center;
-      background-size: contain;
-      transition: all 0.15s ease-out;
-      margin-left: 6px;
-      transform: translate(0, 4px); }
-    .pageWrapper .buttonArrow:not(.left):hover:after {
-      transform: translate(3px, 4px); }
-    .pageWrapper .buttonArrow.left:before {
-      content: "";
-      display: inline-block;
-      width: 18px;
-      height: 18px;
-      background: url("../images/arrow.svg") no-repeat center center;
-      background-size: contain;
-      transition: all 0.15s ease-out;
-      margin-right: 7px;
-      transform: translate(0, 4px) scaleX(-1); }
-    .pageWrapper .buttonArrow.left:hover:before {
-      transform: translate(-3px, 4px) scaleX(-1); }
+  .pageWrapper .navDropTitle, .pageWrapper .navDropLeftColumn a {
+    font-size: 1.5rem;
+    line-height: 1.2em;
+    font-weight: 600;
+    font-family: "Twilio Sans Text", sans-serif; }
+    .pageWrapper .navDropTitle span, .pageWrapper .navDropLeftColumn a span {
+      display: block;
+      color: #F22F46; }
   .pageWrapper .hide-xl {
     display: none !important; }
   .pageWrapper .border-top-red {
@@ -871,20 +850,20 @@ body {
         margin: 21px 0 66px 0; }
       .pageWrapper .block-hero.trends .subhead {
         max-width: 50%; }
-  .pageWrapper .block-after-hero {
-    padding: 0; }
-    .pageWrapper .block-after-hero .space-left {
-      max-width: calc(100% - 120px);
-      margin-left: 120px;
-      margin-bottom: 81px; }
-    .pageWrapper .block-after-hero .fourEightyWidth {
-      margin-top: 450px; }
-    .pageWrapper .block-after-hero .pullquotelarge {
-      max-width: 500px;
-      margin-top: 226px; }
-    .pageWrapper .block-after-hero .twoFiftyWidth {
-      margin-top: 188px;
-      margin-bottom: 160px; }
+    .pageWrapper .block-hero:not(.trends) + .block-after-hero {
+      padding-top: 0; }
+  .pageWrapper .block-after-hero .space-left {
+    max-width: calc(100% - 120px);
+    margin-left: 120px;
+    margin-bottom: 81px; }
+  .pageWrapper .block-after-hero .fourEightyWidth {
+    margin-top: 450px; }
+  .pageWrapper .block-after-hero .pullquotelarge {
+    max-width: 500px;
+    margin-top: 226px; }
+  .pageWrapper .block-after-hero .twoFiftyWidth {
+    margin-top: 188px;
+    margin-bottom: 160px; }
   .pageWrapper .two-col .content {
     display: flex;
     flex-flow: row;
@@ -1070,7 +1049,11 @@ body {
         display: block;
         width: 12px;
         height: 14px;
-        margin-right: 9px; }
+        margin-right: 9px;
+        transform: rotate(0deg); }
+        .pageWrapper .nav .nav-cta__button--hamburger span.icon, .pageWrapper .nav .nav-cta__button--hamburger span.icon span {
+          transition: all 0.5s cubic-bezier(0.87, 0, 0.13, 1);
+          transform-origin: center; }
         .pageWrapper .nav .nav-cta__button--hamburger span.icon span {
           position: absolute;
           left: 0;
@@ -1083,7 +1066,20 @@ body {
             bottom: 0; }
           .pageWrapper .nav .nav-cta__button--hamburger span.icon span.line2 {
             top: 50%;
-            transform: translate(0, -50%); }
+            left: 50%;
+            transform: translate(-50%, -50%); }
+      .pageWrapper .nav .nav-cta__button--hamburger.active span.icon {
+        transform: rotate(-180deg); }
+        .pageWrapper .nav .nav-cta__button--hamburger.active span.icon span.line1 {
+          transform: rotate(-45deg);
+          top: 50%;
+          width: 18px; }
+        .pageWrapper .nav .nav-cta__button--hamburger.active span.icon span.line3 {
+          transform: rotate(45deg);
+          bottom: calc(50% - 1px);
+          width: 18px; }
+        .pageWrapper .nav .nav-cta__button--hamburger.active span.icon span.line2 {
+          width: 0; }
     .pageWrapper .nav .nav-wrapper__logo-container, .pageWrapper .nav .nav-ctas {
       position: relative;
       top: 0;
@@ -1102,6 +1098,8 @@ body {
       opacity: 0;
       background-color: #06033A;
       padding-top: 180px; }
+      .pageWrapper .nav .nav-dropDown li {
+        margin-top: 32px; }
     .pageWrapper .nav .nav-wrapper.active .nav-dropDown {
       opacity: 1;
       z-index: 20; }
@@ -1110,8 +1108,9 @@ body {
   .pageWrapper, .pageWrapper * {
     padding: 0;
     margin: 0; }
-  .pageWrapper.noScroll {
-    overflow: hidden; }
+  .pageWrapper.noScroll main {
+    overflow: hidden;
+    height: 101vh; }
   .pageWrapper.hide {
     opacity: 0; }
   .pageWrapper .img-cover {

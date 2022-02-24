@@ -35,4 +35,7 @@
 			max-width:50%;
 		}
 	}
+	&:not(.trends) + .block-after-hero {
+		padding-top:0;
+	}
 }

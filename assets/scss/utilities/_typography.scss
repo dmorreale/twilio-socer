@@ -145,47 +145,13 @@ span.circle, span.underline {
 	font-family:$font-text;
 }
 
-@mixin buttonArrowActual {
-  	content:"";
-	display:inline-block;
-	width:18px;
-	height:18px;
-	background:url('../images/arrow.svg') no-repeat center center;
-	background-size:contain;
-	transition:all 0.15s ease-out;
-}
-
-.buttonArrow {
-	
-	background:transparent;
-	border:none;
-	padding:0;
-	cursor:pointer;
-	&:not(.left) {
-		&:after {
-			@include buttonArrowActual;
-			margin-left:6px;
-			transform:translate(0,4px);
-		}
-		&:hover {
-			&:after {
-				transform:translate(3px,4px);
-			}
-		}
-	}
-	&.left {
-		&:before {
-			@include buttonArrowActual;
-			margin-right:7px;
-			transform:translate(0,4px) scaleX(-1);
-		}
-		&:hover {
-			&:before {
-				transform:translate(-3px,4px) scaleX(-1);
-			}
-		}
-	}
-	&:hover {
-		
+.navDropTitle, .navDropLeftColumn a {
+	font-size:1.5rem;
+	line-height:1.2em;
+	font-weight:600;
+	font-family:$font-text;
+	span {
+		display:block;
+		color:$red;
 	}
 }
