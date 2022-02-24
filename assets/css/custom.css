@@ -1052,7 +1052,7 @@ body {
         margin-right: 9px;
         transform: rotate(0deg); }
         .pageWrapper .nav .nav-cta__button--hamburger span.icon, .pageWrapper .nav .nav-cta__button--hamburger span.icon span {
-          transition: all 0.5s cubic-bezier(0.87, 0, 0.13, 1);
+          transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
           transform-origin: center; }
         .pageWrapper .nav .nav-cta__button--hamburger span.icon span {
           position: absolute;
@@ -1086,8 +1086,6 @@ body {
       left: 0;
       z-index: 21; }
     .pageWrapper .nav .nav-dropDown {
-      width: 100%; }
-    .pageWrapper .nav .nav-dropDown {
       width: 100%;
       position: fixed;
       top: 0;
@@ -1098,8 +1096,31 @@ body {
       opacity: 0;
       background-color: #06033A;
       padding-top: 180px; }
+      .pageWrapper .nav .nav-dropDown, .pageWrapper .nav .nav-dropDown a {
+        transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1); }
       .pageWrapper .nav .nav-dropDown li {
         margin-top: 32px; }
+        .pageWrapper .nav .nav-dropDown li a {
+          opacity: .75;
+          cursor: pointer; }
+          .pageWrapper .nav .nav-dropDown li a:hover {
+            opacity: 1; }
+      .pageWrapper .nav .nav-dropDown .container {
+        height: 100%;
+        overflow: scroll; }
+      .pageWrapper .nav .nav-dropDown .content {
+        padding-bottom: 40px;
+        display: flex; }
+      .pageWrapper .nav .nav-dropDown .navDropLeftColumn {
+        width: calc(50% - 40px); }
+      .pageWrapper .nav .nav-dropDown .navDropRightColumn {
+        margin: 68px auto 0 auto;
+        display: flex;
+        flex-flow: column;
+        align-items: center; }
+        .pageWrapper .nav .nav-dropDown .navDropRightColumn a {
+          display: inline-block;
+          margin-top: 42px; }
     .pageWrapper .nav .nav-wrapper.active .nav-dropDown {
       opacity: 1;
       z-index: 20; }
@@ -1110,7 +1131,7 @@ body {
     margin: 0; }
   .pageWrapper.noScroll main {
     overflow: hidden;
-    height: 101vh; }
+    height: calc(100vh - 123px); }
   .pageWrapper.hide {
     opacity: 0; }
   .pageWrapper .img-cover {

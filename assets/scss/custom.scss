@@ -163,7 +163,7 @@ body {
 
   &.noScroll main {
     overflow:hidden;
-    height:101vh;
+    height:calc(100vh - 123px);
   }
 
   &.hide {
