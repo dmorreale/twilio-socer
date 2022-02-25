@@ -75,6 +75,10 @@ h6, .h6 {
 	}
 }
 
+.fontWeight-normal {
+	font-weight:400 !important;
+}
+
 
 .eyebrow{
 	font-family: $font-mono;
@@ -153,5 +157,50 @@ span.circle, span.underline {
 	span {
 		display:block;
 		color:$red;
+	}
+}
+
+@media screen and (max-width:1439px)  /*and (-webkit-min-device-pixel-ratio:2) */ 
+{
+	h1, .h1 {
+		font-size:6.250rem;
+		line-height:1.1em;
+	}
+
+
+
+	.subhead {
+		font-size:1.125rem;
+		line-height:1.322em;
+	}
+}
+
+@media screen and (max-width:1199px)  /*and (-webkit-min-device-pixel-ratio:2) */ 
+{
+	.pLarge {
+		&, p {
+			font-size:1.313rem;
+			line-height:1.6em;
+		}
+	}
+
+	h1, .h1 {
+		font-size:2.5rem;
+		line-height:1.2em;
+	}
+
+
+	.pullquotelarge {
+		font-size:2.5rem;
+		line-height:1.1em;
+	}
+	
+	span.circle, span.underline {
+		&.circle:before {
+			top:-15px;
+			left:-15px;
+			width:calc(100% + 30px);
+			height:calc(100% + 30px);
+		}
 	}
 }

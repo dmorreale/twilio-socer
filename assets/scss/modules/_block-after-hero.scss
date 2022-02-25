@@ -16,42 +16,10 @@
 		margin-bottom:160px;
 	}
 }
-
-.two-col {
-	.content {
-		display:flex;
-		flex-flow:row;
-		justify-content:space-between;
-		flex-wrap: wrap;
-	}
-	.column {
-		width:calc(50% - 40px);
+@media screen and (max-width:1199px)
+{
+	.trends + .block-after-hero {
+		padding-bottom:45px;
 	}
 }
 
-.fourEightyWidth {
-	max-width:480px;
-}
-
-.twoFiftyWidth {
-	max-width:252px;
-}
-
-.threeSixtyWidth {
-	max-width:360px;
-}
-
-.pTopForty {
-	padding-top:40px;
-}
-
-.moveUp {
-	margin-top:-120px;
-}
-
-.pLarge + p {
-	margin-top:40px;
-}
-p + p {
-	margin-top:30px;
-}

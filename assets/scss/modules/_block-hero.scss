@@ -38,4 +38,43 @@
 	&:not(.trends) + .block-after-hero {
 		padding-top:0;
 	}
+
+	@media screen and (max-width:1439px)
+	{
+		&.trends {
+			padding-bottom:94px;
+			h1 {
+				margin-bottom:23px;
+			}
+			.subhead {
+				max-width:420px;
+			}
+		}
+	}
+	@media screen and (max-width:1199px)
+	{
+		&.trends {
+			padding-bottom:45px;
+			.leftImageHero {
+				right:-40px;
+				width:66.666%;
+				height:calc(100% + 88px);
+				object-fit:cover;
+			}
+			.subhead {
+				max-width:33.333%;
+			}
+		}
+	}
+	@media screen and (max-width:719px) {
+		&.trends {
+			.leftImageHero {
+				width:50%;
+			}
+			.subhead {
+				max-width:225px;
+			}
+		}
+	}
 }
+

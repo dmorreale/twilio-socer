@@ -145,6 +145,7 @@ body {
 
   @import 'modules/block-hero';
   @import 'modules/block-after-hero';
+  @import 'modules/block-singlePullQuote';
   @import 'modules/testimonial';
   @import 'modules/casestudy';
   @import 'modules/largestat';
@@ -163,7 +164,7 @@ body {
 
   &.noScroll main {
     overflow:hidden;
-    height:101vh;
+    height:calc(100vh - 123px);
   }
 
   &.hide {
@@ -192,5 +193,25 @@ body {
     position:relative;
     top:0;
     left:0;
+  }
+}
+
+.laptopOnly, .tabletOnly, .mobileOnly {display:none;}
+.desktopOnly {display:block;}
+
+@media screen and (max-width:1439px) {
+  .desktopOnly {display:none;}
+  .laptopOnly {display:block;}
+}
+@media screen and (max-width:1199px) {
+  .laptopOnly {display:none;}
+  .tabletOnly {display:block;}
+}
+@media screen and (max-width:719px) {
+  .tabletOnly {display:none;}
+  .mobileOnly {display:block;}
+  .pageWrapper .container {
+    margin-left:20px;
+    margin-right:20px;
   }
 }

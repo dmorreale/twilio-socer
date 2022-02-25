@@ -17,7 +17,6 @@ p + p {
 
 
 
-
 .p-40{
     padding:40px;
 }
@@ -135,5 +134,31 @@ p + p {
 				left:0;
 			}
 		}
+	}
+}
+
+
+@media screen and (max-width:1439px)
+{
+	h3 + p, .h3 + p {
+		margin-top:34px;
+	}
+
+	.mt-75 {
+		margin-top:61px;
+	}
+}
+@media screen and (max-width:1199px)
+{
+	.pt-128 {
+	    padding-top:100px;
+	}
+	.two-col .column {
+		width:100%;
+	}
+}
+@media screen and (max-width:719px) {
+	.pt-128 {
+	    padding-top:90px;
 	}
 }

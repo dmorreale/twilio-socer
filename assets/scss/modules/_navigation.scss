@@ -1,6 +1,16 @@
 .nav {
 	background-color:$blue;
 	padding:39px 0 41px 0;
+	.nav-wrapper__logo {
+		display:flex;
+		font-family:$font-text;
+		font-weight:700;
+		line-height:40px;
+		letter-spacing:0;
+		img {
+			margin-right:16px;
+		}
+	}
 	.nav-cta ul {
 		display:none;
 	}
@@ -62,7 +72,7 @@
 			margin-right:9px;
 			transform:rotate(0deg);
 			&, span {
-				transition:all .5s cubic-bezier(0.87, 0, 0.13, 1);
+				transition:all .5s cubic-bezier(0.22, 1, 0.36, 1);
 				transform-origin:center;
 			}
 			span {
@@ -113,9 +123,6 @@
 	}
 	.nav-dropDown {
 		width:100%;
-	}
-	.nav-dropDown {
-		width:100%;
 		position:fixed;
 		top:0;
 		left:0;
@@ -125,14 +132,62 @@
 		opacity:0;
 		background-color:$blue;
 		padding-top:180px;
+		&, a {
+			transition:all .5s cubic-bezier(0.22, 1, 0.36, 1);
+		}
 		li {
 			margin-top:32px;
+			a {
+				opacity:.75;
+				cursor:pointer;
+				&:hover {
+					opacity:1;
+				}
+			}
+		}
+		.container {
+			height:100%;
+			overflow:scroll;
+		}
+		.content {
+			padding-bottom:40px;
+			display:flex;
+		}
+		.navDropLeftColumn {
+			width:calc(50% - 40px);
+		}
+		.navDropRightColumn {
+			margin:68px auto 0 auto;
+			display:flex;
+			flex-flow:column;
+			align-items:center;
+			a {
+				display:inline-block;
+				margin-top:42px;
+			}
 		}
 	}
 	.nav-wrapper.active {
 		.nav-dropDown {
 			opacity:1;
 			z-index:20
+		}
+	}
+
+	@media screen and (max-width:1439px)
+	{
+		.nav-cta > a {
+			padding:0 10px;
+		}
+	}
+
+	@media screen and (max-width:1199px)
+	{
+		.nav-wrapper__logo {
+			font-size:0;
+		}
+		.nav-cta__button--hamburger {
+			margin-right:-10px;
 		}
 	}
 }

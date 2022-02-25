@@ -1,6 +1,11 @@
 
 $(document).ready(function() {
 
+	setTimeout(function() {
+		aosResetNav();
+    },1000);
+	
+
 	$('.nav-cta__button').click(function() {
 		if($(this).hasClass('active')) {
 			$(this).removeClass('active');
@@ -17,11 +22,14 @@ $(document).ready(function() {
 			$(this).removeClass('active').find('.text').text('Menu');
 			$('.nav-wrapper.active').removeClass('active');
 			$('body').removeClass('noScroll');
+			aosResetNav();
 		}
 		else {
+
 			$(this).addClass('active').find('.text').text('Close');
 			$('.nav-wrapper').addClass('active');
 			$('body').addClass('noScroll');
+			AOS.refreshHard();
 		}
 	});
 
@@ -63,5 +71,9 @@ $(document).ready(function() {
 	$(window).resize(function() {
 		
 	});
+
+	function aosResetNav() {
+		$('.nav-dropDown').find('.aos-init.aos-animate').removeClass('aos-init').removeClass('aos-animate');
+	}
 
 });
