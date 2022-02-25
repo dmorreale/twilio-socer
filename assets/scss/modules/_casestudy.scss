@@ -26,6 +26,8 @@
     }
 
     .column{
+        display:flex;
+        flex-flow:column;
         &.quarter, &.half{
             padding-bottom:72px;
             position:relative;
@@ -37,7 +39,9 @@
             IMG{
                 position: relative;
                 display:block;
-                margin:0 auto;
+                margin:auto;
+                max-width:100%;
+                height:auto;
             }
         }
     }
@@ -59,5 +63,9 @@
         font-family: $font-mono;
         font-size:1rem;
         line-height: 1.75;
+    }
+
+    img {
+
     }
 }
