@@ -1,42 +1,136 @@
-.largestat{
-    margin-bottom:130px;
+.largestat {
+    padding-bottom:0;
+    .bg-blue {
+        padding:40px;
+    }
 
-    .eyebrow{
+    .flexContent {
+        display:flex;
+        flex-flow:column;
+    }
+
+    .flexContent .eyebrow{
         display: block;
         font-size:16px;
         line-height: 20px;
         margin-bottom:20px;
+        font-weight:400;
+        max-width:calc(53% - 40px);
     }
 
-    h3{
+    .eyebrow, h3 {
         position: relative;
-        color:#FFF;
-        width:136%;
         z-index: 1;
-        font-size:80px;
-        line-height: 84px;
-    }
-
-    .two-column .column:first-child{
-        width:47%;
-    }
-    .two-column .column:last-child{
-        width:53%;
     }
 
     .logo{
         display:block;
         width:90px;
         height: auto;
+        margin-top:94px;
+    }
+
+    .rightImage {
+        width:56%;
+        height:calc(100% + 80px);
+        object-fit:cover;
+        position:absolute;
+        top:-40px;
+        right:-40px;
+    }
+
+    @media screen and (max-width:1439px)
+    {
+        .bg-blue {
+            padding:37px;
+        }
+
+        .logo {
+            margin-top:41px;
+        }
+
+        .rightImage {
+            top:-37px;
+            right:-37px;
+            height:calc(100% + 74px);
+        }
+    }
+
+    @media screen and (max-width:1199px)
+    {
+        .flexContent .eyebrow {
+            margin-bottom:45px;
+        }
+        .logo {
+            margin-top:29px;
+        }
+    }
+
+    @media screen and (max-width:719px) 
+    {
+        .container {
+            margin:0;
+        }
+        .bg-blue {
+            padding:40px;
+        }
+        .flexContent .eyebrow {
+            max-width:100%;
+        }
+        h3 {
+            margin-bottom:0;
+        }
+        .rightImage {
+            height:356px;
+            width:70%;
+            min-width:275px;
+            position:relative;
+            top:0;
+            right:auto;
+            left:100%;
+            margin-top:-81px;
+            transform:translate(calc(-100% + 40px),0);
+        }
+        .logo {
+            margin-top:40px;
+        }
+    }
+
+    @media screen and (max-width:500px) 
+    {
+        h3 br {
+            display:none;
+        }
     }
 }
 
 .casestudy{
     position: relative;
     z-index: 1;
-    margin-bottom:-871px;
+    margin-bottom:-874px;
 
     + .largestat{
-        padding-top:910px;
+        padding-top:940px;
+    }
+
+    @media screen and (max-width:1439px)
+    {
+        + .largestat {
+            padding-top:870px;
+        }
+    }
+
+    @media screen and (max-width:1199px)
+    {
+        + .largestat {
+            padding-top:864px;
+        }
+    }
+
+    @media screen and (max-width:719px) 
+    {
+        + .largestat {
+            padding-top:888px;
+        }
     }
 }

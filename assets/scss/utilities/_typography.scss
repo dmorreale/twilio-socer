@@ -15,6 +15,13 @@ p {
 		font-family:$font-text;
 	}
 }
+.pSmall {
+	&, p {
+		font-size:1rem;
+		line-height:1.750em;
+		font-weight:400;
+	}
+}
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	-webkit-font-smoothing: antialiased;
@@ -111,20 +118,37 @@ span.circle, span.underline {
 		content:"";
 		position:absolute;
 		background-size:contain !important;
+		pointer-events:none;
 	}
 	&.circle:before {
-		top:-22px;
-		left:-21px;
-		width:calc(100% + 44px);
-		height:calc(100% + 40px);
+		top:-.4em;
+		left:-.36em;
+		width:calc(100% + .72em);
+		height:calc(100% + .72em);
 		background:url(../images/circle-red.svg) no-repeat center center;
 	}
 	&.underline:before {
-		top:calc(50% + 1px);
-		left:-7px;
-		width:calc(100% + 14px);
+		top:.57em;
+		left:-.1em;
+		width:calc(100% + .2em);
 		height:100%;
 		background:url(../images/curved-red-underline.svg) no-repeat center center;
+	}
+}
+
+.largestat h3 {
+	font-size:5rem;
+	line-height:1.05em;
+}
+
+h3 {
+	span.circle, span.underline {
+		&.circle:before {
+			top:-.27em;
+			left:-.27em;
+			width:calc(100% + .54em);
+			height:calc(100% + .5em);
+		}
 	}
 }
 
@@ -160,7 +184,7 @@ span.circle, span.underline {
 	}
 }
 
-@media screen and (max-width:1439px)  /*and (-webkit-min-device-pixel-ratio:2) */ 
+@media screen and (max-width:1439px)
 {
 	h1, .h1 {
 		font-size:6.250rem;
@@ -175,9 +199,14 @@ span.circle, span.underline {
 		font-size:1.125rem;
 		line-height:1.322em;
 	}
+
+	.largestat h3 {
+		font-size:4.063rem;
+		line-height:1.1em;
+	}
 }
 
-@media screen and (max-width:1199px)  /*and (-webkit-min-device-pixel-ratio:2) */ 
+@media screen and (max-width:1199px)
 {
 	.pLarge {
 		&, p {
@@ -198,24 +227,21 @@ span.circle, span.underline {
 	}
 	
 	span.circle, span.underline {
-		&.circle:before {
-			top:-15px;
-			left:-15px;
-			width:calc(100% + 30px);
-			height:calc(100% + 30px);
-		}
 		&.underline:before {
-			top:calc(50% + 13px);
+			top:.42em;
 			left:0;
-			width:calc(100% + 6px);
+			width:calc(100% + .1em);
 		}
 	}
+
+	.largestat h3 {
+		font-size:3.125rem;
+		line-height:1.1em;
+	}
+	
 }
 
-@media screen and (max-width:719px) {
-	span.circle, span.underline {
-		&.underline:before {
-			top:calc(50% - 2px);
-		}
-	}
+@media screen and (max-width:719px) 
+{
+	
 }

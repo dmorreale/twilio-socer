@@ -6,7 +6,7 @@
     height: 90px;
     border:1px solid $dark;
     border-radius: 50%;
-    margin:0 20px;
+    margin:0 18px;
     
     img{
         width:auto;
@@ -16,11 +16,40 @@
 }
 
 .sharing{
-    margin-top:128px;
-    margin-bottom:48px;
+    margin-top:118px;
+    margin-bottom:243px;
     text-align: center;
 
     h2{
         margin-bottom:42px;
+    }
+    & + .eyebrow {
+        margin-bottom:42px;
+    }
+}
+
+@media screen and (max-width:1439px)
+{
+    .sharing {
+        margin-top:66px;
+        margin-bottom:190px;
+    }
+}
+
+@media screen and (max-width:1199px)
+{
+    .sharing {
+        margin-top:54px;
+        margin-bottom:220px;
+    }
+}
+
+@media screen and (max-width:719px) 
+{
+    .sharing {
+        margin:81px 40px 270px 40px;
+        & + .eyebrow {
+            margin-bottom:20px;
+        }
     }
 }

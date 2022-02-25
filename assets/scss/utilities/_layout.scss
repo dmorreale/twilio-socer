@@ -1,5 +1,6 @@
-.row{
+.row {
     display:flex;
+    flex-wrap:wrap;
 
     &.three-column .column{
         width:calc(33.3% - 1px);
