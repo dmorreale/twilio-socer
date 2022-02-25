@@ -758,6 +758,8 @@ body {
     padding-bottom: 484px; }
   .pageWrapper .mr-40 {
     margin-right: 40px; }
+  .pageWrapper .ml-auto {
+    margin-left: auto; }
   .pageWrapper .mt-150 {
     margin-top: 150px; }
   .pageWrapper .mb-200 {
@@ -989,7 +991,8 @@ body {
     border: 1px solid #F22F46; }
   .pageWrapper .casestudy h2 {
     padding: 26px 38px;
-    border-bottom: 1px solid #F22F46; }
+    border-bottom: 1px solid #F22F46;
+    margin-bottom: 0; }
   .pageWrapper .casestudy h6 {
     padding: 12px 24px;
     font-family: "Twilio Sans Mono", sans-serif;
