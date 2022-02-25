@@ -8,18 +8,13 @@
     h2{
         padding:26px 38px;
         border-bottom:1px solid $red;
-        margin-bottom:0;
+        margin:0;
     }
 
     h6{
-        padding:12px 24px;
-        font-family: $font-mono;
-        font-size: 12px;
-        font-style: normal;
         font-weight: 700;
-        line-height: 15px;
-        letter-spacing: 0.1em;
         border-bottom:1px solid $red;
+        padding:12px 24px;
     }
 
     .column.quarter{
@@ -27,6 +22,8 @@
     }
 
     .column{
+        display:flex;
+        flex-flow:column;
         &.quarter, &.half{
             padding-bottom:72px;
             position:relative;
@@ -38,7 +35,9 @@
             IMG{
                 position: relative;
                 display:block;
-                margin:0 auto;
+                margin:auto;
+                max-width:100%;
+                height:auto;
             }
         }
     }
@@ -57,8 +56,10 @@
     }
 
     p{
-        font-family: $font-mono;
-        font-size:1rem;
-        line-height: 1.75;
+
+    }
+
+    img {
+
     }
 }

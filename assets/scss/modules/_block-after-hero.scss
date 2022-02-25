@@ -16,10 +16,19 @@
 		margin-bottom:160px;
 	}
 }
+.trends + .block-after-hero {
+	padding-top:128px;
+}
 @media screen and (max-width:1199px)
 {
 	.trends + .block-after-hero {
+		padding-top:100px;
 		padding-bottom:45px;
+	}
+}
+@media screen and (max-width:719px) {
+	.trends + .block-after-hero {
+		padding-top:90px;
 	}
 }
 
