@@ -713,9 +713,20 @@ body {
       font-size: 1.125rem;
       line-height: 1.322em; } }
   @media screen and (max-width: 1199px) {
+    .pageWrapper .pLarge, .pageWrapper .pLarge p {
+      font-size: 1.313rem;
+      line-height: 1.6em; }
     .pageWrapper h1, .pageWrapper .h1 {
       font-size: 2.5rem;
-      line-height: 1.2em; } }
+      line-height: 1.2em; }
+    .pageWrapper .pullquotelarge {
+      font-size: 2.5rem;
+      line-height: 1.1em; }
+    .pageWrapper span.circle.circle:before, .pageWrapper span.underline.circle:before {
+      top: -15px;
+      left: -15px;
+      width: calc(100% + 30px);
+      height: calc(100% + 30px); } }
   .pageWrapper .hide-xl {
     display: none !important; }
   .pageWrapper .border-top-red {
@@ -796,13 +807,18 @@ body {
         top: 21%;
         left: 0; }
   @media screen and (max-width: 1439px) {
+    .pageWrapper h3 + p, .pageWrapper .h3 + p {
+      margin-top: 34px; }
     .pageWrapper .mt-75 {
       margin-top: 61px; } }
   @media screen and (max-width: 1199px) {
     .pageWrapper .pt-128 {
-      padding-top: 92px; }
+      padding-top: 100px; }
     .pageWrapper .two-col .column {
       width: 100%; } }
+  @media screen and (max-width: 719px) {
+    .pageWrapper .pt-128 {
+      padding-top: 90px; } }
   .pageWrapper .text-white * {
     color: white; }
   .pageWrapper .text-white .btn-outline {
@@ -909,22 +925,11 @@ body {
   .pageWrapper .block-after-hero .twoFiftyWidth {
     margin-top: 188px;
     margin-bottom: 160px; }
-  .pageWrapper .fourEightyWidth {
-    max-width: 480px; }
-  .pageWrapper .twoFiftyWidth {
-    max-width: 252px; }
-  .pageWrapper .threeSixtyWidth {
-    max-width: 360px; }
-  .pageWrapper .pTopForty {
-    padding-top: 40px; }
-  .pageWrapper .moveUp {
-    margin-top: -120px; }
-  .pageWrapper .pLarge + p {
-    margin-top: 40px; }
-  .pageWrapper p + p {
-    margin-top: 30px; }
+  @media screen and (max-width: 1199px) {
+    .pageWrapper .trends + .block-after-hero {
+      padding-bottom: 45px; } }
   .pageWrapper .pullQuoteSingle {
-    padding-top: 63px;
+    padding-top: 54px;
     padding-bottom: 90px; }
     .pageWrapper .pullQuoteSingle .content {
       max-width: 1010px; }
@@ -932,8 +937,15 @@ body {
       margin-bottom: 0; }
     @media screen and (max-width: 1439px) {
       .pageWrapper .pullQuoteSingle {
-        padding-top: 50px;
+        padding-top: 23px;
         padding-bottom: 70px; } }
+    @media screen and (max-width: 1199px) {
+      .pageWrapper .pullQuoteSingle {
+        padding-bottom: 15px; } }
+    @media screen and (max-width: 719px) {
+      .pageWrapper .pullQuoteSingle {
+        padding-top: 54px;
+        padding-bottom: 24px; } }
   .pageWrapper .testimonial {
     padding-bottom: 480px; }
     .pageWrapper .testimonial .content {
@@ -951,6 +963,27 @@ body {
       font-style: italic; }
     .pageWrapper .testimonial .citation {
       margin: 16px 0 30px 0; }
+    @media screen and (max-width: 1439px) {
+      .pageWrapper .testimonial {
+        padding-bottom: 200px; } }
+    @media screen and (max-width: 1199px) {
+      .pageWrapper .testimonial {
+        padding-bottom: 50px; } }
+    @media screen and (max-width: 719px) {
+      .pageWrapper .testimonial {
+        padding-bottom: 0; }
+        .pageWrapper .testimonial .container {
+          margin: 0; }
+        .pageWrapper .testimonial .portrait {
+          position: relative;
+          top: 0;
+          left: 0;
+          max-width: 320px;
+          margin-bottom: 36px; }
+        .pageWrapper .testimonial .testimonial-text {
+          margin-left: 0; }
+        .pageWrapper .testimonial .citation {
+          margin-bottom: 0; } }
   .pageWrapper .casestudy .case {
     background: #FFF;
     border: 1px solid #F22F46; }

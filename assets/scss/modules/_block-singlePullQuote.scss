@@ -1,5 +1,5 @@
 .pullQuoteSingle {
-	padding-top:63px;
+	padding-top:54px;
 	padding-bottom:90px;
 	.content {
 		max-width:1010px;
@@ -9,7 +9,16 @@
 	}
 	@media screen and (max-width:1439px)
 	{
-		padding-top:50px;
+		padding-top:23px;
 		padding-bottom:70px;
+	}
+	@media screen and (max-width:1199px)
+	{
+		padding-bottom:15px;
+	}
+	@media screen and (max-width:719px)
+	{
+		padding-top:54px;
+		padding-bottom:24px;
 	}
 }
