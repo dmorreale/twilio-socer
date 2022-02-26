@@ -22,7 +22,7 @@
 	.downArrowRed {
 		margin:45px 0 0 0;
 	}
-	&.trends {
+	&.trendsHero {
 		padding-bottom:167px;
 		padding-top:0;
 		.eyebrow {
@@ -35,13 +35,13 @@
 			max-width:50%;
 		}
 	}
-	&:not(.trends) + .block-after-hero {
+	&:not(.trendsHero) + .block-after-hero {
 		padding-top:0;
 	}
 
 	@media screen and (max-width:1439px)
 	{
-		&.trends {
+		&.trendsHero {
 			padding-bottom:94px;
 			h1 {
 				margin-bottom:23px;
@@ -53,7 +53,7 @@
 	}
 	@media screen and (max-width:1199px)
 	{
-		&.trends {
+		&.trendsHero {
 			padding-bottom:45px;
 			.leftImageHero {
 				right:-40px;
@@ -67,9 +67,10 @@
 		}
 	}
 	@media screen and (max-width:719px) {
-		&.trends {
+		&.trendsHero {
 			.leftImageHero {
 				width:50%;
+				right:-20px;
 			}
 			.subhead {
 				max-width:225px;

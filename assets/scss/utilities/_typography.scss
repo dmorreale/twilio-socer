@@ -195,6 +195,11 @@ h3 {
 		margin-bottom:20px;
 	}
 
+	.trends h3 {
+		font-size:3.125rem;
+		line-height:1.3em;
+	}
+
 	.subhead {
 		font-size:1.125rem;
 		line-height:1.322em;
@@ -220,6 +225,10 @@ h3 {
 		line-height:1.2em;
 	}
 
+	.trends h3 {
+		font-size:1.750rem;
+	}
+
 
 	.pullquotelarge {
 		font-size:2.5rem;
@@ -243,5 +252,7 @@ h3 {
 
 @media screen and (max-width:719px) 
 {
-	
+	.trends h3 {
+		font-size:1.5rem;
+	}
 }

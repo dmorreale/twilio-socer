@@ -22,6 +22,9 @@ Design does not cover small mobile screens < 375px - need to double check this s
 change the circle and unerline span styles from px to em
 move styles from the spacings sass file to the layout sass file.
 
+Trend block:
+	Read more button text is not on the desktop version of the design but it is on the mobile...
 
 trends page:
+	last block does not have responsive styling
 	
