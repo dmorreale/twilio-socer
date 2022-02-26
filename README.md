@@ -1,4 +1,4 @@
-# lucid
+# twilio-socer
 
 Figma - Design file: https://www.figma.com/file/jVkyYbegiqwo1N3irCJTIH/SOCER_Charts?node-id=50%3A1911
 Responsive: https://www.figma.com/file/jOEtattBhxfDgBm8BC3pJL/SOCER-Responsive-Layouts?node-id=0%3A1
@@ -15,5 +15,16 @@ QA - ??
 
 Todo:
 
+General:
+
 Check text colors
 Design does not cover small mobile screens < 375px - need to double check this screen on the site
+change the circle and unerline span styles from px to em
+move styles from the spacings sass file to the layout sass file.
+
+Trend block:
+	Read more button text is not on the desktop version of the design but it is on the mobile...
+
+trends page:
+	last block does not have responsive styling
+	
