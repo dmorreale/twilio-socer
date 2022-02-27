@@ -36,7 +36,7 @@ $(document).ready(function() {
 	//preload images
 	var images = new Array()
 	function preload() {
-		for (i = 0; i < preload.arguments.length; i++) {
+		for (var i = 0; i < preload.arguments.length; i++) {
 			images[i] = new Image()
 			images[i].src = preload.arguments[i]
 		}
@@ -58,14 +58,9 @@ $(document).ready(function() {
 		pagechange();
 	});
 
-	
-
-	
-
-	
 
 	$(document).scroll(function() {
-  		//var t=$(window).scrollTop();
+		//var t=$(window).scrollTop();
 	});
 
 	$(window).resize(function() {
@@ -75,5 +70,27 @@ $(document).ready(function() {
 	function aosResetNav() {
 		$('.nav-dropDown').find('.aos-init.aos-animate').removeClass('aos-init').removeClass('aos-animate');
 	}
+	
+	//dropdown selectors
+	$('.selector a').click(function(e){
+		e.preventDefault();
+		var $el = $(this);
+		var $parent = $el.closest('.selector');
+		
+		if(!$el.attr('data-default')){
+			var val = $el.text();
+			
+			if(val == 'Global'){
+				val = $parent.find('> A').attr('data-default'); //reset to default
+			} 
+			
+			$('.selector > a').each(function(){
+				$(this).text($(this).attr('data-default'));  //reset the other
+			});
+			
+			$parent.find('> A').text(val);
+			
+		}
+	});
 
 });
