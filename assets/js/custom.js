@@ -1,79 +1,135 @@
+$(document).ready(function () {
+  setTimeout(function () {
+    aosResetNav()
+  }, 1000)
 
-$(document).ready(function() {
+  $('.nav-cta__button').click(function () {
+    if ($(this).hasClass('active')) {
+      $(this).removeClass('active')
+    } else {
+      $('.nav-cta__button.active').removeClass('active').next().slideToggle()
+      $(this).addClass('active')
+    }
+    $(this).next().slideToggle()
+  })
 
-	setTimeout(function() {
-		aosResetNav();
-    },1000);
-	
+  $('.nav-cta__button--hamburger').click(function () {
+    if ($(this).hasClass('active')) {
+      $(this).removeClass('active').find('.text').text('Menu')
+      $('.nav-wrapper.active').removeClass('active')
+      $('body').removeClass('noScroll')
+      aosResetNav()
+    } else {
+      $(this).addClass('active').find('.text').text('Close')
+      $('.nav-wrapper').addClass('active')
+      $('body').addClass('noScroll')
+      AOS.refreshHard()
+    }
+  })
 
-	$('.nav-cta__button').click(function() {
-		if($(this).hasClass('active')) {
-			$(this).removeClass('active');
-		}
-		else {
-			$('.nav-cta__button.active').removeClass('active').next().slideToggle();
-			$(this).addClass('active');
-		}
-		$(this).next().slideToggle();
-	});
+  //preload images
+  var images = new Array()
+  function preload() {
+    for (var i = 0; i < preload.arguments.length; i++) {
+      images[i] = new Image()
+      images[i].src = preload.arguments[i]
+    }
+  }
+  preload()
 
-	$('.nav-cta__button--hamburger').click(function() {
-		if($(this).hasClass('active')) {
-			$(this).removeClass('active').find('.text').text('Menu');
-			$('.nav-wrapper.active').removeClass('active');
-			$('body').removeClass('noScroll');
-			aosResetNav();
-		}
-		else {
+  if (location.hash) {
+    var loc = location.hash.substring(1)
+    loc = loc.toLowerCase()
+    if (loc.indexOf('question') == -1) {
+      pagechange()
+    }
+  }
 
-			$(this).addClass('active').find('.text').text('Close');
-			$('.nav-wrapper').addClass('active');
-			$('body').addClass('noScroll');
-			AOS.refreshHard();
-		}
-	});
+  $(window).on('hashchange', function () {
+    pagechange()
+  })
 
-	//preload images
-	var images = new Array()
-	function preload() {
-		for (i = 0; i < preload.arguments.length; i++) {
-			images[i] = new Image()
-			images[i].src = preload.arguments[i]
-		}
-	}
-	preload(
-		
-	)
+  $(document).scroll(function () {
+    //var t=$(window).scrollTop();
+  })
 
-	if(location.hash)
-	{
-		var loc = location.hash.substring(1);
-		loc = loc.toLowerCase();
-		if(loc.indexOf("question") == -1) {
-			pagechange();
-		}
-	}
+  $(window).resize(function () {})
 
-	$(window).on('hashchange',function() {
-		pagechange();
-	});
+  function aosResetNav() {
+    $('.nav-dropDown')
+      .find('.aos-init.aos-animate')
+      .removeClass('aos-init')
+      .removeClass('aos-animate')
+  }
 
-	
+  //dropdown selectors
+  $('.selector a').click(async function (e) {
+    e.preventDefault()
+    var $el = $(this)
+    var $parent = $el.closest('.selector')
 
-	
+    if (!$el.attr('data-default')) {
+      var val = $el.text()
 
-	
+      if (val == 'Global') {
+        val = $parent.find('> A').attr('data-default') //reset to default
+      }
 
-	$(document).scroll(function() {
-  		//var t=$(window).scrollTop();
-	});
+      $('.selector > a').each(function () {
+        $(this).text($(this).attr('data-default')) //reset the other
+      })
 
-	$(window).resize(function() {
-		
-	});
+      $parent.find('> A').text(val)
 
-	function aosResetNav() {
-		$('.nav-dropDown').find('.aos-init.aos-animate').removeClass('aos-init').removeClass('aos-animate');
-	}
-
-});
+      console.log(val)
+      const trendNum = $('.regionaldata').attr('data-trendNum')
+      let tl, tr, bl, br;
+      await $.getJSON(
+        `../../json/by_row/trend_${trendNum}_explore_top_left.json`,
+        (data) => {
+          tl = data
+        }
+      )
+      await $.getJSON(
+        `../../json/by_row/trend_${trendNum}_explore_top_right.json`,
+        (data) => {
+          tr = data
+        }
+      )
+      await $.getJSON(
+        `../../json/by_row/trend_${trendNum}_explore_bottom_left.json`,
+        (data) => {
+          bl = data
+        }
+      )
+      await $.getJSON(
+        `../../json/by_row/trend_${trendNum}_explore_top_left.json`,
+        (data) => {
+          br = data
+        }
+      )
+      columnChart.updateOptions({
+        series: [
+          {
+            name: val,
+            data: [tl.find((e) => e[0] === val)[1]],
+          },
+          {
+            name: 'GLOBAL AVERAGE',
+            data: [tl.find((e) => e[0] === 'Global')[1]],
+          },
+        ],
+        xaxis: { categories: [val.toLocaleUpperCase(), 'GLOBAL AVG'] },
+      })
+      document.querySelector('.chart-text').innerHTML = `${
+        tr.find((e) => e[0] === val)[1]
+      } YEARS`
+      radialBarChart.updateOptions({
+        series: [parseInt(bl.find((e) => e[0] === val)[1].replace('%', ''))],
+      })
+      barChart.updateOptions({
+        series: []
+      })
+    }
+  })
+})

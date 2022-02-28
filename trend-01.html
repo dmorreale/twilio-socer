@@ -24,8 +24,6 @@
     <meta name="twitter:image" content="" id="twImage" />
 
     <link rel="stylesheet" href="assets/css/custom.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.33.1/apexcharts.min.css">
-
     <!--<link rel="stylesheet" href="https://use.typekit.net/rep8cjd.css">-->
     <script
       src="https://code.jquery.com/jquery-3.5.1.min.js"
@@ -40,7 +38,7 @@
         <div class="nav-wrapper content">
           <div class="nav-wrapper__logo-container">
             <a
-              href="#"
+              href="index.html"
               class="nav-wrapper__logo h4"
               data-glinktype="site navigation"
             >
@@ -116,9 +114,9 @@
                       data-aos-delay="100"
                       data-aos-offset="-200"
                     >
-                      <a
-                        ><span class="eyebrow">Trend 01</span>Personalization at
-                        consumer scale is within reach</a
+                      <a href="trend-01.html"
+                        ><span class="eyebrow">Trend 01</span>There's a massive
+                        ROI for digital engagement.</a
                       >
                     </li>
                     <li
@@ -126,9 +124,9 @@
                       data-aos-delay="200"
                       data-aos-offset="-200"
                     >
-                      <a
-                        ><span class="eyebrow">Trend 01</span>Personalization at
-                        consumer scale is within reach</a
+                      <a href="trend-02.html"
+                        ><span class="eyebrow">Trend 02</span>The
+                        personalization problem.</a
                       >
                     </li>
                     <li
@@ -136,9 +134,9 @@
                       data-aos-delay="300"
                       data-aos-offset="-200"
                     >
-                      <a
-                        ><span class="eyebrow">Trend 01</span>Personalization at
-                        consumer scale is within reach</a
+                      <a href="trend-03.html"
+                        ><span class="eyebrow">Trend 03</span>The third-party
+                        cookie era is dead.</a
                       >
                     </li>
                     <li
@@ -146,9 +144,9 @@
                       data-aos-delay="400"
                       data-aos-offset="-200"
                     >
-                      <a
-                        ><span class="eyebrow">Trend 01</span>Personalization at
-                        consumer scale is within reach</a
+                      <a href="trend-04.html"
+                        ><span class="eyebrow">Trend 04</span>Consumers don’t
+                        trust companies with their data.</a
                       >
                     </li>
                     <li
@@ -156,19 +154,9 @@
                       data-aos-delay="500"
                       data-aos-offset="-200"
                     >
-                      <a
-                        ><span class="eyebrow">Trend 01</span>Personalization at
-                        consumer scale is within reach</a
-                      >
-                    </li>
-                    <li
-                      data-aos="fade-down"
-                      data-aos-delay="600"
-                      data-aos-offset="-200"
-                    >
-                      <a
-                        ><span class="eyebrow">Trend 01</span>Personalization at
-                        consumer scale is within reach</a
+                      <a href="trend-05.html"
+                        ><span class="eyebrow">Trend 05</span>Digital fatigue is
+                        real.</a
                       >
                     </li>
                   </ul>
@@ -206,7 +194,7 @@
             </div>
             <img
               class="leftImageHero desktopOnly laptopOnly"
-              src="assets/images/woman-nosering.jpg"
+              src="assets/images/man-basketball.jpg"
             />
             <img
               class="leftImageHero tabletOnly"
@@ -381,46 +369,75 @@
           </div>
         </div>
       </section>
-      <section class="regionaldata">
-        <div class="container">
+      <section class="regionaldata" data-trendNum="1">
+        <div class="container two-col col-narrow justify-centered">
+          <h2 class="h3">Explore the regional data</h2>
+          <div class="content mb-54">
+            <div class="column">
+              <h6>Filter by region:</h6>
+              <div class="selector" id="selectRegion">
+                <a href="#" data-default="Region">Region</a>
+                <ul>
+                  <li><a href="#">Global</a></li>
+                  <li><a href="#">United States</a></li>
+                  <li><a href="#">Asia Pacific/Japan</a></li>
+                  <li><a href="#">Europe</a></li>
+                  <li><a href="#">Latin America</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="column">
+              <h6>Filter by country:</h6>
+              <div class="selector" id="selectCountry">
+                <a href="#" data-default="Country">Country</a>
+                <ul>
+                  <li><a href="#">Global</a></li>
+                  <li><a href="#">Australia</a></li>
+                  <li><a href="#">Brazil</a></li>
+                  <li><a href="#">Columbia</a></li>
+                  <li><a href="#">France</a></li>
+                  <li><a href="#">Germany</a></li>
+                  <li><a href="#">Italy</a></li>
+                  <li><a href="#">Japan</a></li>
+                  <li><a href="#">Mexico</a></li>
+                  <li><a href="#">Singapore</a></li>
+                  <li><a href="#">Spain</a></li>
+                  <li><a href="#">United Kingdom</a></li>
+                  <li><a href="#">United States</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container two-column border-top-red">
           <div class="content">
-            <h2 class="h3">Dive into the regional data</h2>
-            <div class="chart-section-wrapper">
-              <div class="chart-options row">
-                <div class="select-wrapper half">
-                  <div class="select-label subhead">Filter by region:</div>
-                  <select name="" id="">
-                    <option value="test">some option 1</option>
-                    <option value="test">some option 2</option>
-                    <option value="test">some option 3</option>
-                  </select>
-                </div>
-                <div class="select-wrapper half">
-                  <div class="select-label subhead">Filter by region:</div>
-                  <select name="" id="">
-                    <option value="test">some option 1</option>
-                    <option value="test">some option 2</option>
-                    <option value="test">some option 3</option>
-                  </select>
+            <div class="chart-grid row">
+              <div class="chart-wrapper half">
+                <div class="chart-column"></div>
+                <div class="chart-caption">
+                  Average revenue impact from investment in digital
+                  transformation, vs. global average
                 </div>
               </div>
-              <hr>
-              <div class="chart-grid row">
-                <div class="chart-wrapper half">
-                  <div class="chart-column"></div>
-                  <div class="chart-caption">Average revenue impact from investment in digital transformation, vs. global average</div>
+              <div class="chart-wrapper half">
+                <div class="chart-text">25 YEARS</div>
+                <div class="chart-caption">
+                  Average revenue impact from investment in digital
+                  transformation, vs. global average
                 </div>
-                <div class="chart-wrapper half">
-                  <div class="chart-text"> 25 YEARS</div>
-                  <div class="chart-caption">Average revenue impact from investment in digital transformation, vs. global average</div>
+              </div>
+              <div class="chart-wrapper half">
+                <div class="chart-radial-bar"></div>
+                <div class="chart-caption">
+                  Average revenue impact from investment in digital
+                  transformation, vs. global average
                 </div>
-                <div class="chart-wrapper half">
-                  <div class="chart-radial-bar"></div>
-                  <div class="chart-caption">Average revenue impact from investment in digital transformation, vs. global average</div>
-                </div>
-                <div class="chart-wrapper half">
-                  <div class="chart-bar"></div>
-                  <div class="chart-caption">Average revenue impact from investment in digital transformation, vs. global average</div>
+              </div>
+              <div class="chart-wrapper half">
+                <div class="chart-bar"></div>
+                <div class="chart-caption">
+                  Average revenue impact from investment in digital
+                  transformation, vs. global average
                 </div>
               </div>
             </div>
@@ -480,7 +497,15 @@
                     </p>
                   </div>
                   <div class="column">
-                    <img src="assets/images/video.jpg" class="img-fluid" />
+                    <iframe
+                      width="100%"
+                      height="340"
+                      src="https://www.youtube.com/embed/GBNmPx6Z21Y"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
                   </div>
                 </div>
               </div>
@@ -598,7 +623,6 @@
         </div>
       </section>
     </main>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.33.1/apexcharts.min.js"></script>
     <script src="./assets/js/charts.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
