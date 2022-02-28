@@ -1,0 +1,26 @@
+[
+  {
+    "Caption": "Label",
+    "Percentage of companies that depend on third-party data for half or more of their marketing": "Percentage"
+  },
+  {
+    "Caption": "All third-party data",
+    "Percentage of companies that depend on third-party data for half or more of their marketing": "12%"
+  },
+  {
+    "Caption": "Mostly third-party data",
+    "Percentage of companies that depend on third-party data for half or more of their marketing": "23%"
+  },
+  {
+    "Caption": "Even mix of third-party data and first-party customer data",
+    "Percentage of companies that depend on third-party data for half or more of their marketing": "46%"
+  },
+  {
+    "Caption": "Mostly first-party customer data",
+    "Percentage of companies that depend on third-party data for half or more of their marketing": "15%"
+  },
+  {
+    "Caption": "All first-party customer data",
+    "Percentage of companies that depend on third-party data for half or more of their marketing": "5%"
+  }
+]
