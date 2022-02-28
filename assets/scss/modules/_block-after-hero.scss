@@ -1,4 +1,5 @@
 .block-after-hero {
+	padding-bottom:40px;
 	.space-left {
 		max-width:calc(100% - 120px);
 		margin-left:120px;
@@ -8,22 +9,38 @@
 		margin-top:450px;
 	}
 	.pullquotelarge {
-		max-width:500px;
 		margin-top:226px;
 	}
 	.twoFiftyWidth {
 		margin-top:188px;
 		margin-bottom:160px;
 	}
+	.eyebrow {
+		margin-top:117px;
+	}
+	@media screen and (max-width:719px) {
+		padding-bottom:20px;
+	}
 }
 .trendsHero + .block-after-hero {
 	padding-top:128px;
+	padding-bottom:100px;
+	.pullquotelarge {
+		margin-top:560px;
+	}
+}
+@media screen and (max-width:1439px)
+{
+	
 }
 @media screen and (max-width:1199px)
 {
 	.trendsHero + .block-after-hero {
 		padding-top:100px;
-		padding-bottom:45px;
+		padding-bottom:100px;
+		.pullquotelarge {
+			margin-top:100px;
+		}
 	}
 }
 @media screen and (max-width:719px) {

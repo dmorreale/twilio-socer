@@ -1,5 +1,9 @@
 $(document).ready(function () {
   setTimeout(function () {
+    $(window).resize();
+  }, 300)
+  setTimeout(function () {
+    $(window).resize();
     aosResetNav()
   }, 1000)
 
@@ -53,13 +57,24 @@ $(document).ready(function () {
     //var t=$(window).scrollTop();
   })
 
-  $(window).resize(function () {})
+  $(window).resize(function () {
+    adjustOverlappingGrid();
+  });
 
   function aosResetNav() {
     $('.nav-dropDown')
       .find('.aos-init.aos-animate')
       .removeClass('aos-init')
       .removeClass('aos-animate')
+  }
+
+  function adjustOverlappingGrid() {
+    $('.bg-grid-overlap').each(function() {
+      var newHeight = $(this).parent().outerHeight(true);
+      newHeight += ($(this).parent().prev().find('.two-col').outerHeight(true) / 2);
+      console.log(newHeight);
+      $(this).css('height',newHeight + 'px');
+    });
   }
 
   //dropdown selectors
