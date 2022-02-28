@@ -12,6 +12,9 @@ var columnChartOptions = {
   chart: {
     type: 'bar',
     height: 350,
+    toolbar: {
+      show: false
+    },
   },
   fill: {
     colors: ['#F22F46', 'transparent'],
@@ -83,6 +86,9 @@ var radialBarOptions = {
   chart: {
     height: 350,
     type: 'radialBar',
+    toolbar: {
+      show: false,
+    },
   },
   plotOptions: {
     radialBar: {
@@ -109,6 +115,9 @@ var barChartOptions = {
   chart: {
     type: 'bar',
     height: 350,
+    toolbar: {
+      show: false,
+    },
   },
   plotOptions: {
     bar: {
@@ -120,11 +129,7 @@ var barChartOptions = {
     enabled: false,
   },
   xaxis: {
-    categories: [
-      'Today',
-      'In the past week',
-      'In the past month',
-    ],
+    categories: ['Today', 'In the past week', 'In the past month'],
   },
 }
 
