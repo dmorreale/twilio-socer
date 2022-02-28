@@ -1,0 +1,26 @@
+[
+  {
+    "Caption": "Rating",
+    "How well companies rate their personalization vs how well consumers rate it": "Companies"
+  },
+  {
+    "Caption": "Bad",
+    "How well companies rate their personalization vs how well consumers rate it": "1%"
+  },
+  {
+    "Caption": "Poor",
+    "How well companies rate their personalization vs how well consumers rate it": "5%"
+  },
+  {
+    "Caption": "Average",
+    "How well companies rate their personalization vs how well consumers rate it": "19%"
+  },
+  {
+    "Caption": "Good",
+    "How well companies rate their personalization vs how well consumers rate it": "48%"
+  },
+  {
+    "Caption": "Excellent",
+    "How well companies rate their personalization vs how well consumers rate it": "27%"
+  }
+]
