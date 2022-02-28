@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(async function () {
   setTimeout(function () {
     aosResetNav()
   }, 1000)
@@ -62,6 +62,34 @@ $(document).ready(function () {
       .removeClass('aos-animate')
   }
 
+  // load charts
+  const trendNum = $('.regionaldata').attr('data-trendNum')
+  let tl, tr, bl, br
+  await $.getJSON(
+    `../../json/by_row/trend_${trendNum}_explore_top_left.json`,
+    (data) => {
+      tl = data
+    }
+  )
+  await $.getJSON(
+    `../../json/by_row/trend_${trendNum}_explore_top_right.json`,
+    (data) => {
+      tr = data
+    }
+  )
+  await $.getJSON(
+    `../../json/by_row/trend_${trendNum}_explore_bottom_left.json`,
+    (data) => {
+      bl = data
+    }
+  )
+  await $.getJSON(
+    `../../json/by_row/trend_${trendNum}_explore_top_left.json`,
+    (data) => {
+      br = data
+    }
+  )
+
   //dropdown selectors
   $('.selector a').click(async function (e) {
     e.preventDefault()
@@ -82,32 +110,7 @@ $(document).ready(function () {
       $parent.find('> A').text(val)
 
       console.log(val)
-      const trendNum = $('.regionaldata').attr('data-trendNum')
-      let tl, tr, bl, br;
-      await $.getJSON(
-        `../../json/by_row/trend_${trendNum}_explore_top_left.json`,
-        (data) => {
-          tl = data
-        }
-      )
-      await $.getJSON(
-        `../../json/by_row/trend_${trendNum}_explore_top_right.json`,
-        (data) => {
-          tr = data
-        }
-      )
-      await $.getJSON(
-        `../../json/by_row/trend_${trendNum}_explore_bottom_left.json`,
-        (data) => {
-          bl = data
-        }
-      )
-      await $.getJSON(
-        `../../json/by_row/trend_${trendNum}_explore_top_left.json`,
-        (data) => {
-          br = data
-        }
-      )
+
       columnChart.updateOptions({
         series: [
           {
@@ -128,7 +131,7 @@ $(document).ready(function () {
         series: [parseInt(bl.find((e) => e[0] === val)[1].replace('%', ''))],
       })
       barChart.updateOptions({
-        series: []
+        series: [],
       })
     }
   })
