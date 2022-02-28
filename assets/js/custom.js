@@ -1,7 +1,20 @@
 $(document).ready(async function () {
   setTimeout(function () {
     aosResetNav()
-  }, 1000)
+  }, 1000);
+	
+	//mouse follow on trend hover
+	$('.trends--item').on('mousemove', function (e) {
+		var width = $('.hover-follow').width(),
+			centerX = width / 2,
+			posX = e.pageX - centerX,
+			maxX = $(this).width() - width;
+
+			if(posX < 0) posX = 0;
+			if(posX > maxX) posX = maxX;
+
+		$('.hover-follow').css({left: posX + 'px'});
+	});
 
   $('.nav-cta__button').click(function () {
     if ($(this).hasClass('active')) {

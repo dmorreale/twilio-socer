@@ -1227,6 +1227,8 @@ body {
       border-top: 1px solid #F22F46;
       background: #FFF; }
     .pageWrapper .trends--item {
+      position: relative;
+      display: block;
       padding: 106px 40px 97px 40px;
       border-bottom: 1px solid #F22F46;
       text-decoration: none;
@@ -1241,13 +1243,28 @@ body {
       margin-bottom: 30px; }
     .pageWrapper .trends h5 {
       margin-bottom: 40px; }
-    .pageWrapper .trends img {
+    .pageWrapper .trends .right-arrow {
       width: 80px;
       height: auto; }
     .pageWrapper .trends .read-more {
       font-size: 16px;
       line-height: 28px;
       letter-spacing: 0em; }
+    .pageWrapper .trends--item > *:not(.hover-follow) {
+      position: relative;
+      z-index: 1; }
+    .pageWrapper .trends .hover-follow {
+      position: absolute;
+      display: block;
+      height: 100%;
+      width: auto;
+      z-index: 0;
+      left: 0;
+      top: 0;
+      opacity: 0;
+      transition: opacity 0.2s ease-out; }
+    .pageWrapper .trends--item:hover .hover-follow {
+      opacity: 1; }
     @media screen and (max-width: 1439px) {
       .pageWrapper .trends--item {
         padding-top: 40px;
