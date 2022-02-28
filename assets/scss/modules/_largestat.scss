@@ -1,5 +1,5 @@
 .largestat {
-    padding-bottom:0;
+    padding:0;
     .bg-blue {
         padding:40px;
     }
@@ -111,30 +111,30 @@
 .casestudy{
     position: relative;
     z-index: 1;
-    margin-bottom:-874px;
+    
 
     + .largestat{
-        padding-top:940px;
+        
     }
 
     @media screen and (max-width:1439px)
     {
         + .largestat {
-            padding-top:870px;
+            
         }
     }
 
     @media screen and (max-width:1199px)
     {
         + .largestat {
-            padding-top:864px;
+           
         }
     }
 
     @media screen and (max-width:719px) 
     {
         + .largestat {
-            padding-top:888px;
+           
         }
     }
 }

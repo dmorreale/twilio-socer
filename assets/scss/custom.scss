@@ -96,6 +96,20 @@
   font-weight: 400;
   font-style: italic;
 }
+@font-face {
+  font-family: 'Twilio Sans Text';
+  src: local('TwilioSansText-Regular'), local('TwilioSansText-Regular'),
+      url('../fonts/TwilioSansText-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Twilio Sans Text';
+  src: local('TwilioSansText-RegularItl'), local('TwilioSansText-RegularItl'),
+      url('../fonts/TwilioSansText-MediumItl.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+}
 
 //Add variable overrides up here
 
@@ -153,6 +167,7 @@ body {
   @import 'modules/prefooter';
   @import 'modules/navigation';
   @import 'modules/block-regionaldata';
+  @import 'modules/block-short-content';
 
   &, * {
     padding:0;

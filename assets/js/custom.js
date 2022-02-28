@@ -1,5 +1,9 @@
 $(document).ready(async function () {
   setTimeout(function () {
+    $(window).resize();
+  }, 300)
+  setTimeout(function () {
+    $(window).resize();
     aosResetNav()
   }, 1000);
 	
@@ -66,7 +70,9 @@ $(document).ready(async function () {
     //var t=$(window).scrollTop();
   })
 
-  $(window).resize(function () {})
+  $(window).resize(function () {
+    adjustOverlappingGrid();
+  });
 
   function aosResetNav() {
     $('.nav-dropDown')
@@ -102,6 +108,15 @@ $(document).ready(async function () {
       br = data
     }
   )
+
+  function adjustOverlappingGrid() {
+    $('.bg-grid-overlap').each(function() {
+      var newHeight = $(this).parent().outerHeight(true);
+      newHeight += ($(this).parent().prev().find('.two-col').outerHeight(true) / 2);
+      console.log(newHeight);
+      $(this).css('height',newHeight + 'px');
+    });
+  }
 
   //dropdown selectors
   $('.selector a').click(async function (e) {

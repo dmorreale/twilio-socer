@@ -22,6 +22,27 @@ p {
 		font-weight:400;
 	}
 }
+.pBullet {
+	position:relative;
+	top:0;
+	left:0;
+	padding-left:25px;
+	strong {
+		display:block;
+	}
+	&:before {
+		content:"";
+		display:block;
+		position:absolute;
+		top:.8em;
+		left:9px;
+		width:5px;
+		height:5px;
+		background-color:$dark;
+		border-radius:50%;
+
+	}
+}
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	-webkit-font-smoothing: antialiased;
@@ -49,7 +70,7 @@ h2, .h2 {
 h3, .h3 {
 	font-size:2.250rem;
 	line-height:1.09em;
-	font-weight:400;
+	font-weight:500;
 	font-family:$font-text;
 }
 
