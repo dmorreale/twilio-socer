@@ -135,10 +135,13 @@
 		&, a {
 			transition:all .5s cubic-bezier(0.22, 1, 0.36, 1);
 		}
+		
+		ul:hover A{
+			opacity:.75;
+		}
 		li {
 			margin-top:32px;
 			a {
-				opacity:.75;
 				cursor:pointer;
 				&:hover {
 					opacity:1;

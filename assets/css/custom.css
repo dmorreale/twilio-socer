@@ -1423,10 +1423,11 @@ body {
       padding-top: 180px; }
       .pageWrapper .nav .nav-dropDown, .pageWrapper .nav .nav-dropDown a {
         transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1); }
+      .pageWrapper .nav .nav-dropDown ul:hover A {
+        opacity: .75; }
       .pageWrapper .nav .nav-dropDown li {
         margin-top: 32px; }
         .pageWrapper .nav .nav-dropDown li a {
-          opacity: .75;
           cursor: pointer; }
           .pageWrapper .nav .nav-dropDown li a:hover {
             opacity: 1; }
