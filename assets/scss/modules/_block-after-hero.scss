@@ -1,6 +1,7 @@
 .block-after-hero {
 	padding-top:128px;
 	padding-bottom:40px;
+	z-index:2;
 	.fourEightyWidth {
 		margin-top:-248px;
 	}
@@ -13,9 +14,6 @@
 	}
 	.eyebrow {
 		margin-top:117px;
-	}
-	@media screen and (max-width:719px) {
-		padding-bottom:20px;
 	}
 }
 .trendsHero + .block-after-hero {
@@ -30,6 +28,18 @@
 }
 @media screen and (max-width:1199px)
 {
+	.block-after-hero {
+		.fourEightyWidth {
+			margin-top:81px;
+		}
+		.pullquotelarge {
+			margin-top:54px;
+		}
+		.space-left {
+			margin-left:0;
+		}
+	}
+
 	.trendsHero + .block-after-hero {
 		padding-top:100px;
 		padding-bottom:100px;
@@ -39,6 +49,10 @@
 	}
 }
 @media screen and (max-width:719px) {
+	.block-after-hero {
+		padding-bottom:20px;
+	}
+
 	.trendsHero + .block-after-hero {
 		padding-top:90px;
 	}

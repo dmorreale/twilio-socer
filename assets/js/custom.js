@@ -68,6 +68,12 @@ $(document).ready(async function () {
 
   $(document).scroll(function () {
     //var t=$(window).scrollTop();
+
+    $('.leftImageHero').each(function() {
+      var topPosition = $(window).scrollTop() - $(this).offset().top;
+      topPosition = topPosition*(.3);
+      $(this).css('top',topPosition + 'px');
+    });
   })
 
   $(window).resize(function () {
@@ -82,6 +88,8 @@ $(document).ready(async function () {
   }
 
   // load charts
+
+  /*
   const trendNum = $('.regionaldata').attr('data-trendNum')
   let tl, tr, bl, br
   await $.getJSON(
@@ -110,6 +118,8 @@ $(document).ready(async function () {
   )
 
   updateChartGroup('Global', tl, tr, bl)
+
+  */
 
   function adjustOverlappingGrid() {
     $('.bg-grid-overlap').each(function () {
@@ -141,8 +151,19 @@ $(document).ready(async function () {
       $parent.find('> A').text(val)
       updateChartGroup(val, tl, tr, bl)
     }
-  })
+  });
+
+  $('.downArrowModule').click(function() {
+    scrollTo($(this).closest('section').next(),1200);
+  });
 })
+
+function scrollTo(destination,duration)
+{
+  //var n = destination.offset().top - $('#header').outerHeight(true);
+  var n = destination.offset().top;
+  $("body,html").stop().animate({scrollTop:n},duration);
+}
 
 function updateChartGroup(val, tl, tr, bl) {
   columnChart.updateOptions({

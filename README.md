@@ -18,10 +18,13 @@ Todo:
 
 
 General:
-	Hero tablet and mobile images are needed
 	Responsive version of the new designs are needed.
 	Design does not cover small mobile screens < 375px - need to double check this screen on the site
 	move styles from the spacings sass file to the layout sass file.
+
+	animations on the circle and underline lines
+		check mobile
+
 
 	
 home page:

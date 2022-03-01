@@ -130,30 +130,55 @@ h6, .h6 {
 	
 }
 
+@keyframes lineAnimate {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
 span.circle, span.underline {
 	display:inline-block;
 	position:relative;
 	top:0;
 	left:0;
-	&:before {
-		content:"";
+	transition:none !important;
+	svg {
 		position:absolute;
-		background-size:contain !important;
 		pointer-events:none;
 	}
-	&.circle:before {
-		top:-.4em;
-		left:-.36em;
-		width:calc(100% + .72em);
-		height:calc(100% + .72em);
-		background:url(../images/circle-red.svg) no-repeat center center;
+	&.circle {
+		svg {
+			top:-.27em;
+			left:-.27em;
+			width:calc(100% + .54em);
+			height:calc(100% + .5em);
+			path {
+				stroke-dasharray: 500;
+			  	stroke-dashoffset: 500;
+			}
+		}
+		&.aos-animate {
+			svg path {
+				animation: lineAnimate 4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+			}
+		}
 	}
-	&.underline:before {
-		top:.57em;
-		left:-.1em;
-		width:calc(100% + .2em);
-		height:100%;
-		background:url(../images/curved-red-underline.svg) no-repeat center center;
+	&.underline {
+		svg {
+			top:.5em;
+			left:-.3em;
+			width:calc(100% + .4em);
+			height:100%;
+			path {
+				stroke-dasharray: 700;
+			  	stroke-dashoffset: 700;
+			}
+		}
+		&.aos-animate {
+			svg path {
+				animation: lineAnimate 4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+			}
+		}
 	}
 }
 
@@ -164,12 +189,7 @@ span.circle, span.underline {
 
 h3 {
 	span.circle, span.underline {
-		&.circle:before {
-			top:-.27em;
-			left:-.27em;
-			width:calc(100% + .54em);
-			height:calc(100% + .5em);
-		}
+		
 	}
 }
 
@@ -255,14 +275,6 @@ h3 {
 	.pullquotelarge {
 		font-size:2.5rem;
 		line-height:1.1em;
-	}
-	
-	span.circle, span.underline {
-		&.underline:before {
-			top:.42em;
-			left:0;
-			width:calc(100% + .1em);
-		}
 	}
 
 	.largestat h3 {
