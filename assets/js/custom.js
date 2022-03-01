@@ -1,24 +1,24 @@
 $(document).ready(async function () {
   setTimeout(function () {
-    $(window).resize();
+    $(window).resize()
   }, 300)
   setTimeout(function () {
-    $(window).resize();
+    $(window).resize()
     aosResetNav()
-  }, 1000);
-	
-	//mouse follow on trend hover
-	$('.trends--item').on('mousemove', function (e) {
-		var width = $('.hover-follow').width(),
-			centerX = width / 2,
-			posX = e.pageX - centerX,
-			maxX = $(this).width() - width;
+  }, 1000)
 
-			if(posX < 0) posX = 0;
-			if(posX > maxX) posX = maxX;
+  //mouse follow on trend hover
+  $('.trends--item').on('mousemove', function (e) {
+    var width = $('.hover-follow').width(),
+      centerX = width / 2,
+      posX = e.pageX - centerX,
+      maxX = $(this).width() - width
 
-		$('.hover-follow').css({left: posX + 'px'});
-	});
+    if (posX < 0) posX = 0
+    if (posX > maxX) posX = maxX
+
+    $('.hover-follow').css({ left: posX + 'px' })
+  })
 
   $('.nav-cta__button').click(function () {
     if ($(this).hasClass('active')) {
@@ -71,8 +71,8 @@ $(document).ready(async function () {
   })
 
   $(window).resize(function () {
-    adjustOverlappingGrid();
-  });
+    adjustOverlappingGrid()
+  })
 
   function aosResetNav() {
     $('.nav-dropDown')
@@ -109,13 +109,16 @@ $(document).ready(async function () {
     }
   )
 
+  updateChartGroup('Global', tl, tr, bl)
+
   function adjustOverlappingGrid() {
-    $('.bg-grid-overlap').each(function() {
-      var newHeight = $(this).parent().outerHeight(true);
-      newHeight += ($(this).parent().prev().find('.two-col').outerHeight(true) / 2);
-      console.log(newHeight);
-      $(this).css('height',newHeight + 'px');
-    });
+    $('.bg-grid-overlap').each(function () {
+      var newHeight = $(this).parent().outerHeight(true)
+      newHeight +=
+        $(this).parent().prev().find('.two-col').outerHeight(true) / 2
+      console.log(newHeight)
+      $(this).css('height', newHeight + 'px')
+    })
   }
 
   //dropdown selectors
@@ -136,31 +139,32 @@ $(document).ready(async function () {
       })
 
       $parent.find('> A').text(val)
-
-      console.log(val)
-
-      columnChart.updateOptions({
-        series: [
-          {
-            name: val,
-            data: [tl.find((e) => e[0] === val)[1]],
-          },
-          {
-            name: 'GLOBAL AVERAGE',
-            data: [tl.find((e) => e[0] === 'Global')[1]],
-          },
-        ],
-        xaxis: { categories: [val.toLocaleUpperCase(), 'GLOBAL AVG'] },
-      })
-      document.querySelector('.chart-text').innerHTML = `${
-        tr.find((e) => e[0] === val)[1]
-      } YEARS`
-      radialBarChart.updateOptions({
-        series: [parseInt(bl.find((e) => e[0] === val)[1].replace('%', ''))],
-      })
-      barChart.updateOptions({
-        series: [],
-      })
+      updateChartGroup(val, tl, tr, bl)
     }
   })
 })
+
+function updateChartGroup(val, tl, tr, bl) {
+  columnChart.updateOptions({
+    series: [
+      {
+        name: val,
+        data: [tl.find((e) => e[0] === val)[1]],
+      },
+      {
+        name: 'GLOBAL AVERAGE',
+        data: [tl.find((e) => e[0] === 'Global')[1]],
+      },
+    ],
+    xaxis: { categories: [val.toLocaleUpperCase(), 'GLOBAL AVG'] },
+  })
+  document.querySelector('.chart-text').innerHTML = `${
+    tr.find((e) => e[0] === val)[1]
+  } YEARS`
+  radialBarChart.updateOptions({
+    series: [parseInt(bl.find((e) => e[0] === val)[1].replace('%', ''))],
+  })
+  barChart.updateOptions({
+    series: [],
+  })
+}

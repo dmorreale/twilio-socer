@@ -13,7 +13,7 @@ var columnChartOptions = {
     type: 'bar',
     height: 350,
     toolbar: {
-      show: false
+      show: false,
     },
   },
   fill: {
@@ -58,20 +58,12 @@ var columnChartOptions = {
   },
   yaxis: {
     show: false,
-    title: {
-      text: '$ (thousands)',
-    },
   },
   fill: {
     opacity: 1,
   },
   tooltip: {
     enabled: false,
-    y: {
-      formatter: function (val) {
-        return '$ ' + val + ' thousands'
-      },
-    },
   },
 }
 
@@ -133,5 +125,54 @@ var barChartOptions = {
   },
 }
 
-var barChart = new ApexCharts(document.querySelector('.chart-bar'), barChartOptions)
+var barChart = new ApexCharts(
+  document.querySelector('.chart-bar'),
+  barChartOptions
+)
 barChart.render()
+
+var lineChartOptions = {
+  series: [
+    {
+      data: [10, 41, 35, 51, 49, 62, 69, 91, 148],
+    },
+  ],
+  chart: {
+    height: 350,
+    type: 'line',
+    zoom: {
+      enabled: false,
+    },
+    toolbar: {
+      show: false,
+    },
+  },
+  dataLabels: {
+    enabled: false,
+  },
+  colors: ['#F22F46'],
+  stroke: {
+    curve: 'straight',
+    width: 2  
+  },
+  xaxis: {
+    axisBorder: { show: false },
+    axisTicks: { show: false },
+    categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
+  },
+  yaxis: {
+    axisBorder: { show: false },
+    axisTicks: { show: false },
+    categories: [0, 50, 100, 150, 200, 250, 300, 350, 400],
+  },
+  legend: {
+    show: false,
+  },
+  tooltip: {
+    enabled: false,
+  },
+  grid: {
+    show: false,
+  }
+}
+
