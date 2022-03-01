@@ -123,6 +123,9 @@ var barChartOptions = {
   xaxis: {
     categories: ['Today', 'In the past week', 'In the past month'],
   },
+  tooltip: {
+    enabled: false,
+  },
 }
 
 var barChart = new ApexCharts(
