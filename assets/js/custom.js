@@ -1,11 +1,24 @@
-$(document).ready(function () {
+$(document).ready(async function () {
   setTimeout(function () {
     $(window).resize();
   }, 300)
   setTimeout(function () {
     $(window).resize();
     aosResetNav()
-  }, 1000)
+  }, 1000);
+	
+	//mouse follow on trend hover
+	$('.trends--item').on('mousemove', function (e) {
+		var width = $('.hover-follow').width(),
+			centerX = width / 2,
+			posX = e.pageX - centerX,
+			maxX = $(this).width() - width;
+
+			if(posX < 0) posX = 0;
+			if(posX > maxX) posX = maxX;
+
+		$('.hover-follow').css({left: posX + 'px'});
+	});
 
   $('.nav-cta__button').click(function () {
     if ($(this).hasClass('active')) {
@@ -68,6 +81,34 @@ $(document).ready(function () {
       .removeClass('aos-animate')
   }
 
+  // load charts
+  const trendNum = $('.regionaldata').attr('data-trendNum')
+  let tl, tr, bl, br
+  await $.getJSON(
+    `../../json/by_row/trend_${trendNum}_explore_top_left.json`,
+    (data) => {
+      tl = data
+    }
+  )
+  await $.getJSON(
+    `../../json/by_row/trend_${trendNum}_explore_top_right.json`,
+    (data) => {
+      tr = data
+    }
+  )
+  await $.getJSON(
+    `../../json/by_row/trend_${trendNum}_explore_bottom_left.json`,
+    (data) => {
+      bl = data
+    }
+  )
+  await $.getJSON(
+    `../../json/by_row/trend_${trendNum}_explore_top_left.json`,
+    (data) => {
+      br = data
+    }
+  )
+
   function adjustOverlappingGrid() {
     $('.bg-grid-overlap').each(function() {
       var newHeight = $(this).parent().outerHeight(true);
@@ -97,32 +138,7 @@ $(document).ready(function () {
       $parent.find('> A').text(val)
 
       console.log(val)
-      const trendNum = $('.regionaldata').attr('data-trendNum')
-      let tl, tr, bl, br;
-      await $.getJSON(
-        `../../json/by_row/trend_${trendNum}_explore_top_left.json`,
-        (data) => {
-          tl = data
-        }
-      )
-      await $.getJSON(
-        `../../json/by_row/trend_${trendNum}_explore_top_right.json`,
-        (data) => {
-          tr = data
-        }
-      )
-      await $.getJSON(
-        `../../json/by_row/trend_${trendNum}_explore_bottom_left.json`,
-        (data) => {
-          bl = data
-        }
-      )
-      await $.getJSON(
-        `../../json/by_row/trend_${trendNum}_explore_top_left.json`,
-        (data) => {
-          br = data
-        }
-      )
+
       columnChart.updateOptions({
         series: [
           {
@@ -143,7 +159,7 @@ $(document).ready(function () {
         series: [parseInt(bl.find((e) => e[0] === val)[1].replace('%', ''))],
       })
       barChart.updateOptions({
-        series: []
+        series: [],
       })
     }
   })

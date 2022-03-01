@@ -12,6 +12,8 @@
     }
 
     &--item{
+		position: relative;
+		display:block;
         padding:106px 40px 90px 40px;
         border-bottom:1px solid $red;
         text-decoration: none;
@@ -36,6 +38,7 @@
         margin-bottom:40px;
     }
 
+
     img{
         width:100px;
         height:auto;
@@ -45,6 +48,28 @@
         text-transform:initial;
         letter-spacing:.15em;
     }
+	
+	&--item > *:not(.hover-follow){
+		position: relative;
+		z-index: 1;
+	}
+	
+	.hover-follow{
+		position:absolute;
+		display:block;
+		height:100%;
+		width:auto;
+		z-index: 0;
+		left:0;
+		top:0;
+		opacity:0;
+		transition: opacity 0.2s ease-out;
+		
+	}
+	
+	&--item:hover .hover-follow{
+		opacity:1;
+	}
 
     @media screen and (max-width:1439px)
     {

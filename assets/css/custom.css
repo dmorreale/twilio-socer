@@ -789,6 +789,11 @@ body {
     border-top: 1px solid #F22F46; }
   .pageWrapper .text-center {
     text-align: center; }
+  .pageWrapper .btn-outline {
+    transition: all 0.3s ease-out; }
+    .pageWrapper .btn-outline:hover {
+      border-color: #F22F46 !important;
+      background-color: rgba(255, 255, 255, 0.2); }
   .pageWrapper section {
     padding-top: 80px;
     padding-bottom: 100px; }
@@ -1266,6 +1271,8 @@ body {
       border-top: 1px solid #F22F46;
       background: #FFF; }
     .pageWrapper .trends--item {
+      position: relative;
+      display: block;
       padding: 106px 40px 90px 40px;
       border-bottom: 1px solid #F22F46;
       text-decoration: none;
@@ -1286,6 +1293,21 @@ body {
     .pageWrapper .trends .h5 {
       text-transform: initial;
       letter-spacing: .15em; }
+    .pageWrapper .trends--item > *:not(.hover-follow) {
+      position: relative;
+      z-index: 1; }
+    .pageWrapper .trends .hover-follow {
+      position: absolute;
+      display: block;
+      height: 100%;
+      width: auto;
+      z-index: 0;
+      left: 0;
+      top: 0;
+      opacity: 0;
+      transition: opacity 0.2s ease-out; }
+    .pageWrapper .trends--item:hover .hover-follow {
+      opacity: 1; }
     @media screen and (max-width: 1439px) {
       .pageWrapper .trends--item {
         padding-top: 40px;
@@ -1404,10 +1426,11 @@ body {
       padding-top: 180px; }
       .pageWrapper .nav .nav-dropDown, .pageWrapper .nav .nav-dropDown a {
         transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1); }
+      .pageWrapper .nav .nav-dropDown ul:hover A {
+        opacity: .75; }
       .pageWrapper .nav .nav-dropDown li {
         margin-top: 32px; }
         .pageWrapper .nav .nav-dropDown li a {
-          opacity: .75;
           cursor: pointer; }
           .pageWrapper .nav .nav-dropDown li a:hover {
             opacity: 1; }
