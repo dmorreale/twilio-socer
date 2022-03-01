@@ -1,3 +1,26 @@
-.prefooter{
-    
+.prefooter {
+    padding:160px 0 116px 0;
+
+    .pLarge {
+        margin-bottom:48px;
+    }
+    .btn {
+        margin:0 26px 14px 0;
+    }
+
+    @media screen and (max-width:1439px)
+    {
+        
+    }
+
+    @media screen and (max-width:1199px)
+    {
+        img {
+            margin-top:45px;
+        }
+    }
+
+    @media screen and (max-width:719px) {
+        
+    }
 }

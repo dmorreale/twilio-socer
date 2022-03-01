@@ -52,8 +52,18 @@ p + p {
 	max-width:252px;
 }
 
+.threeTwentyWidth {
+	max-width:320px;
+}
+
 .threeSixtyWidth {
 	max-width:360px;
+}
+
+.space-left {
+	max-width:calc(100% - 120px);
+	margin-left:120px;
+	margin-bottom:81px;
 }
 
 .moveUp {

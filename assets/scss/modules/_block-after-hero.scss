@@ -1,18 +1,14 @@
 .block-after-hero {
+	padding-top:128px;
 	padding-bottom:40px;
-	.space-left {
-		max-width:calc(100% - 120px);
-		margin-left:120px;
-		margin-bottom:81px;
-	}
 	.fourEightyWidth {
-		margin-top:450px;
+		margin-top:-248px;
 	}
 	.pullquotelarge {
 		margin-top:226px;
 	}
-	.twoFiftyWidth {
-		margin-top:188px;
+	.threeTwentyWidth {
+		margin-top:68px;
 		margin-bottom:160px;
 	}
 	.eyebrow {
@@ -23,7 +19,6 @@
 	}
 }
 .trendsHero + .block-after-hero {
-	padding-top:128px;
 	padding-bottom:100px;
 	.pullquotelarge {
 		margin-top:560px;

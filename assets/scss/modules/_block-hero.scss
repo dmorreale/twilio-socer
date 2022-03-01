@@ -1,5 +1,5 @@
 .block-hero {
-	padding-bottom:180px;
+	padding-bottom:0px;
 	.content {
 		
 	}
@@ -8,6 +8,10 @@
 		display:flex;
 		flex-flow:column;
 		align-items:flex-start;
+		.img-fluid {
+			margin-top:60px;
+			margin-bottom:-40px;
+		}
 	}
 	.leftImageHero {
 		width:calc(50% - 40px);
@@ -19,7 +23,7 @@
 	h1 {
 		margin:27px 0 42px 0;
 	}
-	.downArrowRed {
+	.downArrowModule {
 		margin:45px 0 0 0;
 	}
 	&.trendsHero {
@@ -34,9 +38,6 @@
 		.subhead {
 			max-width:50%;
 		}
-	}
-	&:not(.trendsHero) + .block-after-hero {
-		padding-top:0;
 	}
 
 	@media screen and (max-width:1439px)
