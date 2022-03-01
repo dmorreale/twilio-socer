@@ -1,83 +1,79 @@
 [
   {
-    "Caption": "Country",
-    "Percentage of interactions with brands that consumers expect to be digital by 2025": "Percentage"
+    "Country": "Australia",
+    "Percentage": "49%"
   },
   {
-    "Caption": "Australia",
-    "Percentage of interactions with brands that consumers expect to be digital by 2025": "49%"
+    "Country": "Brazil",
+    "Percentage": "61%"
   },
   {
-    "Caption": "Brazil",
-    "Percentage of interactions with brands that consumers expect to be digital by 2025": "61%"
+    "Country": "Columbia",
+    "Percentage": "59%"
   },
   {
-    "Caption": "Columbia",
-    "Percentage of interactions with brands that consumers expect to be digital by 2025": "59%"
+    "Country": "France",
+    "Percentage": "45%"
   },
   {
-    "Caption": "France",
-    "Percentage of interactions with brands that consumers expect to be digital by 2025": "45%"
+    "Country": "Germany",
+    "Percentage": "44%"
   },
   {
-    "Caption": "Germany",
-    "Percentage of interactions with brands that consumers expect to be digital by 2025": "44%"
+    "Country": "Global",
+    "Percentage": "51%"
   },
   {
-    "Caption": "Global",
-    "Percentage of interactions with brands that consumers expect to be digital by 2025": "51%"
+    "Country": "Italy",
+    "Percentage": "48%"
   },
   {
-    "Caption": "Italy",
-    "Percentage of interactions with brands that consumers expect to be digital by 2025": "48%"
+    "Country": "Japan",
+    "Percentage": "52%"
   },
   {
-    "Caption": "Japan",
-    "Percentage of interactions with brands that consumers expect to be digital by 2025": "52%"
+    "Country": "Mexico",
+    "Percentage": "62%"
   },
   {
-    "Caption": "Mexico",
-    "Percentage of interactions with brands that consumers expect to be digital by 2025": "62%"
+    "Country": "Singapore",
+    "Percentage": "39%"
   },
   {
-    "Caption": "Singapore",
-    "Percentage of interactions with brands that consumers expect to be digital by 2025": "39%"
+    "Country": "Spain",
+    "Percentage": "49%"
   },
   {
-    "Caption": "Spain",
-    "Percentage of interactions with brands that consumers expect to be digital by 2025": "49%"
+    "Country": "United Kingdom",
+    "Percentage": "56%"
   },
   {
-    "Caption": "United Kingdom",
-    "Percentage of interactions with brands that consumers expect to be digital by 2025": "56%"
-  },
-  {
-    "Caption": "United States",
-    "Percentage of interactions with brands that consumers expect to be digital by 2025": "51%"
+    "Country": "United States",
+    "Percentage": "51%"
   },
   {},
   {
-    "Caption": "Region",
-    "Percentage of interactions with brands that consumers expect to be digital by 2025": "Percentage"
+    "Country": "Region",
+    "Percentage": "Percentage"
   },
   {
-    "Caption": "Global",
-    "Percentage of interactions with brands that consumers expect to be digital by 2025": "51%"
+    "Country": "Global",
+    "Percentage": "51%"
   },
   {
-    "Caption": "United States",
-    "Percentage of interactions with brands that consumers expect to be digital by 2025": "51%"
+    "Country": "United States",
+    "Percentage": "51%"
   },
   {
-    "Caption": "Asia Pacific/Japan",
-    "Percentage of interactions with brands that consumers expect to be digital by 2025": "46%"
+    "Country": "Asia Pacific/Japan",
+    "Percentage": "46%"
   },
   {
-    "Caption": "Europe",
-    "Percentage of interactions with brands that consumers expect to be digital by 2025": "49%"
+    "Country": "Europe",
+    "Percentage": "49%"
   },
   {
-    "Caption": "Latin America",
-    "Percentage of interactions with brands that consumers expect to be digital by 2025": "56%"
+    "Country": "Latin America",
+    "Percentage": "56%"
   }
 ]

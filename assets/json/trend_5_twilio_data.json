@@ -1,10 +1,16 @@
 [
   {
-    "Caption": "",
-    "Year-over-year growth in digital interactions on the Twilio platform in 2021": "January"
-  },
-  {
-    "Caption": "Percentage",
-    "Year-over-year growth in digital interactions on the Twilio platform in 2021": "39.57%"
+    "January": "39.57%",
+    "February": "41.64%",
+    "March": "45.36%",
+    "April": "44.74%",
+    "May": "39.53%",
+    "June": "35.93%",
+    "July": "27.29%",
+    "August": "26.45%",
+    "September": "25.67%",
+    "October": "20.07%",
+    "November": "26.67%",
+    "December": "23.50%"
   }
 ]
