@@ -72,7 +72,7 @@
 			margin-right:9px;
 			transform:rotate(0deg);
 			&, span {
-				transition:all .5s cubic-bezier(0.22, 1, 0.36, 1);
+				@include generalAnimationType;
 				transform-origin:center;
 			}
 			span {
@@ -133,7 +133,7 @@
 		background-color:$blue;
 		padding-top:180px;
 		&, a {
-			transition:all .5s cubic-bezier(0.22, 1, 0.36, 1);
+			@include generalAnimationType;
 		}
 		
 		ul:hover A{

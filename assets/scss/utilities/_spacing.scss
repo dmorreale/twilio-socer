@@ -44,6 +44,12 @@ p + p {
 	margin-left:auto;
 }
 
+.space-left {
+	max-width:calc(100% - 120px);
+	margin-left:120px;
+	margin-bottom:81px;
+}
+
 .fourEightyWidth {
 	max-width:480px;
 }
@@ -58,12 +64,6 @@ p + p {
 
 .threeSixtyWidth {
 	max-width:360px;
-}
-
-.space-left {
-	max-width:calc(100% - 120px);
-	margin-left:120px;
-	margin-bottom:81px;
 }
 
 .moveUp {
@@ -207,4 +207,7 @@ p + p {
 		margin-top:45px;
 	}
 	
+	.threeSixtyWidth {
+		max-width:360px;
+	}
 }

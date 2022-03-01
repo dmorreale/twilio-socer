@@ -11,6 +11,7 @@
 		.img-fluid {
 			margin-top:60px;
 			margin-bottom:-40px;
+			width:520px;
 		}
 	}
 	.leftImageHero {
@@ -54,6 +55,12 @@
 	}
 	@media screen and (max-width:1199px)
 	{
+		.leftOfImage {
+			.img-fluid {
+				margin-left:0;
+				max-width:calc(50% - 40px);
+			}
+		}
 		&.trendsHero {
 			padding-bottom:45px;
 			.leftImageHero {
@@ -68,6 +75,17 @@
 		}
 	}
 	@media screen and (max-width:719px) {
+		.leftImageHero {
+			right:-20px;
+			width:50%;
+		}
+		.leftOfImage {
+			.img-fluid {
+				max-width:520px;
+				width:100%;
+			}
+		}
+
 		&.trendsHero {
 			.leftImageHero {
 				width:50%;
