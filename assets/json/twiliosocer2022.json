@@ -12,22 +12,22 @@
   {
     "Page": "general",
     "Element": "methodologyhead",
-    "Content": "Methodology & data sources"
+    "Content": "Methodology"
   },
   {
     "Page": "general",
     "Element": "methodologypara1",
-    "Content": "Explorations corpus callosum a billion trillion Drake Equation rich in mystery gathered by gravity. Citizens of distant epochs rings of Uranus a mote of dust suspended in a sunbeam network of wormholes the sky calls to us Apollonius of Perga. Vanquish the impossible another world extraordinary claims require extraordinary evidence vastness is bearable only through love dream of the mind's eye extraordinary claims require extraordinary evidence. The only home we've ever known citizens of distant epochs the carbon in our apple pies dream of the mind's eye not a sunrise but a galaxyrise inconspicuous motes of rock and gas."
+    "Content": "To create the  State of Customer Engagement Report 2022, Twilio drew on three primary sources."
   },
   {
     "Page": "general",
     "Element": "methodologypara2",
-    "Content": "Invent the universe hundreds of thousands dream of the mind's eye Orion's sword citizens of distant epochs gathered by gravity. Concept of the number one star stuff harvesting star light concept of the number one something incredible is waiting to be known not a sunrise but a galaxyrise network of wormholes. A mote of dust suspended in a sunbeam corpus callosum with pretty stories for which there's little good evidence vastness is bearable only through love courage of our questions extraplanetary."
+    "Content": "Twilio engaged Lawless Research to conduct original research for the report from a survey of over 3,000 enterprise decision-makers as well as the opinions of more than 4,500 consumers across the United States, the United Kingdom, Germany, Australia, France, Spain, Italy, Japan, and Singapore. "
   },
   {
     "Page": "general",
     "Element": "methodologypara3",
-    "Content": "<em>Language about Twilio platform data. Legal language included.</em>"
+    "Content": "The report also includes aggregated data gleaned from trillions of interactions on the Twilio platform, revealing the patterns in how consumers are engaging with organizations that use Twilio and Twilio Segment products.\n"
   },
   {
     "Page": "homepage",
@@ -42,22 +42,22 @@
   {
     "Page": "homepage",
     "Element": "leadparagraph",
-    "Content": "The acceleration of digital engagement in the post-pandemic world shows no sign of slowing down. Twilio, the leading cloud communications and customer engagement platform, spoke with over 3,000 leading decision makers and 4,500 consumers to understand how the digital landscape has changed over the past year and reveal the challenges organizations are set to face."
+    "Content": "The acceleration of digital customer engagement in the post-pandemic world shows no sign of slowing down. Twilio, the leading cloud communications and customer engagement platform, spoke with over 3,000 leading decision makers and 4,500 consumers to understand how the global digital landscape continues to expand and reveal how organizations can adjust strategies to take advantage of growing trends. \n"
   },
   {
     "Page": "homepage",
     "Element": "descriptivepara1",
-    "Content": "The State of Customer Engagement Report 2022 reveals that digital transformation has made a significant impact — increasing revenue by 70% on average for companies that made the investment in customer engagement. Unsurprisingly, these same companies expect their investment to almost double by 2025."
+    "Content": "The State of Customer Engagement Report 2022 reveals the explosion of digital customer engagement has made a significant impact — increasing revenue by 70% on average for companies that made the investment in customer engagement. Unsurprisingly, these same companies expect their investment to almost double by 2025."
   },
   {
     "Page": "homepage",
     "Element": "descriptivepara2",
-    "Content": "However, the fast pace of change also means that businesses will need to quickly adapt. Personalization is now essential for customer retention and data protection has taken on greater importance amongst consumers. And consumers’ views on these topics diverge sharply from what companies believe."
+    "Content": "However, the fast pace of change also means that businesses will need to quickly adapt. Personalization is now essential for customer retention and data protection has taken on greater importance amongst consumers. And consumers’ current views on these topics diverge from what companies believe in certain places."
   },
   {
     "Page": "homepage",
     "Element": "descriptivepara3",
-    "Content": "Another warning sign: digital fatigue is starting to affect engagement, especially among younger demographics. Companies that act now to create more meaningful digital engagement will offset this trend and will see benefits, in terms of both revenue and customer engagement, in the long term."
+    "Content": "Another warning sign: Firefox and Safari have already blocked access to third-party cookies, and Google Chrome will do the same later in 2022. Creating personalized experiences will require organizations to embrace first-party data, a strategy most companies have yet to pivot to according to the report. "
   },
   {
     "Page": "homepage",
@@ -77,42 +77,47 @@
   {
     "Page": "homepage",
     "Element": "executivesummarypara1",
-    "Content": "Our research revealed that organizations that put digital customer engagement at the forefront of their business have reaped outsize rewards. This growth has its challenges, because consumers don’t always see things the same way as the brands marketing to them. Companies that can close that gap now have the chance to become leaders in digital transformation, creating market-leading data practices that entice consumers and keep them loyal."
+    "Content": "Our research revealed that organizations that put digital customer engagement at the forefront of their business have reaped outsize rewards. This growth has its challenges, because consumers don’t always see things the same way as the brands marketing to them. Companies that can close that gap now have the chance to become leaders in customer engagement, creating market-leading experiences that entice consumers and keep them loyal."
   },
   {
     "Page": "homepage",
     "Element": "executivesummarypara2",
-    "Content": "These are the five commandments of customer engagement which emerged from our deep investigation of both consumer and B2C companies’ attitudes."
+    "Content": "These are the five fundamentals of customer engagement which emerged from our deep investigation of both consumer and B2C companies’ attitudes."
   },
   {
     "Page": "homepage",
     "Element": "executivesummarybullet1",
-    "Content": "Better personalization is essential — and there’s room for improvement. <br>88% of businesses say personalization is extremely or very important to their overall strategy. Consumers, though, still want companies to improve in this area."
+    "Content": "<strong>Make it digital.</strong><br>70% — that’s the average revenue increase among companies that invested in digital customer engagement over the past two years."
   },
   {
     "Page": "homepage",
     "Element": "executivesummarybullet2",
-    "Content": "A cookieless world is here — the time to get ready is now. <br>81% of companies are completely or substantially reliant on third-party cookies — even though this critical data source will not be available after 2022. A new approach is needed, one that relies on data companies own themselves."
+    "Content": "<strong>Make it personal.</strong> <br>75% of companies think they’re providing personalized experiences. But less than half of consumers agree. There’s a lot of room for improvement. "
   },
   {
     "Page": "homepage",
     "Element": "executivesummarybullet3",
-    "Content": " Consumers don’t trust companies with their data, and they demand better.<br>95% of B2C companies believe consumers trust their ability to protect data, yet only 65% of consumers actually do trust these companies."
+    "Content": "<strong>Lose your cookies.</strong> <br>81% of companies are completely or substantially reliant on third-party cookies — even though this critical data source will not be available after 2022. "
   },
   {
     "Page": "homepage",
     "Element": "executivesummarybullet4",
-    "Content": "Digital fatigue is real. Focus on smarter engagement, not more interactions. <br>Younger millennial and Gen Z consumers are increasingly fatigued by too much screen time. Creating more meaningful interactions can ensure business doesn’t suffer as a result."
+    "Content": "<strong>Build trust.</strong> <br>95% of B2C companies believe consumers trust their ability to protect data, yet only 65% of consumers actually do trust these companies. "
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullet5",
+    "Content": "<strong>Engage smarter.</strong><br>Gen Zs and Millennials are more than twice as likely as Baby Boomers to have experienced digital fatigue in the past 30 days. Creating better (not more) interactions can ensure business doesn’t suffer as a result"
   },
   {
     "Page": "homepage",
     "Element": "engagementhead",
-    "Content": "five customer engagement trends for 2022"
+    "Content": "Five customer engagement trends for 2022"
   },
   {
     "Page": "trend1",
     "Element": "headline",
-    "Content": "There’s a massive <br>ROI for digital <br>engagement."
+    "Content": "Digital customer <br>engagement drives <br>major ROI."
   },
   {
     "Page": "trend1",
@@ -127,7 +132,7 @@
   {
     "Page": "trend1",
     "Element": "descriptivepara1",
-    "Content": "The data could not be clearer. The two-year-old global pandemic has led to companies speeding up their digital transformation strategies by an average of 6.5 years, growing revenues by an average of 70% for those that made the investment in customer engagement. They expect that, by 2025, their investment in this key area will almost double, rising by 93.5%."
+    "Content": "The data could not be clearer. Companies that recognized the swiftness of this change and made moves to invest in digital customer engagement have seen their revenues rise by an average of 70%. They expect that, by 2025, their investment in this key area will almost double, rising by 93.5%."
   },
   {
     "Page": "trend1",
@@ -135,14 +140,19 @@
     "Content": "On average, over half of B2C companies’ engagement with consumers is digital, and respondents expect that it will rise by a further 21% globally over the next three years."
   },
   {
-    "Page": "trend2",
+    "Page": "trend1",
     "Element": "descriptivepara3",
     "Content": "That aligns with what consumers want: They say over half of their engagements with brands should be digital in three years’ time."
   },
   {
-    "Page": "trend3",
+    "Page": "trend1",
     "Element": "descriptivepara4",
-    "Content": "So it’s evident that investment in digital transformation is crucial for B2C companies that want to grow and lead in their market."
+    "Content": "So it’s evident that investment in digital customer engagement is crucial for B2C companies that want to grow and lead in their market."
+  },
+  {
+    "Page": "trend1",
+    "Element": "introchartcaption",
+    "Content": "Number of years the pandemic has accelerated companies' digital engagement"
   },
   {
     "Page": "trend1",
@@ -166,6 +176,11 @@
   },
   {
     "Page": "trend1",
+    "Element": "datachartcaption",
+    "Content": "Digital interactions on the Twilio platform in 2019, 2020, and 2021"
+  },
+  {
+    "Page": "trend1",
     "Element": "subtitle",
     "Content": "Colombia leads the way on increased revenue"
   },
@@ -186,19 +201,23 @@
   },
   {
     "Page": "trend1",
-    "Element": "quad-top-left"
+    "Element": "quad-top-left",
+    "Content": "Average revenue impact from investment in digital transformation, vs. global average"
   },
   {
     "Page": "trend1",
-    "Element": "quad-top-right"
+    "Element": "quad-top-right",
+    "Content": "Number of years the pandemic accelerated digital transformation"
   },
   {
     "Page": "trend1",
-    "Element": "quad-bottom-left"
+    "Element": "quad-bottom-left",
+    "Content": "Percentage of interactions with brands that consumers expect to be digital by 2025"
   },
   {
     "Page": "trend1",
-    "Element": "quad-bottom-right"
+    "Element": "quad-bottom-right",
+    "Content": "How long consumers say it’s been since they received a brand communication via a digital channel"
   },
   {
     "Page": "trend1",
@@ -208,12 +227,12 @@
   {
     "Page": "trend1",
     "Element": "spotlightpara1",
-    "Content": "Allianz Direct, a direct-to-consumer insurance company, launched a transformational insurance platform in less than a year with the help of Twilio’s Flex, the cloud-based contact-center platform. Allianz Direct managers chose Flex after concluding that the alternatives weren’t agile enough to power the customer experience they wanted within the time they required. Today, 700 Allianz Direct agents rely on the Twilio-powered platform. Says Laura Malinsky, Allianz Direct’s global head of operations: “Flex is cloud-based, fully customizable, easy-to-use and only took a handful of engineers to build.”"
+    "Content": "Allianz Direct, a direct-to-consumer insurance company, launched a transformational insurance platform in less than a year with the help of Twilio’s Flex, the cloud-based contact-center platform. Allianz Direct managers chose Flex after concluding that the alternatives weren’t agile enough to power the digital customer experience they wanted within the time they required. Today, 700 Allianz Direct agents rely on the Twilio-powered platform. Says Laura Malinsky, Allianz Direct’s head of operations: “Flex is cloud-based, fully customizable, easy-to-use and only took a handful of engineers to build.”"
   },
   {
     "Page": "trend2",
     "Element": "headline",
-    "Content": "The <br>personalization <br>problem."
+    "Content": "Personalization <br>is critical."
   },
   {
     "Page": "trend2",
@@ -228,7 +247,7 @@
   {
     "Page": "trend2",
     "Element": "descriptivepara1",
-    "Content": "Personalization is the cornerstone of all good digital customer engagement. 98% of companies say that it increases customer engagement and 83% of consumers agree."
+    "Content": "Personalization is the cornerstone of mastering digital customer engagement. 98% of companies say that it increases customer engagement and 83% of consumers agree."
   },
   {
     "Page": "trend2",
@@ -244,6 +263,11 @@
     "Page": "trend2",
     "Element": "descriptivepara4",
     "Content": "This trend shows the need for brands to further develop their understanding of how customers experience personalized services. There is no denying that offering such services can increase revenue and loyalty, so those organizations which invest more in this area have the opportunity to boost growth, as well as expand and retain their customer base."
+  },
+  {
+    "Page": "trend2",
+    "Element": "introchartcaption",
+    "Content": "How well companies rate their personalization vs how well consumers rate it"
   },
   {
     "Page": "trend2",
@@ -267,13 +291,18 @@
   },
   {
     "Page": "trend2",
+    "Element": "datachartcaption",
+    "Content": "Growth in personalization app usage on the Twilio Segment platform"
+  },
+  {
+    "Page": "trend2",
     "Element": "subtitle",
-    "Content": "Personalization is extremely important to Brazilian companies"
+    "Content": "Personalization is extremely important to Latin American companies"
   },
   {
     "Page": "trend2",
     "Element": "subtitlepara1",
-    "Content": "More than 9 in 10 companies in Brazil, Italy, Spain, Mexico, France, Singapore and Germany say personalization is “extremely important” to their customer engagement strategy. Brazil leads the way, with 97% of respondent companies saying it was extremely important."
+    "Content": "Personalization is very important in Latin America. In Brazil, Colombia, and Mexico, three-fourths of consumers say they’ll stop using a brand if their experience isn’t personalized."
   },
   {
     "Page": "trend2",
@@ -292,18 +321,38 @@
   },
   {
     "Page": "trend2",
+    "Element": "quad-top-left",
+    "Content": "Percentage of companies that say personalization is very or extremely important"
+  },
+  {
+    "Page": "trend2",
+    "Element": "quad-top-right",
+    "Content": "How much companies say personalization increases consumer spending vs. how much consumers think personalization increases their own spending"
+  },
+  {
+    "Page": "trend2",
+    "Element": "quad-bottom-left",
+    "Content": "Percentage of companies that think a personalized experience increases brand loyalty vs. percentage of consumers who agree"
+  },
+  {
+    "Page": "trend2",
+    "Element": "quad-bottom-right",
+    "Content": "How well companies rate their personalization vs how well consumers rate it"
+  },
+  {
+    "Page": "trend2",
     "Element": "spotlightname",
     "Content": "Intuit: More Than Doubling Customer Engagement"
   },
   {
     "Page": "trend2",
     "Element": "spotlightpara1",
-    "Content": "Intuit, one of the world’s largest producers of financial software, strives to personalize the experience for its 100 million customers worldwide. To enhance communication with those customers, Intuit relies on Twilio’s Segment, the marketing-leading customer data platform (CDP) that collects clickstream data on how customers interact with TurboTax, QuickBooks, and other Intuit software. According to Marianna Tessel, Intuit’s chief technology officer, Segment helped improve Intuit’s messages to customers, leading to a sharp increase in customer engagement, from 20% to 50%."
+    "Content": "Intuit, the global technology platform that makes TurboTax, QuickBooks, Mint, Credit Karma, and Mailchimp, strives to personalize the experience for more than 100 million customers worldwide. To enhance communication with those customers, Intuit relies on Twilio’s Segment, the marketing-leading customer data platform (CDP). According to Marianna Tessel, Intuit’s chief technology officer, Segment’s capabilities enabled the TurboTax marketing team to drive meaningful improvements to customer engagement during last year’s tax season."
   },
   {
     "Page": "trend3",
     "Element": "headline",
-    "Content": "The third-<br>party cookie <br>era is dead."
+    "Content": "A cookieless-<br>world is coming."
   },
   {
     "Page": "trend3",
@@ -318,22 +367,22 @@
   {
     "Page": "trend3",
     "Element": "descriptivepara1",
-    "Content": "Most companies are dependent on third-party cookies, despite the fact that Google is set to eliminate these cookies within Chrome in 2022 and Safari and Firefox have already done so. That’s a problem, given that 81% of companies surveyed said that they had either complete or substantial dependence on the technology and that they would be seriously harmed by losing access to it."
+    "Content": "Though third-party cookies will be phased out by 2022, 81% of companies say they have either complete or substantial dependence on them, and that they would be seriously harmed by losing access. That’s a problem, given that 81% of companies surveyed said that they had either complete or substantial dependence on the technology and that they would be seriously harmed by losing access to it."
   },
   {
     "Page": "trend3",
     "Element": "descriptivepara2",
-    "Content": "There is a perceptible shift towards owned, first-party data, but this may not happen fast enough to mitigate against the effects of losing out on third party data when such cookies are no longer in use."
-  },
-  {
-    "Page": "trend3",
-    "Element": "descriptivepara3",
     "Content": "A majority of companies, 55%, say they are not fully prepared for this imminent cookieless world. Meanwhile, 42% of companies predict that the impending changes will lead to lower ROI on ad spend and decreased ability to measure campaign efficiency."
   },
   {
     "Page": "trend3",
-    "Element": "descriptivepara4",
-    "Content": "Adapting to this shift is imperative, especially as 85% of consumers want brands to make use of only first-party data when creating personalized services. Companies can no longer delay preparing for this cookieless world. The majority of those getting ready are doing so by investing in CRM, CDP and DMP."
+    "Element": "descriptivepara3",
+    "Content": "Adapting to this shift is imperative, especially as 85% of consumers want brands to make use of only first-party data when creating personalized services. Companies can no longer delay preparing for this cookieless world."
+  },
+  {
+    "Page": "trend3",
+    "Element": "introchartcaption",
+    "Content": "Percentage of companies that depend on third-party data for half or more of their marketing"
   },
   {
     "Page": "trend3",
@@ -348,12 +397,17 @@
   {
     "Page": "trend3",
     "Element": "datapara1",
-    "Content": "Segment data shows that first-party data collection is increasing, as companies get themselves ready for a cookieless world. Over 50% of Segment customers are using a Customer Data Platform (CDP) for advertising purposes."
+    "Content": "Segment data shows that first-party data collection is increasing, as companies get themselves ready for a cookieless world. Over 20% of Segment customers are using Node.js, which is the first server-side data collection source to crack the top five in our platform."
   },
   {
     "Page": "trend3",
     "Element": "datapara2",
     "Content": "Likewise, data from Segment also shows high growth of app usage in analytics and data warehousing. This makes sense: Businesses that own their data will be warehousing and analyzing that data, allowing them to make smarter decisions and offer better personalization."
+  },
+  {
+    "Page": "trend3",
+    "Element": "datachartcaption",
+    "Content": "Growth over time in data warehousing and analytics apps usage on Segment"
   },
   {
     "Page": "trend3",
@@ -382,6 +436,26 @@
   },
   {
     "Page": "trend3",
+    "Element": "quad-top-left",
+    "Content": "Percentage of companies that say they're fully prepared for a cookieless world"
+  },
+  {
+    "Page": "trend3",
+    "Element": "quad-top-right",
+    "Content": "Percentage of companies that say they're more reliant on third-party data vs. global average"
+  },
+  {
+    "Page": "trend3",
+    "Element": "quad-bottom-left",
+    "Content": "Percentage of companies that expect a cookieless world will result in lower ROI on ad spend and decreased ability to measure campaign efficacy"
+  },
+  {
+    "Page": "trend3",
+    "Element": "quad-bottom-right",
+    "Content": "Percentage of consumers who feel companie should use only first-party data"
+  },
+  {
+    "Page": "trend3",
     "Element": "spotlightname",
     "Content": "Nubank: Fintech Trailblazer Sets Standard with Digital-First Approach"
   },
@@ -393,7 +467,7 @@
   {
     "Page": "trend4",
     "Element": "headline",
-    "Content": "Consumers don’t <br>trust companies <br>with their data."
+    "Content": "Closing the <br>consumer and business <br>trust gap."
   },
   {
     "Page": "trend4",
@@ -408,7 +482,7 @@
   {
     "Page": "trend4",
     "Element": "descriptivepara1",
-    "Content": "There is a clear trust gap around the issues of data and privacy. Brands think they’re doing a good job with privacy and data security, but consumers beg to differ. Our research shows that while 95% of B2C companies believe consumers trust them to protect their data, only 65% of consumers actually trust the brands they do business with."
+    "Content": "There is a clear trust gap around the issues of data and privacy. Brands say they're making a strong effort with privacy and data security, but consumers want companies to do even more. Our research shows that while 95% of B2C companies believe consumers trust them to protect their data, only 65% of consumers actually trust the brands they do business with."
   },
   {
     "Page": "trend4",
@@ -417,8 +491,8 @@
   },
   {
     "Page": "trend4",
-    "Element": "descriptivepara3",
-    "Content": "The rise of CDP means that companies are now much better placed to protect customer data than they have been previously. Consensual data usage and the assurance of data protection are paramount."
+    "Element": "introchartcaption",
+    "Content": "Companies that say their consumers demand greater privacy, compared with consumers who say they want companies to do more to protect their privacy"
   },
   {
     "Page": "trend4",
@@ -433,12 +507,17 @@
   {
     "Page": "trend4",
     "Element": "datapara1",
-    "Content": "When it comes to customer engagement, Twilio’s data clearly shows that email, messaging and voice are still the most popular channels for communications between customers and companies. Email covered 83.8% of interactions, with messaging at 8.4% and voice calls at 5.6%. These figures are broadly similar to previous years, pointing towards a consumer landscape that remains comfortable with the dominant modes of communication of the day."
+    "Content": "When it comes to customer engagement data, Twilio’s data clearly shows that email, messaging and voice are still the most popular channels for communications between customers and companies. Email covered 83.8% of interactions, with messaging at 8.4% and voice calls at 5.6%. These figures are broadly similar to previous years, pointing towards a consumer landscape that remains comfortable with the dominant modes of communication of the day."
   },
   {
     "Page": "trend4",
     "Element": "datapara2",
     "Content": "Look under the surface, however, and there are signs of strong growth in video, Flex (Twilio’s cloud contact center tool) and wireless (Twilio’s tool for controlling, measuring and analyzing cellular connectivity) when engaging with customers. These more future-focused approaches show that some consumers are becoming more comfortable with changes in how they contact brands."
+  },
+  {
+    "Page": "trend4",
+    "Element": "datachartcaption",
+    "Content": "Inbound and outbound messaging on the Twilio platform. The low inbound figures shows there's room to grow with engagement"
   },
   {
     "Page": "trend4",
@@ -448,7 +527,7 @@
   {
     "Page": "trend4",
     "Element": "subtitlepara1",
-    "Content": "Globally, 50% of consumers are demanding greater privacy measures from B2C companies. However, in Latin American countries, a higher than average proportion are demanding such action from brands. Despite this, 31% of Brazilian consumers say they have a high level of trust in brands to protect their privacy, with 41% in Mexico saying the same, vs. the global average of 23%."
+    "Content": "Globally, 71% of consumers are demanding greater privacy and transparency from B2C companies. In Latin American countries, a higher than average proportion are demanding such action from brands. Despite this, 31% of Brazilian consumers say they have a high level of trust in brands to protect their privacy, with 41% in Mexico saying the same, vs. the global average of 23%."
   },
   {
     "Page": "trend4",
@@ -462,13 +541,33 @@
   },
   {
     "Page": "trend4",
+    "Element": "quad-top-left",
+    "Content": "Percentage of companies that say their consumers demand greater privacy vs. consumers who say they want companies to do more to protect their privacy"
+  },
+  {
+    "Page": "trend4",
+    "Element": "quad-top-right",
+    "Content": "Percentage of consumers with very low, moderately low, and slight ylow level of trust that companies will take various privacy-related actions"
+  },
+  {
+    "Page": "trend4",
+    "Element": "quad-bottom-left",
+    "Content": "Percentage of consumers frustrated by inconsistent digital experiences with brands"
+  },
+  {
+    "Page": "trend4",
+    "Element": "quad-bottom-right",
+    "Content": "Percentage of companies that say consumers will stop purchasing their products if they don't meet their data privacy requirements"
+  },
+  {
+    "Page": "trend4",
     "Element": "spotlightname",
     "Content": "The Trevor Project: Texting to Save Lives"
   },
   {
     "Page": "trend4",
     "Element": "spotlightpara1",
-    "Content": "All organizations seek to respond rapidly to the people they serve. But for the Trevor Project, a non-profit suicide prevention effort focused on helping LGBTQ youth, lives literally depend on the organization’s ability to rapidly connect people with help. Amit Paley, the Trevor Project’s CEO, partnered with Twilio to build an automated system that parses incoming texts and flags any messages from people at high risk. The system trimmed 10 seconds off each interaction and 10 minutes off each text conversation. Bottom line? “Every single person we talk to is getting the help they need faster,” Amit said."
+    "Content": "All organizations seek to respond rapidly to the people they serve. But for the Trevor Project, a suicide prevention and crisis intervention organization focused on helping LGBTQ youth, lives literally depend on the organization’s ability to rapidly connect people with help. Amit Paley, the Trevor Project’s CEO and Executive Director, oversaw a partnership with Twilio to build an automated system that parses incoming texts and flags any messages from people at high risk. The system trimmed 10 seconds off each interaction and 10 minutes off each text conversation. Bottom line? “Every single person we talk to is getting the help they need faster,” Amit said."
   },
   {
     "Page": "trend5",
@@ -488,27 +587,22 @@
   {
     "Page": "trend5",
     "Element": "descriptivepara1",
-    "Content": "Digital fatigue is a real issue, although smart companies can turn it to their advantage by creating more meaningful engagements with their customers, prioritizing quality of interactions over quantity."
+    "Content": "Digital fatigue is a growing problem. On average, 35% of consumers globally say they have experienced digital fatigue in the past 30 days. While just 21% of baby boomers say they have faced digital fatigue in the previous month, that rises to 42% among millennials and 47% among Generation Z. When almost half of the growth demographics say they’re getting tired of digital life, there is a clear and pressing need to address this problem head-on."
   },
   {
     "Page": "trend5",
     "Element": "descriptivepara2",
-    "Content": "On average, 35% of consumers globally say they have experienced digital fatigue in the past 30 days. While just 21% of baby boomers say they have faced digital fatigue in the previous month, that rises to 42% among millennials and 47% among Generation Z."
-  },
-  {
-    "Page": "trend5",
-    "Element": "descriptivepara3",
-    "Content": "When almost half of the growth demographics say they’re getting tired of digital life, there is a clear and pressing need to address this problem head-on."
-  },
-  {
-    "Page": "trend5",
-    "Element": "descriptivepara4",
     "Content": "Frustrating customer support experiences may be contributing to the problem. 56% of consumers say they would stop doing business with a company after a poor interaction. 18% say they would rather lose the internet for a day than speak with a company’s support team."
   },
   {
     "Page": "trend5",
-    "Element": "descriptivepara5",
+    "Element": "descriptivepara3",
     "Content": "Through careful use of data and personalization, companies can create more meaningful ways to interact with consumers, fostering loyalty as a result. This means minimizing needless contacts and instead focusing on what matters to customers."
+  },
+  {
+    "Page": "trend5",
+    "Element": "introchartcaption",
+    "Content": "Percentage of consumers who say they've experienced digital fatigue in the past month"
   },
   {
     "Page": "trend5",
@@ -529,6 +623,11 @@
     "Page": "trend5",
     "Element": "datapara2",
     "Content": "This slight decrease in growth highlights the need to develop new ways of engaging that put the consumer first, using personalization and placing meaningful connections at the forefront of digital customer engagement."
+  },
+  {
+    "Page": "trend5",
+    "Element": "datachartcaption",
+    "Content": "Year-over-year growth in digital interactions on the Twilio platform in 2021"
   },
   {
     "Page": "trend5",
@@ -557,12 +656,32 @@
   },
   {
     "Page": "trend5",
+    "Element": "quad-top-left",
+    "Content": "Percentage of consumers who say they've suffered from digital fatigue in the past 30 days"
+  },
+  {
+    "Page": "trend5",
+    "Element": "quad-top-right",
+    "Content": "Percentage of consumers say that they will stop doing business with a company after frustrating customer support experiences"
+  },
+  {
+    "Page": "trend5",
+    "Element": "quad-bottom-left",
+    "Content": "Percentage of consumers who would rather lose internet for a day, go through airport security or shave their head than call customer support"
+  },
+  {
+    "Page": "trend5",
+    "Element": "quad-bottom-right",
+    "Content": "Level of trust that companies believe consumers have in the brand's ability to honor their communications preferences"
+  },
+  {
+    "Page": "trend5",
     "Element": "spotlightname",
     "Content": "Electrolux: Rapid Contact Center Replacement in a Crisis"
   },
   {
     "Page": "trend5",
     "Element": "spotlightpara1",
-    "Content": "Electrolux managers found themselves responding to a painful one-two punch. First, a lightning bolt had struck their Malaysia-based contact center and disabled vital systems. Second, because of COVID-19, the government wouldn’t allow the century-old home-appliance manufacturer to send local technicians into the facility to make repairs. Shane Rose and his team reacted quickly: They issued a new toll-free customer support number and shifted the center’s operations to Twilio — all in less than 24 hours. Their fast thinking and Twilio’s technology enabled the contact center to remain operating with zero downtime. Shane described it as “A truly amazing effort.” "
+    "Content": "Electrolux managers found themselves responding to a painful one-two punch. First, a lightning bolt had struck their Malaysia-based contact center and disabled vital systems. Second, because of COVID-19, the government wouldn’t allow the century-old home-appliance manufacturer to send local technicians into the facility to make repairs. Shane Rose and his team reacted quickly: They issued a new toll-free customer support number and shifted the center’s operations to Twilio — all in less than 24 hours. Their fast thinking and Twilio’s technology enabled the contact center to remain operating with zero downtime. Shane described it as “A truly amazing effort.”"
   }
 ]

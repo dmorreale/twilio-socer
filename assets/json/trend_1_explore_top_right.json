@@ -1,83 +1,79 @@
 [
   {
-    "Caption": "Country",
-    "Number of years the pandemic accelerated digital transformation": "Years"
+    "Country": "Australia",
+    "Years": "8"
   },
   {
-    "Caption": "Australia",
-    "Number of years the pandemic accelerated digital transformation": "8"
+    "Country": "Brazil",
+    "Years": "5.2"
   },
   {
-    "Caption": "Brazil",
-    "Number of years the pandemic accelerated digital transformation": "5.2"
+    "Country": "Columbia",
+    "Years": "7.2"
   },
   {
-    "Caption": "Columbia",
-    "Number of years the pandemic accelerated digital transformation": "7.2"
+    "Country": "France",
+    "Years": "6.1"
   },
   {
-    "Caption": "France",
-    "Number of years the pandemic accelerated digital transformation": "6.1"
+    "Country": "Germany",
+    "Years": "6.4"
   },
   {
-    "Caption": "Germany",
-    "Number of years the pandemic accelerated digital transformation": "6.4"
+    "Country": "Global",
+    "Years": "6.5"
   },
   {
-    "Caption": "Global",
-    "Number of years the pandemic accelerated digital transformation": "6.5"
+    "Country": "Italy",
+    "Years": "7.2"
   },
   {
-    "Caption": "Italy",
-    "Number of years the pandemic accelerated digital transformation": "7.2"
+    "Country": "Japan",
+    "Years": "6.2"
   },
   {
-    "Caption": "Japan",
-    "Number of years the pandemic accelerated digital transformation": "6.2"
+    "Country": "Mexico",
+    "Years": "5.8"
   },
   {
-    "Caption": "Mexico",
-    "Number of years the pandemic accelerated digital transformation": "5.8"
+    "Country": "Singapore",
+    "Years": "6.8"
   },
   {
-    "Caption": "Singapore",
-    "Number of years the pandemic accelerated digital transformation": "6.8"
+    "Country": "Spain",
+    "Years": "6.8"
   },
   {
-    "Caption": "Spain",
-    "Number of years the pandemic accelerated digital transformation": "6.8"
+    "Country": "United Kingdom",
+    "Years": "6.7"
   },
   {
-    "Caption": "United Kingdom",
-    "Number of years the pandemic accelerated digital transformation": "6.7"
-  },
-  {
-    "Caption": "United States",
-    "Number of years the pandemic accelerated digital transformation": "6"
+    "Country": "United States",
+    "Years": "6"
   },
   {},
   {
-    "Caption": "Region",
-    "Number of years the pandemic accelerated digital transformation": "Years"
+    "Country": "Region",
+    "Years": "Years"
   },
   {
-    "Caption": "Global",
-    "Number of years the pandemic accelerated digital transformation": "6.5"
+    "Country": "Global",
+    "Years": "6.5"
   },
   {
-    "Caption": "United States",
-    "Number of years the pandemic accelerated digital transformation": "6"
+    "Country": "United States",
+    "Years": "6"
   },
   {
-    "Caption": "Asia Pacific/Japan",
-    "Number of years the pandemic accelerated digital transformation": "7"
+    "Country": "Asia Pacific/Japan",
+    "Years": "7"
   },
   {
-    "Caption": "Europe",
-    "Number of years the pandemic accelerated digital transformation": "6.6"
+    "Country": "Europe",
+    "Years": "6.6"
   },
   {
-    "Caption": "Latin America",
-    "Number of years the pandemic accelerated digital transformation": "6"
+    "Country": "Latin America",
+    "Years": "6"
   }
 ]

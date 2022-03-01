@@ -1,83 +1,79 @@
 [
   {
-    "Caption": "Country",
-    "Percentage of consumers who say they've suffered from digital fatigue in the past 30 days": "Percentage"
+    "Country": "Australia",
+    "Percentage": "36%"
   },
   {
-    "Caption": "Australia",
-    "Percentage of consumers who say they've suffered from digital fatigue in the past 30 days": "36%"
+    "Country": "Brazil",
+    "Percentage": "48%"
   },
   {
-    "Caption": "Brazil",
-    "Percentage of consumers who say they've suffered from digital fatigue in the past 30 days": "48%"
+    "Country": "Columbia",
+    "Percentage": "45%"
   },
   {
-    "Caption": "Columbia",
-    "Percentage of consumers who say they've suffered from digital fatigue in the past 30 days": "45%"
+    "Country": "France",
+    "Percentage": "51%"
   },
   {
-    "Caption": "France",
-    "Percentage of consumers who say they've suffered from digital fatigue in the past 30 days": "51%"
+    "Country": "Germany",
+    "Percentage": "43%"
   },
   {
-    "Caption": "Germany",
-    "Percentage of consumers who say they've suffered from digital fatigue in the past 30 days": "43%"
+    "Country": "Global",
+    "Percentage": "40%"
   },
   {
-    "Caption": "Global",
-    "Percentage of consumers who say they've suffered from digital fatigue in the past 30 days": "40%"
+    "Country": "Italy",
+    "Percentage": "31%"
   },
   {
-    "Caption": "Italy",
-    "Percentage of consumers who say they've suffered from digital fatigue in the past 30 days": "31%"
+    "Country": "Japan",
+    "Percentage": "47%"
   },
   {
-    "Caption": "Japan",
-    "Percentage of consumers who say they've suffered from digital fatigue in the past 30 days": "47%"
+    "Country": "Mexico",
+    "Percentage": "41%"
   },
   {
-    "Caption": "Mexico",
-    "Percentage of consumers who say they've suffered from digital fatigue in the past 30 days": "41%"
+    "Country": "Singapore",
+    "Percentage": "44%"
   },
   {
-    "Caption": "Singapore",
-    "Percentage of consumers who say they've suffered from digital fatigue in the past 30 days": "44%"
+    "Country": "Spain",
+    "Percentage": "39%"
   },
   {
-    "Caption": "Spain",
-    "Percentage of consumers who say they've suffered from digital fatigue in the past 30 days": "39%"
+    "Country": "United Kingdom",
+    "Percentage": "33%"
   },
   {
-    "Caption": "United Kingdom",
-    "Percentage of consumers who say they've suffered from digital fatigue in the past 30 days": "33%"
-  },
-  {
-    "Caption": "United States",
-    "Percentage of consumers who say they've suffered from digital fatigue in the past 30 days": "37%"
+    "Country": "United States",
+    "Percentage": "37%"
   },
   {},
   {
-    "Caption": "Region",
-    "Percentage of consumers who say they've suffered from digital fatigue in the past 30 days": "Percentage"
+    "Country": "Region",
+    "Percentage": "Percentage"
   },
   {
-    "Caption": "Global",
-    "Percentage of consumers who say they've suffered from digital fatigue in the past 30 days": "40%"
+    "Country": "Global",
+    "Percentage": "40%"
   },
   {
-    "Caption": "North America",
-    "Percentage of consumers who say they've suffered from digital fatigue in the past 30 days": "37%"
+    "Country": "North America",
+    "Percentage": "37%"
   },
   {
-    "Caption": "Asia Pacific/Japan",
-    "Percentage of consumers who say they've suffered from digital fatigue in the past 30 days": "42%"
+    "Country": "Asia Pacific/Japan",
+    "Percentage": "42%"
   },
   {
-    "Caption": "Europe",
-    "Percentage of consumers who say they've suffered from digital fatigue in the past 30 days": "38%"
+    "Country": "Europe",
+    "Percentage": "38%"
   },
   {
-    "Caption": "Latin America",
-    "Percentage of consumers who say they've suffered from digital fatigue in the past 30 days": "41%"
+    "Country": "Latin America",
+    "Percentage": "41%"
   }
 ]
