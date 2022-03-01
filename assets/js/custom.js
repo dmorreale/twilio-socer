@@ -103,13 +103,13 @@ $(document).ready(async function () {
     }
   )
   await $.getJSON(
-    `../../json/by_row/trend_${trendNum}_explore_top_left.json`,
+    `../../json/by_row/trend_${trendNum}_explore_bottom_right.json`,
     (data) => {
       br = data
     }
   )
 
-  updateChartGroup('Global', tl, tr, bl)
+  updateChartGroup('Global', tl, tr, bl, br)
 
   function adjustOverlappingGrid() {
     $('.bg-grid-overlap').each(function () {
@@ -139,12 +139,12 @@ $(document).ready(async function () {
       })
 
       $parent.find('> A').text(val)
-      updateChartGroup(val, tl, tr, bl)
+      updateChartGroup(val, tl, tr, bl, br)
     }
   })
 })
 
-function updateChartGroup(val, tl, tr, bl) {
+function updateChartGroup(val, tl, tr, bl, br) {
   columnChart.updateOptions({
     series: [
       {
@@ -165,6 +165,6 @@ function updateChartGroup(val, tl, tr, bl) {
     series: [parseInt(bl.find((e) => e[0] === val)[1].replace('%', ''))],
   })
   barChart.updateOptions({
-    series: [],
+    series: [{data: br.filter(el => el[0] === val).map(el => parseInt(el[2]))}],
   })
 }
