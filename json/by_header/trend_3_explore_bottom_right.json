@@ -1,83 +1,79 @@
 [
   {
-    "Caption": "Country",
-    "Percentage of consumers who feel companie should use only first-party data": "Percentage"
+    "Country": "Australia",
+    "Percentage": "86%"
   },
   {
-    "Caption": "Australia",
-    "Percentage of consumers who feel companie should use only first-party data": "86%"
+    "Country": "Brazil",
+    "Percentage": "83%"
   },
   {
-    "Caption": "Brazil",
-    "Percentage of consumers who feel companie should use only first-party data": "83%"
+    "Country": "Columbia",
+    "Percentage": "84%"
   },
   {
-    "Caption": "Columbia",
-    "Percentage of consumers who feel companie should use only first-party data": "84%"
+    "Country": "France",
+    "Percentage": "82%"
   },
   {
-    "Caption": "France",
-    "Percentage of consumers who feel companie should use only first-party data": "82%"
+    "Country": "Germany",
+    "Percentage": "83%"
   },
   {
-    "Caption": "Germany",
-    "Percentage of consumers who feel companie should use only first-party data": "83%"
+    "Country": "Global",
+    "Percentage": "85%"
   },
   {
-    "Caption": "Global",
-    "Percentage of consumers who feel companie should use only first-party data": "85%"
+    "Country": "Italy",
+    "Percentage": "82%"
   },
   {
-    "Caption": "Italy",
-    "Percentage of consumers who feel companie should use only first-party data": "82%"
+    "Country": "Japan",
+    "Percentage": "74%"
   },
   {
-    "Caption": "Japan",
-    "Percentage of consumers who feel companie should use only first-party data": "74%"
+    "Country": "Mexico",
+    "Percentage": "88%"
   },
   {
-    "Caption": "Mexico",
-    "Percentage of consumers who feel companie should use only first-party data": "88%"
+    "Country": "Singapore",
+    "Percentage": "88%"
   },
   {
-    "Caption": "Singapore",
-    "Percentage of consumers who feel companie should use only first-party data": "88%"
+    "Country": "Spain",
+    "Percentage": "93%"
   },
   {
-    "Caption": "Spain",
-    "Percentage of consumers who feel companie should use only first-party data": "93%"
+    "Country": "United Kingdom",
+    "Percentage": "86%"
   },
   {
-    "Caption": "United Kingdom",
-    "Percentage of consumers who feel companie should use only first-party data": "86%"
-  },
-  {
-    "Caption": "United States",
-    "Percentage of consumers who feel companie should use only first-party data": "85%"
+    "Country": "United States",
+    "Percentage": "85%"
   },
   {},
   {
-    "Caption": "Region",
-    "Percentage of consumers who feel companie should use only first-party data": "Percentage"
+    "Country": "Region",
+    "Percentage": "Percentage"
   },
   {
-    "Caption": "Global",
-    "Percentage of consumers who feel companie should use only first-party data": "85%"
+    "Country": "Global",
+    "Percentage": "85%"
   },
   {
-    "Caption": "United States",
-    "Percentage of consumers who feel companie should use only first-party data": "85%"
+    "Country": "United States",
+    "Percentage": "85%"
   },
   {
-    "Caption": "Asia Pacific/Japan",
-    "Percentage of consumers who feel companie should use only first-party data": "83%"
+    "Country": "Asia Pacific/Japan",
+    "Percentage": "83%"
   },
   {
-    "Caption": "Europe",
-    "Percentage of consumers who feel companie should use only first-party data": "85%"
+    "Country": "Europe",
+    "Percentage": "85%"
   },
   {
-    "Caption": "Latin America",
-    "Percentage of consumers who feel companie should use only first-party data": "85%"
+    "Country": "Latin America",
+    "Percentage": "85%"
   }
 ]

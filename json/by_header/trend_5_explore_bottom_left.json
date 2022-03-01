@@ -1,83 +1,79 @@
 [
   {
-    "Caption": "Country",
-    "Percentage of consumers who would rather lose internet for a day, go through airport security or shave their head than call customer support": "Percentage"
+    "Country": "Australia",
+    "Percentage": "43%"
   },
   {
-    "Caption": "Australia",
-    "Percentage of consumers who would rather lose internet for a day, go through airport security or shave their head than call customer support": "43%"
+    "Country": "Brazil",
+    "Percentage": "52%"
   },
   {
-    "Caption": "Brazil",
-    "Percentage of consumers who would rather lose internet for a day, go through airport security or shave their head than call customer support": "52%"
+    "Country": "Columbia",
+    "Percentage": "49%"
   },
   {
-    "Caption": "Columbia",
-    "Percentage of consumers who would rather lose internet for a day, go through airport security or shave their head than call customer support": "49%"
+    "Country": "France",
+    "Percentage": "31%"
   },
   {
-    "Caption": "France",
-    "Percentage of consumers who would rather lose internet for a day, go through airport security or shave their head than call customer support": "31%"
+    "Country": "Germany",
+    "Percentage": "42%"
   },
   {
-    "Caption": "Germany",
-    "Percentage of consumers who would rather lose internet for a day, go through airport security or shave their head than call customer support": "42%"
+    "Country": "Global",
+    "Percentage": "43%"
   },
   {
-    "Caption": "Global",
-    "Percentage of consumers who would rather lose internet for a day, go through airport security or shave their head than call customer support": "43%"
+    "Country": "Italy",
+    "Percentage": "51%"
   },
   {
-    "Caption": "Italy",
-    "Percentage of consumers who would rather lose internet for a day, go through airport security or shave their head than call customer support": "51%"
+    "Country": "Japan",
+    "Percentage": "22%"
   },
   {
-    "Caption": "Japan",
-    "Percentage of consumers who would rather lose internet for a day, go through airport security or shave their head than call customer support": "22%"
+    "Country": "Mexico",
+    "Percentage": "41%"
   },
   {
-    "Caption": "Mexico",
-    "Percentage of consumers who would rather lose internet for a day, go through airport security or shave their head than call customer support": "41%"
+    "Country": "Singapore",
+    "Percentage": "50%"
   },
   {
-    "Caption": "Singapore",
-    "Percentage of consumers who would rather lose internet for a day, go through airport security or shave their head than call customer support": "50%"
+    "Country": "Spain",
+    "Percentage": "34%"
   },
   {
-    "Caption": "Spain",
-    "Percentage of consumers who would rather lose internet for a day, go through airport security or shave their head than call customer support": "34%"
+    "Country": "United Kingdom",
+    "Percentage": "48%"
   },
   {
-    "Caption": "United Kingdom",
-    "Percentage of consumers who would rather lose internet for a day, go through airport security or shave their head than call customer support": "48%"
-  },
-  {
-    "Caption": "United States",
-    "Percentage of consumers who would rather lose internet for a day, go through airport security or shave their head than call customer support": "48%"
+    "Country": "United States",
+    "Percentage": "48%"
   },
   {},
   {
-    "Caption": "Region",
-    "Percentage of consumers who would rather lose internet for a day, go through airport security or shave their head than call customer support": "Percentage"
+    "Country": "Region",
+    "Percentage": "Percentage"
   },
   {
-    "Caption": "Global",
-    "Percentage of consumers who would rather lose internet for a day, go through airport security or shave their head than call customer support": "43%"
+    "Country": "Global",
+    "Percentage": "43%"
   },
   {
-    "Caption": "North America",
-    "Percentage of consumers who would rather lose internet for a day, go through airport security or shave their head than call customer support": "48%"
+    "Country": "North America",
+    "Percentage": "48%"
   },
   {
-    "Caption": "Asia Pacific/Japan",
-    "Percentage of consumers who would rather lose internet for a day, go through airport security or shave their head than call customer support": "38%"
+    "Country": "Asia Pacific/Japan",
+    "Percentage": "38%"
   },
   {
-    "Caption": "Europe",
-    "Percentage of consumers who would rather lose internet for a day, go through airport security or shave their head than call customer support": "41%"
+    "Country": "Europe",
+    "Percentage": "41%"
   },
   {
-    "Caption": "Latin America",
-    "Percentage of consumers who would rather lose internet for a day, go through airport security or shave their head than call customer support": "47%"
+    "Country": "Latin America",
+    "Percentage": "47%"
   }
 ]

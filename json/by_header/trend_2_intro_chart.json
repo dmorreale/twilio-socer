@@ -1,26 +1,27 @@
 [
   {
-    "Caption": "Rating",
-    "How well companies rate their personalization vs how well consumers rate it": "Companies"
+    "Rating": "Bad",
+    "Companies": "1%",
+    "Consumers": "1%"
   },
   {
-    "Caption": "Bad",
-    "How well companies rate their personalization vs how well consumers rate it": "1%"
+    "Rating": "Poor",
+    "Companies": "5%",
+    "Consumers": "5%"
   },
   {
-    "Caption": "Poor",
-    "How well companies rate their personalization vs how well consumers rate it": "5%"
+    "Rating": "Average",
+    "Companies": "19%",
+    "Consumers": "46%"
   },
   {
-    "Caption": "Average",
-    "How well companies rate their personalization vs how well consumers rate it": "19%"
+    "Rating": "Good",
+    "Companies": "48%",
+    "Consumers": "41%"
   },
   {
-    "Caption": "Good",
-    "How well companies rate their personalization vs how well consumers rate it": "48%"
-  },
-  {
-    "Caption": "Excellent",
-    "How well companies rate their personalization vs how well consumers rate it": "27%"
+    "Rating": "Excellent",
+    "Companies": "27%",
+    "Consumers": "7%"
   }
 ]

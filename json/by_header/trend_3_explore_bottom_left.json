@@ -1,83 +1,79 @@
 [
   {
-    "Caption": "Country",
-    "Percentage of companies that expect a cookieless world will result in lower ROI on ad spend and decreased ability to measure campaign efficacy": "Percentage"
+    "Country": "Australia",
+    "Percentage": "87%"
   },
   {
-    "Caption": "Australia",
-    "Percentage of companies that expect a cookieless world will result in lower ROI on ad spend and decreased ability to measure campaign efficacy": "87%"
+    "Country": "Brazil",
+    "Percentage": "85%"
   },
   {
-    "Caption": "Brazil",
-    "Percentage of companies that expect a cookieless world will result in lower ROI on ad spend and decreased ability to measure campaign efficacy": "85%"
+    "Country": "Columbia",
+    "Percentage": "88%"
   },
   {
-    "Caption": "Columbia",
-    "Percentage of companies that expect a cookieless world will result in lower ROI on ad spend and decreased ability to measure campaign efficacy": "88%"
+    "Country": "France",
+    "Percentage": "81%"
   },
   {
-    "Caption": "France",
-    "Percentage of companies that expect a cookieless world will result in lower ROI on ad spend and decreased ability to measure campaign efficacy": "81%"
+    "Country": "Germany",
+    "Percentage": "99%"
   },
   {
-    "Caption": "Germany",
-    "Percentage of companies that expect a cookieless world will result in lower ROI on ad spend and decreased ability to measure campaign efficacy": "99%"
+    "Country": "Global",
+    "Percentage": "84%"
   },
   {
-    "Caption": "Global",
-    "Percentage of companies that expect a cookieless world will result in lower ROI on ad spend and decreased ability to measure campaign efficacy": "84%"
+    "Country": "Italy",
+    "Percentage": "68%"
   },
   {
-    "Caption": "Italy",
-    "Percentage of companies that expect a cookieless world will result in lower ROI on ad spend and decreased ability to measure campaign efficacy": "68%"
+    "Country": "Japan",
+    "Percentage": "76%"
   },
   {
-    "Caption": "Japan",
-    "Percentage of companies that expect a cookieless world will result in lower ROI on ad spend and decreased ability to measure campaign efficacy": "76%"
+    "Country": "Mexico",
+    "Percentage": "92%"
   },
   {
-    "Caption": "Mexico",
-    "Percentage of companies that expect a cookieless world will result in lower ROI on ad spend and decreased ability to measure campaign efficacy": "92%"
+    "Country": "Singapore",
+    "Percentage": "96%"
   },
   {
-    "Caption": "Singapore",
-    "Percentage of companies that expect a cookieless world will result in lower ROI on ad spend and decreased ability to measure campaign efficacy": "96%"
+    "Country": "Spain",
+    "Percentage": "90%"
   },
   {
-    "Caption": "Spain",
-    "Percentage of companies that expect a cookieless world will result in lower ROI on ad spend and decreased ability to measure campaign efficacy": "90%"
+    "Country": "United Kingdom",
+    "Percentage": "98%"
   },
   {
-    "Caption": "United Kingdom",
-    "Percentage of companies that expect a cookieless world will result in lower ROI on ad spend and decreased ability to measure campaign efficacy": "98%"
-  },
-  {
-    "Caption": "United States",
-    "Percentage of companies that expect a cookieless world will result in lower ROI on ad spend and decreased ability to measure campaign efficacy": "68%"
+    "Country": "United States",
+    "Percentage": "68%"
   },
   {},
   {
-    "Caption": "Region",
-    "Percentage of companies that expect a cookieless world will result in lower ROI on ad spend and decreased ability to measure campaign efficacy": "Percentage"
+    "Country": "Region",
+    "Percentage": "Percentage"
   },
   {
-    "Caption": "Global",
-    "Percentage of companies that expect a cookieless world will result in lower ROI on ad spend and decreased ability to measure campaign efficacy": "84%"
+    "Country": "Global",
+    "Percentage": "84%"
   },
   {
-    "Caption": "United States",
-    "Percentage of companies that expect a cookieless world will result in lower ROI on ad spend and decreased ability to measure campaign efficacy": "68%"
+    "Country": "United States",
+    "Percentage": "68%"
   },
   {
-    "Caption": "Asia Pacific/Japan",
-    "Percentage of companies that expect a cookieless world will result in lower ROI on ad spend and decreased ability to measure campaign efficacy": "86%"
+    "Country": "Asia Pacific/Japan",
+    "Percentage": "86%"
   },
   {
-    "Caption": "Europe",
-    "Percentage of companies that expect a cookieless world will result in lower ROI on ad spend and decreased ability to measure campaign efficacy": "87%"
+    "Country": "Europe",
+    "Percentage": "87%"
   },
   {
-    "Caption": "Latin America",
-    "Percentage of companies that expect a cookieless world will result in lower ROI on ad spend and decreased ability to measure campaign efficacy": "80%"
+    "Country": "Latin America",
+    "Percentage": "80%"
   }
 ]

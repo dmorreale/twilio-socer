@@ -1,59 +1,122 @@
 [
   {
-    "Caption": "Regions",
-    "Level of trust that companies believe consumers have in the brand's ability to honor their communications preferences": "Asia-Pacific/Japan"
+    "Regions": "Very high",
+    "Asia-Pacific/Japan": "38%",
+    "Europe": "43%",
+    "Latin America": "50%",
+    "Global": "44%",
+    "North America": "45%",
+    "Australia": "52%",
+    "Brazil": "60%",
+    "Columbia": "49%",
+    "France": "37%",
+    "Germany": "43%",
+    "Italy": "44%",
+    "Japan": "23%",
+    "Mexico": "50%",
+    "Singapore": "41%",
+    "Spain": "55%",
+    "United Kingdom": "40%",
+    "United States": "45%"
   },
   {
-    "Caption": "Very high",
-    "Level of trust that companies believe consumers have in the brand's ability to honor their communications preferences": "38%"
+    "Regions": "Moderately high",
+    "Asia-Pacific/Japan": "35%",
+    "Europe": "40%",
+    "Latin America": "35%",
+    "Global": "37%",
+    "North America": "38%",
+    "Australia": "34%",
+    "Brazil": "31%",
+    "Columbia": "36%",
+    "France": "39%",
+    "Germany": "37%",
+    "Italy": "42%",
+    "Japan": "37%",
+    "Mexico": "32%",
+    "Singapore": "34%",
+    "Spain": "37%",
+    "United Kingdom": "42%",
+    "United States": "38%"
   },
   {
-    "Caption": "Moderately high",
-    "Level of trust that companies believe consumers have in the brand's ability to honor their communications preferences": "35%"
+    "Regions": "Slightly high",
+    "Asia-Pacific/Japan": "18%",
+    "Europe": "13%",
+    "Latin America": "11%",
+    "Global": "13%",
+    "North America": "11%",
+    "Australia": "11%",
+    "Brazil": "8%",
+    "Columbia": "13%",
+    "France": "17%",
+    "Germany": "15%",
+    "Italy": "9%",
+    "Japan": "22%",
+    "Mexico": "13%",
+    "Singapore": "19%",
+    "Spain": "6%",
+    "United Kingdom": "15%",
+    "United States": "11%"
   },
   {
-    "Caption": "Slightly high",
-    "Level of trust that companies believe consumers have in the brand's ability to honor their communications preferences": "18%"
+    "Regions": "Slightly low",
+    "Asia-Pacific/Japan": "4%",
+    "Europe": "2%",
+    "Latin America": "2%",
+    "Global": "2%",
+    "North America": "2%",
+    "Australia": "2%",
+    "Brazil": "0%",
+    "Columbia": "2%",
+    "France": "2%",
+    "Germany": "2%",
+    "Italy": "4%",
+    "Japan": "5%",
+    "Mexico": "4%",
+    "Singapore": "3%",
+    "Spain": "2%",
+    "United Kingdom": "1%",
+    "United States": "2%"
   },
   {
-    "Caption": "Slightly low",
-    "Level of trust that companies believe consumers have in the brand's ability to honor their communications preferences": "4%"
+    "Regions": "Moderately low",
+    "Asia-Pacific/Japan": "2%",
+    "Europe": "1%",
+    "Latin America": "1%",
+    "Global": "1%",
+    "North America": "2%",
+    "Australia": "0%",
+    "Brazil": "1%",
+    "Columbia": "1%",
+    "France": "3%",
+    "Germany": "1%",
+    "Italy": "0%",
+    "Japan": "3%",
+    "Mexico": "1%",
+    "Singapore": "2%",
+    "Spain": "1%",
+    "United Kingdom": "1%",
+    "United States": "2%"
   },
   {
-    "Caption": "Moderately low",
-    "Level of trust that companies believe consumers have in the brand's ability to honor their communications preferences": "2%"
-  },
-  {
-    "Caption": "Very low",
-    "Level of trust that companies believe consumers have in the brand's ability to honor their communications preferences": "1%"
-  },
-  {},
-  {
-    "Caption": "Countries",
-    "Level of trust that companies believe consumers have in the brand's ability to honor their communications preferences": "Australia"
-  },
-  {
-    "Caption": "Very high",
-    "Level of trust that companies believe consumers have in the brand's ability to honor their communications preferences": "52%"
-  },
-  {
-    "Caption": "Moderately high",
-    "Level of trust that companies believe consumers have in the brand's ability to honor their communications preferences": "34%"
-  },
-  {
-    "Caption": "Slightly high",
-    "Level of trust that companies believe consumers have in the brand's ability to honor their communications preferences": "11%"
-  },
-  {
-    "Caption": "Slightly low",
-    "Level of trust that companies believe consumers have in the brand's ability to honor their communications preferences": "2%"
-  },
-  {
-    "Caption": "Moderately low",
-    "Level of trust that companies believe consumers have in the brand's ability to honor their communications preferences": "0%"
-  },
-  {
-    "Caption": "Very low",
-    "Level of trust that companies believe consumers have in the brand's ability to honor their communications preferences": "0%"
+    "Regions": "Very low",
+    "Asia-Pacific/Japan": "1%",
+    "Europe": "1%",
+    "Latin America": "0%",
+    "Global": "1%",
+    "North America": "0%",
+    "Australia": "0%",
+    "Brazil": "0%",
+    "Columbia": "0%",
+    "France": "1%",
+    "Germany": "0%",
+    "Italy": "1%",
+    "Japan": "3%",
+    "Mexico": "0%",
+    "Singapore": "0%",
+    "Spain": "1%",
+    "United Kingdom": "0%",
+    "United States": "0%"
   }
 ]

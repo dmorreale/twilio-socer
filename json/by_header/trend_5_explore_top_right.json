@@ -1,83 +1,79 @@
 [
   {
-    "Caption": "Country",
-    "Percentage of consumers say that they will stop doing business with a company after frustrating customer support experiences": "Percentage"
+    "Country": "Australia",
+    "Percentage": "52%"
   },
   {
-    "Caption": "Australia",
-    "Percentage of consumers say that they will stop doing business with a company after frustrating customer support experiences": "52%"
+    "Country": "Brazil",
+    "Percentage": "63%"
   },
   {
-    "Caption": "Brazil",
-    "Percentage of consumers say that they will stop doing business with a company after frustrating customer support experiences": "63%"
+    "Country": "Columbia",
+    "Percentage": "60%"
   },
   {
-    "Caption": "Columbia",
-    "Percentage of consumers say that they will stop doing business with a company after frustrating customer support experiences": "60%"
+    "Country": "France",
+    "Percentage": "50%"
   },
   {
-    "Caption": "France",
-    "Percentage of consumers say that they will stop doing business with a company after frustrating customer support experiences": "50%"
+    "Country": "Germany",
+    "Percentage": "50%"
   },
   {
-    "Caption": "Germany",
-    "Percentage of consumers say that they will stop doing business with a company after frustrating customer support experiences": "50%"
+    "Country": "Global",
+    "Percentage": "55%"
   },
   {
-    "Caption": "Global",
-    "Percentage of consumers say that they will stop doing business with a company after frustrating customer support experiences": "55%"
+    "Country": "Italy",
+    "Percentage": "54%"
   },
   {
-    "Caption": "Italy",
-    "Percentage of consumers say that they will stop doing business with a company after frustrating customer support experiences": "54%"
+    "Country": "Japan",
+    "Percentage": "51%"
   },
   {
-    "Caption": "Japan",
-    "Percentage of consumers say that they will stop doing business with a company after frustrating customer support experiences": "51%"
+    "Country": "Mexico",
+    "Percentage": "62%"
   },
   {
-    "Caption": "Mexico",
-    "Percentage of consumers say that they will stop doing business with a company after frustrating customer support experiences": "62%"
+    "Country": "Singapore",
+    "Percentage": "53%"
   },
   {
-    "Caption": "Singapore",
-    "Percentage of consumers say that they will stop doing business with a company after frustrating customer support experiences": "53%"
+    "Country": "Spain",
+    "Percentage": "68%"
   },
   {
-    "Caption": "Spain",
-    "Percentage of consumers say that they will stop doing business with a company after frustrating customer support experiences": "68%"
+    "Country": "United Kingdom",
+    "Percentage": "51%"
   },
   {
-    "Caption": "United Kingdom",
-    "Percentage of consumers say that they will stop doing business with a company after frustrating customer support experiences": "51%"
-  },
-  {
-    "Caption": "United States",
-    "Percentage of consumers say that they will stop doing business with a company after frustrating customer support experiences": "52%"
+    "Country": "United States",
+    "Percentage": "52%"
   },
   {},
   {
-    "Caption": "Region",
-    "Percentage of consumers say that they will stop doing business with a company after frustrating customer support experiences": "Percentage"
+    "Country": "Region",
+    "Percentage": "Percentage"
   },
   {
-    "Caption": "Global",
-    "Percentage of consumers say that they will stop doing business with a company after frustrating customer support experiences": "55%"
+    "Country": "Global",
+    "Percentage": "55%"
   },
   {
-    "Caption": "North America",
-    "Percentage of consumers say that they will stop doing business with a company after frustrating customer support experiences": "52%"
+    "Country": "North America",
+    "Percentage": "52%"
   },
   {
-    "Caption": "Asia Pacific/Japan",
-    "Percentage of consumers say that they will stop doing business with a company after frustrating customer support experiences": "52%"
+    "Country": "Asia Pacific/Japan",
+    "Percentage": "52%"
   },
   {
-    "Caption": "Europe",
-    "Percentage of consumers say that they will stop doing business with a company after frustrating customer support experiences": "55%"
+    "Country": "Europe",
+    "Percentage": "55%"
   },
   {
-    "Caption": "Latin America",
-    "Percentage of consumers say that they will stop doing business with a company after frustrating customer support experiences": "56%"
+    "Country": "Latin America",
+    "Percentage": "56%"
   }
 ]
