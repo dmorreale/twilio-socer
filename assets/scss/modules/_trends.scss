@@ -12,7 +12,7 @@
     }
 
     &--item{
-        padding:106px 40px 97px 40px;
+        padding:106px 40px 90px 40px;
         border-bottom:1px solid $red;
         text-decoration: none;
         color:$dark;
@@ -37,14 +37,13 @@
     }
 
     img{
-        width:80px;
+        width:100px;
         height:auto;
     }
 
-    .read-more{
-        font-size: 16px;
-        line-height: 28px;
-        letter-spacing: 0em;
+    .h5 {
+        text-transform:initial;
+        letter-spacing:.15em;
     }
 
     @media screen and (max-width:1439px)

@@ -731,7 +731,8 @@ body {
     letter-spacing: .1em;
     font-family: "Twilio Sans Mono", sans-serif;
     text-align: center;
-    padding: 12px 23px; }
+    padding: 12px 23px;
+    display: inline-block; }
   .pageWrapper .subhead {
     font-size: 1.875rem;
     line-height: 1.3em;
@@ -912,7 +913,7 @@ body {
     .pageWrapper .bg-grid-overlap {
       display: block;
       position: absolute;
-      background: #FCCFCF url(../images/grid-pattern.svg) repeat center top/cover;
+      background: #FCCFCF url(../images/grid-pattern-light.svg) repeat center top/cover;
       border-top: 1px solid #F22F46;
       border-bottom: 1px solid transparent;
       bottom: 0;
@@ -1265,7 +1266,7 @@ body {
       border-top: 1px solid #F22F46;
       background: #FFF; }
     .pageWrapper .trends--item {
-      padding: 106px 40px 97px 40px;
+      padding: 106px 40px 90px 40px;
       border-bottom: 1px solid #F22F46;
       text-decoration: none;
       color: #121C2D;
@@ -1280,12 +1281,11 @@ body {
     .pageWrapper .trends h5 {
       margin-bottom: 40px; }
     .pageWrapper .trends img {
-      width: 80px;
+      width: 100px;
       height: auto; }
-    .pageWrapper .trends .read-more {
-      font-size: 16px;
-      line-height: 28px;
-      letter-spacing: 0em; }
+    .pageWrapper .trends .h5 {
+      text-transform: initial;
+      letter-spacing: .15em; }
     @media screen and (max-width: 1439px) {
       .pageWrapper .trends--item {
         padding-top: 40px;
@@ -1299,8 +1299,6 @@ body {
       .pageWrapper .trends--item {
         padding-left: 20px;
         padding-right: 20px; } }
-  .pageWrapper .prefooter h5 {
-    margin-bottom: 18px; }
   .pageWrapper .nav {
     background-color: #06033A;
     padding: 39px 0 41px 0; }
