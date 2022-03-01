@@ -1,58 +1,322 @@
 [
   {
-    "Caption": "Regions",
-    "How well companies rate their personalization vs how well consumers rate it": "Asia-Pacific/Japan"
+    "Companies": "",
+    "Consumers": "1%"
   },
   {
-    "Caption": "",
-    "How well companies rate their personalization vs how well consumers rate it": "Companies"
+    "Companies": "8%",
+    "Consumers": "4%"
   },
   {
-    "Caption": "Bad"
+    "Companies": "25%",
+    "Consumers": "52%"
   },
   {
-    "Caption": "Poor",
-    "How well companies rate their personalization vs how well consumers rate it": "8%"
+    "Companies": "46%",
+    "Consumers": "37%"
   },
   {
-    "Caption": "Average",
-    "How well companies rate their personalization vs how well consumers rate it": "25%"
+    "Companies": "20%",
+    "Consumers": "5%"
   },
   {
-    "Caption": "Good",
-    "How well companies rate their personalization vs how well consumers rate it": "46%"
+    "Companies": "2%",
+    "Consumers": "2%"
   },
   {
-    "Caption": "Excellent",
-    "How well companies rate their personalization vs how well consumers rate it": "20%"
-  },
-  {},
-  {
-    "Caption": "Countries",
-    "How well companies rate their personalization vs how well consumers rate it": "Australia"
+    "Companies": "4%",
+    "Consumers": "7%"
   },
   {
-    "Caption": "",
-    "How well companies rate their personalization vs how well consumers rate it": "Companies"
+    "Companies": "18%",
+    "Consumers": "49%"
   },
   {
-    "Caption": "Bad",
-    "How well companies rate their personalization vs how well consumers rate it": "1%"
+    "Companies": "49%",
+    "Consumers": "39%"
   },
   {
-    "Caption": "Poor",
-    "How well companies rate their personalization vs how well consumers rate it": "2%"
+    "Companies": "28%",
+    "Consumers": "4%"
   },
   {
-    "Caption": "Average",
-    "How well companies rate their personalization vs how well consumers rate it": "16%"
+    "Companies": "0%",
+    "Consumers": "1%"
   },
   {
-    "Caption": "Good",
-    "How well companies rate their personalization vs how well consumers rate it": "55%"
+    "Companies": "3%",
+    "Consumers": "5%"
   },
   {
-    "Caption": "Excellent",
-    "How well companies rate their personalization vs how well consumers rate it": "26%"
+    "Companies": "17%",
+    "Consumers": "41%"
+  },
+  {
+    "Companies": "49%",
+    "Consumers": "44%"
+  },
+  {
+    "Companies": "31%",
+    "Consumers": "10%"
+  },
+  {
+    "Companies": "1%",
+    "Consumers": "1%"
+  },
+  {
+    "Companies": "5%",
+    "Consumers": "5%"
+  },
+  {
+    "Companies": "19%",
+    "Consumers": "46%"
+  },
+  {
+    "Companies": "48%",
+    "Consumers": "41%"
+  },
+  {
+    "Companies": "27%",
+    "Consumers": "7%"
+  },
+  {
+    "Companies": "0%",
+    "Consumers": "1%"
+  },
+  {
+    "Companies": "2%",
+    "Consumers": "5%"
+  },
+  {
+    "Companies": "16%",
+    "Consumers": "46%"
+  },
+  {
+    "Companies": "54%",
+    "Consumers": "41%"
+  },
+  {
+    "Companies": "28%",
+    "Consumers": "8%"
+  },
+  {
+    "Companies": "1%",
+    "Consumers": "1%"
+  },
+  {
+    "Companies": "2%",
+    "Consumers": "4%"
+  },
+  {
+    "Companies": "16%",
+    "Consumers": "52%"
+  },
+  {
+    "Companies": "55%",
+    "Consumers": "38%"
+  },
+  {
+    "Companies": "26%",
+    "Consumers": "5%"
+  },
+  {
+    "Companies": "0%",
+    "Consumers": "1%"
+  },
+  {
+    "Companies": "1%",
+    "Consumers": "3%"
+  },
+  {
+    "Companies": "11%",
+    "Consumers": "37%"
+  },
+  {
+    "Companies": "47%",
+    "Consumers": "47%"
+  },
+  {
+    "Companies": "41%",
+    "Consumers": "13%"
+  },
+  {
+    "Companies": "2%",
+    "Consumers": "0%"
+  },
+  {
+    "Companies": "12%",
+    "Consumers": "6%"
+  },
+  {
+    "Companies": "23%",
+    "Consumers": "37%"
+  },
+  {
+    "Companies": "39%",
+    "Consumers": "51%"
+  },
+  {
+    "Companies": "26%",
+    "Consumers": "6%"
+  },
+  {
+    "Companies": "3%",
+    "Consumers": "2%"
+  },
+  {
+    "Companies": "5%",
+    "Consumers": "7%"
+  },
+  {
+    "Companies": "20%",
+    "Consumers": "42%"
+  },
+  {
+    "Companies": "54%",
+    "Consumers": "44%"
+  },
+  {
+    "Companies": "19%",
+    "Consumers": "5%"
+  },
+  {
+    "Companies": "2%",
+    "Consumers": "1%"
+  },
+  {
+    "Companies": "9%",
+    "Consumers": "5%"
+  },
+  {
+    "Companies": "20%",
+    "Consumers": "50%"
+  },
+  {
+    "Companies": "45%",
+    "Consumers": "39%"
+  },
+  {
+    "Companies": "24%",
+    "Consumers": "5%"
+  },
+  {
+    "Companies": "2%",
+    "Consumers": "2%"
+  },
+  {
+    "Companies": "2%",
+    "Consumers": "10%"
+  },
+  {
+    "Companies": "9%",
+    "Consumers": "48%"
+  },
+  {
+    "Companies": "48%",
+    "Consumers": "37%"
+  },
+  {
+    "Companies": "39%",
+    "Consumers": "4%"
+  },
+  {
+    "Companies": "1%",
+    "Consumers": "1%"
+  },
+  {
+    "Companies": "15%",
+    "Consumers": "4%"
+  },
+  {
+    "Companies": "39%",
+    "Consumers": "59%"
+  },
+  {
+    "Companies": "29%",
+    "Consumers": "30%"
+  },
+  {
+    "Companies": "16%",
+    "Consumers": "6%"
+  },
+  {
+    "Companies": "1%",
+    "Consumers": "1%"
+  },
+  {
+    "Companies": "2%",
+    "Consumers": "4%"
+  },
+  {
+    "Companies": "22%",
+    "Consumers": "35%"
+  },
+  {
+    "Companies": "49%",
+    "Consumers": "46%"
+  },
+  {
+    "Companies": "26%",
+    "Consumers": "14%"
+  },
+  {
+    "Companies": "2%",
+    "Consumers": "2%"
+  },
+  {
+    "Companies": "6%",
+    "Consumers": "5%"
+  },
+  {
+    "Companies": "17%",
+    "Consumers": "47%"
+  },
+  {
+    "Companies": "56%",
+    "Consumers": "41%"
+  },
+  {
+    "Companies": "19%",
+    "Consumers": "5%"
+  },
+  {
+    "Companies": "2%",
+    "Consumers": "3%"
+  },
+  {
+    "Companies": "7%",
+    "Consumers": "10%"
+  },
+  {
+    "Companies": "11%",
+    "Consumers": "50%"
+  },
+  {
+    "Companies": "38%",
+    "Consumers": "34%"
+  },
+  {
+    "Companies": "42%",
+    "Consumers": "3%"
+  },
+  {
+    "Companies": "0%",
+    "Consumers": "1%"
+  },
+  {
+    "Companies": "0%",
+    "Consumers": "5%"
+  },
+  {
+    "Companies": "26%",
+    "Consumers": "52%"
+  },
+  {
+    "Companies": "54%",
+    "Consumers": "39%"
+  },
+  {
+    "Companies": "20%",
+    "Consumers": "3%"
   }
 ]

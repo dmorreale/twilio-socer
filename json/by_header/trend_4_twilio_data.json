@@ -1,18 +1,17 @@
 [
   {
-    "Caption": "Year",
-    "Inbound and outbound messaging on the Twilio platform. The low inbound figures shows there's room to grow with engagement": "Outbound"
+    "Year": "2019",
+    "Outbound": "87.4%",
+    "Inbound": "12.6%"
   },
   {
-    "Caption": "2019",
-    "Inbound and outbound messaging on the Twilio platform. The low inbound figures shows there's room to grow with engagement": "87.4%"
+    "Year": "2020",
+    "Outbound": "89.0%",
+    "Inbound": "11.0%"
   },
   {
-    "Caption": "2020",
-    "Inbound and outbound messaging on the Twilio platform. The low inbound figures shows there's room to grow with engagement": "89.0%"
-  },
-  {
-    "Caption": "2021",
-    "Inbound and outbound messaging on the Twilio platform. The low inbound figures shows there's room to grow with engagement": "89.7%"
+    "Year": "2021",
+    "Outbound": "89.7%",
+    "Inbound": "10.3%"
   }
 ]

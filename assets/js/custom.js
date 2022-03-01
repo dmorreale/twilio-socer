@@ -68,14 +68,13 @@ $(document).ready(async function () {
 
   $(document).scroll(function () {
     //var t=$(window).scrollTop();
-
-    $('.leftImageHero').each(function() {
-      var topPosition = $(window).scrollTop() - $(this).offset().top;
-      topPosition = topPosition*(.3);
-      $(this).css('top',topPosition + 'px');
-    });
+	$('.leftImageHero').each(function() {
+		var topPosition = $(window).scrollTop() - $(this).offset().top;
+		topPosition = topPosition*(.3);
+		$(this).css('top',topPosition + 'px');
+	});
   })
-
+	
   $(window).resize(function () {
     adjustOverlappingGrid()
   })
@@ -88,8 +87,6 @@ $(document).ready(async function () {
   }
 
   // load charts
-
-  /*
   const trendNum = $('.regionaldata').attr('data-trendNum')
   let tl, tr, bl, br
   await $.getJSON(
@@ -111,15 +108,20 @@ $(document).ready(async function () {
     }
   )
   await $.getJSON(
-    `../../json/by_row/trend_${trendNum}_explore_top_left.json`,
+    `../../json/by_row/trend_${trendNum}_explore_bottom_right.json`,
     (data) => {
       br = data
     }
   )
+	
+	function scrollTo(destination,duration)
+	{
+	  //var n = destination.offset().top - $('#header').outerHeight(true);
+	  var n = destination.offset().top;
+	  $("body,html").stop().animate({scrollTop:n},duration);
+	}
 
-  updateChartGroup('Global', tl, tr, bl)
-
-  */
+  updateChartGroup('Global', tl, tr, bl, br)
 
   function adjustOverlappingGrid() {
     $('.bg-grid-overlap').each(function () {
@@ -149,23 +151,19 @@ $(document).ready(async function () {
       })
 
       $parent.find('> A').text(val)
-      updateChartGroup(val, tl, tr, bl)
+      updateChartGroup(val, tl, tr, bl, br)
     }
+  })
+	
+  $('.downArrowModule').click(function() {
+	scrollTo($(this).closest('section').next(),1200);
   });
 
-  $('.downArrowModule').click(function() {
-    scrollTo($(this).closest('section').next(),1200);
-  });
 })
 
-function scrollTo(destination,duration)
-{
-  //var n = destination.offset().top - $('#header').outerHeight(true);
-  var n = destination.offset().top;
-  $("body,html").stop().animate({scrollTop:n},duration);
-}
 
-function updateChartGroup(val, tl, tr, bl) {
+
+function updateChartGroup(val, tl, tr, bl, br) {
   columnChart.updateOptions({
     series: [
       {
@@ -186,6 +184,6 @@ function updateChartGroup(val, tl, tr, bl) {
     series: [parseInt(bl.find((e) => e[0] === val)[1].replace('%', ''))],
   })
   barChart.updateOptions({
-    series: [],
+    series: [{data: br.filter(el => el[0] === val).map(el => parseInt(el[2]))}],
   })
 }

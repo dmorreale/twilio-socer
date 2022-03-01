@@ -1,22 +1,18 @@
 [
   {
-    "Caption": "Not at all",
-    "Number of years the pandemic has accelerated companies' digital transformation": "2%"
+    "Not at all": "1-4 years",
+    "2%": "35%"
   },
   {
-    "Caption": "1-4 years",
-    "Number of years the pandemic has accelerated companies' digital transformation": "35%"
+    "Not at all": "5-9 years",
+    "2%": "43%"
   },
   {
-    "Caption": "5-9 years",
-    "Number of years the pandemic has accelerated companies' digital transformation": "43%"
+    "Not at all": "10-14 years",
+    "2%": "17%"
   },
   {
-    "Caption": "10-14 years",
-    "Number of years the pandemic has accelerated companies' digital transformation": "17%"
-  },
-  {
-    "Caption": "15+ years",
-    "Number of years the pandemic has accelerated companies' digital transformation": "30%"
+    "Not at all": "15+ years",
+    "2%": "30%"
   }
 ]

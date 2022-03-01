@@ -1,51 +1,102 @@
 [
   {
-    "Caption": "Regions",
-    "Percentage of consumers with very low, moderately low, and slight ylow level of trust that companies will take various privacy-related actions": "Asia-Pacific/Japan"
+    "Regions": "Protect data privacy",
+    "Asia-Pacific/Japan": "29%",
+    "Europe": "42%",
+    "Latin America": "32%",
+    "Global": "35%",
+    "North America": "34%",
+    "Australia": "33%",
+    "Brazil": "30%",
+    "Columbia": "32%",
+    "France": "47%",
+    "Germany": "41%",
+    "Italy": "44%",
+    "Japan": "27%",
+    "Mexico": "24%",
+    "Singapore": "28%",
+    "Spain": "40%",
+    "United Kingdom": "38%",
+    "United States": "34%"
   },
   {
-    "Caption": "Protect data privacy",
-    "Percentage of consumers with very low, moderately low, and slight ylow level of trust that companies will take various privacy-related actions": "29%"
+    "Regions": "Be transparent about data usage",
+    "Asia-Pacific/Japan": "31%",
+    "Europe": "46%",
+    "Latin America": "33%",
+    "Global": "38%",
+    "North America": "38%",
+    "Australia": "37%",
+    "Brazil": "28%",
+    "Columbia": "32%",
+    "France": "57%",
+    "Germany": "47%",
+    "Italy": "49%",
+    "Japan": "31%",
+    "Mexico": "23%",
+    "Singapore": "26%",
+    "Spain": "43%",
+    "United Kingdom": "39%",
+    "United States": "38%"
   },
   {
-    "Caption": "Be transparent about data usage",
-    "Percentage of consumers with very low, moderately low, and slight ylow level of trust that companies will take various privacy-related actions": "31%"
+    "Regions": "Honor communication preferences",
+    "Asia-Pacific/Japan": "19%",
+    "Europe": "29%",
+    "Latin America": "23%",
+    "Global": "24%",
+    "North America": "25%",
+    "Australia": "23%",
+    "Brazil": "24%",
+    "Columbia": "21%",
+    "France": "37%",
+    "Germany": "34%",
+    "Italy": "25%",
+    "Japan": "23%",
+    "Mexico": "15%",
+    "Singapore": "12%",
+    "Spain": "28%",
+    "United Kingdom": "24%",
+    "United States": "25%"
   },
   {
-    "Caption": "Honor communication preferences",
-    "Percentage of consumers with very low, moderately low, and slight ylow level of trust that companies will take various privacy-related actions": "19%"
+    "Regions": "Personalize engagement",
+    "Asia-Pacific/Japan": "23%",
+    "Europe": "30%",
+    "Latin America": "23%",
+    "Global": "26%",
+    "North America": "27%",
+    "Australia": "27%",
+    "Brazil": "18%",
+    "Columbia": "25%",
+    "France": "34%",
+    "Germany": "35%",
+    "Italy": "27%",
+    "Japan": "29%",
+    "Mexico": "15%",
+    "Singapore": "14%",
+    "Spain": "28%",
+    "United Kingdom": "29%",
+    "United States": "27%"
   },
   {
-    "Caption": "Personalize engagement",
-    "Percentage of consumers with very low, moderately low, and slight ylow level of trust that companies will take various privacy-related actions": "23%"
-  },
-  {
-    "Caption": "Only use first party data",
-    "Percentage of consumers with very low, moderately low, and slight ylow level of trust that companies will take various privacy-related actions": "31%"
-  },
-  {},
-  {
-    "Caption": "Countries",
-    "Percentage of consumers with very low, moderately low, and slight ylow level of trust that companies will take various privacy-related actions": "Australia"
-  },
-  {
-    "Caption": "Protect data privacy",
-    "Percentage of consumers with very low, moderately low, and slight ylow level of trust that companies will take various privacy-related actions": "33%"
-  },
-  {
-    "Caption": "Be transparent about data usage",
-    "Percentage of consumers with very low, moderately low, and slight ylow level of trust that companies will take various privacy-related actions": "37%"
-  },
-  {
-    "Caption": "Honor communication preferences",
-    "Percentage of consumers with very low, moderately low, and slight ylow level of trust that companies will take various privacy-related actions": "23%"
-  },
-  {
-    "Caption": "Personalize engagement",
-    "Percentage of consumers with very low, moderately low, and slight ylow level of trust that companies will take various privacy-related actions": "27%"
-  },
-  {
-    "Caption": "Only use first party data",
-    "Percentage of consumers with very low, moderately low, and slight ylow level of trust that companies will take various privacy-related actions": "40%"
+    "Regions": "Only use first party data",
+    "Asia-Pacific/Japan": "31%",
+    "Europe": "45%",
+    "Latin America": "38%",
+    "Global": "39%",
+    "North America": "42%",
+    "Australia": "40%",
+    "Brazil": "37%",
+    "Columbia": "37%",
+    "France": "55%",
+    "Germany": "47%",
+    "Italy": "47%",
+    "Japan": "30%",
+    "Mexico": "27%",
+    "Singapore": "24%",
+    "Spain": "41%",
+    "United Kingdom": "40%",
+    "United States": "42%"
   }
 ]

@@ -1,83 +1,79 @@
 [
   {
-    "Caption": "Country",
-    "Percentage of companies that say personalization is very or extremely important": "Percentage"
+    "Country": "Australia",
+    "Percentage": "88%"
   },
   {
-    "Caption": "Australia",
-    "Percentage of companies that say personalization is very or extremely important": "88%"
+    "Country": "Brazil",
+    "Percentage": "97%"
   },
   {
-    "Caption": "Brazil",
-    "Percentage of companies that say personalization is very or extremely important": "97%"
+    "Country": "Columbia",
+    "Percentage": "87%"
   },
   {
-    "Caption": "Columbia",
-    "Percentage of companies that say personalization is very or extremely important": "87%"
+    "Country": "France",
+    "Percentage": "91%"
   },
   {
-    "Caption": "France",
-    "Percentage of companies that say personalization is very or extremely important": "91%"
+    "Country": "Germany",
+    "Percentage": "90%"
   },
   {
-    "Caption": "Germany",
-    "Percentage of companies that say personalization is very or extremely important": "90%"
+    "Country": "Global",
+    "Percentage": "89%"
   },
   {
-    "Caption": "Global",
-    "Percentage of companies that say personalization is very or extremely important": "89%"
+    "Country": "Italy",
+    "Percentage": "95%"
   },
   {
-    "Caption": "Italy",
-    "Percentage of companies that say personalization is very or extremely important": "95%"
+    "Country": "Japan",
+    "Percentage": "69%"
   },
   {
-    "Caption": "Japan",
-    "Percentage of companies that say personalization is very or extremely important": "69%"
+    "Country": "Mexico",
+    "Percentage": "92%"
   },
   {
-    "Caption": "Mexico",
-    "Percentage of companies that say personalization is very or extremely important": "92%"
+    "Country": "Singapore",
+    "Percentage": "90%"
   },
   {
-    "Caption": "Singapore",
-    "Percentage of companies that say personalization is very or extremely important": "90%"
+    "Country": "Spain",
+    "Percentage": "92%"
   },
   {
-    "Caption": "Spain",
-    "Percentage of companies that say personalization is very or extremely important": "92%"
+    "Country": "United Kingdom",
+    "Percentage": "88%"
   },
   {
-    "Caption": "United Kingdom",
-    "Percentage of companies that say personalization is very or extremely important": "88%"
-  },
-  {
-    "Caption": "United States",
-    "Percentage of companies that say personalization is very or extremely important": "87%"
+    "Country": "United States",
+    "Percentage": "87%"
   },
   {},
   {
-    "Caption": "Region",
-    "Percentage of companies that say personalization is very or extremely important": "Percentage"
+    "Country": "Region",
+    "Percentage": "Percentage"
   },
   {
-    "Caption": "Global",
-    "Percentage of companies that say personalization is very or extremely important": "89%"
+    "Country": "Global",
+    "Percentage": "89%"
   },
   {
-    "Caption": "United States",
-    "Percentage of companies that say personalization is very or extremely important": "87%"
+    "Country": "United States",
+    "Percentage": "87%"
   },
   {
-    "Caption": "Asia Pacific/Japan",
-    "Percentage of companies that say personalization is very or extremely important": "82%"
+    "Country": "Asia Pacific/Japan",
+    "Percentage": "82%"
   },
   {
-    "Caption": "Europe",
-    "Percentage of companies that say personalization is very or extremely important": "91%"
+    "Country": "Europe",
+    "Percentage": "91%"
   },
   {
-    "Caption": "Latin America",
-    "Percentage of companies that say personalization is very or extremely important": "90%"
+    "Country": "Latin America",
+    "Percentage": "90%"
   }
 ]

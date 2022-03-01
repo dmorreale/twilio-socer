@@ -1,83 +1,79 @@
 [
   {
-    "Caption": "Country",
-    "Percentage of consumers frustrated by inconsistent digital experiences with brands": "Percentage"
+    "Country": "Australia",
+    "Percentage": "46%"
   },
   {
-    "Caption": "Australia",
-    "Percentage of consumers frustrated by inconsistent digital experiences with brands": "46%"
+    "Country": "Brazil",
+    "Percentage": "40%"
   },
   {
-    "Caption": "Brazil",
-    "Percentage of consumers frustrated by inconsistent digital experiences with brands": "40%"
+    "Country": "Columbia",
+    "Percentage": "58%"
   },
   {
-    "Caption": "Columbia",
-    "Percentage of consumers frustrated by inconsistent digital experiences with brands": "58%"
+    "Country": "France",
+    "Percentage": "48%"
   },
   {
-    "Caption": "France",
-    "Percentage of consumers frustrated by inconsistent digital experiences with brands": "48%"
+    "Country": "Germany",
+    "Percentage": "52%"
   },
   {
-    "Caption": "Germany",
-    "Percentage of consumers frustrated by inconsistent digital experiences with brands": "52%"
+    "Country": "Global",
+    "Percentage": "50%"
   },
   {
-    "Caption": "Global",
-    "Percentage of consumers frustrated by inconsistent digital experiences with brands": "50%"
+    "Country": "Italy",
+    "Percentage": "41%"
   },
   {
-    "Caption": "Italy",
-    "Percentage of consumers frustrated by inconsistent digital experiences with brands": "41%"
+    "Country": "Japan",
+    "Percentage": "60%"
   },
   {
-    "Caption": "Japan",
-    "Percentage of consumers frustrated by inconsistent digital experiences with brands": "60%"
+    "Country": "Mexico",
+    "Percentage": "47%"
   },
   {
-    "Caption": "Mexico",
-    "Percentage of consumers frustrated by inconsistent digital experiences with brands": "47%"
+    "Country": "Singapore",
+    "Percentage": "65%"
   },
   {
-    "Caption": "Singapore",
-    "Percentage of consumers frustrated by inconsistent digital experiences with brands": "65%"
+    "Country": "Spain",
+    "Percentage": "72%"
   },
   {
-    "Caption": "Spain",
-    "Percentage of consumers frustrated by inconsistent digital experiences with brands": "72%"
+    "Country": "United Kingdom",
+    "Percentage": "47%"
   },
   {
-    "Caption": "United Kingdom",
-    "Percentage of consumers frustrated by inconsistent digital experiences with brands": "47%"
-  },
-  {
-    "Caption": "United States",
-    "Percentage of consumers frustrated by inconsistent digital experiences with brands": "44%"
+    "Country": "United States",
+    "Percentage": "44%"
   },
   {},
   {
-    "Caption": "Region",
-    "Percentage of consumers frustrated by inconsistent digital experiences with brands": "Percentage"
+    "Country": "Region",
+    "Percentage": "Percentage"
   },
   {
-    "Caption": "Global",
-    "Percentage of consumers frustrated by inconsistent digital experiences with brands": "50%"
+    "Country": "Global",
+    "Percentage": "50%"
   },
   {
-    "Caption": "North America",
-    "Percentage of consumers frustrated by inconsistent digital experiences with brands": "44%"
+    "Country": "North America",
+    "Percentage": "44%"
   },
   {
-    "Caption": "Asia Pacific/Japan",
-    "Percentage of consumers frustrated by inconsistent digital experiences with brands": "57%"
+    "Country": "Asia Pacific/Japan",
+    "Percentage": "57%"
   },
   {
-    "Caption": "Europe",
-    "Percentage of consumers frustrated by inconsistent digital experiences with brands": "49%"
+    "Country": "Europe",
+    "Percentage": "49%"
   },
   {
-    "Caption": "Latin America",
-    "Percentage of consumers frustrated by inconsistent digital experiences with brands": "46%"
+    "Country": "Latin America",
+    "Percentage": "46%"
   }
 ]

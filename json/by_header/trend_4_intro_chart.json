@@ -1,18 +1,17 @@
 [
   {
-    "Caption": "Label",
-    "Companies that say their consumers demand greater privacy, compared with consumers who say they want companies to do more to protect their privacy": "Companies"
+    "Label": "Yes, definitely",
+    "Companies": "55%",
+    "Consumers": "71%"
   },
   {
-    "Caption": "Yes, definitely",
-    "Companies that say their consumers demand greater privacy, compared with consumers who say they want companies to do more to protect their privacy": "55%"
+    "Label": "Yes, somewhat",
+    "Companies": "41%",
+    "Consumers": "27%"
   },
   {
-    "Caption": "Yes, somewhat",
-    "Companies that say their consumers demand greater privacy, compared with consumers who say they want companies to do more to protect their privacy": "41%"
-  },
-  {
-    "Caption": "No, not at all",
-    "Companies that say their consumers demand greater privacy, compared with consumers who say they want companies to do more to protect their privacy": "4%"
+    "Label": "No, not at all",
+    "Companies": "4%",
+    "Consumers": "2%"
   }
 ]

@@ -1,27 +1,98 @@
 [
   [
-    "Regions",
-    "Asia-Pacific/Japan"
-  ],
-  [
-    "",
-    "Companies"
-  ],
-  [
+    "Asia-Pacific/Japan",
     "Percentage",
-    "50%"
-  ],
-  [],
-  [
-    "Countries",
-    "Australia"
+    "50%",
+    "69%"
   ],
   [
-    "",
-    "Companies"
-  ],
-  [
+    "Europe",
     "Percentage",
-    "50%"
+    "54%",
+    "66%"
+  ],
+  [
+    "Latin America",
+    "Percentage",
+    "59%",
+    "76%"
+  ],
+  [
+    "Global",
+    "Percentage",
+    "55%",
+    "71%"
+  ],
+  [
+    "United States",
+    "Percentage",
+    "55%",
+    "71%"
+  ],
+  [
+    "Australia",
+    "Percentage",
+    "50%",
+    "64%"
+  ],
+  [
+    "Brazil",
+    "Percentage",
+    "59%",
+    "81%"
+  ],
+  [
+    "Columbia",
+    "Percentage",
+    "52%",
+    "81%"
+  ],
+  [
+    "France",
+    "Percentage",
+    "45%",
+    "71%"
+  ],
+  [
+    "Germany",
+    "Percentage",
+    "50%",
+    "59%"
+  ],
+  [
+    "Italy",
+    "Percentage",
+    "66%",
+    "66%"
+  ],
+  [
+    "Japan",
+    "Percentage",
+    "54%",
+    "90%"
+  ],
+  [
+    "Mexico",
+    "Percentage",
+    "71%",
+    "81%"
+  ],
+  [
+    "Singapore",
+    "Percentage",
+    "46%",
+    "54%"
+  ],
+  [
+    "Spain",
+    "Percentage",
+    "65%",
+    "76%"
+  ],
+  [
+    "United Kingdom",
+    "Percentage",
+    "48%",
+    "62%"
   ]
 ]

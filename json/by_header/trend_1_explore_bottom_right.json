@@ -1,225 +1,275 @@
 [
   {
-    "Caption": "Country",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "Length of Time"
+    "Country": "Australia",
+    "Length of Time": "Today",
+    "Percentage": "66%"
   },
   {
-    "Caption": "Australia",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "Today"
+    "Country": "Australia",
+    "Length of Time": "In the past week",
+    "Percentage": "31%"
   },
   {
-    "Caption": "Australia",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past week"
+    "Country": "Australia",
+    "Length of Time": "In the past month",
+    "Percentage": "3%"
   },
   {
-    "Caption": "Australia",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past month"
+    "Country": "Brazil",
+    "Length of Time": "Today",
+    "Percentage": "77%"
   },
   {
-    "Caption": "Brazil",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "Today"
+    "Country": "Brazil",
+    "Length of Time": "In the past week",
+    "Percentage": "18%"
   },
   {
-    "Caption": "Brazil",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past week"
+    "Country": "Brazil",
+    "Length of Time": "In the past month",
+    "Percentage": "5%"
   },
   {
-    "Caption": "Brazil",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past month"
+    "Country": "Columbia",
+    "Length of Time": "Today",
+    "Percentage": "73%"
   },
   {
-    "Caption": "Columbia",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "Today"
+    "Country": "Columbia",
+    "Length of Time": "In the past week",
+    "Percentage": "22%"
   },
   {
-    "Caption": "Columbia",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past week"
+    "Country": "Columbia",
+    "Length of Time": "In the past month",
+    "Percentage": "5%"
   },
   {
-    "Caption": "Columbia",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past month"
+    "Country": "France",
+    "Length of Time": "Today",
+    "Percentage": "71%"
   },
   {
-    "Caption": "France",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "Today"
+    "Country": "France",
+    "Length of Time": "In the past week",
+    "Percentage": "25%"
   },
   {
-    "Caption": "France",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past week"
+    "Country": "France",
+    "Length of Time": "In the past month",
+    "Percentage": "5%"
   },
   {
-    "Caption": "France",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past month"
+    "Country": "Germany",
+    "Length of Time": "Today",
+    "Percentage": "77%"
   },
   {
-    "Caption": "Germany",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "Today"
+    "Country": "Germany",
+    "Length of Time": "In the past week",
+    "Percentage": "20%"
   },
   {
-    "Caption": "Germany",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past week"
+    "Country": "Germany",
+    "Length of Time": "In the past month",
+    "Percentage": "3%"
   },
   {
-    "Caption": "Germany",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past month"
+    "Country": "Global",
+    "Length of Time": "Today",
+    "Percentage": "75%"
   },
   {
-    "Caption": "Global",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "Today"
+    "Country": "Global",
+    "Length of Time": "In the past week",
+    "Percentage": "22%"
   },
   {
-    "Caption": "Global",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past week"
+    "Country": "Global",
+    "Length of Time": "In the past month",
+    "Percentage": "3%"
   },
   {
-    "Caption": "Global",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past month"
+    "Country": "Italy",
+    "Length of Time": "Today",
+    "Percentage": "74%"
   },
   {
-    "Caption": "Italy",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "Today"
+    "Country": "Italy",
+    "Length of Time": "In the past week",
+    "Percentage": "24%"
   },
   {
-    "Caption": "Italy",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past week"
+    "Country": "Italy",
+    "Length of Time": "In the past month",
+    "Percentage": "2%"
   },
   {
-    "Caption": "Italy",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past month"
+    "Country": "Japan",
+    "Length of Time": "Today",
+    "Percentage": "67%"
   },
   {
-    "Caption": "Japan",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "Today"
+    "Country": "Japan",
+    "Length of Time": "In the past week",
+    "Percentage": "27%"
   },
   {
-    "Caption": "Japan",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past week"
+    "Country": "Japan",
+    "Length of Time": "In the past month",
+    "Percentage": "6%"
   },
   {
-    "Caption": "Japan",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past month"
+    "Country": "Mexico",
+    "Length of Time": "Today",
+    "Percentage": "67%"
   },
   {
-    "Caption": "Mexico",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "Today"
+    "Country": "Mexico",
+    "Length of Time": "In the past week",
+    "Percentage": "29%"
   },
   {
-    "Caption": "Mexico",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past week"
+    "Country": "Mexico",
+    "Length of Time": "In the past month",
+    "Percentage": "5%"
   },
   {
-    "Caption": "Mexico",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past month"
+    "Country": "Singapore",
+    "Length of Time": "Today",
+    "Percentage": "68%"
   },
   {
-    "Caption": "Singapore",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "Today"
+    "Country": "Singapore",
+    "Length of Time": "In the past week",
+    "Percentage": "30%"
   },
   {
-    "Caption": "Singapore",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past week"
+    "Country": "Singapore",
+    "Length of Time": "In the past month",
+    "Percentage": "2%"
   },
   {
-    "Caption": "Singapore",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past month"
+    "Country": "Spain",
+    "Length of Time": "Today",
+    "Percentage": "86%"
   },
   {
-    "Caption": "Spain",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "Today"
+    "Country": "Spain",
+    "Length of Time": "In the past week",
+    "Percentage": "13%"
   },
   {
-    "Caption": "Spain",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past week"
+    "Country": "Spain",
+    "Length of Time": "In the past month",
+    "Percentage": "1%"
   },
   {
-    "Caption": "Spain",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past month"
+    "Country": "United Kingdom",
+    "Length of Time": "Today",
+    "Percentage": "81%"
   },
   {
-    "Caption": "United Kingdom",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "Today"
+    "Country": "United Kingdom",
+    "Length of Time": "In the past week",
+    "Percentage": "15%"
   },
   {
-    "Caption": "United Kingdom",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past week"
+    "Country": "United Kingdom",
+    "Length of Time": "In the past month",
+    "Percentage": "3%"
   },
   {
-    "Caption": "United Kingdom",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past month"
+    "Country": "United States",
+    "Length of Time": "Today",
+    "Percentage": "78%"
   },
   {
-    "Caption": "United States",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "Today"
+    "Country": "United States",
+    "Length of Time": "In the past week",
+    "Percentage": "19%"
   },
   {
-    "Caption": "United States",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past week"
+    "Country": "United States",
+    "Length of Time": "In the past month",
+    "Percentage": "3%"
   },
   {
-    "Caption": "United States",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past month"
+    "Country": "Region"
   },
   {
-    "Caption": "Region"
+    "Country": "Global",
+    "Length of Time": "Today",
+    "Percentage": "75%"
   },
   {
-    "Caption": "Global",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "Today"
+    "Country": "Global",
+    "Length of Time": "In the past week",
+    "Percentage": "22%"
   },
   {
-    "Caption": "Global",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past week"
+    "Country": "Global",
+    "Length of Time": "In the past month",
+    "Percentage": "3%"
   },
   {
-    "Caption": "Global",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past month"
+    "Country": "United States",
+    "Length of Time": "Today",
+    "Percentage": "78%"
   },
   {
-    "Caption": "United States",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "Today"
+    "Country": "United States",
+    "Length of Time": "In the past week",
+    "Percentage": "19%"
   },
   {
-    "Caption": "United States",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past week"
+    "Country": "United States",
+    "Length of Time": "In the past month",
+    "Percentage": "3%"
   },
   {
-    "Caption": "United States",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past month"
+    "Country": "Asia Pacific/Japan",
+    "Length of Time": "Today",
+    "Percentage": "67%"
   },
   {
-    "Caption": "Asia Pacific/Japan",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "Today"
+    "Country": "Asia Pacific/Japan",
+    "Length of Time": "In the past week",
+    "Percentage": "30%"
   },
   {
-    "Caption": "Asia Pacific/Japan",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past week"
+    "Country": "Asia Pacific/Japan",
+    "Length of Time": "In the past month",
+    "Percentage": "3%"
   },
   {
-    "Caption": "Asia Pacific/Japan",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past month"
+    "Country": "Europe",
+    "Length of Time": "Today",
+    "Percentage": "78%"
   },
   {
-    "Caption": "Europe",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "Today"
+    "Country": "Europe",
+    "Length of Time": "In the past week",
+    "Percentage": "19%"
   },
   {
-    "Caption": "Europe",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past week"
+    "Country": "Europe",
+    "Length of Time": "In the past month",
+    "Percentage": "3%"
   },
   {
-    "Caption": "Europe",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past month"
+    "Country": "Latin America",
+    "Length of Time": "Today",
+    "Percentage": "75%"
   },
   {
-    "Caption": "Latin America",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "Today"
+    "Country": "Latin America",
+    "Length of Time": "In the past week",
+    "Percentage": "21%"
   },
   {
-    "Caption": "Latin America",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past week"
-  },
-  {
-    "Caption": "Latin America",
-    "How long consumers say it’s been since they received a brand communication via a digital channel": "In the past month"
+    "Country": "Latin America",
+    "Length of Time": "In the past month",
+    "Percentage": "4%"
   }
 ]
