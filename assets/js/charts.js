@@ -121,10 +121,15 @@ var barChartOptions = {
     enabled: false,
   },
   xaxis: {
+    axisBorder: { show: false },
+    axisTicks: { show: false },
     categories: ['Today', 'In the past week', 'In the past month'],
   },
   tooltip: {
     enabled: false,
+  },
+  grid: {
+    show: false,
   },
 }
 
@@ -153,10 +158,10 @@ var lineChartOptions = {
   dataLabels: {
     enabled: false,
   },
-  colors: ['#F22F46'],
+  colors: ['#F22F46', '#121C2D'],
   stroke: {
     curve: 'straight',
-    width: 2  
+    width: 2,
   },
   xaxis: {
     axisBorder: { show: false },
@@ -176,6 +181,6 @@ var lineChartOptions = {
   },
   grid: {
     show: false,
-  }
+  },
 }
 
