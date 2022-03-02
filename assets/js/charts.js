@@ -17,16 +17,13 @@ var columnChartOptions = {
     },
   },
   fill: {
-    colors: ['#F22F46', 'transparent'],
-    type: 'image',
-    image: {
-      src: ['', '../images/charts/diagonal-lines.png'],
-    },
+	type: 'solid',
+	colors: ['#F22F46']
   },
   plotOptions: {
     bar: {
       horizontal: false,
-      columnWidth: '55%',
+      columnWidth: '48%',
       endingShape: 'rounded',
       dataLabels: {
         position: 'top',
@@ -59,19 +56,10 @@ var columnChartOptions = {
   yaxis: {
     show: false,
   },
-  fill: {
-    opacity: 1,
-  },
   tooltip: {
     enabled: false,
   },
 }
-
-var columnChart = new ApexCharts(
-  document.querySelector('.chart-column'),
-  columnChartOptions
-)
-columnChart.render()
 
 var radialBarOptions = {
   series: [80],
@@ -84,19 +72,19 @@ var radialBarOptions = {
   },
   plotOptions: {
     radialBar: {
-      hollow: {
-        size: '70%',
-      },
+		hollow: {
+			size: '70%',
+		},
+			track: {
+		},
     },
+  },
+  fill: {
+	type: 'solid',
+	colors: ['#F22F46']
   },
   labels: [''],
 }
-
-var radialBarChart = new ApexCharts(
-  document.querySelector('.chart-radial-bar'),
-  radialBarOptions
-)
-radialBarChart.render()
 
 var barChartOptions = {
   series: [
@@ -113,7 +101,6 @@ var barChartOptions = {
   },
   plotOptions: {
     bar: {
-      borderRadius: 4,
       horizontal: true,
     },
   },
@@ -131,13 +118,11 @@ var barChartOptions = {
   grid: {
     show: false,
   },
+  fill: {
+	type: 'solid',
+	colors: ['#F22F46']
+  },
 }
-
-var barChart = new ApexCharts(
-  document.querySelector('.chart-bar'),
-  barChartOptions
-)
-barChart.render()
 
 var lineChartOptions = {
   series: [
@@ -203,6 +188,9 @@ var stackedBar100Options = {
     height: 350,
     stacked: true,
     stackType: '100%',
+    toolbar: {
+      show: false,
+    },
   },
   plotOptions: {
     bar: {
@@ -211,7 +199,7 @@ var stackedBar100Options = {
   },
   stroke: {
     width: 1,
-    colors: ['#fff'],
+    colors: ['#F22F46', '#F22F46'],
   },
   xaxis: {
     categories: [2008, 2009, 2010, 2011, 2012, 2013, 2014],
@@ -221,6 +209,8 @@ var stackedBar100Options = {
   },
   fill: {
     opacity: 1,
+	type: 'solid',
+	colors: ['#F22F46', 'transparent'] 
   },
   legend: {
     display: false,
@@ -359,5 +349,25 @@ var scatterPlotChartOptions = {
   },
 }
 
-var chart = new ApexCharts(document.querySelector('#chart'), options)
-chart.render()
+// var chart = new ApexCharts(document.querySelector('#chart'), options)
+// chart.render()
+
+var topLeftChart = new ApexCharts(
+  document.querySelector('.chart-top-left'),
+  columnChartOptions
+)
+topLeftChart.render()
+
+var bottomRightChart = new ApexCharts(
+  document.querySelector('.chart-bottom-right'),
+  barChartOptions
+)
+bottomRightChart.render()
+
+var bottomLeftChart = new ApexCharts(
+  document.querySelector('.chart-bottom-left'),
+  radialBarOptions
+)
+bottomLeftChart.render()
+
+var topRightChart = document.querySelector('.chart-top-right')

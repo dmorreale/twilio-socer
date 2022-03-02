@@ -52,7 +52,7 @@
   {
     "Page": "homepage",
     "Element": "descriptivepara3",
-    "Content": "Another warning sign: Firefox and Safari have already blocked access to third-party cookies, and Google Chrome will do the same later in 2022. Creating personalized experiences will require organizations to embrace first-party data, a strategy most companies have yet to pivot to according to the report. "
+    "Content": "Another warning sign: Firefox and Safari have already blocked access to third-party cookies, and Google Chrome will do the same later in 2023. Creating personalized experiences will require organizations to embrace first-party data, a strategy most companies have yet to pivot to according to the report. "
   },
   {
     "Page": "homepage",
@@ -337,7 +337,7 @@
   {
     "Page": "trend2",
     "Element": "spotlightname",
-    "Content": "Intuit: More Than Doubling Customer Engagement"
+    "Content": "Intuit: Driving Customer Engagement"
   },
   {
     "Page": "trend2",
@@ -362,7 +362,7 @@
   {
     "Page": "trend3",
     "Element": "descriptivepara1",
-    "Content": "Though third-party cookies will be phased out by 2022, 81% of companies say they have either complete or substantial dependence on them, and that they would be seriously harmed by losing access. That’s a problem, given that 81% of companies surveyed said that they had either complete or substantial dependence on the technology and that they would be seriously harmed by losing access to it."
+    "Content": "Though third-party cookies will be phased out by 2023, 81% of companies say they have either complete or substantial dependence on them, and that they would be seriously harmed by losing access. That’s a problem, given that 81% of companies surveyed said that they had either complete or substantial dependence on the technology and that they would be seriously harmed by losing access to it."
   },
   {
     "Page": "trend3",
@@ -462,7 +462,7 @@
   {
     "Page": "trend4",
     "Element": "headline",
-    "Content": "Closing the <br>consumer and business <br>trust gap."
+    "Content": "Closing the <br>consumer and <br>business trust gap."
   },
   {
     "Page": "trend4",

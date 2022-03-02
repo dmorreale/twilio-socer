@@ -1,18 +1,22 @@
 [
   {
-    "Not at all": "1-4 years",
-    "2%": "35%"
+    "frequency": "Not at all",
+    "percentage": "2%"
   },
   {
-    "Not at all": "5-9 years",
-    "2%": "43%"
+    "frequency": "1-4 years",
+    "percentage": "35%"
   },
   {
-    "Not at all": "10-14 years",
-    "2%": "17%"
+    "frequency": "5-9 years",
+    "percentage": "43%"
   },
   {
-    "Not at all": "15+ years",
-    "2%": "30%"
+    "frequency": "10-14 years",
+    "percentage": "17%"
+  },
+  {
+    "frequency": "15+ years",
+    "percentage": "30%"
   }
 ]
