@@ -209,6 +209,7 @@
 				<p class="json-load json-descriptivepara3"></p>
 				<p class="json-load json-descriptivepara4"></p>
               <section class="intro-data-chart"></section>
+              <p class="chart-caption">How well companies rate their personalization, vs. how well consumers rate it</p>
             </div>
             <div class="column">
               <h3 class="pullquotelarge">
@@ -236,6 +237,7 @@
 				<p class="json-load json-datapara3"></p>
 				<p class="json-load json-datapara4"></p>
                 <section class="twilio-data-chart"></section>
+                <p class="chart-caption">Growth in personalization app usage on the Twilio Segment platform</p>
               </div>
             </div>
             <div class="column"></div>
@@ -515,6 +517,18 @@
             width: 1,
             colors: ['#F22F46'],
           },
+          legend: {
+            show: true,
+            horizontalAlign: 'left',
+            height: 100,
+            markers: {
+              width: 18,
+              height: 18,
+              strokeWidth: '1px',
+              strokeColor: '#F22F46',
+              radius: 0
+            },
+          }
         }
         introChartOptions.xaxis.categories = introChartData
           .map((val) => val[0])

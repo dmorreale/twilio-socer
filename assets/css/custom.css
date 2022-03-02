@@ -759,13 +759,14 @@ body {
     .pageWrapper .navDropTitle span, .pageWrapper .navDropLeftColumn a span {
       display: block;
       color: #F22F46; }
-  .pageWrapper .apexcharts-datalabel, .pageWrapper .apexcharts-text {
-    font-size: .875rem;
-    line-height: 1.1em;
-    font-family: "Twilio Sans Mono", sans-serif !important; }
-    .pageWrapper .apexcharts-datalabel.apexcharts-datalabel, .pageWrapper .apexcharts-text.apexcharts-datalabel {
+  .pageWrapper .apexcharts-datalabel, .pageWrapper .apexcharts-text, .pageWrapper .apexcharts-legend-text {
+    font-size: .875rem !important;
+    line-height: 1.1em !important;
+    font-family: "Twilio Sans Mono", sans-serif !important;
+    color: #121C2D !important; }
+    .pageWrapper .apexcharts-datalabel.apexcharts-datalabel, .pageWrapper .apexcharts-text.apexcharts-datalabel, .pageWrapper .apexcharts-legend-text.apexcharts-datalabel {
       font-weight: 700; }
-    .pageWrapper .apexcharts-datalabel.apexcharts-text, .pageWrapper .apexcharts-text.apexcharts-text {
+    .pageWrapper .apexcharts-datalabel.apexcharts-text, .pageWrapper .apexcharts-text.apexcharts-text, .pageWrapper .apexcharts-legend-text.apexcharts-text {
       font-weight: 400; }
   @media screen and (max-width: 1439px) {
     .pageWrapper h1, .pageWrapper .h1 {
@@ -1040,6 +1041,15 @@ body {
       margin: 33px 0; }
   .pageWrapper .intro-data-chart .apexcharts-text.apexcharts-xaxis-label {
     padding-top: 2px; }
+  .pageWrapper .apexcharts-legend {
+    align-content: baseline; }
+    .pageWrapper .apexcharts-legend-series {
+      margin-top: 66px !important;
+      margin-right: 30px !important; }
+    .pageWrapper .apexcharts-legend-text {
+      transform: translate(0, -5px);
+      display: inline-block;
+      padding-left: 7px; }
   .pageWrapper .block-hero {
     padding-bottom: 0px; }
     .pageWrapper .block-hero .leftOfImage {

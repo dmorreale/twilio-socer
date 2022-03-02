@@ -212,6 +212,7 @@
 				<p class="json-load json-descriptivepara3"></p>
 				<p class="json-load json-descriptivepara4"></p>
 				<section class="intro-data-chart"></section>
+        <p class="chart-caption">Percentage of consumers who say they’ve experienced digital fatigue in the past month</p>
             </div>
             <div class="column">
               <h3 class="pullquotelarge">
@@ -238,6 +239,7 @@
 				<p class="json-load json-datapara4"></p>
 				
                 <section class="twilio-data-chart"></section>
+                <p class="chart-caption">Year-over-year growth in digital interactions on the Twilio platform in 2021</p>
 
               </div>
             </div>
@@ -559,8 +561,13 @@
               rotate: -35,
               rotateAlways: true,
               hideOverlappingLabels: false,
-              offsetY: -10,
               format: 'MMM.'
+            },
+            axisBorder: {
+              show:false
+            },
+            axisTicks: {
+              show:false
             }
           },
           yaxis: {
@@ -576,9 +583,6 @@
               formatter: function(val, index) {
                 return parseInt(val) + '%';
               }
-            },
-            axisBorder: {
-              height:0
             }
           }
         }
