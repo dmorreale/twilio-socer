@@ -9,7 +9,7 @@ $(document).ready(async function () {
   
 	var curPage = $('body').data('page');
 	//load the text from the json doc.
-	await $.getJSON("../json/twiliosocer2022.json", function(json) {
+	await $.getJSON("assets/json/twiliosocer2022.json", function(json) {
 	  json.forEach(function(obj) { 
 		  if(curPage == obj["Page"] || obj["Page"] == 'global'){
 			  $('.json-' + obj["Element"]).html(obj["Content"]);
@@ -97,8 +97,8 @@ $(document).ready(async function () {
   });
 
   $(document).scroll(function () {
-<<<<<<< HEAD
-    //var t=$(window).scrollTop();
+
+    var t=$(window).scrollTop();
 	$('.leftImageHero').each(function() {
 		var topPosition = $(window).scrollTop() - $(this).offset().top;
 		topPosition = topPosition*(.2);
@@ -125,40 +125,12 @@ $(document).ready(async function () {
 		}
 		
 	});
-=======
-    var t = $(window).scrollTop();
-  	$('.leftImageHero').each(function() {
-  		var topPosition = $(window).scrollTop() - $(this).offset().top;
-  		topPosition = topPosition*(.3);
-  		$(this).css('top',topPosition + 'px');
-  	});
-  	  
-  	$('.parallax-image').each(function(){
-  		var $cur = $(this);
-  		var paraStart = $(window).scrollTop() + ($(window).height() * .8);
-  		var paraDif = paraStart - $(this).offset().top;
-  		var speed = $cur.attr('data-speed');
-  		if(typeof speed !== typeof undefined && speed !== false ){
-  			speed = parseInt(speed)/1000;
-  		} else {
-  			speed = .2;
-  		}
-  		if(paraStart > $(this).offset().top){
-  			var translate =  'translateY(' + Math.floor(paraDif * speed) + 'px)';
-  		   $cur.css({
-  				transform: translate
-  			});
-  		} else {
-  			$cur.removeAttr('style');
-  		}
-  	});
-
-    $('.rotateOnScroll').each(function() {
-
+	  
+	$('.rotateOnScroll').each(function() {
       $(this).css('transform','rotate('+(t/3)+'deg)');
     });
->>>>>>> 83b213c58c0b06487f949ae5f075cc812644cef6
-  })
+	  
+  });
 	
   $(window).resize(function () {
     adjustOverlappingGrid()
@@ -178,7 +150,7 @@ $(document).ready(async function () {
 	  $("body,html").stop().animate({scrollTop:n},duration);
 	}
 
-
+if(!$('body.home').length){
   // load charts
   const trendNum = $('.regionaldata').attr('data-trendNum')
   let tl, tr, bl, br
@@ -208,7 +180,9 @@ $(document).ready(async function () {
   )
 	
 
-  updateChartGroup('Global', tl, tr, bl, br)
+  updateChartGroup('Global', tl, tr, bl, br)   
+}
+
 
   function adjustOverlappingGrid() {
     $('.bg-grid-overlap').each(function () {
