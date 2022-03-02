@@ -52,5 +52,17 @@
 	.apexcharts-text.apexcharts-xaxis-label {
 		padding-top:2px;
 	}
-	
+}
+
+.apexcharts-legend {
+	align-content:baseline;
+	&-series {
+		margin-top:66px !important;
+		margin-right:30px !important;
+	}
+	&-text {
+		transform:translate(0,-5px);
+		display:inline-block;
+		padding-left:7px;
+	}
 }

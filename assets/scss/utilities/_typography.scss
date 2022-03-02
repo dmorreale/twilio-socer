@@ -237,10 +237,11 @@ h3 {
 	}
 }
 
-.apexcharts-datalabel, .apexcharts-text {
-	font-size:.875rem;
-	line-height:1.1em;
+.apexcharts-datalabel, .apexcharts-text, .apexcharts-legend-text {
+	font-size:.875rem !important;
+	line-height:1.1em !important;
 	font-family:$font-mono !important;
+	color:$dark !important;
 	&.apexcharts-datalabel {
 		font-weight:700;
 	}
