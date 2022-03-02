@@ -150,38 +150,36 @@ $(document).ready(async function () {
 	  $("body,html").stop().animate({scrollTop:n},duration);
 	}
 
-if(!$('body.home').length){
-  // load charts
-  const trendNum = $('.regionaldata').attr('data-trendNum')
-  let tl, tr, bl, br
-  await $.getJSON(
-    `../../json/by_row/trend_${trendNum}_explore_top_left.json`,
-    (data) => {
-      tl = data
-    }
-  )
-  await $.getJSON(
-    `../../json/by_row/trend_${trendNum}_explore_top_right.json`,
-    (data) => {
-      tr = data
-    }
-  )
-  await $.getJSON(
-    `../../json/by_row/trend_${trendNum}_explore_bottom_left.json`,
-    (data) => {
-      bl = data
-    }
-  )
-  await $.getJSON(
-    `../../json/by_row/trend_${trendNum}_explore_bottom_right.json`,
-    (data) => {
-      br = data
-    }
-  )
-	
+	  // load charts
+	  const trendNum = $('.regionaldata').attr('data-trendNum');
+	  let tl, tr, bl, br;
+	  await $.getJSON(
+		`json/by_row/trend_${trendNum}_explore_top_left.json`,
+		(data) => {
+		  tl = data
+		}
+	  )
+	  await $.getJSON(
+		`json/by_row/trend_${trendNum}_explore_top_right.json`,
+		(data) => {
+		  tr = data
+		}
+	  )
+	  await $.getJSON(
+		`json/by_row/trend_${trendNum}_explore_bottom_left.json`,
+		(data) => {
+		  bl = data
+		}
+	  )
+	  await $.getJSON(
+		`json/by_row/trend_${trendNum}_explore_bottom_right.json`,
+		(data) => {
+		  br = data
+		}
+	  )
 
-  updateChartGroup('Global', tl, tr, bl, br)   
-}
+
+	  updateChartGroup('Global', tl, tr, bl, br)   
 
 
   function adjustOverlappingGrid() {
