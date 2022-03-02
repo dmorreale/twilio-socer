@@ -78,7 +78,7 @@
 		}
 		
 		
-		&:hover{
+		&.opened{
 			> a:after{
 				transform: rotate(180deg);
 			}

@@ -105,6 +105,7 @@ $(document).ready(async function () {
 		$(this).css('top',topPosition + 'px');
 	});
 	  
+	//generic parallax function
 	$('.parallax-image').each(function(){
 		var $cur = $(this);
 		var paraStart = $(window).scrollTop() + $(window).height();
@@ -199,15 +200,22 @@ $(document).ready(async function () {
       $(this).css('height', newHeight + 'px')
     })
   }
+	
+  $('.selector > a').click(async function (e) {
+    e.preventDefault();
+  	$(this).parent().toggleClass('opened');
+  });
 
   //dropdown selectors
   $('.selector a').click(async function (e) {
     e.preventDefault()
     var $el = $(this)
     var $parent = $el.closest('.selector')
-
+	  
     if (!$el.attr('data-default')) {
       var val = $el.text()
+	  
+	  $parent.removeClass('opened');
 
       if (val == 'Global') {
         val = $parent.find('> A').attr('data-default') //reset to default
