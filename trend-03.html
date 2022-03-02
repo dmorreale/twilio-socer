@@ -592,10 +592,15 @@
 
         var twilioChartOptions = {
           ...lineChartOptions,
+          series: [
+            {
+              data: twilioChartData[0].slice(1).map(el => parseFloat(el)),
+            },
+            {
+              data: twilioChartData[1].slice(1).map(el => parseFloat(el)),
+            },
+          ]
         }
-        twilioChartOptions.series.push({
-          data: [77, 46, 35, 25, 3, 62, 75, 91, 99],
-        })
 
         var twilioChart = new ApexCharts(
           document.querySelector('.twilio-data-chart'),

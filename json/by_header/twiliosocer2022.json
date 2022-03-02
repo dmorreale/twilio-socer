@@ -32,12 +32,7 @@
   {
     "Page": "homepage",
     "Element": "headline",
-    "Content": "State of <br>Customer Engagement <br>Report"
-  },
-  {
-    "Page": "homepage",
-    "Element": "headlinedate",
-    "Content": "2022"
+    "Content": "State of <br>Customer Engagement <br>Report <span>2022</span>"
   },
   {
     "Page": "homepage",
@@ -87,27 +82,27 @@
   {
     "Page": "homepage",
     "Element": "executivesummarybullet1",
-    "Content": "<strong>Make it digital.</strong><br>70% — that’s the average revenue increase among companies that invested in digital customer engagement over the past two years."
+    "Content": "<strong>Make it digital.</strong> 70% — that’s the average revenue increase among companies that invested in digital customer engagement over the past two years."
   },
   {
     "Page": "homepage",
     "Element": "executivesummarybullet2",
-    "Content": "<strong>Make it personal.</strong> <br>75% of companies think they’re providing personalized experiences. But less than half of consumers agree. There’s a lot of room for improvement. "
+    "Content": "<strong>Make it personal.</strong> 75% of companies think they’re providing personalized experiences. But less than half of consumers agree. There’s a lot of room for improvement. "
   },
   {
     "Page": "homepage",
     "Element": "executivesummarybullet3",
-    "Content": "<strong>Lose your cookies.</strong> <br>81% of companies are completely or substantially reliant on third-party cookies — even though this critical data source will not be available after 2022. "
+    "Content": "<strong>Lose your cookies.</strong> 81% of companies are completely or substantially reliant on third-party cookies — even though this critical data source will not be available after 2022. "
   },
   {
     "Page": "homepage",
     "Element": "executivesummarybullet4",
-    "Content": "<strong>Build trust.</strong> <br>95% of B2C companies believe consumers trust their ability to protect data, yet only 65% of consumers actually do trust these companies. "
+    "Content": "<strong>Build trust.</strong> 95% of B2C companies believe consumers trust their ability to protect data, yet only 65% of consumers actually do trust these companies. "
   },
   {
     "Page": "homepage",
     "Element": "executivesummarybullet5",
-    "Content": "<strong>Engage smarter.</strong><br>Gen Zs and Millennials are more than twice as likely as Baby Boomers to have experienced digital fatigue in the past 30 days. Creating better (not more) interactions can ensure business doesn’t suffer as a result"
+    "Content": "<strong>Engage smarter.</strong> Gen Zs and Millennials are more than twice as likely as Baby Boomers to have experienced digital fatigue in the past 30 days. Creating better (not more) interactions can ensure business doesn’t suffer as a result"
   },
   {
     "Page": "homepage",
