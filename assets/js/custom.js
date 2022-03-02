@@ -145,7 +145,7 @@ $(document).ready(async function () {
 })
 
 function updateChartGroup(val, tl, tr, bl, br) {
-  columnChart.updateOptions({
+  topLeftChart.updateOptions({
     series: [
       {
         name: val,
@@ -158,13 +158,13 @@ function updateChartGroup(val, tl, tr, bl, br) {
     ],
     xaxis: { categories: [val.toLocaleUpperCase(), 'GLOBAL AVG'] },
   })
-  document.querySelector('.chart-text').innerHTML = `${
+  document.querySelector('.chart-top-right').innerHTML = `${
     tr.find((e) => e[0] === val)[1]
   } YEARS`
-  radialBarChart.updateOptions({
+  bottomLeftChart.updateOptions({
     series: [parseInt(bl.find((e) => e[0] === val)[1].replace('%', ''))],
   })
-  barChart.updateOptions({
+  bottomRightChart.updateOptions({
     series: [{data: br.filter(el => el[0] === val).map(el => parseInt(el[2]))}],
   })
 }

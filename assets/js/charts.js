@@ -67,12 +67,6 @@ var columnChartOptions = {
   },
 }
 
-var columnChart = new ApexCharts(
-  document.querySelector('.chart-column'),
-  columnChartOptions
-)
-columnChart.render()
-
 var radialBarOptions = {
   series: [80],
   chart: {
@@ -91,12 +85,6 @@ var radialBarOptions = {
   },
   labels: [''],
 }
-
-var radialBarChart = new ApexCharts(
-  document.querySelector('.chart-radial-bar'),
-  radialBarOptions
-)
-radialBarChart.render()
 
 var barChartOptions = {
   series: [
@@ -132,12 +120,6 @@ var barChartOptions = {
     show: false,
   },
 }
-
-var barChart = new ApexCharts(
-  document.querySelector('.chart-bar'),
-  barChartOptions
-)
-barChart.render()
 
 var lineChartOptions = {
   series: [
@@ -359,3 +341,27 @@ var scatterPlotChartOptions = {
 
 // var chart = new ApexCharts(document.querySelector('#chart'), options)
 // chart.render()
+
+var topLeftChart = new ApexCharts(
+  document.querySelector('.chart-top-left'),
+  columnChartOptions
+)
+topLeftChart.render()
+
+var bottomRightChart = new ApexCharts(
+  document.querySelector('.chart-bottom-right'),
+  barChartOptions
+)
+bottomRightChart.render()
+
+var bottomLeftChart = new ApexCharts(
+  document.querySelector('.chart-bottom-left'),
+  radialBarOptions
+)
+bottomLeftChart.render()
+
+var topLeftChart = new ApexCharts(
+  document.querySelector('.chart-top-left'),
+  columnChartOptions
+)
+topLeftChart.render()
