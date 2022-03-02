@@ -198,6 +198,9 @@ var stackedBar100Options = {
     height: 350,
     stacked: true,
     stackType: '100%',
+    toolbar: {
+      show: false,
+    },
   },
   plotOptions: {
     bar: {
@@ -354,5 +357,5 @@ var scatterPlotChartOptions = {
   },
 }
 
-var chart = new ApexCharts(document.querySelector('#chart'), options)
-chart.render()
+// var chart = new ApexCharts(document.querySelector('#chart'), options)
+// chart.render()
