@@ -17,16 +17,13 @@ var columnChartOptions = {
     },
   },
   fill: {
-    colors: ['#F22F46', 'transparent'],
-    type: 'image',
-    image: {
-      src: ['', '../images/charts/diagonal-lines.png'],
-    },
+	type: 'solid',
+	colors: ['#F22F46']
   },
   plotOptions: {
     bar: {
       horizontal: false,
-      columnWidth: '55%',
+      columnWidth: '48%',
       endingShape: 'rounded',
       dataLabels: {
         position: 'top',
@@ -59,9 +56,6 @@ var columnChartOptions = {
   yaxis: {
     show: false,
   },
-  fill: {
-    opacity: 1,
-  },
   tooltip: {
     enabled: false,
   },
@@ -84,10 +78,16 @@ var radialBarOptions = {
   },
   plotOptions: {
     radialBar: {
-      hollow: {
-        size: '70%',
-      },
+		hollow: {
+			size: '70%',
+		},
+			track: {
+		},
     },
+  },
+  fill: {
+	type: 'solid',
+	colors: ['#F22F46']
   },
   labels: [''],
 }
@@ -113,7 +113,6 @@ var barChartOptions = {
   },
   plotOptions: {
     bar: {
-      borderRadius: 4,
       horizontal: true,
     },
   },
@@ -130,6 +129,10 @@ var barChartOptions = {
   },
   grid: {
     show: false,
+  },
+  fill: {
+	type: 'solid',
+	colors: ['#F22F46']
   },
 }
 
@@ -206,7 +209,7 @@ var stackedBar100Options = {
   },
   stroke: {
     width: 1,
-    colors: ['#fff'],
+    colors: ['#F22F46', '#F22F46'],
   },
   xaxis: {
     categories: [2008, 2009, 2010, 2011, 2012, 2013, 2014],
@@ -216,6 +219,8 @@ var stackedBar100Options = {
   },
   fill: {
     opacity: 1,
+	type: 'solid',
+	colors: ['#F22F46', 'transparent'] 
   },
   legend: {
     display: false,
