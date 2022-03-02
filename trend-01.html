@@ -235,7 +235,7 @@
 				<p class="json-load json-datapara2"></p>
 				<p class="json-load json-datapara3"></p>
 				<p class="json-load json-datapara4"></p>
-                <section class="twilio-data-chart" data-trendNum="1"></section>
+                <section class="twilio-data-chart"></section>
               </div>
             </div>
             <div class="column"></div>
@@ -514,7 +514,12 @@
         introChart.render()
 
         var twilioChartOptions = {
-          ...lineChartOptions
+          ...lineChartOptions,
+          series: [
+            {
+              data: twilioChartData[0].slice(1).map(el => parseInt(el)),
+            },
+          ]
         }
 
         var twilioChart = new ApexCharts(document.querySelector('.twilio-data-chart'), twilioChartOptions)

@@ -209,6 +209,7 @@
 				<p class="json-load json-descriptivepara2"></p>
 				<p class="json-load json-descriptivepara3"></p>
 				<p class="json-load json-descriptivepara4"></p>
+			    <section class="intro-data-chart"></section>
             </div>
             <div class="column">
               <h3 class="pullquotelarge">
@@ -233,6 +234,8 @@
 				<p class="json-load json-datapara2"></p>
 				<p class="json-load json-datapara3"></p>
 				<p class="json-load json-datapara4"></p>
+				<section class="twilio-data-chart"></section>
+
               </div>
             </div>
             <div class="column"></div>
@@ -470,6 +473,76 @@
         easing: 'ease-out-sine',
         once: true,
       })
+    </script>
+
+    <script>
+      const renderCharts = async () => {
+        let introChartData, twilioChartData
+        await $.getJSON(`json/by_row/trend_4_intro_chart.json`, (data) => {
+          introChartData = data
+        })
+        await $.getJSON(`json/by_row/trend_4_twilio_data.json`, (data) => {
+          twilioChartData = data
+        })
+
+        var introChartOptions = {
+          ...barChartOptions,
+          series: [
+            {
+              data: introChartData.map((val) => val[1]),
+            },
+            {
+              data: introChartData.map((val) => val[1]),
+            },
+          ],
+          dataLabels: {
+            enabled: true,
+            formatter: (val) => val + '%',
+            textAnchor: 'start',
+            offsetX: 0,
+            style: {
+              fontSize: '14px',
+              colors: ['#121C2D'],
+            },
+          },
+          colors: ['#F22F46', 'transparent'],
+          stroke: {
+            show: true,
+            width: 1,
+            colors: ['#F22F46'],
+          },
+        }
+        introChartOptions.xaxis.categories = introChartData
+          .map((val) => val[0])
+        var introChart = new ApexCharts(
+          document.querySelector('.intro-data-chart'),
+          introChartOptions
+        )
+        introChart.render()
+
+        var twilioChartOptions = {
+          ...stackedBar100Options,
+          series: [
+            {
+              name: 'Inbound',
+              data: twilioChartData.map(el => el[1]),
+            },
+            {
+              name: 'Outbound',
+              data: twilioChartData.map(el => el[2]),
+            },
+          ],
+          xaxis: {
+            categories: twilioChartData.map(el => el[0]),
+          },
+        }
+        var twilioChart = new ApexCharts(
+          document.querySelector('.twilio-data-chart'),
+          twilioChartOptions
+        )
+        twilioChart.render()
+      }
+      renderCharts()
     </script>
   </body>
 </html>

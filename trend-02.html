@@ -527,6 +527,11 @@
 
         var twilioChartOptions = {
           ...lineChartOptions,
+          series: [
+            {
+              data: twilioChartData[0].slice(1).map(el => parseFloat(el)),
+            },
+          ]
         }
 
         var twilioChart = new ApexCharts(

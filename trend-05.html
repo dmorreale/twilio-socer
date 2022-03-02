@@ -183,6 +183,7 @@
               </h1>
               <p class="subhead json-load json-subheadline">
                 Companies need to future-proof against it by finding better ways to engage
+
               </p>
             </div>
             <img
@@ -204,11 +205,13 @@
         <div class="container two-col">
           <div class="content">
             <div class="column">
+
 				<h2 class="h3 json-load json-descriptivehead">Our Take</h2>
 				<p class="json-load json-descriptivepara1"></p>
 				<p class="json-load json-descriptivepara2"></p>
 				<p class="json-load json-descriptivepara3"></p>
 				<p class="json-load json-descriptivepara4"></p>
+				<section class="intro-data-chart"></section>
             </div>
             <div class="column">
               <h3 class="pullquotelarge">
@@ -233,6 +236,9 @@
 				<p class="json-load json-datapara2"></p>
 				<p class="json-load json-datapara3"></p>
 				<p class="json-load json-datapara4"></p>
+				
+                <section class="twilio-data-chart"></section>
+
               </div>
             </div>
             <div class="column"></div>
@@ -248,6 +254,7 @@
               <p class="json-load json-subtitlepara1"></p>
               <p class="json-load json-subtitlepara2"></p>
               <p class="json-load json-subtitlepara3"></p>
+
             </div>
             <div class="column">
               <h3 class="pullquotelarge">
@@ -348,7 +355,10 @@
                 </div>
                 <div class="column quarter">
                   <h6>
-                    Region: <span class="fontWeight-normal">Asia-Pacific and Japan</span>
+                    Region:
+                    <span class="fontWeight-normal"
+                      >Asia-Pacific and Japan</span
+                    >
                   </h6>
                   <img src="assets/images/map-apac.svg" />
                 </div>
@@ -365,6 +375,7 @@
                     <p class="json-load json-spotlightpara1"></p>
                     <p class="json-load json-spotlightpara2"></p>
                     <p class="json-load json-spotlightpara3"></p>
+
                   </div>
                   <div class="column">
                     <iframe
@@ -470,6 +481,56 @@
         easing: 'ease-out-sine',
         once: true,
       })
+    </script>
+    <script>
+      const renderCharts = async () => {
+        let introChartData, twilioChartData
+        await $.getJSON(`json/by_row/trend_5_intro_chart.json`, (data) => {
+          introChartData = data
+        })
+        await $.getJSON(`json/by_row/trend_5_twilio_data.json`, (data) => {
+          twilioChartData = data
+        })
+        console.log(introChartData[0].map((val) => parseInt(val)));
+        var introChartOptions = {
+          ...radialBarOptions,
+          series: introChartData[0].map((val) => parseInt(val)),
+          dataLabels: {
+            enabled: true,
+            formatter: (val) => val + '%',
+            offsetY: -30,
+            style: {
+              fontSize: '14px',
+              colors: ['#121C2D'],
+            },
+          },
+          fill: {
+            colors: ['#F22F46'],
+          },
+        }
+        introChartOptions.xaxis.categories = introChartData.map((val) => val[0])
+        var introChart = new ApexCharts(
+          document.querySelector('.intro-data-chart'),
+          introChartOptions
+        )
+        introChart.render()
+
+        var twilioChartOptions = {
+          ...lineChartOptions,
+          series: [
+            {
+              data: twilioChartData[0].slice(1).map((el) => parseInt(el)),
+            },
+          ],
+        }
+
+        var twilioChart = new ApexCharts(
+          document.querySelector('.twilio-data-chart'),
+          twilioChartOptions
+        )
+        twilioChart.render()
+      }
+      renderCharts()
     </script>
   </body>
 </html>

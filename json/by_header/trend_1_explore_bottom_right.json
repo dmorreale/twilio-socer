@@ -75,21 +75,6 @@
     "Percentage": "3%"
   },
   {
-    "Country": "Global",
-    "Length of Time": "Today",
-    "Percentage": "75%"
-  },
-  {
-    "Country": "Global",
-    "Length of Time": "In the past week",
-    "Percentage": "22%"
-  },
-  {
-    "Country": "Global",
-    "Length of Time": "In the past month",
-    "Percentage": "3%"
-  },
-  {
     "Country": "Italy",
     "Length of Time": "Today",
     "Percentage": "74%"
