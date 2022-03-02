@@ -80,13 +80,33 @@ $(document).ready(async function () {
 	scrollTo($(this).closest('section').next(),1200);
   });
 
-
   $(document).scroll(function () {
     //var t=$(window).scrollTop();
 	$('.leftImageHero').each(function() {
 		var topPosition = $(window).scrollTop() - $(this).offset().top;
 		topPosition = topPosition*(.3);
 		$(this).css('top',topPosition + 'px');
+	});
+	  
+	$('.parallax-image').each(function(){
+		var $cur = $(this);
+		var paraStart = $(window).scrollTop() + ($(window).height() * .8);
+		var paraDif = paraStart - $(this).offset().top;
+		var speed = $cur.attr('data-speed');
+		if(typeof speed !== typeof undefined && speed !== false ){
+			speed = parseInt(speed)/1000;
+		} else {
+			speed = .2;
+		}
+		if(paraStart > $(this).offset().top){
+			var translate =  'translateY(' + Math.floor(paraDif * speed) + 'px)';
+		   $cur.css({
+				transform: translate
+			});
+		} else {
+			$cur.removeAttr('style');
+		}
+		
 	});
   })
 	
