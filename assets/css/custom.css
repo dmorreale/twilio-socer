@@ -1071,6 +1071,10 @@ body {
       transform: translate(0, -5px);
       display: inline-block;
       padding-left: 7px; }
+  .pageWrapper .intro-data-chart .apexcharts-legend {
+    padding-left: 98px; }
+    .pageWrapper .intro-data-chart .apexcharts-legend-series {
+      margin-top: 20px !important; }
   .pageWrapper .block-hero {
     padding-bottom: 0px; }
     .pageWrapper .block-hero .leftOfImage {

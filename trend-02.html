@@ -491,6 +491,13 @@
               data: introChartData.map((val) => val[1]).reverse(),
             },
           ],
+          chart: {
+            type: 'bar',
+            height: 384,
+            toolbar: {
+              show: false,
+            },
+          },
           dataLabels: {
             enabled: true,
             formatter: (val) => val + '%',
@@ -510,7 +517,7 @@
           legend: {
             show: true,
             horizontalAlign: 'left',
-            height: 100,
+            height: 80,
             markers: {
               width: 18,
               height: 18,
@@ -518,6 +525,26 @@
               strokeColor: '#F22F46',
               radius: 0
             },
+          },
+          fill: {
+            type: 'solid',
+            colors: ['#F22F46', 'transparent']
+          },
+          xaxis: {
+            labels: {
+              show: false
+            },
+            axisBorder: {
+                show: false
+            },
+            axisTicks: {
+              show: false
+            }
+          },
+          yaxis: {
+            labels: {
+              offsetX: -14,
+            }
           }
         }
         introChartOptions.xaxis.categories = introChartData

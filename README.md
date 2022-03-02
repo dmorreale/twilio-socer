@@ -14,8 +14,10 @@ QA - ??
 
 
 Todo:
-	Trend one - first bar chart - bars need to extend horizonally.
+	T1 - first bar chart - bars need to extend horizonally.
 			  - line char - x-axis should start from the begining
+    T2 & T3 - First bar chart - lables need to be at the end of the bars.
+	T5 - line chart needs to have the last x-axis label showing
 
 
 General:
