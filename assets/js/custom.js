@@ -107,16 +107,24 @@ $(document).ready(async function () {
 	  
 	$('.parallax-image').each(function(){
 		var $cur = $(this);
-		var paraStart = $(window).scrollTop() + ($(window).height() * .8);
+		var paraStart = $(window).scrollTop() + $(window).height();
 		var paraDif = paraStart - $(this).offset().top;
 		var speed = $cur.attr('data-speed');
+		var maxDistance = $cur.attr('data-max');
 		if(typeof speed !== typeof undefined && speed !== false ){
 			speed = parseInt(speed)/1000;
 		} else {
 			speed = .2;
 		}
+		if(typeof maxDistance !== typeof undefined && maxDistance !== false ){
+			maxDistance = parseInt(maxDistance);
+		} else {
+			maxDistance = false;
+		}
 		if(paraStart > $(this).offset().top){
-			var translate =  'translateY(' + Math.floor(paraDif * speed) + 'px)';
+			var transform =  Math.floor(paraDif * speed);
+			if( maxDistance && transform > maxDistance ) transform = maxDistance;
+			var translate =  'translateY(' + transform + 'px)';
 		   $cur.css({
 				transform: translate
 			});
