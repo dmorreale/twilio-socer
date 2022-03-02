@@ -360,8 +360,4 @@ var bottomLeftChart = new ApexCharts(
 )
 bottomLeftChart.render()
 
-var topLeftChart = new ApexCharts(
-  document.querySelector('.chart-top-left'),
-  columnChartOptions
-)
-topLeftChart.render()
+var topRightChart = document.querySelector('.chart-top-right')
