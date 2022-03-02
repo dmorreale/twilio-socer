@@ -227,26 +227,119 @@ $(document).ready(async function () {
 
 
 function updateChartGroup(val, tl, tr, bl, br) {
-  columnChart.updateOptions({
-    series: [
-      {
-        name: val,
-        data: [tl.find((e) => e[0] === val)[1]],
-      },
-      {
-        name: 'GLOBAL AVERAGE',
-        data: [tl.find((e) => e[0] === 'Global')[1]],
-      },
-    ],
-    xaxis: { categories: [val.toLocaleUpperCase(), 'GLOBAL AVG'] },
-  })
-  document.querySelector('.chart-text').innerHTML = `${
-    tr.find((e) => e[0] === val)[1]
-  } YEARS`
-  radialBarChart.updateOptions({
-    series: [parseInt(bl.find((e) => e[0] === val)[1].replace('%', ''))],
-  })
-  barChart.updateOptions({
-    series: [{data: br.filter(el => el[0] === val).map(el => parseInt(el[2]))}],
-  })
+  const trendNum = $('.regionaldata').attr('data-trendNum')
+  switch (trendNum) {
+    case '1':
+      topLeftChart.updateOptions({
+        series: [
+          {
+            name: val,
+            data: [tl.find((e) => e[0] === val)[1]],
+          },
+          {
+            name: 'GLOBAL AVERAGE',
+            data: [tl.find((e) => e[0] === 'Global')[1]],
+          },
+        ],
+        xaxis: { categories: [val.toLocaleUpperCase(), 'GLOBAL AVG'] },
+      })
+      topRightChart.innerHTML = `${tr.find((e) => e[0] === val)[1]} YEARS`
+      bottomLeftChart.updateOptions({
+        series: [parseInt(bl.find((e) => e[0] === val)[1].replace('%', ''))],
+      })
+      bottomRightChart.updateOptions({
+        series: [
+          {
+            data: br.filter((el) => el[0] === val).map((el) => parseInt(el[2])),
+          },
+        ],
+      })
+      break
+    case '2':
+      console.log({ val, tl, tr, bl, br })
+      // topLeftChart.updateOptions({
+      //   // dot chart config here
+      // })
+      console.log(tr.find((e) => e[0] === val))
+      if (topRightChart instanceof ApexCharts) {
+        topRightChart.updateOptions({
+          series: [
+            {
+              name: val,
+              data: [tr.find((e) => e[0] === val)[2]],
+            },
+            {
+              name: val,
+              data: [tr.find((e) => e[0] === val)[3]],
+            },
+          ],
+        })
+      } else {
+        topRightChart = new ApexCharts(
+          document.querySelector('.chart-top-right'),
+          {
+            ...columnChartOptions,
+            series: [
+              {
+                name: val,
+                data: [tr.find((e) => e[0] === val)[2]],
+              },
+              {
+                name: val,
+                data: [tr.find((e) => e[0] === val)[3]],
+              },
+            ],
+          }
+        )
+        topRightChart.render()
+      }
+
+      bottomLeftChart.updateOptions({
+        ...columnChartOptions,
+        series: [
+          {
+            name: val,
+            data: [bl.find((e) => e[0] === val)[2]],
+          },
+          {
+            name: val,
+            data: [bl.find((e) => e[0] === val)[3]],
+          },
+        ],
+        xaxis: { categories: [val.toLocaleUpperCase(), 'GLOBAL AVG'] },
+      })
+
+      bottomRightChart.updateOptions({
+        ...barChartOptions,
+        series: [
+          {
+            name: 'Companies',
+            data: br.filter((el) => el[0] === val).map((el) => parseInt(el[2])),
+          },
+          {
+            name: 'Consumers',
+            data: br.filter((el) => el[0] === val).map((el) => parseInt(el[3])),
+          },
+        ],
+        dataLabels: {
+          enabled: true,
+          formatter: (val) => val + '%',
+          textAnchor: 'start',
+          offsetX: 0,
+          style: {
+            fontSize: '14px',
+            colors: ['#121C2D'],
+          },
+        },
+        colors: ['#F22F46', 'transparent'],
+        stroke: {
+          show: true,
+          width: 1,
+          colors: ['#F22F46'],
+        },
+      })
+
+    default:
+      break
+  }
 }
