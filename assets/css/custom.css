@@ -759,6 +759,14 @@ body {
     .pageWrapper .navDropTitle span, .pageWrapper .navDropLeftColumn a span {
       display: block;
       color: #F22F46; }
+  .pageWrapper .apexcharts-datalabel, .pageWrapper .apexcharts-text {
+    font-size: .875rem;
+    line-height: 1.1em;
+    font-family: "Twilio Sans Mono", sans-serif !important; }
+    .pageWrapper .apexcharts-datalabel.apexcharts-datalabel, .pageWrapper .apexcharts-text.apexcharts-datalabel {
+      font-weight: 700; }
+    .pageWrapper .apexcharts-datalabel.apexcharts-text, .pageWrapper .apexcharts-text.apexcharts-text {
+      font-weight: 400; }
   @media screen and (max-width: 1439px) {
     .pageWrapper h1, .pageWrapper .h1 {
       font-size: 6.250rem;
@@ -1047,6 +1055,12 @@ body {
       position: absolute;
       left: 50%;
       transform: translate(-50%, -24px); }
+  .pageWrapper .intro-data-chart, .pageWrapper .twilio-data-chart {
+    padding-bottom: 0; }
+    .pageWrapper .intro-data-chart + .chart-caption, .pageWrapper .twilio-data-chart + .chart-caption {
+      margin: 33px 0; }
+  .pageWrapper .intro-data-chart .apexcharts-text.apexcharts-xaxis-label {
+    padding-top: 2px; }
   .pageWrapper .block-hero {
     padding-bottom: 0px; }
     .pageWrapper .block-hero .leftOfImage {

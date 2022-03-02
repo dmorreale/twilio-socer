@@ -14,8 +14,8 @@ QA - ??
 
 
 Todo:
-	make the seal spin on scroll
-	Style the text below the charts (with the line above)
+	Trend one - first bar chart - bars need to extend horizonally.
+			  - line char - x-axis should start from the begining
 
 
 General:

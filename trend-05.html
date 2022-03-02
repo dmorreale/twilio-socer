@@ -479,7 +479,7 @@
         await $.getJSON(`json/by_row/trend_5_twilio_data.json`, (data) => {
           twilioChartData = data
         })
-        console.log(introChartData[0].map((val) => parseInt(val)));
+        //console.log(introChartData[0].map((val) => parseInt(val)));
         var introChartOptions = {
           ...radialBarOptions,
           series: introChartData[0].map((val) => parseInt(val)),
@@ -503,13 +503,72 @@
         )
         introChart.render()
 
+        
+
+
+        twilioChartData = [
+        {
+          "2021-01": "39.57%",
+          "2021-02": "41.64%",
+          "2021-03": "45.36%",
+          "2021-04": "44.74%",
+          "2021-05": "39.53%",
+          "2021-06": "35.93%",
+          "2021-07": "27.29%",
+          "2021-08": "26.45%",
+          "2021-09": "25.67%",
+          "2021-10": "20.07%",
+          "2021-11": "26.67%",
+          "2021-12": "23.50%"
+        }
+      ];
+
+        //console.log(twilioChartData.map(el => parseInt(el)));
+
+        var arr1 = Object.keys(twilioChartData[0]);
+        var arr2 = Object.values(twilioChartData[0]);
+
+        var newData = [];
+        for (let i = 0; i < arr1.length; i++) {
+          newData[i] = { "x": new Date(arr1[i]).getTime(), "y": parseFloat(arr2[i]) }
+        }
+
         var twilioChartOptions = {
           ...lineChartOptions,
           series: [
             {
-              data: twilioChartData[0].slice(1).map((el) => parseInt(el)),
+              data: newData,
             },
           ],
+          xaxis: {
+            type: 'datetime',
+            labels: {
+              show: true,
+              rotate: -35,
+              rotateAlways: true,
+              hideOverlappingLabels: false,
+              offsetY: -10,
+              format: 'MMM.'
+            }
+          },
+          yaxis: {
+            min:0,
+            forceNiceScale:true,
+            labels: {
+              /**
+              * Allows users to apply a custom formatter function to yaxis labels.
+              *
+              * @param { String } value - The generated value of the y-axis tick
+              * @param { index } index of the tick / currently executing iteration in yaxis labels array
+              */
+              formatter: function(val, index) {
+                return parseInt(val) + '%';
+              }
+            },
+            axisBorder: {
+              height:0
+            }
+          }
         }
 
         var twilioChart = new ApexCharts(

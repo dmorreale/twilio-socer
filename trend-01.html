@@ -211,6 +211,7 @@
 				<p class="json-load json-descriptivepara4"></p>
 				<p class="json-load json-descriptivepara5"></p>
               <section class="intro-data-chart"></section>
+              <p class="chart-caption">Number of years that the pandemic has accelerated companies’ digital transformations</p>
             </div>
             <div class="column">
               <h3 class="pullquotelarge">
@@ -237,6 +238,7 @@
 				<p class="json-load json-datapara3"></p>
 				<p class="json-load json-datapara4"></p>
                 <section class="twilio-data-chart"></section>
+                <p class="chart-caption">Digital interactions on the Twilio platform in 2019, 2020, and 2021</p>
               </div>
             </div>
             <div class="column"></div>
@@ -504,13 +506,78 @@
         )
         introChart.render()
 
+        twilioChartData = [
+          {
+            "01/01/2019": "58,002,542,385",
+            "02/01/2019": "54,508,153,154",
+            "03/01/2019": "61,117,318,199",
+            "04/01/2019": "62,203,489,688",
+            "05/01/2019": "66,580,264,908",
+            "06/01/2019": "63,786,041,917",
+            "07/01/2019": "67,212,309,461",
+            "08/01/2019": "70,514,972,898",
+            "09/01/2019": "71,924,138,081",
+            "10/01/2019": "78,174,238,801",
+            "11/01/2019": "83,524,344,968",
+            "12/01/2019": "86,874,507,591",
+            "01/01/2020": "80,000,927,662",
+            "02/01/2020": "76,840,426,112",
+            "03/01/2020": "86,793,197,113",
+            "04/01/2020": "86,084,785,181",
+            "05/01/2020": "91,349,036,891",
+            "06/01/2020": "92,820,293,677",
+            "07/01/2020": "99,338,338,863",
+            "08/01/2020": "101,448,135,775",
+            "09/01/2020": "105,903,763,391",
+            "10/01/2020": "115,601,678,171",
+            "11/01/2020": "123,537,215,854",
+            "12/01/2020": "121,137,440,355",
+            "01/01/2021": "111,655,280,664",
+            "02/01/2021": "108,836,686,443",
+            "03/01/2021": "126,162,824,927",
+            "04/01/2021": "124,601,128,663",
+            "05/01/2021": "127,463,407,035",
+            "06/01/2021": "126,173,139,994",
+            "07/01/2021": "126,452,163,895",
+            "08/01/2021": "128,285,687,669",
+            "09/01/2021": "133,084,261,611",
+            "10/01/2021": "138,799,753,312",
+            "11/01/2021": "156,481,580,363",
+            "12/01/2021": "149,608,026,164"
+          }
+        ];
+
+        //console.log(twilioChartData.map(el => parseInt(el)));
+
+        var arr1 = Object.keys(twilioChartData[0]);
+        var arr2 = Object.values(twilioChartData[0]);
+
+        var newData = [];
+        for (let i = 0; i < arr1.length; i++) {
+          newData[i] = { "x": new Date(arr1[i]).getTime(), "y": parseInt(arr2[i].replace(/,/g, ''), 10) }
+        }
+
         var twilioChartOptions = {
           ...lineChartOptions,
           series: [
             {
-              data: twilioChartData[0].slice(1).map(el => parseInt(el)),
+              //data: twilioChartData[0].slice(1).map(el => parseInt(el)),
+              data: newData,
             },
-          ]
+          ],
+          yaxis: {
+            labels: {
+              /**
+              * Allows users to apply a custom formatter function to yaxis labels.
+              *
+              * @param { String } value - The generated value of the y-axis tick
+              * @param { index } index of the tick / currently executing iteration in yaxis labels array
+              */
+              formatter: function(val, index) {
+                return parseFloat(val/1000000000) + 'B';
+              }
+            }
+          },
         }
 
         var twilioChart = new ApexCharts(document.querySelector('.twilio-data-chart'), twilioChartOptions)
