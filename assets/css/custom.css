@@ -607,7 +607,7 @@ body {
     line-height: 1.75em;
     font-weight: 400;
     font-family: "Twilio Sans Text", sans-serif; }
-  .pageWrapper .pLarge, .pageWrapper .pLarge p {
+  .pageWrapper .pLarge, .pageWrapper .pLarge p, .pageWrapper .chart-caption, .pageWrapper .chart-caption p {
     font-size: 1.5rem;
     line-height: 1.75em;
     font-weight: 400;
@@ -633,6 +633,8 @@ body {
       height: 5px;
       background-color: #121C2D;
       border-radius: 50%; }
+  .pageWrapper .chart-caption {
+    line-height: 1.1em; }
   .pageWrapper h1, .pageWrapper h2, .pageWrapper h3, .pageWrapper h4, .pageWrapper h5, .pageWrapper h6, .pageWrapper .h1, .pageWrapper .h2, .pageWrapper .h3, .pageWrapper .h4, .pageWrapper .h5, .pageWrapper .h6 {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
@@ -1603,6 +1605,13 @@ body {
         transform: rotate(180deg); }
       .pageWrapper .regionaldata .selector:hover ul {
         max-height: 1000px; }
+    .pageWrapper .regionaldata .chart-caption {
+      padding-bottom: 30px;
+      border-bottom: 1px solid #F22F46; }
+    .pageWrapper .regionaldata .chart-wrapper {
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between; }
     @media screen and (max-width: 1439px) {
       .pageWrapper .regionaldata {
         padding-top: 210px; } }
