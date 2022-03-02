@@ -103,6 +103,14 @@ h6, .h6 {
 	}
 }
 
+.pSmall, .pSmall p {
+	font-size:.875rem;
+	line-height:1.750em;
+	& + p {
+		margin-top:14px;
+	}
+}
+
 .fontWeight-normal {
 	font-weight:400 !important;
 }

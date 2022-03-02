@@ -676,6 +676,11 @@ body {
     .pageWrapper h6.citation, .pageWrapper .h6.citation {
       letter-spacing: .15em;
       line-height: 1.5em; }
+  .pageWrapper .pSmall, .pageWrapper .pSmall p {
+    font-size: .875rem;
+    line-height: 1.750em; }
+    .pageWrapper .pSmall + p, .pageWrapper .pSmall p + p {
+      margin-top: 14px; }
   .pageWrapper .fontWeight-normal {
     font-weight: 400 !important; }
   .pageWrapper .eyebrow {
@@ -1421,7 +1426,11 @@ body {
         transform: translate(0, 3px);
         width: 17px;
         height: 16px;
-        object-fit: contain; }
+        object-fit: contain;
+        filter: brightness(0) invert(1);
+        transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1); }
+    .pageWrapper .nav .nav-cta:hover > a img, .pageWrapper .nav .nav-cta > a.active img {
+      filter: brightness(1) invert(0); }
     .pageWrapper .nav .nav-cta ul {
       transform: translate(39px, -5px); }
       .pageWrapper .nav .nav-cta ul a {
@@ -1452,7 +1461,8 @@ body {
           left: 0;
           width: 100%;
           background-color: white;
-          height: 1px; }
+          height: 1px;
+          transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1); }
           .pageWrapper .nav .nav-cta__button--hamburger span.icon span.line1 {
             top: 0; }
           .pageWrapper .nav .nav-cta__button--hamburger span.icon span.line3 {
@@ -1473,6 +1483,8 @@ body {
           width: 18px; }
         .pageWrapper .nav .nav-cta__button--hamburger.active span.icon span.line2 {
           width: 0; }
+      .pageWrapper .nav .nav-cta__button--hamburger:hover span.icon span {
+        background-color: #F22F46; }
     .pageWrapper .nav .nav-wrapper__logo-container, .pageWrapper .nav .nav-ctas {
       position: relative;
       top: 0;
