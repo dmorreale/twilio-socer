@@ -32,12 +32,7 @@
   {
     "Page": "homepage",
     "Element": "headline",
-    "Content": "State of <br>Customer Engagement <br>Report"
-  },
-  {
-    "Page": "homepage",
-    "Element": "headlinedate",
-    "Content": "2022"
+    "Content": "State of <br>Customer Engagement <br>Report <span>2022</span>"
   },
   {
     "Page": "homepage",

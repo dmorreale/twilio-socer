@@ -6,6 +6,16 @@ $(document).ready(async function () {
     $(window).resize()
     aosResetNav()
   }, 1000)
+  
+	var curPage = $('body').data('page');
+	//load the text from the json doc.
+	$.getJSON("/assets/json/twiliosocer2022.json", function(json) {
+	  json.forEach(function(obj) { 
+		  if(curPage == obj["Page"] || obj["Page"] == 'global'){
+			  $('.json-' + obj["Element"]).html(obj["Content"]);
+		  }
+	  });
+	});
 
   //mouse follow on trend hover
   $('.trends--item').on('mousemove', function (e) {
