@@ -237,6 +237,18 @@ h3 {
 	}
 }
 
+.apexcharts-datalabel, .apexcharts-text {
+	font-size:.875rem;
+	line-height:1.1em;
+	font-family:$font-mono !important;
+	&.apexcharts-datalabel {
+		font-weight:700;
+	}
+	&.apexcharts-text {
+		font-weight:400;
+	}
+}
+
 @media screen and (max-width:1439px)
 {
 	h1, .h1 {

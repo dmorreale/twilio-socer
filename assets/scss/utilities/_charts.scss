@@ -16,3 +16,17 @@
 		background-color:$red;
 	}
 }
+.intro-data-chart, .twilio-data-chart {
+	padding-bottom:0;
+	& + .chart-caption {
+		margin:33px 0;
+	}
+}
+.intro-data-chart {
+	.apexcharts-text.apexcharts-xaxis-label {
+		padding-top:2px;
+	}
+	
+}
+
+

@@ -166,10 +166,15 @@ var lineChartOptions = {
   xaxis: {
     axisBorder: { show: false },
     axisTicks: { show: false },
+    type: 'datetime',
+    labels: {
+      format: 'MM/yy'
+    }
   },
   yaxis: {
     axisBorder: { show: false },
     axisTicks: { show: false },
+    min: 0
   },
   legend: {
     show: false,
