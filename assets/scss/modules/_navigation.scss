@@ -43,7 +43,12 @@
 				width:17px;
 				height:16px;
 				object-fit:contain;
+				filter:brightness(0) invert(1);
+				@include generalAnimationType;
 			}
+		}
+		&:hover > a img, & > a.active img {
+			filter:brightness(1) invert(0);
 		}
 		ul {
 			transform:translate(39px,-5px);
@@ -81,6 +86,7 @@
 				width:100%;
 				background-color:white;
 				height:1px;
+				@include generalAnimationType;
 				&.line1 {
 					top:0;
 				}
@@ -112,6 +118,11 @@
 						width:0;
 					}
 				}
+			}
+		}
+		&:hover {
+			span.icon span {
+				background-color:$red;
 			}
 		}
 	}
