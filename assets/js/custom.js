@@ -9,13 +9,29 @@ $(document).ready(async function () {
   
 	var curPage = $('body').data('page');
 	//load the text from the json doc.
-	$.getJSON("/assets/json/twiliosocer2022.json", function(json) {
+	await $.getJSON("../json/twiliosocer2022.json", function(json) {
 	  json.forEach(function(obj) { 
 		  if(curPage == obj["Page"] || obj["Page"] == 'global'){
 			  $('.json-' + obj["Element"]).html(obj["Content"]);
 		  }
 	  });
 	});
+	
+	$('.dot-chart').each(function(){
+		var dots = '';
+		var val = 83;
+		for(var i = 100; i > 0; i--){
+			if(i <=val){
+				dots += '<div></div>';
+			} else {
+				dots += '<div class="filled"></div>';
+			}
+			
+		}
+		$(this).html(dots);
+	});
+	
+	
 
   //mouse follow on trend hover
   $('.trends--item').on('mousemove', function (e) {
@@ -84,7 +100,7 @@ $(document).ready(async function () {
     //var t=$(window).scrollTop();
 	$('.leftImageHero').each(function() {
 		var topPosition = $(window).scrollTop() - $(this).offset().top;
-		topPosition = topPosition*(.3);
+		topPosition = topPosition*(.2);
 		$(this).css('top',topPosition + 'px');
 	});
 	  
