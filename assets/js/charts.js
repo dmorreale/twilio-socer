@@ -197,6 +197,11 @@ var stackedBar100Options = {
       horizontal: true,
     },
   },
+  dataLabels: {
+	style: {
+		colors: ['#FFFFFF', '#000000']
+	}
+  },
   stroke: {
     width: 1,
     colors: ['#F22F46', '#F22F46'],
@@ -213,7 +218,7 @@ var stackedBar100Options = {
 	colors: ['#F22F46', 'transparent'] 
   },
   legend: {
-    display: false,
+    show: false,
   },
 }
 
