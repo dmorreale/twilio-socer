@@ -522,6 +522,9 @@
           newData[i] = { "x": new Date(arr1[i]).getTime(), "y": parseFloat(arr2[i]) }
         }
 
+        console.log(arr1);
+        
+
         var twilioChartOptions = {
           ...lineChartOptions,
           series: [
@@ -531,6 +534,7 @@
           ],
           xaxis: {
             type: 'datetime',
+            tickPlacement: 'on',
             labels: {
               show: true,
               rotate: -35,

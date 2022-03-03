@@ -470,6 +470,13 @@
               data: introChartData.map((val) => val[1]),
             },
           ],
+          chart: {
+            type: 'bar',
+            height: 200,
+            toolbar: {
+              show: false,
+            },
+          },
           dataLabels: {
             enabled: true,
             formatter: (val) => val + '%',
@@ -486,6 +493,29 @@
             width: 1,
             colors: ['#F22F46'],
           },
+          legend: {
+            show: false
+          },
+          fill: {
+            type: 'solid',
+            colors: ['#F22F46', 'transparent']
+          },
+          xaxis: {
+            labels: {
+              show: false
+            },
+            axisBorder: {
+                show: false
+            },
+            axisTicks: {
+              show: false
+            }
+          },
+          yaxis: {
+            labels: {
+              offsetX: -14,
+            }
+          }
         }
         introChartOptions.xaxis.categories = introChartData
           .map((val) => val[0])

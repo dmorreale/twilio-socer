@@ -64,7 +64,7 @@ var columnChartOptions = {
 var radialBarOptions = {
   series: [80],
   chart: {
-    height: 350,
+    height: 480,
     type: 'radialBar',
     toolbar: {
       show: false,
@@ -72,16 +72,17 @@ var radialBarOptions = {
   },
   plotOptions: {
     radialBar: {
-		hollow: {
-			size: '70%',
-		},
-			track: {
-		},
+  		hollow: {
+  			size: '80%',
+  		},
+  			track: {
+          background: '#ffffff'
+  		},
     },
   },
   fill: {
-	type: 'solid',
-	colors: ['#F22F46']
+	 type: 'solid',
+	 colors: ['#F22F46'],
   },
   labels: [''],
 }

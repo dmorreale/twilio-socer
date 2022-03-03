@@ -768,6 +768,11 @@ body {
       font-weight: 700; }
     .pageWrapper .apexcharts-datalabel.apexcharts-text, .pageWrapper .apexcharts-text.apexcharts-text, .pageWrapper .apexcharts-legend-text.apexcharts-text {
       font-weight: 400; }
+  .pageWrapper .apexcharts-radialbar .apexcharts-datalabel-value {
+    font-size: 3.75rem !important;
+    line-height: 1.167em !important;
+    font-weight: 400 !important;
+    font-family: "Twilio Sans Display", sans-serif !important; }
   @media screen and (max-width: 1439px) {
     .pageWrapper h1, .pageWrapper .h1 {
       font-size: 6.250rem;
