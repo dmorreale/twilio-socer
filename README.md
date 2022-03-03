@@ -14,9 +14,11 @@ QA - ??
 
 
 Todo:
-	T1 - first bar chart - bars need to extend horizonally.
-			  - line char - x-axis should start from the begining
-    T2 & T3 - First bar chart - lables need to be at the end of the bars.
+	T1 - first bar chart - bars need to extend horizontally.
+			  - line chart - x-axis should start from the begining
+    T2, T3, T4 - First bar chart - labels need to be at the end of the bars.
+    T4 - Second bar chart needs styling
+    T5 - radial chart is not left aligned and does not have a stroke. I don't know if these two are possible.
 	T5 - line chart needs to have the last x-axis label showing
 
 
