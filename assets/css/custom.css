@@ -1665,9 +1665,9 @@ body {
         border-top: 0 none; }
         .pageWrapper .regionaldata .selector li a:hover {
           background-color: #FFF; }
-      .pageWrapper .regionaldata .selector:hover > a:after {
+      .pageWrapper .regionaldata .selector.opened > a:after {
         transform: rotate(180deg); }
-      .pageWrapper .regionaldata .selector:hover ul {
+      .pageWrapper .regionaldata .selector.opened ul {
         max-height: 1000px; }
     .pageWrapper .regionaldata .chart-caption {
       padding-bottom: 30px;
