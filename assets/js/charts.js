@@ -120,7 +120,7 @@ var barChartOptions = {
   },
   fill: {
 	type: 'solid',
-	colors: ['#F22F46']
+	colors: ['#F22F46', 'transparent']
   },
 }
 
@@ -131,7 +131,7 @@ var lineChartOptions = {
     },
   ],
   chart: {
-    height: 350,
+    height: 400,
     type: 'line',
     zoom: {
       enabled: false,
@@ -371,3 +371,6 @@ var bottomLeftChart = new ApexCharts(
 bottomLeftChart.render()
 
 var topRightChart = document.querySelector('.chart-top-right')
+
+
+

@@ -2,6 +2,9 @@
   transition:all .5s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
+.hide-apex .apexcharts-canvas{
+	display:none;
+}
 
 .hide-xl{
     display:none !important;

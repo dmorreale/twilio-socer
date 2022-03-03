@@ -801,6 +801,8 @@ body {
   @media screen and (max-width: 719px) {
     .pageWrapper .trends h3 {
       font-size: 1.5rem; } }
+  .pageWrapper .hide-apex .apexcharts-canvas {
+    display: none; }
   .pageWrapper .hide-xl {
     display: none !important; }
   .pageWrapper .border-top-red {
@@ -1026,7 +1028,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 320px; }
+    width: 320px;
+    margin: 40px auto; }
     .pageWrapper .dot-chart > div {
       width: 21px;
       height: 21px;

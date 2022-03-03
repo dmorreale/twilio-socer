@@ -20,11 +20,12 @@ $(document).ready(async function () {
 	$('.dot-chart').each(function(){
 		var dots = '';
 		var val = 83;
+		
 		for(var i = 100; i > 0; i--){
 			if(i <=val){
-				dots += '<div></div>';
+				dots += '<div class="filled dot-' + i + '"></div>';
 			} else {
-				dots += '<div class="filled"></div>';
+				dots += '<div class="dot-' + i + '"></div>';
 			}
 			
 		}
@@ -158,7 +159,7 @@ $(document).ready(async function () {
 	  var n = destination.offset().top;
 	  $("body,html").stop().animate({scrollTop:n},duration);
 	}
-
+	
 	  // load charts
 	  const trendNum = $('.regionaldata').attr('data-trendNum');
 	  let tl, tr, bl, br;
@@ -251,7 +252,7 @@ function updateChartGroup(val, tl, tr, bl, br) {
         ],
         xaxis: { categories: [val.toLocaleUpperCase(), 'GLOBAL AVG'] },
       })
-      topRightChart.innerHTML = `${tr.find((e) => e[0] === val)[1]} YEARS`
+      topRightChart.innerHTML = `<span>${tr.find((e) => e[0] === val)[1]} YEARS</span>`
       bottomLeftChart.updateOptions({
         series: [parseInt(bl.find((e) => e[0] === val)[1].replace('%', ''))],
       })
@@ -264,11 +265,8 @@ function updateChartGroup(val, tl, tr, bl, br) {
       })
       break
     case '2':
-      console.log({ val, tl, tr, bl, br })
-      // topLeftChart.updateOptions({
-      //   // dot chart config here
-      // })
-      console.log(tr.find((e) => e[0] === val))
+		 
+	  
       if (topRightChart instanceof ApexCharts) {
         topRightChart.updateOptions({
           series: [
@@ -346,7 +344,13 @@ function updateChartGroup(val, tl, tr, bl, br) {
           colors: ['#F22F46'],
         },
       })
+		  
+  case '3':
 
+  case '4':
+
+  case '5':
+		  
     default:
       break
   }
