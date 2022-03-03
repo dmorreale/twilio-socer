@@ -295,24 +295,24 @@
           </div>
         </div>
         <div class="container two-col border-top-red">
-			<div class="chart-grid content">
-              <div class="chart-wrapper column half">
-                <div class="chart-top-left"></div>
-                <div class="chart-caption json-load json-quad-top-left"></div>
-              </div>
-              <div class="chart-wrapper column half">
-                <div class="chart-top-right chart-text"></div>
-                <div class="chart-caption json-load json-quad-top-right"></div>
-              </div>
-              <div class="chart-wrapper column half">
-                <div class="chart-bottom-left"></div>
-                <div class="chart-caption json-load json-quad-bottom-left"></div>
-              </div>
-              <div class="chart-wrapper column half">
-                <div class="chart-bottom-right"></div>
-                <div class="chart-caption json-load json-quad-bottom-right"></div>
-              </div>
+			    <div class="chart-grid content">
+            <div class="chart-wrapper column half">
+              <div class="chart-top-left"></div>
+              <div class="chart-caption json-load json-quad-top-left"></div>
             </div>
+            <div class="chart-wrapper column half">
+              <div class="chart-top-right chart-text"></div>
+              <div class="chart-caption json-load json-quad-top-right"></div>
+            </div>
+            <div class="chart-wrapper column half">
+              <div class="chart-bottom-left"></div>
+              <div class="chart-caption json-load json-quad-bottom-left"></div>
+            </div>
+            <div class="chart-wrapper column half">
+              <div class="chart-bottom-right"></div>
+              <div class="chart-caption json-load json-quad-bottom-right"></div>
+            </div>
+          </div>
         </div>
       </section>
       <section class="casestudy parallax-image" data-speed="50">
@@ -469,6 +469,24 @@
               data: introChartData.map((val) => val[1]),
             },
           ],
+          chart: {
+            type: 'bar',
+            height: 350,
+            toolbar: {
+              show: false,
+            },
+            width: '100%',
+          },
+          plotOptions: {
+            bar: {
+              horizontal: false,
+              columnWidth: '63%',
+              endingShape: 'rounded',
+              dataLabels: {
+                position: 'top',
+              },
+            },
+          },
           dataLabels: {
             enabled: true,
             formatter: (val) => val + '%',
@@ -480,6 +498,7 @@
           },
           fill: {
             colors: ['#F22F46'],
+            opacity: 1,
           },
         }
         introChartOptions.xaxis.categories = introChartData.map((val) => val[0])

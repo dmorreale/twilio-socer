@@ -477,11 +477,19 @@
               show: false,
             },
           },
+          plotOptions: {
+            bar: {
+              horizontal: true,
+              dataLabels: {
+                position:'top',
+              },
+            },
+          },
           dataLabels: {
             enabled: true,
             formatter: (val) => val + '%',
             textAnchor: 'start',
-            offsetX: 0,
+            offsetX: 20,
             style: {
               fontSize: '14px',
               colors: ['#121C2D'],
@@ -498,6 +506,7 @@
           },
           fill: {
             type: 'solid',
+            opacity: 1,
             colors: ['#F22F46', 'transparent']
           },
           xaxis: {

@@ -472,20 +472,29 @@
               data: introChartData.map((val) => val[1]),
             },
           ],
-          dataLabels: {
-            enabled: true,
-            formatter: (val) => val + '%',
-            textAnchor: 'middle',
-            offsetX: 0,
-            style: {
-              colors: ['#121C2D'],
-            },
-          },
           chart: {
             type: 'bar',
             height: 212,
             toolbar: {
               show: false,
+            },
+          },
+          plotOptions: {
+            bar: {
+              horizontal: true,
+              dataLabels: {
+                position:'top',
+              },
+            },
+          },
+          dataLabels: {
+            enabled: true,
+            formatter: (val) => val + '%',
+            textAnchor: 'start',
+            offsetX: 20,
+            style: {
+              fontSize: '14px',
+              colors: ['#121C2D'],
             },
           },
           colors: ['#F22F46'],
@@ -496,6 +505,7 @@
           },
           fill: {
             type: 'solid',
+            opacity: 1,
             colors: ['#F22F46', 'transparent']
           },
           xaxis: {

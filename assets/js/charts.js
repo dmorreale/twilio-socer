@@ -15,10 +15,17 @@ var columnChartOptions = {
     toolbar: {
       show: false,
     },
+    width: '320px',
   },
   fill: {
-	type: 'solid',
-	colors: ['#F22F46']
+    type: ['solid','image'],
+    colors: ['#F22F46'],
+    opacity: 1,
+    image: {
+      src: ['http://192.168.0.126/twilio-socer/assets/images/bar-with-lines.svg'],
+      width: 100,
+      height: 300
+    },
   },
   plotOptions: {
     bar: {
@@ -32,9 +39,11 @@ var columnChartOptions = {
   },
   dataLabels: {
     enabled: true,
-    offsetY: -20,
+    formatter: (val) => val + '%',
+    offsetY: -30,
     style: {
-      colors: ['#333'],
+      fontSize: '14px',
+      colors: ['#121C2D'],
     },
   },
   stroke: {
@@ -83,6 +92,7 @@ var radialBarOptions = {
   fill: {
 	 type: 'solid',
 	 colors: ['#F22F46'],
+   opacity: 1
   },
   labels: [''],
 }
@@ -93,9 +103,10 @@ var barChartOptions = {
       data: [400, 430, 448],
     },
   ],
+
   chart: {
     type: 'bar',
-    height: 350,
+    height: 212,
     toolbar: {
       show: false,
     },
@@ -103,26 +114,56 @@ var barChartOptions = {
   plotOptions: {
     bar: {
       horizontal: true,
+      dataLabels: {
+        position:'top',
+      },
     },
   },
   dataLabels: {
-    enabled: false,
+    enabled: true,
+    formatter: (val) => val + '%',
+    textAnchor: 'start',
+    offsetX: 20,
+    style: {
+      fontSize: '14px',
+      colors: ['#121C2D'],
+    },
+  },
+  colors: ['#F22F46'],
+  stroke: {
+    show: true,
+    width: 1,
+    colors: ['#F22F46'],
+  },
+  fill: {
+    type: 'solid',
+    opacity: 1,
+    colors: ['#F22F46', 'transparent']
   },
   xaxis: {
-    axisBorder: { show: false },
-    axisTicks: { show: false },
+    labels: {
+      show: false
+    },
+    axisBorder: {
+        show: false
+    },
+    axisTicks: {
+      show: false
+    },
     categories: ['Today', 'In the past week', 'In the past month'],
+  },
+  yaxis: {
+    labels: {
+      offsetX: -14,
+      maxWidth:224
+    }
   },
   tooltip: {
     enabled: false,
   },
   grid: {
     show: false,
-  },
-  fill: {
-	type: 'solid',
-	colors: ['#F22F46', 'transparent']
-  },
+  }
 }
 
 var lineChartOptions = {
@@ -215,8 +256,8 @@ var stackedBar100Options = {
   },
   fill: {
     opacity: 1,
-	type: 'solid',
-	colors: ['#F22F46', 'transparent'] 
+	  type: 'solid',
+	  colors: ['#F22F46', 'transparent'] 
   },
   legend: {
     show: false,

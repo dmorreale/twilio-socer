@@ -1054,16 +1054,18 @@ body {
     line-height: 64px;
     letter-spacing: 0em;
     text-align: center; }
-    .pageWrapper .chart-grid .chart-text:after {
-      content: '';
-      display: inline-block;
-      background: url(../images/right-arrow.svg) no-repeat center;
-      background-size: contain;
-      width: 106px;
-      height: 32px;
-      position: absolute;
-      left: 50%;
-      transform: translate(-50%, -24px); }
+    .pageWrapper .chart-grid .chart-text span {
+      position: relative;
+      top: 0;
+      left: 0;
+      display: inline-block; }
+      .pageWrapper .chart-grid .chart-text span:before {
+        content: '';
+        display: block;
+        background: url(../images/right-arrow.svg) no-repeat center;
+        background-size: contain;
+        width: 106px;
+        height: 32px; }
   .pageWrapper .intro-data-chart, .pageWrapper .twilio-data-chart {
     padding-bottom: 0; }
     .pageWrapper .intro-data-chart + .chart-caption, .pageWrapper .twilio-data-chart + .chart-caption {
@@ -1079,10 +1081,15 @@ body {
       transform: translate(0, -5px);
       display: inline-block;
       padding-left: 7px; }
-  .pageWrapper .intro-data-chart .apexcharts-legend {
+  .pageWrapper .intro-data-chart .apexcharts-legend, .pageWrapper .chart-wrapper .apexcharts-legend {
     padding-left: 98px; }
-    .pageWrapper .intro-data-chart .apexcharts-legend-series {
+    .pageWrapper .intro-data-chart .apexcharts-legend-series, .pageWrapper .chart-wrapper .apexcharts-legend-series {
       margin-top: 20px !important; }
+  .pageWrapper .chart-wrapper [class^="chart-"]:not(.chart-text, .chart-caption) {
+    margin: auto; }
+    .pageWrapper .chart-wrapper [class^="chart-"]:not(.chart-text, .chart-caption) .apexcharts-series path.apexcharts-bar-area {
+      stroke: #F22F46;
+      stroke-width: 1px; }
   .pageWrapper .block-hero {
     padding-bottom: 0px; }
     .pageWrapper .block-hero .leftOfImage {
@@ -1454,6 +1461,9 @@ body {
       margin-bottom: 48px; }
     .pageWrapper .prefooter .btn {
       margin: 0 26px 14px 0; }
+    .pageWrapper .prefooter img {
+      max-width: 100%;
+      height: auto; }
     @media screen and (max-width: 1439px) {
       .pageWrapper .prefooter {
         padding: 120px 0 100px 0; } }

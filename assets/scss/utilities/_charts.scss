@@ -30,17 +30,21 @@
 	letter-spacing: 0em;
 	text-align: center;
 	
-	&:after{
-		content:'';
+	span {
+		position:relative;
+		top:0;
+		left:0;
 		display:inline-block;
-		background:url(../images/right-arrow.svg) no-repeat center;
-		background-size: contain;
-		width:106px;
-		height:32px;
-		position: absolute;
-		left: 50%;
-		transform: translate(-50%, -24px);
+		&:before {
+			content:'';
+			display:block;
+			background:url(../images/right-arrow.svg) no-repeat center;
+			background-size: contain;
+			width:106px;
+			height:32px;
+		}
 	}
+	
 }
 
 .intro-data-chart, .twilio-data-chart {
@@ -67,11 +71,21 @@
 	}
 }
 
-.intro-data-chart {
+.intro-data-chart, .chart-wrapper {
 	.apexcharts-legend {
 		padding-left:98px;
 		&-series {
 			margin-top:20px !important;
+		}
+	}
+}
+
+.chart-wrapper [class^="chart-"]:not(.chart-text,.chart-caption) {
+	margin:auto;
+	.apexcharts-series {
+		path.apexcharts-bar-area {
+			stroke:$red;
+			stroke-width:1px;
 		}
 	}
 }

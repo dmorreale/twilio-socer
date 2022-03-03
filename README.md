@@ -14,25 +14,30 @@ QA - ??
 
 
 Todo:
-	T1 - first bar chart - bars need to extend horizontally.
-			  - line chart - x-axis should start from the begining
-    T2, T3, T4 - First bar chart - labels need to be at the end of the bars.
+	4 chart block:
+		need a new image for the stripe background
+		general edits to all of these charts
+		make sure that the dot charts are pulling from the JSON
+		drop-down is not working on pages 3 - 5
+		center the charts
+
+Outstanding chart issues:
+    T2 - first bar chart - largest bar's label doesn't have padding
     T4 - Second bar chart needs styling
     T5 - radial chart is not left aligned and does not have a stroke. I don't know if these two are possible.
+
+    minor:
+    T1 - line chart - x-axis should start from the begining
 	T5 - line chart needs to have the last x-axis label showing
+	T3 - first bar chart - labels are not all aligned to the right
+
+	
 
 
 General:
-	Responsive version of the new designs are needed.
+	Padding needs to be adjusted after the charts are put in
+		responsive as well but we have no design - will go off our gut and their suggestions
 	Design does not cover small mobile screens < 375px - need to double check this screen on the site
 	move styles from the spacings sass file to the layout sass file.
 
-
-	
-home page:
-
-
-trends page:
-	block-after-hero - needs graph put in and bottom padding adjusted on desktop and mobile
-	data/graph block with background - needs graph put in and bottom padding adjusted on desktop and mobile
 

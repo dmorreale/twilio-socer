@@ -250,7 +250,7 @@ function updateChartGroup(val, tl, tr, bl, br) {
             data: [tl.find((e) => e[0] === 'Global')[1]],
           },
         ],
-        xaxis: { categories: [val.toLocaleUpperCase(), 'GLOBAL AVG'] },
+        xaxis: { categories: [val, 'Global Average'] },
       })
       topRightChart.innerHTML = `<span>${tr.find((e) => e[0] === val)[1]} YEARS</span>`
       bottomLeftChart.updateOptions({
@@ -312,7 +312,7 @@ function updateChartGroup(val, tl, tr, bl, br) {
             data: [bl.find((e) => e[0] === val)[3]],
           },
         ],
-        xaxis: { categories: [val.toLocaleUpperCase(), 'GLOBAL AVG'] },
+        xaxis: { categories: ['Companies', 'Consumers'] },
       })
 
       bottomRightChart.updateOptions({
@@ -327,22 +327,66 @@ function updateChartGroup(val, tl, tr, bl, br) {
             data: br.filter((el) => el[0] === val).map((el) => parseInt(el[3])),
           },
         ],
-        dataLabels: {
-          enabled: true,
-          formatter: (val) => val + '%',
-          textAnchor: 'start',
-          offsetX: 0,
-          style: {
-            fontSize: '14px',
-            colors: ['#121C2D'],
+        chart: {
+          height: 400,
+        },
+        plotOptions: {
+            bar: {
+              horizontal: true,
+              dataLabels: {
+                position:'top',
+              },
+            },
           },
-        },
-        colors: ['#F22F46', 'transparent'],
-        stroke: {
-          show: true,
-          width: 1,
-          colors: ['#F22F46'],
-        },
+          dataLabels: {
+            enabled: true,
+            formatter: (val) => val + '%',
+            textAnchor: 'start',
+            offsetX: 20,
+            style: {
+              fontSize: '14px',
+              colors: ['#121C2D'],
+            },
+          },
+          colors: ['#F22F46', 'transparent'],
+          stroke: {
+            show: true,
+            width: 1,
+            colors: ['#F22F46'],
+          },
+          legend: {
+            show: true,
+            horizontalAlign: 'left',
+            height: 80,
+            markers: {
+              width: 18,
+              height: 18,
+              strokeWidth: '1px',
+              strokeColor: '#F22F46',
+              radius: 0
+            },
+          },
+          fill: {
+            type: 'solid',
+            colors: ['#F22F46', 'transparent'],
+            opacity: 1,
+          },
+          xaxis: {
+            labels: {
+              show: false
+            },
+            axisBorder: {
+                show: false
+            },
+            axisTicks: {
+              show: false
+            }
+          },
+          yaxis: {
+            labels: {
+              offsetX: -14,
+            }
+          }
       })
 		  
   case '3':
