@@ -16,21 +16,18 @@ QA - ??
 Todo:
 	4 chart block:
 		need a new image for the stripe background
-		general edits to all of these charts
-		make sure that the dot charts are pulling from the JSON
-		drop-down is not working on pages 3 - 5
-		center the charts
+		Make sure that the data is coming in correctly to all the charts from the JSON.
+			Drop-down should be working on all trends pages.
 
 Outstanding chart issues:
     T2 - first bar chart - largest bar's label doesn't have padding
     T4 - Second bar chart needs styling
-    T5 - radial chart is not left aligned and does not have a stroke. I don't know if these two are possible.
+    T5 - radial chart is not left aligned and does not have a stroke. I don't think these two are possible.
 
     minor:
     T1 - line chart - x-axis should start from the begining
 	T5 - line chart needs to have the last x-axis label showing
 	T3 - first bar chart - labels are not all aligned to the right
-
 	
 
 

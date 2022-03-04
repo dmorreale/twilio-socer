@@ -45,6 +45,9 @@ var columnChartOptions = {
       fontSize: '14px',
       colors: ['#121C2D'],
     },
+    background: {
+      enabled: false,
+    },
   },
   stroke: {
     show: true,

@@ -313,6 +313,7 @@ function updateChartGroup(val, tl, tr, bl, br) {
           },
         ],
         xaxis: { categories: ['Companies', 'Consumers'] },
+         
       })
 
       bottomRightChart.updateOptions({
