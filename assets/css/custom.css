@@ -1040,7 +1040,9 @@ body {
       height: 21px;
       border: 1px solid #F22F46;
       border-radius: 50%;
-      margin: 5px; }
+      margin: 5px;
+      background-color: transparent;
+      transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1); }
     .pageWrapper .dot-chart .filled {
       background-color: #F22F46; }
   .pageWrapper .chart-grid .chart-text {
@@ -1688,8 +1690,7 @@ body {
       .pageWrapper .regionaldata .selector.opened ul {
         max-height: 1000px; }
     .pageWrapper .regionaldata .chart-caption {
-      padding-bottom: 30px;
-      border-bottom: 1px solid #F22F46; }
+      padding-bottom: 30px; }
     .pageWrapper .regionaldata .chart-wrapper {
       display: flex;
       flex-flow: column;

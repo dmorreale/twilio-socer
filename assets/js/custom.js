@@ -16,23 +16,6 @@ $(document).ready(async function () {
 		  }
 	  });
 	});
-	
-	$('.dot-chart').each(function(){
-		var dots = '';
-		var val = 83;
-		
-		for(var i = 100; i > 0; i--){
-			if(i <=val){
-				dots += '<div class="filled dot-' + i + '"></div>';
-			} else {
-				dots += '<div class="dot-' + i + '"></div>';
-			}
-			
-		}
-		$(this).html(dots);
-	});
-	
-	
 
   //mouse follow on trend hover
   $('.trends--item').on('mousemove', function (e) {
@@ -189,15 +172,14 @@ $(document).ready(async function () {
 	  )
 
 
-	  updateChartGroup('Global', tl, tr, bl, br)   
+	  updateChartGroup('Global', tl, tr, bl, br)
+    updateDotCharts('Global', tl, tr, bl, br);
 
 
   function adjustOverlappingGrid() {
     $('.bg-grid-overlap').each(function () {
       var newHeight = $(this).parent().outerHeight(true)
-      newHeight +=
-        $(this).parent().prev().find('.two-col').outerHeight(true) / 2
-      console.log(newHeight)
+      newHeight += $(this).parent().prev().find('.two-col').outerHeight(true) / 2;
       $(this).css('height', newHeight + 'px')
     })
   }
@@ -228,12 +210,63 @@ $(document).ready(async function () {
 
       $parent.find('> A').text(val)
       updateChartGroup(val, tl, tr, bl, br)
+
+      updateDotCharts(val, tl, tr, bl, br);
     }
   })
 	
 })
 
+function updateDotCharts(val, tl, tr, bl, br) {
+  $('.dot-chart').each(function() {
+    var dots = '';
+    var dataSet;
+    var percentage = 0;
 
+    //if the chart is not initialized, create it
+    if(!$(this).find('.dot-100').length) {
+      for(var i = 100; i > 0; i--) {
+        dots += '<div class="dot-' + i + '"></div>';
+      }
+
+      $(this).html(dots);
+    }
+
+    if($(this).parent().hasClass('chart-top-left')) {
+      dataSet = tl;
+    }
+    else if($(this).parent().hasClass('chart-top-right')) {
+      dataSet = tr;
+    }
+    else if($(this).parent().hasClass('chart-bottom-left')) {
+      dataSet = bl;
+    }
+    else if($(this).parent().hasClass('chart-bottom-right')) {
+      dataSet = br;
+    }
+
+    for(var i = 0; i < dataSet.length; i++) {
+      if(dataSet[i][0]) {
+        //console.log(dataSet[i][0],val);
+        if(dataSet[i][0] == val) {
+          percentage = dataSet[i][1];
+          percentage = parseInt(percentage.replace('%', ''));
+        }
+      }
+    }
+    
+    for(var i = 100; i > 0; i--) {
+      var dot = $(this).find('.dot-'+i);
+      if(i >= percentage) {
+        dot.removeClass('filled');
+      }
+      else {
+        dot.addClass('filled');
+      }
+    }
+
+  });
+}
 
 function updateChartGroup(val, tl, tr, bl, br) {
   const trendNum = $('.regionaldata').attr('data-trendNum')

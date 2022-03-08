@@ -401,26 +401,33 @@ var scatterPlotChartOptions = {
 
 // var chart = new ApexCharts(document.querySelector('#chart'), options)
 // chart.render()
+if(!$('.chart-top-left').hasClass('hide-apex')) {
+  var topLeftChart = new ApexCharts(
+    document.querySelector('.chart-top-left:not(.hide-apex)'),
+    columnChartOptions
+  )
+  topLeftChart.render()
+}
 
-var topLeftChart = new ApexCharts(
-  document.querySelector('.chart-top-left'),
-  columnChartOptions
-)
-topLeftChart.render()
+if(!$('.chart-bottom-right').hasClass('hide-apex')) {
+  var bottomRightChart = new ApexCharts(
+    document.querySelector('.chart-bottom-right'),
+    barChartOptions
+  )
+  bottomRightChart.render()
+}
 
-var bottomRightChart = new ApexCharts(
-  document.querySelector('.chart-bottom-right'),
-  barChartOptions
-)
-bottomRightChart.render()
+if(!$('.chart-bottom-left').hasClass('hide-apex')) {
+  var bottomLeftChart = new ApexCharts(
+    document.querySelector('.chart-bottom-left'),
+    radialBarOptions
+  )
+  bottomLeftChart.render()
+}
 
-var bottomLeftChart = new ApexCharts(
-  document.querySelector('.chart-bottom-left'),
-  radialBarOptions
-)
-bottomLeftChart.render()
-
-var topRightChart = document.querySelector('.chart-top-right')
+if(!$('.chart-top-right').hasClass('hide-apex')) {
+  var topRightChart = document.querySelector('.chart-top-right')
+}
 
 
 
