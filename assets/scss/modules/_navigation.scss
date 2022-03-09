@@ -43,12 +43,22 @@
 				width:17px;
 				height:16px;
 				object-fit:contain;
-				filter:brightness(0) invert(1);
+				filter:brightness(3) grayscale(1);
 				@include generalAnimationType;
 			}
+			svg {
+				margin-right:8px;
+				transform:translate(0,3px);
+				width:17px;
+				height:16px;
+				* {
+					stroke:white;
+					@include generalAnimationType;
+				}
+			}
 		}
-		&:hover > a img, & > a.active img {
-			filter:brightness(1) invert(0);
+		&:hover > a svg *, & > a.active svg * {
+			stroke:$red;
 		}
 		ul {
 			transform:translate(39px,-5px);
@@ -94,9 +104,9 @@
 					bottom:0;
 				}
 				&.line2 {
-					top:50%;
+					top:7px;
 					left:50%;
-					transform:translate(-50%,-50%);
+					transform:translate(-50%,0);
 				}
 			}
 		}
