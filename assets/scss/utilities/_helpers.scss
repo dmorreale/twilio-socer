@@ -35,17 +35,30 @@
 		text-transform:initial;
 		margin:13px 0 0 12px;
 		text-align:left;
+		letter-spacing:0;
 	}
 	img {
 		width:16px;
 		height:100px;
 		transform:translate(0,-13px);
 		@include generalAnimationType;
+		animation: float 3s ease-in-out infinite;
+		animation-direction:reverse;
 	}
 	&:hover {
 		img {
-			transform:translate(0,-4px);
+			animation:none;
+			transform:translate(0,-4px) !important;
 		}
+	}
+}
+
+@keyframes float {
+	0% {
+	  transform:translate(0,-13px);
+	}
+	50% {
+	  transform:translate(0,-8px);
 	}
 }
 
