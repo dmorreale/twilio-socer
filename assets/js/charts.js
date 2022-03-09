@@ -440,33 +440,3 @@ var scatterPlotChartOptions = {
     tickAmount: 7,
   },
 }
-
-// var chart = new ApexCharts(document.querySelector('#chart'), options)
-// chart.render()
-if(!$('.chart-top-left').hasClass('hide-apex')) {
-  var topLeftChart = new ApexCharts(
-    document.querySelector('.chart-top-left:not(.hide-apex)'),
-    columnChartOptions
-  )
-  topLeftChart.render()
-}
-
-if(!$('.chart-bottom-right').hasClass('hide-apex')) {
-  var bottomRightChart = new ApexCharts(
-    document.querySelector('.chart-bottom-right'),
-    barChartOptions
-  )
-  bottomRightChart.render()
-}
-
-if(!$('.chart-bottom-left').hasClass('hide-apex')) {
-  var bottomLeftChart = new ApexCharts(
-    document.querySelector('.chart-bottom-left'),
-    radialBarOptions
-  )
-  bottomLeftChart.render()
-}
-
-if(!$('.chart-top-right').hasClass('hide-apex')) {
-  var topRightChart = document.querySelector('.chart-top-right')
-}
