@@ -22,7 +22,7 @@ var columnChartOptions = {
     colors: ['#F22F46'],
     opacity: 1,
     image: {
-      src: ['http://192.168.0.126/twilio-socer/assets/images/bar-with-lines.svg'],
+      src: ['./assets/images/bar-with-lines.svg'],
       width: 100,
       height: 300
     },
@@ -82,22 +82,32 @@ var radialBarOptions = {
       show: false,
     },
   },
+  dataLabels: {
+    enabled: true,
+    formatter: (val) => val + '%',
+    offsetY: -30,
+    style: {
+      fontSize: '14px',
+      colors: ['#121C2D'],
+    },
+  },
   plotOptions: {
     radialBar: {
-  		hollow: {
-  			size: '80%',
-  		},
-  			track: {
-          background: '#ffffff'
-  		},
+      hollow: {
+        size: '80%',
+      },
+      track: {
+        background: '#ffffff',
+      },
     },
   },
   fill: {
-	 type: 'solid',
-	 colors: ['#F22F46'],
-   opacity: 1
+    type: 'solid',
+    colors: ['#F22F46'],
+    opacity: 1,
   },
   labels: [''],
+  xaxis: {},
 }
 
 var barChartOptions = {
@@ -106,7 +116,6 @@ var barChartOptions = {
       data: [400, 430, 448],
     },
   ],
-
   chart: {
     type: 'bar',
     height: 212,
@@ -461,6 +470,3 @@ if(!$('.chart-bottom-left').hasClass('hide-apex')) {
 if(!$('.chart-top-right').hasClass('hide-apex')) {
   var topRightChart = document.querySelector('.chart-top-right')
 }
-
-
-

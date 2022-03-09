@@ -1,3 +1,33 @@
+const chartGroupData = []
+const chartGroupCharts = []
+const merge = (...arguments) => {
+  // create a new object
+  let target = {}
+
+  // deep merge the object into the target object
+  const merger = (obj) => {
+    for (let prop in obj) {
+      if (obj.hasOwnProperty(prop)) {
+        if (Object.prototype.toString.call(obj[prop]) === '[object Object]') {
+          // if the property is a nested object
+          target[prop] = merge(target[prop], obj[prop])
+        } else {
+          // for regular property
+          target[prop] = obj[prop]
+        }
+      }
+    }
+  }
+
+  // iterate through all objects and
+  // deep merge them with target
+  for (let i = 0; i < arguments.length; i++) {
+    merger(arguments[i])
+  }
+
+  return target
+}
+
 $(document).ready(async function () {
   setTimeout(function () {
     $(window).resize()
@@ -6,7 +36,6 @@ $(document).ready(async function () {
     $(window).resize()
     aosResetNav()
   }, 1000)
-  
 	var curPage = $('body').data('page');
 	//load the text from the json doc.
 	await $.getJSON("assets/json/twiliosocer2022.json", function(json) {
@@ -75,56 +104,53 @@ $(document).ready(async function () {
   $(window).on('hashchange', function () {
     pagechange()
   })
-	
- $('.downArrowModule').click(function() {
-	scrollTo($(this).closest('section').next(),1200);
-  });
+
+  $('.downArrowModule').click(function () {
+    scrollTo($(this).closest('section').next(), 1200)
+  })
 
   $(document).scroll(function () {
+    var t = $(window).scrollTop()
+    $('.leftImageHero').each(function () {
+      var topPosition = $(window).scrollTop() - $(this).offset().top
+      topPosition = topPosition * 0.2
+      $(this).css('top', topPosition + 'px')
+    })
 
-    var t=$(window).scrollTop();
-	$('.leftImageHero').each(function() {
-		var topPosition = $(window).scrollTop() - $(this).offset().top;
-		topPosition = topPosition*(.2);
-		$(this).css('top',topPosition + 'px');
-	});
-	  
-	//generic parallax function
-	$('.parallax-image').each(function(){
-		var $cur = $(this);
-		var paraStart = $(window).scrollTop() + $(window).height();
-		var paraDif = paraStart - $(this).offset().top;
-		var speed = $cur.attr('data-speed');
-		var maxDistance = $cur.attr('data-max');
-		if(typeof speed !== typeof undefined && speed !== false ){
-			speed = parseInt(speed)/1000;
-		} else {
-			speed = .2;
-		}
-		if(typeof maxDistance !== typeof undefined && maxDistance !== false ){
-			maxDistance = parseInt(maxDistance);
-		} else {
-			maxDistance = false;
-		}
-		if(paraStart > $(this).offset().top){
-			var transform =  Math.floor(paraDif * speed);
-			if( maxDistance && transform > maxDistance ) transform = maxDistance;
-			var translate =  'translateY(' + transform + 'px)';
-		   $cur.css({
-				transform: translate
-			});
-		} else {
-			$cur.removeAttr('style');
-		}
-		
-	});
-	  
-	$('.rotateOnScroll').each(function() {
-      $(this).css('transform','rotate('+(t/3)+'deg)');
-    });
-	  
-  });
-	
+    //generic parallax function
+    $('.parallax-image').each(function () {
+      var $cur = $(this)
+      var paraStart = $(window).scrollTop() + $(window).height()
+      var paraDif = paraStart - $(this).offset().top
+      var speed = $cur.attr('data-speed')
+      var maxDistance = $cur.attr('data-max')
+      if (typeof speed !== typeof undefined && speed !== false) {
+        speed = parseInt(speed) / 1000
+      } else {
+        speed = 0.2
+      }
+      if (typeof maxDistance !== typeof undefined && maxDistance !== false) {
+        maxDistance = parseInt(maxDistance)
+      } else {
+        maxDistance = false
+      }
+      if (paraStart > $(this).offset().top) {
+        var transform = Math.floor(paraDif * speed)
+        if (maxDistance && transform > maxDistance) transform = maxDistance
+        var translate = 'translateY(' + transform + 'px)'
+        $cur.css({
+          transform: translate,
+        })
+      } else {
+        $cur.removeAttr('style')
+      }
+    })
+
+    $('.rotateOnScroll').each(function () {
+      $(this).css('transform', 'rotate(' + t / 3 + 'deg)')
+    })
+  })
+
   $(window).resize(function () {
     adjustOverlappingGrid()
   })
@@ -172,9 +198,8 @@ $(document).ready(async function () {
 	  )
 
 
-	  updateChartGroup('Global', tl, tr, bl, br)
-    updateDotCharts('Global', tl, tr, bl, br);
-
+  updateChartGroup('Global', tl, tr, bl, br)
+  updateDotCharts('Global', tl, tr, bl, br);
 
   function adjustOverlappingGrid() {
     $('.bg-grid-overlap').each(function () {
@@ -183,22 +208,22 @@ $(document).ready(async function () {
       $(this).css('height', newHeight + 'px')
     })
   }
-	
+
   $('.selector > a').click(async function (e) {
-    e.preventDefault();
-  	$(this).parent().toggleClass('opened');
-  });
+    e.preventDefault()
+    $(this).parent().toggleClass('opened')
+  })
 
   //dropdown selectors
   $('.selector a').click(async function (e) {
     e.preventDefault()
     var $el = $(this)
     var $parent = $el.closest('.selector')
-	  
+
     if (!$el.attr('data-default')) {
       var val = $el.text()
-	  
-	  $parent.removeClass('opened');
+
+      $parent.removeClass('opened')
 
       if (val == 'Global') {
         val = $parent.find('> A').attr('data-default') //reset to default
@@ -209,12 +234,13 @@ $(document).ready(async function () {
       })
 
       $parent.find('> A').text(val)
-      updateChartGroup(val, tl, tr, bl, br)
+
+      updateChartGroup(val)
 
       updateDotCharts(val, tl, tr, bl, br);
     }
   })
-	
+  renderChartGroup()
 })
 
 function updateDotCharts(val, tl, tr, bl, br) {
@@ -268,171 +294,272 @@ function updateDotCharts(val, tl, tr, bl, br) {
   });
 }
 
-function updateChartGroup(val, tl, tr, bl, br) {
-  const trendNum = $('.regionaldata').attr('data-trendNum')
-  switch (trendNum) {
-    case '1':
-      topLeftChart.updateOptions({
-        series: [
-          {
-            name: val,
-            data: [tl.find((e) => e[0] === val)[1]],
-          },
-          {
-            name: 'GLOBAL AVERAGE',
-            data: [tl.find((e) => e[0] === 'Global')[1]],
-          },
-        ],
-        xaxis: { categories: [val, 'Global Average'] },
-      })
-      topRightChart.innerHTML = `<span>${tr.find((e) => e[0] === val)[1]} YEARS</span>`
-      bottomLeftChart.updateOptions({
-        series: [parseInt(bl.find((e) => e[0] === val)[1].replace('%', ''))],
-      })
-      bottomRightChart.updateOptions({
-        series: [
-          {
-            data: br.filter((el) => el[0] === val).map((el) => parseInt(el[2])),
-          },
-        ],
-      })
-      break
-    case '2':
-		 
-	  
-      if (topRightChart instanceof ApexCharts) {
-        topRightChart.updateOptions({
-          series: [
-            {
-              name: val,
-              data: [tr.find((e) => e[0] === val)[2]],
-            },
-            {
-              name: val,
-              data: [tr.find((e) => e[0] === val)[3]],
-            },
-          ],
-        })
-      } else {
-        topRightChart = new ApexCharts(
-          document.querySelector('.chart-top-right'),
-          {
-            ...columnChartOptions,
+async function renderChartGroup(val, tl, tr, bl, br) {
+  await Array.from(document.querySelectorAll('.chart-placeholder')).map(
+    async (div, index) => {
+      const type = div.dataset.chartType
+      switch (type) {
+        case 'bar':
+          chartGroupData[index] = await $.getJSON(
+            `json/by_${div.dataset.getBy ?? 'header'}/${div.dataset.source}`,
+            (data) => {
+              tl = data
+            }
+          )
+          var chartOptions = merge(barChartOptions, {
             series: [
               {
-                name: val,
-                data: [tr.find((e) => e[0] === val)[2]],
-              },
-              {
-                name: val,
-                data: [tr.find((e) => e[0] === val)[3]],
+                data:
+                  div.dataset.getBy === 'row'
+                    ? chartGroupData[index]
+                        .filter((el) => el[0] === 'Global')
+                        .map((el) => el[2])
+                    : chartGroupData[index].map((val) => val['Global']),
               },
             ],
-          }
-        )
-        topRightChart.render()
-      }
+            xaxis: {
+              categories:
+                div.dataset.getBy === 'row'
+                  ? chartGroupData[index]
+                      .filter((el) => el[0] === 'Global')
+                      .map((el) => el[1])
+                  : chartGroupData[index].map((val) => val.Regions),
+            },
+          })
+          chartGroupCharts[index] = new ApexCharts(div, chartOptions)
+          chartGroupCharts[index].render()
+          break
 
-      bottomLeftChart.updateOptions({
-        ...columnChartOptions,
-        series: [
-          {
-            name: val,
-            data: [bl.find((e) => e[0] === val)[2]],
-          },
-          {
-            name: val,
-            data: [bl.find((e) => e[0] === val)[3]],
-          },
-        ],
-        xaxis: { 
-          axisBorder: { show: false },
-          axisTicks: { show: false },
-          categories: ['Companies', 'Consumers'] 
-        }, 
-      })
-
-      bottomRightChart.updateOptions({
-        ...barChartOptions,
-        series: [
-          {
-            name: 'Companies',
-            data: br.filter((el) => el[0] === val).map((el) => parseInt(el[2])),
-          },
-          {
-            name: 'Consumers',
-            data: br.filter((el) => el[0] === val).map((el) => parseInt(el[3])),
-          },
-        ],
-        chart: {
-          height: 400,
-        },
-        plotOptions: {
-            bar: {
-              horizontal: true,
-              dataLabels: {
-                position:'top',
+        case 'double-bar':
+          chartGroupData[index] = await $.getJSON(
+            `json/by_row/${div.dataset.source}`,
+            (data) => {
+              tl = data
+            }
+          )
+          var chartOptions = merge(barChartOptions, {
+            series: [
+              {
+                name: 'Companies',
+                data: chartGroupData[index]
+                  .filter((el) => el[0] === 'Global')
+                  .map((el) => parseInt(el[2]))
+                  .reverse(),
               },
+              {
+                name: 'Consumers',
+                data: chartGroupData[index]
+                  .filter((el) => el[0] === 'Global')
+                  .map((el) => parseInt(el[3]))
+                  .reverse(),
+              },
+            ],
+            xaxis: {
+              categories: chartGroupData[index]
+                .filter((el) => el[0] === 'Global')
+                .map((el) => el[1])
+                .reverse(),
             },
-          },
-          dataLabels: {
-            enabled: true,
-            formatter: (val) => val + '%',
-            textAnchor: 'start',
-            offsetX: 20,
-            style: {
-              fontSize: '14px',
-              colors: ['#121C2D'],
+            chart: {
+              height: 384,
+              width: 499,
             },
-          },
-          colors: ['#F22F46', 'transparent'],
-          stroke: {
-            show: true,
-            width: 1,
-            colors: ['#F22F46'],
-          },
-          legend: {
-            show: true,
-            horizontalAlign: 'left',
-            height: 80,
-            markers: {
-              width: 18,
-              height: 18,
-              strokeWidth: '1px',
-              strokeColor: '#F22F46',
-              radius: 0
-            },
-          },
-          fill: {
-            type: 'solid',
-            colors: ['#F22F46', 'transparent'],
-            opacity: 1,
-          },
-          xaxis: {
-            labels: {
-              show: false
-            },
-            axisBorder: {
-                show: false
-            },
-            axisTicks: {
-              show: false
+          })
+          chartGroupCharts[index] = new ApexCharts(div, chartOptions)
+          chartGroupCharts[index].render()
+          break
+
+        case 'radial-bar':
+          chartGroupData[index] = await $.getJSON(
+            `json/by_row/${div.dataset.source}`,
+            (data) => {
+              tl = data
             }
-          },
-          yaxis: {
-            labels: {
-              offsetX: -14,
+          )
+          var chartOptions = merge(radialBarOptions, {
+            series: [
+              parseInt(
+                chartGroupData[index].find((el) => el[0] === 'Global')[1]
+              ),
+            ],
+          })
+          chartGroupCharts[index] = new ApexCharts(div, chartOptions)
+          chartGroupCharts[index].render()
+          break
+
+        case 'column':
+          chartGroupData[index] = await $.getJSON(
+            `json/by_row/${div.dataset.source}`,
+            (data) => {
+              tl = data
+            }
+          )
+
+          let colSeries = () => {
+            if (chartGroupData[index][0].length === 2) {
+              return [
+                {
+                  data: [
+                    chartGroupData[index].find((e) => e[0] === 'Global')[1],
+                  ],
+                },
+                {
+                  data: [
+                    chartGroupData[index].find((e) => e[0] === 'Global')[1],
+                  ],
+                },
+              ]
+            } else if (chartGroupData[index][0].length === 4) {
+              return [
+                {
+                  data: [
+                    chartGroupData[index].find((e) => e[0] === 'Global')[2],
+                  ],
+                },
+                {
+                  data: [
+                    chartGroupData[index].find((e) => e[0] === 'Global')[3],
+                  ],
+                },
+              ]
             }
           }
-      })
-		  
-  case '3':
 
-  case '4':
+          var chartOptions = merge(columnChartOptions, {
+            series: colSeries(),
+            xaxis: {
+              categories:
+                chartGroupData[index][0].length === 2
+                  ? ['Global', 'Global']
+                  : ['Companies', 'Customers'],
+            },
+          })
+          chartGroupCharts[index] = new ApexCharts(div, chartOptions)
+          chartGroupCharts[index].render()
+          break
 
-  case '5':
-		  
-    default:
-      break
-  }
+        default:
+          break
+      }
+    }
+  )
+}
+
+
+bottomLeftChart.updateOptions({
+  ...columnChartOptions,
+  series: [
+    {
+      name: val,
+      data: [bl.find((e) => e[0] === val)[2]],
+    },
+    {
+      name: val,
+      data: [bl.find((e) => e[0] === val)[3]],
+    },
+  ],
+  xaxis: { 
+    axisBorder: { show: false },
+    axisTicks: { show: false },
+    categories: ['Companies', 'Consumers'] 
+  }, 
+})
+
+function updateChartGroup(selection) {
+  Array.from(document.querySelectorAll('.chart-placeholder')).map(
+    (div, index) => {
+      const type = div.dataset.chartType
+      switch (type) {
+        case 'bar':
+          chartGroupCharts[index].updateOptions({
+            series: [
+              {
+                data:
+                  div.dataset.getBy === 'row'
+                    ? chartGroupData[index]
+                        .filter((el) => el[0] === selection)
+                        .map((el) => el[2])
+                    : chartGroupData[index].map((val) => val[selection]),
+              },
+            ],
+          })
+          break
+
+        case 'double-bar':
+          chartGroupCharts[index].updateOptions({
+            series: [
+              {
+                name: 'Companies',
+                data: chartGroupData[index]
+                  .filter((el) => el[0] === selection)
+                  .map((el) => parseInt(el[2]))
+                  .reverse(),
+              },
+              {
+                name: 'Consumers',
+                data: chartGroupData[index]
+                  .filter((el) => el[0] === selection)
+                  .map((el) => parseInt(el[3]))
+                  .reverse(),
+              },
+            ],
+          })
+          break
+
+        case 'radial-bar':
+          chartGroupCharts[index].updateOptions({
+            series: [
+              parseInt(
+                chartGroupData[index].find((el) => el[0] === selection)[1]
+              ),
+            ],
+          })
+          break
+
+        case 'column':
+          let colSeries = () => {
+            if (chartGroupData[index][0].length === 2) {
+              return [
+                {
+                  data: [
+                    chartGroupData[index].find((e) => e[0] === selection)[1],
+                  ],
+                },
+                {
+                  data: [
+                    chartGroupData[index].find((e) => e[0] === 'Global')[1],
+                  ],
+                },
+              ]
+            } else if (chartGroupData[index][0].length === 4) {
+              return [
+                {
+                  data: [
+                    chartGroupData[index].find((e) => e[0] === selection)[2],
+                  ],
+                },
+                {
+                  data: [
+                    chartGroupData[index].find((e) => e[0] === selection)[3],
+                  ],
+                },
+              ]
+            }
+          }
+          chartGroupCharts[index].updateOptions({
+            series: colSeries(),
+            xaxis: {
+              categories:
+                chartGroupData[index][0].length === 2
+                  ? [selection, 'Global']
+                  : ['Companies', 'Customers'],
+            },
+          })
+          break
+
+        default:
+          break
+      }
+    }
+  )
 }

@@ -301,20 +301,27 @@
 		<div class="container two-col border-top-red">
 			<div class="chart-grid content">
               <div class="chart-wrapper column half">
-                <div class="chart-top-left hide-apex">
-				  <div class="dot-chart"></div></div>
-                <div class="chart-caption json-load json-quad-top-left"></div>
+                <div class="chart-placeholder hide-apex">
+				          <div class="dot-chart"></div></div>
+                  <div class="chart-caption json-load json-quad-top-left"></div>
               </div>
               <div class="chart-wrapper column half">
-                <div class="chart-top-right"></div>
+                <div class="chart-placeholder"
+                  data-chart-type="radial-bar"
+                  data-source="trend_5_explore_top_right.json"></div>
                 <div class="chart-caption json-load json-quad-top-right"></div>
               </div>
               <div class="chart-wrapper column half">
-                <div class="chart-bottom-left"></div>
+                <div class="chart-placeholder"
+                  data-chart-type="radial-bar"
+                  data-source="trend_5_explore_bottom_left.json"></div>
                 <div class="chart-caption json-load json-quad-bottom-left"></div>
               </div>
               <div class="chart-wrapper column half">
-                <div class="chart-bottom-right"></div>
+                <div class="chart-placeholder"
+                  data-chart-type="bar"
+                  data-source="trend_5_explore_bottom_right.json"
+                  ></div>
                 <div class="chart-caption json-load json-quad-bottom-right"></div>
               </div>
             </div>
@@ -471,20 +478,7 @@
         //console.log(introChartData[0].map((val) => parseInt(val)));
         var introChartOptions = {
           ...radialBarOptions,
-          series: introChartData[0].map((val) => parseInt(val)),
-          dataLabels: {
-            enabled: true,
-            formatter: (val) => val + '%',
-            offsetY: -30,
-            style: {
-              fontSize: '14px',
-              colors: ['#121C2D'],
-            },
-          },
-          fill: {
-            colors: ['#F22F46'],
-            opacity: 1
-          },
+          series: introChartData[0].map((val) => parseInt(val))
         }
         introChartOptions.xaxis.categories = introChartData.map((val) => val[0])
         var introChart = new ApexCharts(
