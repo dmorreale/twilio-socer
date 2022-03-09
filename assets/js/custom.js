@@ -231,7 +231,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
       switch (type) {
         case 'bar':
           chartGroupData[index] = await $.getJSON(
-            `json/by_header/${div.dataset.source}`,
+            `json/by_${div.dataset.getBy ?? 'header'}/${div.dataset.source}`,
             (data) => {
               tl = data
             }
@@ -239,11 +239,21 @@ async function renderChartGroup(val, tl, tr, bl, br) {
           var chartOptions = merge(barChartOptions, {
             series: [
               {
-                data: chartGroupData[index].map((val) => val['Global']),
+                data:
+                  div.dataset.getBy === 'row'
+                    ? chartGroupData[index]
+                        .filter((el) => el[0] === 'Global')
+                        .map((el) => el[2])
+                    : chartGroupData[index].map((val) => val['Global']),
               },
             ],
             xaxis: {
-              categories: chartGroupData[index].map((val) => val.Regions),
+              categories:
+                div.dataset.getBy === 'row'
+                  ? chartGroupData[index]
+                      .filter((el) => el[0] === 'Global')
+                      .map((el) => el[1])
+                  : chartGroupData[index].map((val) => val.Regions),
             },
           })
           chartGroupCharts[index] = new ApexCharts(div, chartOptions)
@@ -374,12 +384,16 @@ function updateChartGroup(selection) {
           chartGroupCharts[index].updateOptions({
             series: [
               {
-                data: chartGroupData[index].map((val) => val[selection]),
+                data:
+                  div.dataset.getBy === 'row'
+                    ? chartGroupData[index]
+                        .filter((el) => el[0] === selection)
+                        .map((el) => el[2])
+                    : chartGroupData[index].map((val) => val[selection]),
               },
             ],
           })
           break
-        
 
         case 'double-bar':
           chartGroupCharts[index].updateOptions({
