@@ -203,6 +203,7 @@ $(document).ready(async function () {
       })
 
       $parent.find('> A').text(val)
+      console.log(val);
       updateChartGroup(val)
     }
   })
@@ -334,7 +335,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
             }
           )
 
-          updateDotCharts(val, chartGroupData[index], div);
+          updateDotCharts('Global', chartGroupData[index], div);
 
           break
 
