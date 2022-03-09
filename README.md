@@ -9,8 +9,8 @@ https://www.twilio.com/state-of-customer-engagement
 
 
 
-QA - ??
-
+QA
+https://docs.google.com/spreadsheets/d/1kv8JUdEx7kdCjo5JRd-C2XeSwSEL08cr/edit#gid=301474923
 
 
 Todo:
@@ -21,7 +21,6 @@ Todo:
 
 Outstanding chart issues:
     T2 - first bar chart - largest bar's label doesn't have padding
-    T4 - Second bar chart needs styling
     T5 - radial chart is not left aligned and does not have a stroke. I don't think these two are possible.
 
     minor:

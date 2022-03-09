@@ -3,6 +3,9 @@
 	.content {
 		
 	}
+	&:not(.trendsHero) .leftOfImage {
+		width:100%;
+	}
 	.leftOfImage {
 		z-index:2;
 		display:flex;
