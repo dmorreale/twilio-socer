@@ -275,20 +275,40 @@ async function renderChartGroup(val, tl, tr, bl, br) {
               tl = data
             }
           )
-          console.log(chartGroupData[index])
-          var chartOptions = merge(columnChartOptions, {
-            series: [
+
+          let colSeries = () => {
+            if (chartGroupData[index][0].length === 2) {
+              return [
+                {
+                  data: [
+                    chartGroupData[index].find((e) => e[0] === 'Global')[1],
+                  ],
+                },
+                {
+                  data: [
+                    chartGroupData[index].find((e) => e[0] === 'Global')[1],
+                  ],
+                },
+              ]
+            } else if (chartGroupData[index][0].length === 4) {
+              return [
               {
                 data: [chartGroupData[index].find((e) => e[0] === 'Global')[2]],
               },
               {
                 data: [chartGroupData[index].find((e) => e[0] === 'Global')[3]],
               },
-            ],
+            ]
+            }
+          }
+
+          var chartOptions = merge(columnChartOptions, {
+            series: colSeries(),
             xaxis: {
-              categories: div.dataset.categories ? div.dataset.categories.split(
-                ', '
-              ) : ['Companies', 'Customers'],
+              categories:
+                chartGroupData[index][0].length === 2
+                  ? ['Global', 'Global']
+                  : ['Companies', 'Customers'],
             },
           })
           chartGroupCharts[index] = new ApexCharts(div, chartOptions)
@@ -328,19 +348,42 @@ function updateChartGroup(selection) {
           break
 
         case 'column':
+          let colSeries = () => {
+            if (chartGroupData[index][0].length === 2) {
+              return [
+                {
+                  data: [
+                    chartGroupData[index].find((e) => e[0] === selection)[1],
+                  ],
+                },
+                {
+                  data: [
+                    chartGroupData[index].find((e) => e[0] === 'Global')[1],
+                  ],
+                },
+              ]
+            } else if (chartGroupData[index][0].length === 4) {
+              return [
+                {
+                  data: [
+                    chartGroupData[index].find((e) => e[0] === selection)[2],
+                  ],
+                },
+                {
+                  data: [
+                    chartGroupData[index].find((e) => e[0] === selection)[3],
+                  ],
+                },
+              ]
+            }
+          }
           chartGroupCharts[index].updateOptions({
-            series: [
-              {
-                data: [
-                  chartGroupData[index].find((e) => e[0] === selection)[2],
-                ],
-              },
-              {
-                data: [
-                  chartGroupData[index].find((e) => e[0] === selection)[3],
-                ],
-              },
-            ],
+            series: colSeries(),
+            xaxis: {
+              categories:
+                chartGroupData[index][0].length ===
+                (2) ? [selection, 'Global'] : ['Companies', 'Customers'],
+            },
           })
           break
 
