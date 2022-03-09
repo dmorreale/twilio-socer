@@ -1438,16 +1438,24 @@ body {
       position: absolute;
       display: block;
       height: 100%;
-      width: auto;
       z-index: 0;
       left: 0;
       top: 0;
       opacity: 0;
-      transition: opacity 0.2s ease-out; }
-    .pageWrapper .trends--item:hover img {
+      transition: opacity 0.2s ease-out;
+      overflow: hidden; }
+      .pageWrapper .trends .hover-follow img {
+        position: relative;
+        display: block;
+        height: 100%;
+        width: auto;
+        transition: all 0.3 ease-out; }
+    .pageWrapper .trends--item:hover > img {
       transform: translate(-4px, 0); }
     .pageWrapper .trends--item:hover .hover-follow {
       opacity: 1; }
+      .pageWrapper .trends--item:hover .hover-follow img {
+        transform: scale(1.2); }
     @media screen and (max-width: 1439px) {
       .pageWrapper .trends--item {
         padding-top: 40px;

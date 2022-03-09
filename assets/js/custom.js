@@ -226,7 +226,7 @@ function updateDotCharts(val, dataSet, $elem) {
     }
 
     for(var i = 100; i > 0; i--) {
-      filled = i >= percentage ? '' : 'filled';
+      filled = i > percentage ? '' : 'filled';
       dots += '<div class="dot-' + i + ' ' + filled + '"></div>';
     }
 
