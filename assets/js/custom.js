@@ -36,6 +36,7 @@ $(document).ready(async function () {
     $(window).resize()
     aosResetNav()
   }, 1000)
+
 	var curPage = $('body').data('page');
 	//load the text from the json doc.
 	await $.getJSON("assets/json/twiliosocer2022.json", function(json) {
@@ -168,38 +169,6 @@ $(document).ready(async function () {
 	  var n = destination.offset().top;
 	  $("body,html").stop().animate({scrollTop:n},duration);
 	}
-	
-	  // load charts
-	  const trendNum = $('.regionaldata').attr('data-trendNum');
-	  let tl, tr, bl, br;
-	  await $.getJSON(
-		`json/by_row/trend_${trendNum}_explore_top_left.json`,
-		(data) => {
-		  tl = data
-		}
-	  )
-	  await $.getJSON(
-		`json/by_row/trend_${trendNum}_explore_top_right.json`,
-		(data) => {
-		  tr = data
-		}
-	  )
-	  await $.getJSON(
-		`json/by_row/trend_${trendNum}_explore_bottom_left.json`,
-		(data) => {
-		  bl = data
-		}
-	  )
-	  await $.getJSON(
-		`json/by_row/trend_${trendNum}_explore_bottom_right.json`,
-		(data) => {
-		  br = data
-		}
-	  )
-
-
-  updateChartGroup('Global', tl, tr, bl, br)
-  updateDotCharts('Global', tl, tr, bl, br);
 
   function adjustOverlappingGrid() {
     $('.bg-grid-overlap').each(function () {
@@ -234,65 +203,12 @@ $(document).ready(async function () {
       })
 
       $parent.find('> A').text(val)
-
       updateChartGroup(val)
-
-      updateDotCharts(val, tl, tr, bl, br);
+      updateDotCharts('Global', tl, tr, bl, br);
     }
   })
   renderChartGroup()
 })
-
-function updateDotCharts(val, tl, tr, bl, br) {
-  $('.dot-chart').each(function() {
-    var dots = '';
-    var dataSet;
-    var percentage = 0;
-
-    //if the chart is not initialized, create it
-    if(!$(this).find('.dot-100').length) {
-      for(var i = 100; i > 0; i--) {
-        dots += '<div class="dot-' + i + '"></div>';
-      }
-
-      $(this).html(dots);
-    }
-
-    if($(this).parent().hasClass('chart-top-left')) {
-      dataSet = tl;
-    }
-    else if($(this).parent().hasClass('chart-top-right')) {
-      dataSet = tr;
-    }
-    else if($(this).parent().hasClass('chart-bottom-left')) {
-      dataSet = bl;
-    }
-    else if($(this).parent().hasClass('chart-bottom-right')) {
-      dataSet = br;
-    }
-
-    for(var i = 0; i < dataSet.length; i++) {
-      if(dataSet[i][0]) {
-        //console.log(dataSet[i][0],val);
-        if(dataSet[i][0] == val) {
-          percentage = dataSet[i][1];
-          percentage = parseInt(percentage.replace('%', ''));
-        }
-      }
-    }
-    
-    for(var i = 100; i > 0; i--) {
-      var dot = $(this).find('.dot-'+i);
-      if(i >= percentage) {
-        dot.removeClass('filled');
-      }
-      else {
-        dot.addClass('filled');
-      }
-    }
-
-  });
-}
 
 async function renderChartGroup(val, tl, tr, bl, br) {
   await Array.from(document.querySelectorAll('.chart-placeholder')).map(
@@ -444,26 +360,6 @@ async function renderChartGroup(val, tl, tr, bl, br) {
     }
   )
 }
-
-
-bottomLeftChart.updateOptions({
-  ...columnChartOptions,
-  series: [
-    {
-      name: val,
-      data: [bl.find((e) => e[0] === val)[2]],
-    },
-    {
-      name: val,
-      data: [bl.find((e) => e[0] === val)[3]],
-    },
-  ],
-  xaxis: { 
-    axisBorder: { show: false },
-    axisTicks: { show: false },
-    categories: ['Companies', 'Consumers'] 
-  }, 
-})
 
 function updateChartGroup(selection) {
   Array.from(document.querySelectorAll('.chart-placeholder')).map(
