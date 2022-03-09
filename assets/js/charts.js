@@ -22,7 +22,7 @@ var columnChartOptions = {
     colors: ['#F22F46'],
     opacity: 1,
     image: {
-      src: ['http://192.168.0.126/twilio-socer/assets/images/bar-with-lines.svg'],
+      src: ['./assets/images/bar-with-lines.svg'],
       width: 100,
       height: 300
     },
