@@ -345,8 +345,11 @@ function updateChartGroup(val, tl, tr, bl, br) {
             data: [bl.find((e) => e[0] === val)[3]],
           },
         ],
-        xaxis: { categories: ['Companies', 'Consumers'] },
-         
+        xaxis: { 
+          axisBorder: { show: false },
+          axisTicks: { show: false },
+          categories: ['Companies', 'Consumers'] 
+        }, 
       })
 
       bottomRightChart.updateOptions({

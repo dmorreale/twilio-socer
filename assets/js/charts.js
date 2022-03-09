@@ -230,7 +230,7 @@ var stackedBar100Options = {
   ],
   chart: {
     type: 'bar',
-    height: 350,
+    height: 320,
     stacked: true,
     stackType: '100%',
     toolbar: {
@@ -240,19 +240,23 @@ var stackedBar100Options = {
   plotOptions: {
     bar: {
       horizontal: true,
+      barHeight: '35%',
+      barWidth: '35%',
     },
   },
   dataLabels: {
-	style: {
-		colors: ['#FFFFFF', '#000000']
-	}
+    enabled: true,
+    formatter: (val) => val + '%',
+    textAnchor: 'middle',
+    offsetY: -27,
+    style: {
+      fontSize: '14px',
+      colors: ['#121C2D'],
+    },
   },
   stroke: {
     width: 1,
     colors: ['#F22F46', '#F22F46'],
-  },
-  xaxis: {
-    categories: [2008, 2009, 2010, 2011, 2012, 2013, 2014],
   },
   tooltip: {
     display: false,
@@ -263,8 +267,37 @@ var stackedBar100Options = {
 	  colors: ['#F22F46', 'transparent'] 
   },
   legend: {
-    show: false,
+    show: true,
+    horizontalAlign: 'left',
+    height: 80,
+    markers: {
+      width: 18,
+      height: 18,
+      strokeWidth: '1px',
+      strokeColor: '#F22F46',
+      fillColors: ['#F22F46', 'transparent'],
+      radius: 0
+    },
   },
+  xaxis: {
+    labels: {
+      show: false,
+    },
+    axisBorder: {
+        show: false,
+    },
+    axisTicks: {
+      show: false,
+    }
+  },
+  yaxis: {
+    labels: {
+      offsetX: -14,
+    },
+  },
+  grid: {
+    show: false,
+  }
 }
 
 var scatterPlotChartOptions = {

@@ -1083,10 +1083,14 @@ body {
       transform: translate(0, -5px);
       display: inline-block;
       padding-left: 7px; }
-  .pageWrapper .intro-data-chart .apexcharts-legend, .pageWrapper .chart-wrapper .apexcharts-legend {
+  .pageWrapper .chart-wrapper {
+    border-bottom: 1px solid #F22F46; }
+  .pageWrapper .intro-data-chart .apexcharts-legend, .pageWrapper .chart-wrapper .apexcharts-legend, .pageWrapper .stackedBarChart .apexcharts-legend {
     padding-left: 98px; }
-    .pageWrapper .intro-data-chart .apexcharts-legend-series, .pageWrapper .chart-wrapper .apexcharts-legend-series {
+    .pageWrapper .intro-data-chart .apexcharts-legend-series, .pageWrapper .chart-wrapper .apexcharts-legend-series, .pageWrapper .stackedBarChart .apexcharts-legend-series {
       margin-top: 20px !important; }
+  .pageWrapper .stackedBarChart .apexcharts-legend {
+    padding-left: 0; }
   .pageWrapper .chart-wrapper [class^="chart-"]:not(.chart-text, .chart-caption) {
     margin: auto; }
     .pageWrapper .chart-wrapper [class^="chart-"]:not(.chart-text, .chart-caption) .apexcharts-series path.apexcharts-bar-area {
