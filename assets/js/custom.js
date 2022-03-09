@@ -204,11 +204,34 @@ $(document).ready(async function () {
 
       $parent.find('> A').text(val)
       updateChartGroup(val)
-      updateDotCharts('Global', tl, tr, bl, br);
     }
   })
   renderChartGroup()
 })
+
+const trendNum = $('.regionaldata').attr('data-trendNum');
+
+function updateDotCharts(val, dataSet, $elem) {
+    var dots = '';
+    var percentage = 0;
+
+    for(var i = 0; i < dataSet.length; i++) {
+      if(dataSet[i][0]) {
+        //console.log(dataSet[i][0],val);
+        if(dataSet[i][0] == val) {
+          percentage = dataSet[i][1];
+          percentage = parseInt(percentage.replace('%', ''));
+        }
+      }
+    }
+
+    for(var i = 100; i > 0; i--) {
+      filled = i >= percentage ? '' : 'filled';
+      dots += '<div class="dot-' + i + ' ' + filled + '"></div>';
+    }
+
+    $elem.innerHTML = dots;
+}
 
 async function renderChartGroup(val, tl, tr, bl, br) {
   await Array.from(document.querySelectorAll('.chart-placeholder')).map(
@@ -301,6 +324,18 @@ async function renderChartGroup(val, tl, tr, bl, br) {
           })
           chartGroupCharts[index] = new ApexCharts(div, chartOptions)
           chartGroupCharts[index].render()
+          break
+        
+        case 'dot':
+          chartGroupData[index] = await $.getJSON(
+            `json/by_row/${div.dataset.source}`,
+            (data) => {
+              tl = data
+            }
+          )
+
+          updateDotCharts(val, chartGroupData[index], div);
+
           break
 
         case 'column':
@@ -411,6 +446,12 @@ function updateChartGroup(selection) {
             ],
           })
           break
+
+        case 'dot':
+
+          updateDotCharts(selection, chartGroupData[index], div);
+          break
+  
 
         case 'column':
           let colSeries = () => {
