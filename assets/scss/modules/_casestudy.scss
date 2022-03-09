@@ -49,10 +49,16 @@
                 position: relative;
                 display:block;
                 margin:auto;
-                max-width:450px;
-                max-height:80px;
-                width:auto;
+                max-width:100%;
                 height:auto;
+            }
+
+            &.half {
+                IMG{
+                    max-width:450px;
+                    max-height:80px;
+                    width:auto;
+                }
             }
         }
     }

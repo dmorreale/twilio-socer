@@ -1296,10 +1296,12 @@ body {
           position: relative;
           display: block;
           margin: auto;
+          max-width: 100%;
+          height: auto; }
+        .pageWrapper .casestudy .column.quarter.half IMG, .pageWrapper .casestudy .column.half.half IMG {
           max-width: 450px;
           max-height: 80px;
-          width: auto;
-          height: auto; }
+          width: auto; }
     .pageWrapper .casestudy .two-col {
       padding: 40px; }
       .pageWrapper .casestudy .two-col h4 {
