@@ -250,6 +250,45 @@ async function renderChartGroup(val, tl, tr, bl, br) {
           chartGroupCharts[index].render()
           break
 
+        case 'double-bar':
+          chartGroupData[index] = await $.getJSON(
+            `json/by_row/${div.dataset.source}`,
+            (data) => {
+              tl = data
+            }
+          )
+          var chartOptions = merge(barChartOptions, {
+            series: [
+              {
+                name: 'Companies',
+                data: chartGroupData[index]
+                  .filter((el) => el[0] === 'Global')
+                  .map((el) => parseInt(el[2]))
+                  .reverse(),
+              },
+              {
+                name: 'Consumers',
+                data: chartGroupData[index]
+                  .filter((el) => el[0] === 'Global')
+                  .map((el) => parseInt(el[3]))
+                  .reverse(),
+              },
+            ],
+            xaxis: {
+              categories: chartGroupData[index]
+                .filter((el) => el[0] === 'Global')
+                .map((el) => el[1])
+                .reverse(),
+            },
+            chart: {
+              height: 384,
+              width: 499,
+            },
+          })
+          chartGroupCharts[index] = new ApexCharts(div, chartOptions)
+          chartGroupCharts[index].render()
+          break
+
         case 'radial-bar':
           chartGroupData[index] = await $.getJSON(
             `json/by_row/${div.dataset.source}`,
@@ -292,13 +331,17 @@ async function renderChartGroup(val, tl, tr, bl, br) {
               ]
             } else if (chartGroupData[index][0].length === 4) {
               return [
-              {
-                data: [chartGroupData[index].find((e) => e[0] === 'Global')[2]],
-              },
-              {
-                data: [chartGroupData[index].find((e) => e[0] === 'Global')[3]],
-              },
-            ]
+                {
+                  data: [
+                    chartGroupData[index].find((e) => e[0] === 'Global')[2],
+                  ],
+                },
+                {
+                  data: [
+                    chartGroupData[index].find((e) => e[0] === 'Global')[3],
+                  ],
+                },
+              ]
             }
           }
 
@@ -332,6 +375,28 @@ function updateChartGroup(selection) {
             series: [
               {
                 data: chartGroupData[index].map((val) => val[selection]),
+              },
+            ],
+          })
+          break
+        
+
+        case 'double-bar':
+          chartGroupCharts[index].updateOptions({
+            series: [
+              {
+                name: 'Companies',
+                data: chartGroupData[index]
+                  .filter((el) => el[0] === selection)
+                  .map((el) => parseInt(el[2]))
+                  .reverse(),
+              },
+              {
+                name: 'Consumers',
+                data: chartGroupData[index]
+                  .filter((el) => el[0] === selection)
+                  .map((el) => parseInt(el[3]))
+                  .reverse(),
               },
             ],
           })
@@ -381,15 +446,16 @@ function updateChartGroup(selection) {
             series: colSeries(),
             xaxis: {
               categories:
-                chartGroupData[index][0].length ===
-                (2) ? [selection, 'Global'] : ['Companies', 'Customers'],
+                chartGroupData[index][0].length === 2
+                  ? [selection, 'Global']
+                  : ['Companies', 'Customers'],
             },
           })
           break
 
         default:
           break
-        }      
+      }
     }
   )
 }
