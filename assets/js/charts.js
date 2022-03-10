@@ -15,7 +15,7 @@ var columnChartOptions = {
     toolbar: {
       show: false,
     },
-    width: '320px',
+    width: '100%',
   },
   fill: {
     type: ['solid','image'],
@@ -30,7 +30,7 @@ var columnChartOptions = {
   plotOptions: {
     bar: {
       horizontal: false,
-      columnWidth: '48%',
+      columnWidth: '37%',
       endingShape: 'rounded',
       dataLabels: {
         position: 'top',
@@ -77,6 +77,7 @@ var radialBarOptions = {
   series: [80],
   chart: {
     height: 480,
+	width: 500,
     type: 'radialBar',
     toolbar: {
       show: false,
