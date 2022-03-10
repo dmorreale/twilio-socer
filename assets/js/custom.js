@@ -346,6 +346,8 @@ async function renderChartGroup(val, tl, tr, bl, br) {
 				  tl = data
 				}
 			)
+		
+			div.innerHTML = `<span>${chartGroupData[index].find((e) => e[0] === 'Global')[1]} YEARS</span>`
 
 			break
 
@@ -465,7 +467,7 @@ function updateChartGroup(selection) {
 			  
 		case 'text':
 			
-
+			div.innerHTML = `<span>${chartGroupData[index].find((e) => e[0] === selection)[1]} YEARS</span>`
 			break
 
         case 'column':
