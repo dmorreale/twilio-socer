@@ -123,6 +123,7 @@ var barChartOptions = {
     toolbar: {
       show: false,
     },
+	width: 500,
   },
   plotOptions: {
     bar: {
