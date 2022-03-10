@@ -327,7 +327,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
           chartGroupCharts[index].render()
           break
         
-        case 'dot':
+		case 'dot':
           chartGroupData[index] = await $.getJSON(
             `json/by_row/${div.dataset.source}`,
             (data) => {
@@ -338,6 +338,16 @@ async function renderChartGroup(val, tl, tr, bl, br) {
           updateDotCharts('Global', chartGroupData[index], div);
 
           break
+		
+		case 'text':
+			chartGroupData[index] = await $.getJSON(
+				`json/by_row/${div.dataset.source}`,
+				(data) => {
+				  tl = data
+				}
+			)
+
+			break
 
         case 'column':
           chartGroupData[index] = await $.getJSON(
@@ -452,7 +462,11 @@ function updateChartGroup(selection) {
 
           updateDotCharts(selection, chartGroupData[index], div);
           break
-  
+			  
+		case 'text':
+			
+
+			break
 
         case 'column':
           let colSeries = () => {
