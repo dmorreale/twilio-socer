@@ -91,7 +91,7 @@
 }
 
 .chart-wrapper [class^="chart-"]:not(.chart-text,.chart-caption) {
-	margin:auto;
+	margin:108px auto 72px;
 	.apexcharts-series {
 		path.apexcharts-bar-area {
 			stroke:$red;
