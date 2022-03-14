@@ -1071,9 +1071,10 @@ body {
     text-align: center; }
     .pageWrapper .chart-grid .chart-text span {
       position: relative;
-      top: 0;
+      top: 50%;
       left: 0;
-      display: inline-block; }
+      display: inline-block;
+      transform: translate(0, -50%); }
       .pageWrapper .chart-grid .chart-text span:before {
         content: '';
         display: block;
@@ -1085,8 +1086,12 @@ body {
     padding-bottom: 0; }
     .pageWrapper .intro-data-chart + .chart-caption, .pageWrapper .twilio-data-chart + .chart-caption {
       margin: 33px 0; }
-  .pageWrapper .intro-data-chart .apexcharts-text.apexcharts-xaxis-label {
-    padding-top: 2px; }
+  .pageWrapper .intro-data-chart {
+    min-height: 350px; }
+    .pageWrapper .intro-data-chart .apexcharts-text.apexcharts-xaxis-label {
+      padding-top: 2px; }
+  .pageWrapper .twilio-data-chart {
+    min-height: 320px; }
   .pageWrapper .apexcharts-legend {
     align-content: baseline; }
     .pageWrapper .apexcharts-legend-series {
@@ -1109,6 +1114,17 @@ body {
     .pageWrapper .chart-wrapper [class^="chart-"]:not(.chart-text, .chart-caption) .apexcharts-series path.apexcharts-bar-area {
       stroke: #F22F46;
       stroke-width: 1px; }
+  .pageWrapper .chart-placeholder {
+    min-height: 350px; }
+  .pageWrapper .chart-placeholder, .pageWrapper .apexcharts-canvas {
+    max-width: 100%;
+    overflow: hidden; }
+    .pageWrapper .chart-placeholder[data-chart-type="column"], .pageWrapper .apexcharts-canvas[data-chart-type="column"] {
+      max-width: 350px; }
+      .pageWrapper .chart-placeholder[data-chart-type="column"] .apexcharts-plot-series g:nth-child(1) path, .pageWrapper .chart-placeholder[data-chart-type="column"] .apexcharts-plot-series g:nth-child(3) text, .pageWrapper .apexcharts-canvas[data-chart-type="column"] .apexcharts-plot-series g:nth-child(1) path, .pageWrapper .apexcharts-canvas[data-chart-type="column"] .apexcharts-plot-series g:nth-child(3) text {
+        transform: translate(-42px, 0); }
+      .pageWrapper .chart-placeholder[data-chart-type="column"] .apexcharts-plot-series g:nth-child(2) path, .pageWrapper .chart-placeholder[data-chart-type="column"] .apexcharts-plot-series g:nth-child(4) text, .pageWrapper .apexcharts-canvas[data-chart-type="column"] .apexcharts-plot-series g:nth-child(2) path, .pageWrapper .apexcharts-canvas[data-chart-type="column"] .apexcharts-plot-series g:nth-child(4) text {
+        transform: translate(42px, 0); }
   .pageWrapper .block-hero {
     padding-bottom: 0px; }
     .pageWrapper .block-hero:not(.trendsHero) .leftOfImage {
@@ -1316,6 +1332,8 @@ body {
       .pageWrapper .casestudy .column.quarter {
         width: 50%;
         border-bottom: 1px solid #F22F46; }
+        .pageWrapper .casestudy .column.quarter + .column.quarter {
+          border-right: none; }
       .pageWrapper .casestudy .column.half {
         width: 100%;
         padding-bottom: 96px; }
@@ -1345,7 +1363,10 @@ body {
     @media screen and (max-width: 600px) {
       .pageWrapper .casestudy .column.quarter {
         width: 100%;
-        border-right: none; } }
+        border-right: none; }
+      .pageWrapper .casestudy .column.quarter.half IMG, .pageWrapper .casestudy .column.half.half IMG {
+        max-width: 100%;
+        padding: 0 20px; } }
   .pageWrapper .largestat {
     padding: 0; }
     .pageWrapper .largestat .bg-blue {
@@ -1425,7 +1446,8 @@ body {
       margin: 0; }
     .pageWrapper .trends--list {
       border-top: 1px solid #F22F46;
-      background: #FFF; }
+      background: #FFF;
+      overflow: hidden; }
     .pageWrapper .trends--item {
       position: relative;
       display: block;
@@ -1655,12 +1677,19 @@ body {
         .pageWrapper .nav .nav-dropDown .navDropRightColumn a {
           display: inline-block;
           margin-top: 42px; }
+        .pageWrapper .nav .nav-dropDown .navDropRightColumn img {
+          max-width: 100%;
+          height: auto; }
     .pageWrapper .nav .nav-wrapper.active .nav-dropDown {
       opacity: 1;
       z-index: 20; }
     @media screen and (max-width: 1439px) {
       .pageWrapper .nav .nav-cta > a {
-        padding: 0 10px; } }
+        padding: 0 10px; }
+      .pageWrapper .nav .nav-dropDown .content {
+        flex-flow: column; }
+      .pageWrapper .nav .nav-dropDown .navDropLeftColumn, .pageWrapper .nav .nav-dropDown .navDropRightColumn {
+        width: 100%; } }
     @media screen and (max-width: 1199px) {
       .pageWrapper .nav .nav-wrapper__logo {
         font-size: 0; }

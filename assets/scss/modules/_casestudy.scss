@@ -84,6 +84,9 @@
         .column.quarter {
             width:50%;
             border-bottom:1px solid $red;
+            & + .column.quarter {
+                border-right:none;
+            }
         }
         .column.half {
             width:100%;
@@ -135,6 +138,10 @@
         .column.quarter {
             width:100%;
             border-right:none;
+        }
+        .column.quarter.half IMG, .column.half.half IMG {
+            max-width:100%;
+            padding:0 20px;
         }
     }
 }

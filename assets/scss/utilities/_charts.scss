@@ -34,9 +34,10 @@
 	
 	span {
 		position:relative;
-		top:0;
+		top:50%;
 		left:0;
 		display:inline-block;
+		transform:translate(0,-50%);
 		&:before {
 			content:'';
 			display:block;
@@ -56,9 +57,13 @@
 	}
 }
 .intro-data-chart {
+	min-height:350px;
 	.apexcharts-text.apexcharts-xaxis-label {
 		padding-top:2px;
 	}
+}
+.twilio-data-chart {
+	min-height:320px;
 }
 .apexcharts-legend {
 	align-content:baseline;
@@ -96,6 +101,26 @@
 		path.apexcharts-bar-area {
 			stroke:$red;
 			stroke-width:1px;
+		}
+	}
+}
+
+.chart-placeholder {
+	min-height:350px;
+}
+
+.chart-placeholder, .apexcharts-canvas {
+	max-width:100%;
+	overflow:hidden;
+	&[data-chart-type="column"] {
+		max-width:350px;
+		.apexcharts-plot-series {
+			g:nth-child(1) path, g:nth-child(3) text {
+				transform:translate(-42px,0);
+			}
+			g:nth-child(2) path, g:nth-child(4) text {
+				transform:translate(42px,0);
+			}
 		}
 	}
 }
