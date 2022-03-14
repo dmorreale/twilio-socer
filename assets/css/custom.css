@@ -990,6 +990,8 @@ body {
       bottom: 0;
       left: 0;
       width: 100%; }
+    .pageWrapper .bg-grid.block-short-content {
+      border-top: none; }
   .pageWrapper .row {
     display: flex;
     flex-wrap: wrap; }
@@ -1777,9 +1779,16 @@ body {
         padding-top: 30px; } }
   .pageWrapper .block-short-content {
     padding-top: 160px;
-    padding-bottom: 50px; }
+    padding-bottom: 150px; }
     .pageWrapper .block-short-content .pullquotelarge {
       margin-top: 280px; }
+    @media screen and (max-width: 1439px) {
+      .pageWrapper .block-short-content .pullquotelarge {
+        margin-top: 50px; } }
+    @media screen and (max-width: 719px) {
+      .pageWrapper .block-short-content {
+        padding-top: 90px;
+        padding-bottom: 100px; } }
   .pageWrapper, .pageWrapper * {
     padding: 0;
     margin: 0; }

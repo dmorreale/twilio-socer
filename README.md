@@ -20,8 +20,6 @@ Todo:
 			Drop-down should be working on all trends pages.
 
 Outstanding chart issues:
-    T2 - first bar chart - largest bar's label doesn't have padding
-    T5 - radial chart is not left aligned and does not have a stroke. I don't think these two are possible.
 
     minor:
     T1 - line chart - x-axis should start from the begining
