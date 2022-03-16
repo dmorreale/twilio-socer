@@ -1,6 +1,71 @@
 [
   {
     "Page": "general",
+    "Element": "uishare",
+    "Content": "Share"
+  },
+  {
+    "Page": "general",
+    "Element": "uilanguage",
+    "Content": "Language"
+  },
+  {
+    "Page": "general",
+    "Element": "uimenu",
+    "Content": "Menu"
+  },
+  {
+    "Page": "general",
+    "Element": "navoverview",
+    "Content": "Overview"
+  },
+  {
+    "Page": "general",
+    "Element": "navtrend",
+    "Content": "Trend"
+  },
+  {
+    "Page": "general",
+    "Element": "trend1",
+    "Content": "Digital customer engagement drives major ROI"
+  },
+  {
+    "Page": "general",
+    "Element": "trend2",
+    "Content": "Personalization is critical"
+  },
+  {
+    "Page": "general",
+    "Element": "trend3",
+    "Content": "A cookieless world is coming"
+  },
+  {
+    "Page": "general",
+    "Element": "trend4",
+    "Content": "Businesses and consumers don't see eye to eye on trust"
+  },
+  {
+    "Page": "general",
+    "Element": "trend5",
+    "Content": "Digital fatigue is real"
+  },
+  {
+    "Page": "general",
+    "Element": "trendread",
+    "Content": "Read more"
+  },
+  {
+    "Page": "general",
+    "Element": "engagementhead",
+    "Content": "Five customer engagement trends for 2022"
+  },
+  {
+    "Page": "general",
+    "Element": "casehead",
+    "Content": "Engagement Builder Spotlight"
+  },
+  {
+    "Page": "general",
     "Element": "ctahead",
     "Content": "Read the full report"
   },
@@ -11,13 +76,23 @@
   },
   {
     "Page": "general",
+    "Element": "ctabuttontext",
+    "Content": "Download the report"
+  },
+  {
+    "Page": "general",
+    "Element": "ctabuttoncontact",
+    "Content": "Get in touch"
+  },
+  {
+    "Page": "general",
     "Element": "methodologyhead",
     "Content": "Methodology"
   },
   {
     "Page": "general",
     "Element": "methodologypara1",
-    "Content": "To create the State of Customer Engagement Report 2022, Twilio drew on three primary sources."
+    "Content": "To create the 2022 State of Customer Engagement Report, Twilio drew on three primary sources."
   },
   {
     "Page": "general",
@@ -27,7 +102,117 @@
   {
     "Page": "general",
     "Element": "methodologypara3",
-    "Content": "The report also includes aggregated data gleaned from trillions of interactions on the Twilio platform, revealing the patterns in how consumers are engaging with organizations that use Twilio and Twilio Segment products.\n"
+    "Content": "The report also includes aggregated data gleaned from trillions of interactions on the Twilio platform, revealing the patterns in how organizations that use Twilio and Twilio Segment products are engaging their customers.\n"
+  },
+  {
+    "Page": "general",
+    "Element": "signupheading",
+    "Content": "2022 State of Customer Engagement Report"
+  },
+  {
+    "Page": "general",
+    "Element": "signupdesciption",
+    "Content": "Download the report to gain insight to the full findings from over 3,000 leading decision makers and 4,500 consumers."
+  },
+  {
+    "Page": "general",
+    "Element": "signupheadinggetintouch",
+    "Content": "Interested in exploring how Twilio can help you take advantage of the trends called out in the 2022 State of Customer Engagement Report? Fill out the form below to talk to an expert."
+  },
+  {
+    "Page": "general",
+    "Element": "signupdesciptiongetintouch",
+    "Content": "We’ll reach out to you about your request and share content and updates about the Twilio customer engagement platform. We use your information according to our <a href=\"https://www.twilio.com/legal/privacy\">privacy policy</a>. You can update your preferences at any time."
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield1",
+    "Content": "First name"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield2",
+    "Content": "Last name"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield3",
+    "Content": "Email address"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield4",
+    "Content": "Phone number"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield5",
+    "Content": "Company name"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield6",
+    "Content": "Job title"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield7",
+    "Content": "Country"
+  },
+  {
+    "Page": "general",
+    "Element": "signuprequired",
+    "Content": "Field required"
+  },
+  {
+    "Page": "general",
+    "Element": "signupsubmit",
+    "Content": "Download the report"
+  },
+  {
+    "Page": "general",
+    "Element": "signupsubmitgetintouch",
+    "Content": "Let's talk"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfooter",
+    "Content": "We’ll reach out to you about your request and share content and updates about the Twilio customer engagement platform. We use your information according to our <a href=\"https://www.twilio.com/legal/privacy\">privacy policy</a>. You can update your preferences at any time."
+  },
+  {
+    "Page": "general",
+    "Element": "thankyouheader",
+    "Content": "Thank you for downloading the 2022 State of Customer Engagement Report."
+  },
+  {
+    "Page": "general",
+    "Element": "thankyouheadergetintouch",
+    "Content": "Thank you for getting in touch."
+  },
+  {
+    "Page": "general",
+    "Element": "thankyoudescription",
+    "Content": "We’ll reach out to you about your request and share content and updates about the Twilio customer engagement platform. We use your information according to our <a href=\"https://www.twilio.com/legal/privacy\">privacy policy</a>. You can update your preferences at any time."
+  },
+  {
+    "Page": "general",
+    "Element": "thankyoudownload",
+    "Content": "Download PDF"
+  },
+  {
+    "Page": "homepage",
+    "Element": "metatitle",
+    "Content": "2022 Twilio State of Customer Engagement Report"
+  },
+  {
+    "Page": "homepage",
+    "Element": "metadescription",
+    "Content": "Twilio, the leading cloud communications and customer engagement platform, shares insights from thousands of global enterprise decision-makers and consumers on the trends shaping the future of customer engagement."
+  },
+  {
+    "Page": "homepage",
+    "Element": "socialdescription",
+    "Content": "Check out the insights from the 2022 Twilio #StateofCustomerEngagementReport, which show the trends shaping the future of customer engagement"
   },
   {
     "Page": "homepage",
@@ -42,7 +227,7 @@
   {
     "Page": "homepage",
     "Element": "descriptivepara1",
-    "Content": "The State of Customer Engagement Report 2022 reveals that digital customer engagement has made a significant impact — increasing revenue by 70% on average for companies that have invested in it. Unsurprisingly, these same companies expect their investment to almost double by 2025."
+    "Content": "The State of Customer Engagement Report 2022 reveals that digital customer engagement has made a significant impact — increasing revenue by 70% on average for companies that invested in it. Unsurprisingly, these same companies expect to almost double their investment by 2025."
   },
   {
     "Page": "homepage",
@@ -57,7 +242,7 @@
   {
     "Page": "homepage",
     "Element": "pullquote1",
-    "Content": "<span class=\"circle\">70%</span> average revenue increase due investments in digital customer engagement"
+    "Content": "Investment in digital customer engagement drives <span class=\"circle\">70%</span> revenue increase for companies on average"
   },
   {
     "Page": "homepage",
@@ -67,12 +252,12 @@
   {
     "Page": "homepage",
     "Element": "executivesummaryhead",
-    "Content": "The five fundamentals of customer engagement"
+    "Content": "Executive summary"
   },
   {
     "Page": "homepage",
     "Element": "executivesummarypara1",
-    "Content": "Our research revealed that organizations that put digital customer engagement at the forefront of their business have reaped outsize rewards. This growth has its challenges, because consumers don’t always see things the same way as the brands marketing to them. Companies that can close that gap now have the chance to become leaders in customer engagement, creating market-leading experiences that entice consumers and keep them loyal."
+    "Content": "Our research revealed that organizations that put digital customer engagement at the forefront of their business reap outsized rewards. This growth has its challenges, because consumers don’t always see things the same way as the brands marketing to them. Companies that can close that gap now have the chance to become leaders in customer engagement, creating market-leading experiences that win over consumers and keep them loyal."
   },
   {
     "Page": "homepage",
@@ -81,33 +266,58 @@
   },
   {
     "Page": "homepage",
+    "Element": "executivesummarybullethead1",
+    "Content": "Make it digital"
+  },
+  {
+    "Page": "homepage",
     "Element": "executivesummarybullet1",
-    "Content": "<strong>Make it digital</strong> 70% — that’s the average top-line revenue increase among companies that invested in digital customer engagement over the past two years."
+    "Content": "<strong>70%</strong>  — that’s the average top-line revenue increase among companies that invested in digital customer engagement over the past two years."
+  },
+  {
+    "Page": "",
+    "Element": "executivesummarybullethead2",
+    "Content": "Make it personal"
   },
   {
     "Page": "homepage",
     "Element": "executivesummarybullet2",
-    "Content": "<strong>Make it personal</strong> 75% of companies think they’re providing personalized experiences. But less than half of consumers agree. There’s a lot of room for improvement. "
+    "Content": "<strong>75%</strong> of companies think they’re providing good personalized experiences. But more than half of consumers disagree. There’s a lot of room for improvement. "
+  },
+  {
+    "Page": "",
+    "Element": "executivesummarybullethead3",
+    "Content": "Lose your cookies"
   },
   {
     "Page": "homepage",
     "Element": "executivesummarybullet3",
-    "Content": "<strong>Lose your cookies</strong> 81% of companies are completely or substantially reliant on third-party cookies — even though this critical data source will not be available after 2022. "
+    "Content": "<strong>81%</strong> of companies are completely or substantially reliant on third-party cookies — even though this critical data source will not be available after 2023. "
+  },
+  {
+    "Page": "",
+    "Element": "executivesummarybullethead4",
+    "Content": "Build trust"
   },
   {
     "Page": "homepage",
     "Element": "executivesummarybullet4",
-    "Content": "<strong>Build trust</strong> 95% of B2C companies believe consumers trust their ability to protect data, yet only 65% of consumers actually do trust these companies. "
+    "Content": "<strong>95%</strong> of B2C companies believe consumers trust their ability to protect data, yet only 65% of consumers actually do trust these companies. "
+  },
+  {
+    "Page": "",
+    "Element": "executivesummarybullethead5",
+    "Content": "Engage smarter"
   },
   {
     "Page": "homepage",
     "Element": "executivesummarybullet5",
-    "Content": "<strong>Engage smarter</strong> Gen Zs and Millennials are more than twice as likely as Baby Boomers to have experienced digital fatigue in the past 30 days. Creating better (not more) interactions can ensure business doesn’t suffer as a result"
+    "Content": "Gen Zs and Millennials are <strong>more than twice</strong> as likely as Baby Boomers to have experienced digital fatigue in the past 30 days. Creating better (not more) interactions can ensure business doesn’t suffer as a result"
   },
   {
-    "Page": "homepage",
-    "Element": "engagementhead",
-    "Content": "Five customer engagement trends for 2022"
+    "Page": "trend1",
+    "Element": "metatitle",
+    "Content": "Twilio State of Customer Engagement Report: Digital customer engagement drives major ROI"
   },
   {
     "Page": "trend1",
@@ -117,7 +327,7 @@
   {
     "Page": "trend1",
     "Element": "subheadline",
-    "Content": "Greater investment has led to increased revenues for those that embrace digital engagement"
+    "Content": "Greater investment has led to increased revenues for brands that embrace digital engagement"
   },
   {
     "Page": "trend1",
@@ -127,7 +337,7 @@
   {
     "Page": "trend1",
     "Element": "descriptivepara1",
-    "Content": "The data could not be clearer. Companies that recognized the swiftness of this change and made moves to invest in digital customer engagement have seen their top-line revenues rise by an average of 70%. They expect that, by 2025, their investment in this key area will almost double, rising by 93.5%."
+    "Content": "The data could not be clearer. Companies that made moves to invest in digital customer engagement have seen their top-line revenues rise by an average of 70%. They expect that, by 2025, their investment in this key area will almost double, rising by 94%."
   },
   {
     "Page": "trend1",
@@ -187,17 +397,17 @@
   {
     "Page": "trend1",
     "Element": "subtitlepara1",
-    "Content": "The Asia Pacific/Japan region has seen the greatest increase in digital transformation strategy since the start of the pandemic, accelerating by seven years. This was closely followed by EMEA, where organizations reported an average increase of 6.6 years."
+    "Content": "Australia stood out globally, with companies reporting an eight-year acceleration. Italy, Spain and the UK all reported figures higher than the average, with 7.2 years, 6.8 years and 6.7 years respectively."
   },
   {
     "Page": "trend1",
     "Element": "subtitlepara2",
-    "Content": "In terms of revenue, three major countries from the Latin America region reported increases of 90% or more after investing heavily in digital engagement over the past two years. Colombia and Mexico led the way, with 91% each, while Brazilian enterprises saw 90% growth. The United States came in fourth, with a still impressive 79%."
+    "Content": "In terms of revenue, three major countries from the Latin America region reported increases of 91% or more after investing heavily in digital engagement over the past two years. Colombia and Brazil led the way, with 95% each, while Mexican companies saw 91% growth. The United States came in fourth, with a still impressive 79%."
   },
   {
     "Page": "trend1",
     "Element": "pullquote2",
-    "Content": "The Asia Pacific/Japan region saw a <span class=\"circle\">7-year</span> acceleration in digital transformation strategy"
+    "Content": "The Asia Pacific & Japan region saw a <span class=\"circle\">7-year</span> acceleration in digital transformation strategy"
   },
   {
     "Page": "trend1",
@@ -236,6 +446,11 @@
   },
   {
     "Page": "trend2",
+    "Element": "metatitle",
+    "Content": "Twilio State of Customer Engagement Report: Personalization is critical"
+  },
+  {
+    "Page": "trend2",
     "Element": "headline",
     "Content": "Personalization <br>is critical"
   },
@@ -257,27 +472,32 @@
   {
     "Page": "trend2",
     "Element": "descriptivepara2",
-    "Content": "However, there is a noticeable disconnect between how companies perceive their personalization efforts and how consumers experience them. With 88% of companies saying personalization is extremely or very important to their engagement strategy, it could be easy to infer that they’re making the effort to deliver a truly personal touch with every interaction. Yet while 75% of companies claim to provide good or excellent personalized services, just 48% of customers agree."
+    "Content": "However, there is a noticeable disconnect between how companies perceive their personalization efforts and how consumers experience them. With 88% of companies saying personalization is extremely or very important to their engagement strategy, you might assume that they’re making the effort to deliver a truly personal touch with every interaction. Yet while 75% of companies claim to provide good or excellent personalized services, 52% of consumers disagree."
   },
   {
     "Page": "trend2",
     "Element": "descriptivepara3",
-    "Content": "In short, while companies are strong believers in personalization, customers rarely experience such service themselves. 84% of companies claim to always or often offer personalized services, while consumers say their experiences are personalized only half the time."
+    "Content": "In short, while companies are strong believers in personalization, customers rarely experience such service themselves. 84% of companies claim to always or often offer personalized services, while only half of consumers agree."
   },
   {
     "Page": "trend2",
     "Element": "descriptivepara4",
-    "Content": "This trend shows the need for brands to further develop their understanding of how customers experience personalized services. There is no denying that offering such services can increase revenue and loyalty, so those organizations that invest more in this area have the opportunity to boost growth, as well as expand and retain their customer base."
+    "Content": "Even more crucial, consumers seem to underestimate how much personalization influences their relationship with a brand, and ultimately their buying behavior. Although consumers say their spending will only increase on average by 18% through the use of personalization, companies report the average increase is more like 46%. And the downside is severe — nearly two thirds of consumers say they’ll stop using a brand if it doesn’t personalize their experience. "
   },
   {
     "Page": "trend2",
     "Element": "descriptivepara5",
+    "Content": "This trend shows the need for brands to further develop their understanding of how customers experience personalized services. There is no denying that offering such services can increase revenue and loyalty, so organizations that invest more in this area have the opportunity to boost growth, as well as expand and retain their customer base."
+  },
+  {
+    "Page": "trend2",
+    "Element": "descriptivepara6",
     "Content": "<strong>Fundamental #2: Make it personal.</strong>"
   },
   {
     "Page": "trend2",
     "Element": "introchartcaption",
-    "Content": "How well companies rate their personalization vs how well consumers rate it"
+    "Content": "How companies rate their personalization vs how consumers experience it"
   },
   {
     "Page": "trend2",
@@ -292,12 +512,12 @@
   {
     "Page": "trend2",
     "Element": "datapara1",
-    "Content": "Segment has seen a notable increase in customers using apps specializing in personalization. "
+    "Content": "Twilio Segment has seen a notable increase in customers using apps specializing in personalization. "
   },
   {
     "Page": "trend2",
     "Element": "datapara2",
-    "Content": "There are currently more than 60 personalization apps available via Segment, which allows companies to create unique experiences, while also gaining a complete picture of how customers use and interact with their services. 18% of Segment customers used such tools in 2021, rising from 13% in 2019. That translates to a 40% growth in customer count across that two year period."
+    "Content": "These are tools that companies use to create unique experiences, while gaining a complete picture of how customers use and interact with their services. 18% of Segment customers used such tools from the Segment integration catalog in 2021, rising from 13% in 2019. That translates to an almost 40% growth (38%) in customer count across that two-year period."
   },
   {
     "Page": "trend2",
@@ -307,7 +527,7 @@
   {
     "Page": "trend2",
     "Element": "subtitle",
-    "Content": "Personalization is extremely important to Latin American companies"
+    "Content": "Personalization is extremely important to companies in Brazil, Colombia and Mexico"
   },
   {
     "Page": "trend2",
@@ -322,17 +542,12 @@
   {
     "Page": "trend2",
     "Element": "subtitlepara3",
-    "Content": "In Japan, where data caution is a much bigger issue, the figure drops to 69%. Given how important it is to successful customer relationships, investment in personalization may be an area of opportunity for Japanese brands."
-  },
-  {
-    "Page": "trend2",
-    "Element": "pullquote2",
-    "Content": "Only <span class=\"circle\">69%</span> of companies in Japan feel personalization is extremely important"
+    "Content": "In Japan, where companies place personalization at lower priority compared with other countries, the figure drops to 69%. Given how important it is to successful customer relationships, investment in personalization may be an area of opportunity for Japanese brands."
   },
   {
     "Page": "trend2",
     "Element": "quad-top-left",
-    "Content": "[value] of companies say personalization is very or extremely important"
+    "Content": "[value] of companies say personalization is important"
   },
   {
     "Page": "trend2",
@@ -366,13 +581,18 @@
   },
   {
     "Page": "trend3",
+    "Element": "metatitle",
+    "Content": "Twilio State of Customer Engagement Report: A cookieless world is coming"
+  },
+  {
+    "Page": "trend3",
     "Element": "headline",
     "Content": "A cookieless<br>world is coming"
   },
   {
     "Page": "trend3",
     "Element": "subheadline",
-    "Content": "Even though the cookieless era is at hand, most companies remain dependent on third-party cookies"
+    "Content": "Businesses have one year to prepare and move away from third-party data dependencies"
   },
   {
     "Page": "trend3",
@@ -402,7 +622,7 @@
   {
     "Page": "trend3",
     "Element": "introchartcaption",
-    "Content": "Percentage of companies that depend on third-party data for half or more of their marketing"
+    "Content": "Companies that depend on third-party data for half or more of their marketing"
   },
   {
     "Page": "trend3",
@@ -412,7 +632,7 @@
   {
     "Page": "trend3",
     "Element": "datahead",
-    "Content": "Twilio Segment shows direct data collection is increasing"
+    "Content": "Twilio Segment shows the urgency of first-party data collection is increasing"
   },
   {
     "Page": "trend3",
@@ -442,12 +662,12 @@
   {
     "Page": "trend3",
     "Element": "subtitlepara2",
-    "Content": "Italy has stringent third-party data guidelines which were tightened further in 2021, suggesting that countries with tougher privacy regulations are likely better prepared to do business in a world without cookies."
+    "Content": "Italy has stringent third-party data guidelines which were tightened further in 2021, suggesting that countries with tougher privacy regulations may be better prepared to do business in a world without cookies."
   },
   {
     "Page": "trend3",
     "Element": "subtitlepara3",
-    "Content": "By comparison, 18% of Japanese brands said they were not at all prepared for a cookieless future. Mexico was second with 6%."
+    "Content": "By comparison, 18% of Japanese brands said they were not at all prepared for a cookieless future. Mexico was second with 6% reporting they are not at all prepared for a cookieless future."
   },
   {
     "Page": "trend3",
@@ -462,7 +682,7 @@
   {
     "Page": "trend3",
     "Element": "quad-top-right",
-    "Content": "[value] of companies say they're more reliant on third-party data vs. global average"
+    "Content": "[value] of companies dependent on third-party data"
   },
   {
     "Page": "trend3",
@@ -491,8 +711,13 @@
   },
   {
     "Page": "trend4",
+    "Element": "metatitle",
+    "Content": "Twilio State of Customer Engagement Report: Businesses and consumers disagree on trust"
+  },
+  {
+    "Page": "trend4",
     "Element": "headline",
-    "Content": "Businesses<br>and consumers <br>disagree on trust"
+    "Content": "Businesses and<br>consumers don't see<br>eye to eye on trust"
   },
   {
     "Page": "trend4",
@@ -517,6 +742,11 @@
   {
     "Page": "trend4",
     "Element": "descriptivepara3",
+    "Content": "Transparency directly impacts consumer trust, and brands can earn their customers’ confidence by more clearly communicating how they collect, protect, and use data to build better customer experiences. "
+  },
+  {
+    "Page": "trend4",
+    "Element": "descriptivepara4",
     "Content": "<strong>Fundamental #4: Close the trust gap.</strong>"
   },
   {
@@ -531,38 +761,18 @@
   },
   {
     "Page": "trend4",
-    "Element": "datahead",
-    "Content": "Twilio data shows familiar channels still dominate"
-  },
-  {
-    "Page": "trend4",
-    "Element": "datapara1",
-    "Content": "When it comes to customer engagement data, Twilio’s data clearly shows that email, messaging and voice are still the most popular channels for communications between customers and companies. Email covered 83.8% of interactions, with messaging at 8.4% and voice calls at 5.6%. These figures are broadly similar to previous years, pointing towards a consumer landscape that remains comfortable with the dominant modes of communication of the day."
-  },
-  {
-    "Page": "trend4",
-    "Element": "datapara2",
-    "Content": "Look under the surface, however, and there are signs of strong growth in video, Flex (Twilio’s cloud contact center tool) and wireless (Twilio’s tool for controlling, measuring and analyzing cellular connectivity) when engaging with customers. These more future-focused approaches show that some consumers are becoming more comfortable with changes in how they contact brands."
-  },
-  {
-    "Page": "trend4",
-    "Element": "datachartcaption",
-    "Content": "Inbound and outbound messaging on the Twilio platform. The low inbound figures shows there's room to grow with engagement"
-  },
-  {
-    "Page": "trend4",
     "Element": "subtitle",
-    "Content": "Latin American consumers demand privacy and transparency"
+    "Content": "Brazilian and Mexican consumers demand greater privacy and transparency but European consumers feel better protected"
   },
   {
     "Page": "trend4",
     "Element": "subtitlepara1",
-    "Content": "Globally, 71% of consumers are demanding greater privacy and transparency from B2C companies. In Latin American countries, a higher than average proportion are demanding such action from brands. Despite this, 31% of Brazilian consumers say they have a high level of trust in brands to protect their privacy, with 41% in Mexico saying the same, vs. the global average of 23%."
+    "Content": "Globally, 71% of consumers are demanding greater privacy and transparency from B2C companies. In Latin American countries, a higher than average proportion are demanding such action from brands. Despite this, 31% of Brazilian consumers say they have a very high level of trust in brands to protect their privacy, with 41% in Mexico saying the same, vs. the global average of 23%."
   },
   {
     "Page": "trend4",
     "Element": "subtitlepara2",
-    "Content": "Consumers in European countries are slightly less concerned about privacy and transparency. In Germany, 50% of consumers want their data better protected, and this falls to 48% in the UK and 45% in France."
+    "Content": "In Germany, 50% of businesses say that consumers want their data better protected, and this falls to 48% in the UK and 45% in France. However, feeling better protected does not mean trust is higher. Fourteen percent of consumers in France say they have a very low level of trust in brands’ ability to protect data, with 11% in Spain agreeing. In all, 7% of consumers globally say they have such a low level of trust."
   },
   {
     "Page": "trend4",
@@ -572,7 +782,7 @@
   {
     "Page": "trend4",
     "Element": "quad-top-left",
-    "Content": "[value] of companies say their consumers demand greater privacy. [value} of consumers say they want companies to do more to protect their privacy"
+    "Content": "[value] of companies say their consumers demand greater privacy. [value} of consumers want companies to do more to protect their privacy"
   },
   {
     "Page": "trend4",
@@ -606,13 +816,18 @@
   },
   {
     "Page": "trend5",
+    "Element": "metatitle",
+    "Content": "Twilio State of Customer Engagement Report 2022: Digital fatigue is real"
+  },
+  {
+    "Page": "trend5",
     "Element": "headline",
     "Content": "Digital fatigue <br>is real"
   },
   {
     "Page": "trend5",
     "Element": "subheadline",
-    "Content": "Companies need to future-proof against it by finding better ways to engage"
+    "Content": "Companies need to future-proof against it with better, not more, engagement"
   },
   {
     "Page": "trend5",
@@ -622,7 +837,7 @@
   {
     "Page": "trend5",
     "Element": "descriptivepara1",
-    "Content": "Digital fatigue is a growing problem. On average, 35% of consumers globally say they have experienced digital fatigue in the past 30 days. The data becomes more interesting when broken down by generation, however: The younger the generation, the more people experience digital fatigue, rising to 47% of Generation Z. When almost half of the growth demographics say they’re getting tired of digital life, there is a clear and pressing need to address this problem head-on."
+    "Content": "Digital fatigue is a growing problem. On average, 36% of consumers globally say they have experienced digital fatigue in the past 30 days. The data becomes more interesting when broken down by generation, however: The younger the generation, the more people experience digital fatigue, rising to 47% of Generation Z. When almost half of the growth demographics say they’re getting tired of digital life, there is a clear and pressing need to address this problem head-on."
   },
   {
     "Page": "trend5",
@@ -632,12 +847,12 @@
   {
     "Page": "trend5",
     "Element": "descriptivepara3",
-    "Content": "Through careful use of data and personalization, companies can create more meaningful ways to interact with consumers, fostering loyalty as a result. This means minimizing needless contacts and instead focusing on what matters to customers."
+    "Content": "Through careful use of data and personalization, companies can create more meaningful ways to engage with consumers, fostering loyalty as a result. This means minimizing irrelevant interactions and instead focusing on what matters to customers."
   },
   {
     "Page": "trend5",
     "Element": "descriptivepara4",
-    "Content": "<strong>Fundamental #5: Fundamental #5: Engage smarter.</strong>"
+    "Content": "<strong>Fundamental #5: Engage smarter.</strong>"
   },
   {
     "Page": "trend5",
@@ -651,33 +866,13 @@
   },
   {
     "Page": "trend5",
-    "Element": "datahead",
-    "Content": "Twilio data shows slowing growth in engagement"
-  },
-  {
-    "Page": "trend5",
-    "Element": "datapara1",
-    "Content": "Although there has been an overall positive growth in digital interactions across Twilio’s channels since the start of the pandemic, there was a decrease in the pace of that growth throughout 2021. This suggests that, after a year in which many consumers switched to digital interactions, fatigue has started to set in."
-  },
-  {
-    "Page": "trend5",
-    "Element": "datapara2",
-    "Content": "This slight decrease in growth highlights the need to develop new ways of engaging that put the consumer first, using personalization and placing meaningful connections at the forefront of digital customer engagement."
-  },
-  {
-    "Page": "trend5",
-    "Element": "datachartcaption",
-    "Content": "Year-over-year growth in digital interactions on the Twilio platform in 2021"
-  },
-  {
-    "Page": "trend5",
     "Element": "subtitle",
     "Content": "Digital fatigue varies across borders"
   },
   {
     "Page": "trend5",
     "Element": "subtitlepara1",
-    "Content": "Digital fatigue shows clear variations across countries. It is at its highest in France, with 47% of consumers reporting having suffered from it in the past 30 days, against a global average of 35%. Brazil and Mexico follow, with 44% and 43% respectively."
+    "Content": "Digital fatigue shows clear variations across countries. It is at its highest in France, with 47% of consumers reporting having suffered from it in the past 30 days, against a global average of 36%. Brazil and Mexico follow, with 44% and 43% respectively."
   },
   {
     "Page": "trend5",
@@ -728,5 +923,100 @@
     "Page": "trend5",
     "Element": "spotlightpara2",
     "Content": "<em>*Source: Twilio SIGNAL Conference 2021 video presentation.</em>"
+  },
+  {
+    "Page": "general",
+    "Element": "localecountry",
+    "Content": "Country"
+  },
+  {
+    "Page": "general",
+    "Element": "localeaustralia",
+    "Content": "Australia"
+  },
+  {
+    "Page": "general",
+    "Element": "localebrazil",
+    "Content": "Brazil"
+  },
+  {
+    "Page": "general",
+    "Element": "localecolombia",
+    "Content": "Colombia"
+  },
+  {
+    "Page": "general",
+    "Element": "localefrance",
+    "Content": "France"
+  },
+  {
+    "Page": "general",
+    "Element": "localegermany",
+    "Content": "Germany"
+  },
+  {
+    "Page": "general",
+    "Element": "localeglobal",
+    "Content": "Global"
+  },
+  {
+    "Page": "general",
+    "Element": "localeitaly",
+    "Content": "Italy"
+  },
+  {
+    "Page": "general",
+    "Element": "localejapan",
+    "Content": "Japan"
+  },
+  {
+    "Page": "general",
+    "Element": "localemexico",
+    "Content": "Mexico"
+  },
+  {
+    "Page": "general",
+    "Element": "localesingapore",
+    "Content": "Singapore"
+  },
+  {
+    "Page": "general",
+    "Element": "localespain",
+    "Content": "Spain"
+  },
+  {
+    "Page": "general",
+    "Element": "localeuk",
+    "Content": "United Kingdom"
+  },
+  {
+    "Page": "general",
+    "Element": "localeus",
+    "Content": "United States"
+  },
+  {
+    "Page": "general",
+    "Element": "localeregion",
+    "Content": "Region"
+  },
+  {
+    "Page": "general",
+    "Element": "localenorthamerica",
+    "Content": "North America"
+  },
+  {
+    "Page": "general",
+    "Element": "localeasia",
+    "Content": "Asia Pacific/Japan"
+  },
+  {
+    "Page": "general",
+    "Element": "localeeurope",
+    "Content": "Europe"
+  },
+  {
+    "Page": "general",
+    "Element": "localelatinamerica",
+    "Content": "Latin America"
   }
 ]
