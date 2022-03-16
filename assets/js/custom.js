@@ -28,6 +28,9 @@ const merge = (...arguments) => {
   return target
 }
 
+//keep track of which charts have been rendered for the scroll function
+const chartsRendered = []
+
 $(document).ready(async function () {
   setTimeout(function () {
     $(window).resize()
@@ -47,12 +50,16 @@ $(document).ready(async function () {
 	  });
 	});
 
+  $('.trends--item').on('mouseenter', function() {
+
+    $(this).find('.hover-follow').css('width', $(this).find('.hover-follow').height()+'px');
+  });
   //mouse follow on trend hover
   $('.trends--item').on('mousemove', function (e) {
-    var width = $('.hover-follow').width(),
+    var width = $(this).find('.hover-follow').width(),
       centerX = width / 2,
       posX = e.pageX - centerX,
-      maxX = $(this).width() - width
+      maxX = $(window).width() - width
 
     if (posX < 0) posX = 0
     if (posX > maxX) posX = maxX
@@ -150,6 +157,16 @@ $(document).ready(async function () {
     $('.rotateOnScroll').each(function () {
       $(this).css('transform', 'rotate(' + t / 3 + 'deg)')
     })
+
+    for(var i = 0; i < chartGroupCharts.length; i++) {
+      if(chartGroupCharts[i]) {
+        var topPosition = $(window).scrollTop() - chartGroupCharts[i].el.offsetTop
+        if((topPosition + ($(window).height() * .7)) > 0 && !chartsRendered[i]) {
+          chartGroupCharts[i].render()
+          chartsRendered[i] = true
+        }
+      }
+    }
   })
 
   $(window).resize(function () {
@@ -203,7 +220,7 @@ $(document).ready(async function () {
       })
 
       $parent.find('> A').text(val)
-      console.log(val);
+      //console.log(val);
       updateChartGroup(val)
     }
   })
@@ -267,7 +284,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
             },
           })
           chartGroupCharts[index] = new ApexCharts(div, chartOptions)
-          chartGroupCharts[index].render()
+          //chartGroupCharts[index].render()
           break
 
         case 'double-bar':
@@ -306,7 +323,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
             },
           })
           chartGroupCharts[index] = new ApexCharts(div, chartOptions)
-          chartGroupCharts[index].render()
+          //chartGroupCharts[index].render()
           break
 
         case 'radial-bar':
@@ -324,7 +341,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
             ],
           })
           chartGroupCharts[index] = new ApexCharts(div, chartOptions)
-          chartGroupCharts[index].render()
+          //chartGroupCharts[index].render()
           break
         
 		case 'dot':
@@ -399,7 +416,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
             },
           })
           chartGroupCharts[index] = new ApexCharts(div, chartOptions)
-          chartGroupCharts[index].render()
+          //chartGroupCharts[index].render()
           break
 
         default:

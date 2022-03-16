@@ -30,7 +30,7 @@ var columnChartOptions = {
   plotOptions: {
     bar: {
       horizontal: false,
-      columnWidth: '37%',
+      columnWidth: '48%',
       endingShape: 'rounded',
       dataLabels: {
         position: 'top',
@@ -60,7 +60,7 @@ var columnChartOptions = {
   xaxis: {
     axisBorder: { show: false },
     axisTicks: { show: false },
-    categories: ['NAMAR', 'GLOBAL AVERAGE'],
+    categories: ['NAMAR'],
   },
   legend: {
     show: false,

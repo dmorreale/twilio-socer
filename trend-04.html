@@ -225,7 +225,7 @@
           </div>
         </div>
       </section>
-      <section class="twiliodata bg-grid pt-160">
+      <!--<section class="twiliodata bg-grid pt-160">
         <div class="container two-col">
           <div class="content">
             <div class="column center">
@@ -243,8 +243,8 @@
             <div class="column"></div>
           </div>
         </div>
-      </section>
-      <section class="block-short-content">
+      </section>-->
+      <section class="block-short-content bg-grid">
         <div class="container two-col">
           <div class="content">
             <div class="column">
@@ -483,14 +483,17 @@
     </script>
 
     <script>
+      var outOfGroupCharts = []
+      var outOfGroupChartsRendered = []
+
       const renderCharts = async () => {
         let introChartData, twilioChartData
         await $.getJSON(`json/by_row/trend_4_intro_chart.json`, (data) => {
           introChartData = data
         })
-        await $.getJSON(`json/by_row/trend_4_twilio_data.json`, (data) => {
-          twilioChartData = data
-        })
+        //await $.getJSON(`json/by_row/trend_4_twilio_data.json`, (data) => {
+        //  twilioChartData = data
+        //})
 
         var introChartOptions = {
           ...barChartOptions,
@@ -564,8 +567,9 @@
           document.querySelector('.intro-data-chart'),
           introChartOptions
         )
-        introChart.render()
-
+        outOfGroupCharts[0] = new ApexCharts(document.querySelector('.intro-data-chart'), introChartOptions)
+        //introChart.render()
+        /*
         var twilioChartOptions = {
           ...stackedBar100Options,
           series: [
@@ -595,9 +599,23 @@
           document.querySelector('.twilio-data-chart'),
           twilioChartOptions
         )
-        twilioChart.render()
+        outOfGroupCharts[1] = new ApexCharts(document.querySelector('.twilio-data-chart'), twilioChartOptions)
+        //twilioChart.render()
+        */
       }
       renderCharts()
+
+      $(document).scroll(function () {
+        for(var i = 0; i < outOfGroupCharts.length; i++) {
+          if(outOfGroupCharts[i]) {
+            var topPosition = $(window).scrollTop() - outOfGroupCharts[i].el.offsetTop
+            if((topPosition + ($(window).height() * .7)) > 0 && !outOfGroupChartsRendered[i]) {
+              outOfGroupCharts[i].render()
+              outOfGroupChartsRendered[i] = true
+            }
+          }
+        }
+      });
     </script>
   </body>
 </html>

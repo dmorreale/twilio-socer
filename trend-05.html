@@ -228,7 +228,7 @@
           </div>
         </div>
       </section>
-      <section class="twiliodata bg-grid pt-160">
+      <!--<section class="twiliodata bg-grid pt-160">
         <div class="container two-col">
           <div class="content">
             <div class="column center">
@@ -248,8 +248,8 @@
             <div class="column"></div>
           </div>
         </div>
-      </section>
-      <section class="block-short-content">
+      </section>-->
+      <section class="block-short-content bg-grid">
         <div class="container two-col">
           <div class="content">
             <div class="column">
@@ -493,14 +493,17 @@
       })
     </script>
     <script>
+      var outOfGroupCharts = []
+      var outOfGroupChartsRendered = []
+
       const renderCharts = async () => {
         let introChartData, twilioChartData
         await $.getJSON(`json/by_row/trend_5_intro_chart.json`, (data) => {
           introChartData = data
         })
-        await $.getJSON(`json/by_row/trend_5_twilio_data.json`, (data) => {
-          twilioChartData = data
-        })
+        //await $.getJSON(`json/by_row/trend_5_twilio_data.json`, (data) => {
+        //  twilioChartData = data
+        //})
         //console.log(introChartData[0].map((val) => parseInt(val)));
         var introChartOptions = {
           ...radialBarOptions,
@@ -511,11 +514,12 @@
           document.querySelector('.intro-data-chart'),
           introChartOptions
         )
-        introChart.render()
+        outOfGroupCharts[0] = new ApexCharts(document.querySelector('.intro-data-chart'), introChartOptions)
+        //introChart.render()
 
         
 
-
+        /*
         twilioChartData = [
         {
           "2021-01": "39.57%",
@@ -542,8 +546,6 @@
         for (let i = 0; i < arr1.length; i++) {
           newData[i] = { "x": new Date(arr1[i]).getTime(), "y": parseFloat(arr2[i]) }
         }
-
-        console.log(arr1);
         
 
         var twilioChartOptions = {
@@ -580,20 +582,33 @@
               * @param { String } value - The generated value of the y-axis tick
               * @param { index } index of the tick / currently executing iteration in yaxis labels array
               */
-              formatter: function(val, index) {
-                return parseInt(val) + '%';
-              }
+              //formatter: function(val, index) {
+              //  return parseInt(val) + '%';
+              //}
+            //}
+          //}
+        //}
+
+        //var twilioChart = new ApexCharts(
+        //  document.querySelector('.twilio-data-chart'),
+        //  twilioChartOptions
+        //)
+        //outOfGroupCharts[1] = new ApexCharts(document.querySelector('.twilio-data-chart'), twilioChartOptions)
+        //twilioChart.render()
+      }
+      renderCharts()
+
+      $(document).scroll(function () {
+        for(var i = 0; i < outOfGroupCharts.length; i++) {
+          if(outOfGroupCharts[i]) {
+            var topPosition = $(window).scrollTop() - outOfGroupCharts[i].el.offsetTop
+            if((topPosition + ($(window).height() * .7)) > 0 && !outOfGroupChartsRendered[i]) {
+              outOfGroupCharts[i].render()
+              outOfGroupChartsRendered[i] = true
             }
           }
         }
-
-        var twilioChart = new ApexCharts(
-          document.querySelector('.twilio-data-chart'),
-          twilioChartOptions
-        )
-        twilioChart.render()
-      }
-      renderCharts()
+      });
     </script>
   </body>
 </html>

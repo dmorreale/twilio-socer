@@ -487,6 +487,9 @@
     </script>
 
     <script>
+      var outOfGroupCharts = []
+      var outOfGroupChartsRendered = []
+      
       const renderCharts = async () => {
         let introChartData, twilioChartData
         await $.getJSON(`json/by_row/trend_2_intro_chart.json`, (data) => {
@@ -580,7 +583,8 @@
           document.querySelector('.intro-data-chart'),
           introChartOptions
         )
-        introChart.render()
+        outOfGroupCharts[0] = new ApexCharts(document.querySelector('.intro-data-chart'), introChartOptions)
+        //introChart.render()
 
         twilioChartData = [
           {
@@ -659,9 +663,22 @@
           document.querySelector('.twilio-data-chart'),
           twilioChartOptions
         )
-        twilioChart.render()
+        outOfGroupCharts[1] = new ApexCharts(document.querySelector('.twilio-data-chart'), twilioChartOptions)
+        //twilioChart.render()
       }
       renderCharts()
+
+      $(document).scroll(function () {
+        for(var i = 0; i < outOfGroupCharts.length; i++) {
+          if(outOfGroupCharts[i]) {
+            var topPosition = $(window).scrollTop() - outOfGroupCharts[i].el.offsetTop
+            if((topPosition + ($(window).height() * .7)) > 0 && !outOfGroupChartsRendered[i]) {
+              outOfGroupCharts[i].render()
+              outOfGroupChartsRendered[i] = true
+            }
+          }
+        }
+      });
     </script>
   </body>
 </html>

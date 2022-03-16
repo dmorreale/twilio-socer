@@ -1,6 +1,6 @@
 .block-short-content {
 	padding-top:160px;
-	padding-bottom:50px;
+	padding-bottom:150px;
 
 	.pullquotelarge {
 		margin-top:280px;
@@ -8,7 +8,9 @@
 
 	@media screen and (max-width:1439px)
 	{
-		
+		.pullquotelarge {
+			margin-top:50px;
+		}
 	}
 
 	@media screen and (max-width:1199px)
@@ -17,6 +19,7 @@
 	}
 
 	@media screen and (max-width:719px) {
-		
+		padding-top:90px;
+		padding-bottom:100px;
 	}
 }
