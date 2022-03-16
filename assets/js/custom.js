@@ -51,9 +51,9 @@ $(document).ready(async function () {
 	});
 
   $('.trends--item').on('mouseenter', function() {
-
     $(this).find('.hover-follow').css('width', $(this).find('.hover-follow').height()+'px');
   });
+
   //mouse follow on trend hover
   $('.trends--item').on('mousemove', function (e) {
     var width = $(this).find('.hover-follow').width(),
@@ -104,14 +104,11 @@ $(document).ready(async function () {
   if (location.hash) {
     var loc = location.hash.substring(1)
     loc = loc.toLowerCase()
-    if (loc.indexOf('question') == -1) {
-      pagechange()
+    //console.log(loc,loc.indexOf('form_engagement'));
+    if (loc.indexOf('form_engagement') != -1) {
+      $('#cover,.mktoForm_3201').addClass('show');
     }
   }
-
-  $(window).on('hashchange', function () {
-    pagechange()
-  })
 
   $('.downArrowModule').click(function () {
     scrollTo($(this).closest('section').next(), 1200)

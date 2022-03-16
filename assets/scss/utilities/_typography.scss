@@ -22,29 +22,40 @@ p {
 		font-weight:400;
 	}
 }
-.pBullet {
-	position:relative;
-	top:0;
-	left:0;
-	padding-left:25px;
-	strong {
-		display:block;
+.orderedList {
+	padding-left:34px;
+	margin-top:54px;
+	li + li {
+		padding-top:28px;
 	}
-	&:before {
-		content:"";
-		display:block;
-		position:absolute;
-		top:.8em;
-		left:9px;
-		width:5px;
-		height:5px;
-		background-color:$dark;
-		border-radius:50%;
-
+	li::marker, .oLHeader {
+		font-family:$font-text;
+		font-size:1.5rem;
+		line-height:1.1em;
+	}
+	p {
+		padding-left:21px;
+	}
+	.oLHeader {
+		span {
+			border-bottom:2px solid red;
+			display:inline-block;
+		}
+		& + p {
+			margin-top:4px;
+		}
 	}
 }
 .chart-caption {
 	line-height:1.5em;
+}
+
+.close {
+	font-size:.75rem;
+	line-height:1.1em;
+	font-family:$font-mono;
+	background:transparent;
+	border:none;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
