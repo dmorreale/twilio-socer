@@ -127,7 +127,20 @@ $(document).ready(async function () {
   $('.downArrowModule').click(function () {
     scrollTo($(this).closest('section').next(), 1200)
   })
-	
+
+  $('#cover').click(function() {
+    closeCoverAndPopups();
+  });
+
+  $('.formPopup .close').click(function() {
+    closeCoverAndPopups();
+  });
+
+  function closeCoverAndPopups() {
+    $('#cover').removeClass('show');
+    $('.formPopup.show').removeClass('show');
+  }
+
   $(document).scroll(function () {
     var t = $(window).scrollTop();
 	 
