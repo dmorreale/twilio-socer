@@ -231,9 +231,14 @@ h3 {
 	line-height:1.2em;
 	font-weight:600;
 	font-family:$font-text;
-	span {
+	
+	.eyebrow {
 		display:block;
-		color:$red;
+		color:$red !important;
+	}
+	
+	.eyebrow span{
+		color:$red !important;
 	}
 }
 

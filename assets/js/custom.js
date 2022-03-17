@@ -44,8 +44,10 @@ $(document).ready(async function () {
 	//load the text from the json doc.
 	await $.getJSON("assets/json/twiliosocer2022.json", function(json) {
 	  json.forEach(function(obj) { 
-		  if(curPage == obj["Page"] || obj["Page"] == 'global'){
-			  $('.json-' + obj["Element"]).html(obj["Content"]);
+		  if(curPage == obj["Page"] || obj["Page"] == 'general'){
+			  $('.json-' + obj["Element"]).each(function(){
+				  $(this).html(obj["Content"]);
+			  });
 		  }
 	  });
 	});

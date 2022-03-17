@@ -757,9 +757,11 @@ body {
     line-height: 1.2em;
     font-weight: 600;
     font-family: "Twilio Sans Text", sans-serif; }
-    .pageWrapper .navDropTitle span, .pageWrapper .navDropLeftColumn a span {
+    .pageWrapper .navDropTitle .eyebrow, .pageWrapper .navDropLeftColumn a .eyebrow {
       display: block;
-      color: #F22F46; }
+      color: #F22F46 !important; }
+    .pageWrapper .navDropTitle .eyebrow span, .pageWrapper .navDropLeftColumn a .eyebrow span {
+      color: #F22F46 !important; }
   .pageWrapper .apexcharts-datalabel, .pageWrapper .apexcharts-text, .pageWrapper .apexcharts-legend-text {
     font-size: .875rem !important;
     line-height: 1.1em !important;
@@ -1458,7 +1460,7 @@ body {
       text-decoration: none;
       color: #121C2D;
       display: block; }
-    .pageWrapper .trends span {
+    .pageWrapper .trends .eyebrow, .pageWrapper .trends .read-more, .pageWrapper .trends .no-overflow {
       display: block; }
     .pageWrapper .trends span.eyebrow {
       margin-bottom: 8px; }
