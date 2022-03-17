@@ -15,7 +15,7 @@
 .bg-grid {
 	background:#FEECEC url(../images/grid-pattern.svg) repeat center top/cover;
 	border-top:1px solid $red;
-	border-bottom:1px solid transparent;
+	border-bottom:1px solid $red;
 	&-overlap {
 		display:block;
 		position:absolute;

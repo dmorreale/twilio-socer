@@ -17,6 +17,27 @@ var columnChartOptions = {
     },
     width: '100%',
   },
+	states: {
+		normal: {
+			filter: {
+				type: 'none',
+				value: 0,
+			}
+		},
+		hover: {
+			filter: {
+				type: 'none',
+				value: 0,
+			}
+		},
+		active: {
+			allowMultipleDataPointsSelection: false,
+			filter: {
+				type: 'none',
+				value: 0,
+			}
+		},
+	},
   fill: {
     type: ['solid','image'],
     colors: ['#F22F46'],
@@ -83,6 +104,27 @@ var radialBarOptions = {
       show: false,
     },
   },
+	states: {
+		normal: {
+			filter: {
+				type: 'none',
+				value: 0,
+			}
+		},
+		hover: {
+			filter: {
+				type: 'none',
+				value: 0,
+			}
+		},
+		active: {
+			allowMultipleDataPointsSelection: false,
+			filter: {
+				type: 'none',
+				value: 0,
+			}
+		},
+	},
   dataLabels: {
     enabled: true,
     formatter: (val) => val + '%',
@@ -143,6 +185,27 @@ var barChartOptions = {
       colors: ['#121C2D'],
     },
   },
+	states: {
+		normal: {
+			filter: {
+				type: 'none',
+				value: 0,
+			}
+		},
+		hover: {
+			filter: {
+				type: 'none',
+				value: 0,
+			}
+		},
+		active: {
+			allowMultipleDataPointsSelection: false,
+			filter: {
+				type: 'none',
+				value: 0,
+			}
+		},
+	},
   colors: ['#F22F46'],
   stroke: {
     show: true,

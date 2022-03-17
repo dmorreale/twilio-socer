@@ -46,7 +46,11 @@ $(document).ready(async function () {
 	  json.forEach(function(obj) { 
 		  if(curPage == obj["Page"] || obj["Page"] == 'general'){
 			  $('.json-' + obj["Element"]).each(function(){
-				  $(this).html(obj["Content"]);
+				  var text = obj["Content"].replace("[value]", "<strong class='chart-value'></strong>");
+				  console.log(obj["Element"]);
+				  console.log(obj["Content"]);
+				  console.log(text);
+				  $(this).html(text);
 			  });
 		  }
 	  });
@@ -340,7 +344,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
             ],
           })
           chartGroupCharts[index] = new ApexCharts(div, chartOptions)
-          //chartGroupCharts[index].render()
+          div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((el) => el[0] === 'Global')[1];
           break
         
 		case 'dot':
@@ -352,7 +356,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
           )
 
           updateDotCharts('Global', chartGroupData[index], div);
-
+		  div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[1];
           break
 		
 		case 'text':
@@ -364,7 +368,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
 			)
 		
 			div.innerHTML = `<span>${chartGroupData[index].find((e) => e[0] === 'Global')[1]} YEARS</span>`
-
+			div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[1];
 			break
 
         case 'column':
@@ -474,16 +478,19 @@ function updateChartGroup(selection) {
               ),
             ],
           })
+		  div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[1];
           break
 
         case 'dot':
 
           updateDotCharts(selection, chartGroupData[index], div);
+		  div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[1];
           break
 			  
 		case 'text':
 			
 			div.innerHTML = `<span>${chartGroupData[index].find((e) => e[0] === selection)[1]} YEARS</span>`
+			div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[1];
 			break
 
         case 'column':

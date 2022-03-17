@@ -275,7 +275,7 @@
     "Content": "<strong>70%</strong>  — that’s the average top-line revenue increase among companies that invested in digital customer engagement over the past two years."
   },
   {
-    "Page": "",
+    "Page": "homepage",
     "Element": "executivesummarybullethead2",
     "Content": "Make it personal"
   },
@@ -285,7 +285,7 @@
     "Content": "<strong>75%</strong> of companies think they’re providing good personalized experiences. But more than half of consumers disagree. There’s a lot of room for improvement. "
   },
   {
-    "Page": "",
+    "Page": "homepage",
     "Element": "executivesummarybullethead3",
     "Content": "Lose your cookies"
   },
@@ -295,7 +295,7 @@
     "Content": "<strong>81%</strong> of companies are completely or substantially reliant on third-party cookies — even though this critical data source will not be available after 2023. "
   },
   {
-    "Page": "",
+    "Page": "homepage",
     "Element": "executivesummarybullethead4",
     "Content": "Build trust"
   },
@@ -305,7 +305,7 @@
     "Content": "<strong>95%</strong> of B2C companies believe consumers trust their ability to protect data, yet only 65% of consumers actually do trust these companies. "
   },
   {
-    "Page": "",
+    "Page": "homepage",
     "Element": "executivesummarybullethead5",
     "Content": "Engage smarter"
   },
@@ -782,7 +782,7 @@
   {
     "Page": "trend4",
     "Element": "quad-top-left",
-    "Content": "[value] of companies say their consumers demand greater privacy. [value} of consumers want companies to do more to protect their privacy"
+    "Content": "[value] of companies say their consumers demand greater privacy. [value] of consumers want companies to do more to protect their privacy"
   },
   {
     "Page": "trend4",

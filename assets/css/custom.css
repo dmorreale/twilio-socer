@@ -699,7 +699,7 @@ body {
     line-height: 25px;
     letter-spacing: 0.15em;
     text-transform: uppercase; }
-    .pageWrapper .eyebrow.red {
+    .pageWrapper .eyebrow.red, .pageWrapper .eyebrow.red span {
       color: #F22F46; }
   .pageWrapper .pullquotelarge {
     font-size: 3.75rem;
@@ -986,7 +986,7 @@ body {
   .pageWrapper .bg-grid {
     background: #FEECEC url(../images/grid-pattern.svg) repeat center top/cover;
     border-top: 1px solid #F22F46;
-    border-bottom: 1px solid transparent; }
+    border-bottom: 1px solid #F22F46; }
     .pageWrapper .bg-grid-overlap {
       display: block;
       position: absolute;
