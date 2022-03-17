@@ -57,6 +57,7 @@ p {
 	background:transparent;
 	border:none;
 	position:relative;
+	padding-left:22px;
 	&:before {
 		content:"";
 		display:block;
@@ -64,8 +65,8 @@ p {
 		height:14px;
 		position:absolute;
 		top:calc(50% - 1px);
-		left:-8px;
-		transform:translate(-100%,-50%);
+		left:0;
+		transform:translate(0,-50%);
 		background:url(../images/close.svg) no-repeat center center;
 		background-size:contain;
 	}
@@ -230,6 +231,7 @@ h3 {
 
 .btn {
 	text-decoration:none;
+	cursor:pointer;
 }
 
 .btn-outline {
@@ -241,6 +243,8 @@ h3 {
 	text-align:center;
 	padding:12px 23px;
 	display:inline-block;
+	border:none;
+	background-color:transparent;
 }
 
 .btn-dark {
@@ -254,7 +258,12 @@ h3 {
 	letter-spacing:0.1em;
 	text-transform:uppercase;
 	color:white;
+	&.extraPadding {
+		padding-left:40px;
+		padding-right:40px;
+	}
 }
+
 
 .subhead {
 	font-size:1.875rem;
@@ -335,7 +344,7 @@ h3 {
 		}
 	}
 
-	h1, .h1 {
+	h1, .h1, .thanksHero h1 {
 		font-size:2.5rem;
 		line-height:1.2em;
 	}

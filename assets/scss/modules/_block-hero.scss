@@ -3,7 +3,7 @@
 	.content {
 		
 	}
-	&:not(.trendsHero) .leftOfImage {
+	&:not(.trendsHero,.thanksHero) .leftOfImage {
 		width:100%;
 	}
 	.leftOfImage {
@@ -15,6 +15,7 @@
 			margin-top:60px;
 			margin-bottom:-40px;
 			width:520px;
+			max-width:calc(50% - 120px);
 		}
 	}
 	.leftImageHero {
@@ -42,6 +43,18 @@
 		}
 		.subhead {
 			max-width:50%;
+		}
+	}
+	&.thanksHero {
+		padding-bottom:132px;
+		padding-top:0;
+
+		h1 {
+			margin:21px 0 48px 0;
+			width:800px;
+		}
+		.btn {
+			margin-top:51px;
 		}
 	}
 
@@ -77,6 +90,18 @@
 				max-width:33.333%;
 			}
 		}
+		&.thanksHero {
+			.leftOfImage {
+				h1 {
+					width:auto;
+					max-width:380px;
+					margin-bottom:23px;
+				}
+				p {
+					max-width:calc(50% - 40px);
+				}
+			}
+		}
 	}
 	@media screen and (max-width:719px) {
 		.leftImageHero {
@@ -97,6 +122,14 @@
 			}
 			.subhead {
 				max-width:225px;
+			}
+		}
+
+		&.thanksHero {
+			.leftOfImage {
+				p {
+					max-width:100%;
+				}
 			}
 		}
 	}
