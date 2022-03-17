@@ -56,6 +56,19 @@ p {
 	font-family:$font-mono;
 	background:transparent;
 	border:none;
+	position:relative;
+	&:before {
+		content:"";
+		display:block;
+		width:14px;
+		height:14px;
+		position:absolute;
+		top:calc(50% - 1px);
+		left:-8px;
+		transform:translate(-100%,-50%);
+		background:url(../images/close.svg) no-repeat center center;
+		background-size:contain;
+	}
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -228,6 +241,19 @@ h3 {
 	text-align:center;
 	padding:12px 23px;
 	display:inline-block;
+}
+
+.btn-dark {
+	padding:12px 22px;
+	background:$dark;
+	border:none;
+	font-family:$font-mono;
+	font-weight:400;
+	font-size:1.25rem;
+	line-height:1.2em;
+	letter-spacing:0.1em;
+	text-transform:uppercase;
+	color:white;
 }
 
 .subhead {
