@@ -19,6 +19,11 @@ Todo:
 		Make sure that the data is coming in correctly to all the charts from the JSON.
 			Drop-down should be working on all trends pages.
 
+	test - Custom arrow on the select box
+	Customized error notifications
+	functionality of the sign-up form - needs to re-direct after submission - probably needs to be adjusted on the form's end or we need to look at the api 
+
+
 Outstanding chart issues:
 
     minor:

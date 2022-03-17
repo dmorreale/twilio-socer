@@ -598,6 +598,8 @@ body {
   padding: 0;
   color: #121C2D;
   cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAeCAYAAADHJYVoAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGKSURBVHgBvVaLjYJAFHxYAXaAFUgJawXSwdGBdAAdHB1IB1DBcR3QAXQAHdy7NwqJx624y8dJJtHEzLBveLMSMyuhSxtgJ4RwJQYerQ08Nd/RbGXQZFm2jYEI5ufzmcMwhEEn9GktiFgaRRHjo+/73LYtDD5oDYhQWBTFTRz0PI+bBhPiiJYCc4bYID4yiGkpMGvXdbcxEIFKKfVHHIRhVWEN+JPm4jFUnUGe5zDIZ20zwrter1rxgWmawsB+m/Fu4/hT4mCSJPbLhuN2XfdSfIlBgzfExAD59AZm2yw/zFABJuJgEATDNisT8QihmYpTXxd1XeMUKKZJ8eCxBkyJUfYGyVMDBGQa6lyDzjRUncFQFzDYafS/j8cj2WK/39PlciEx6OSrQ/fr89+TP60BHUWU4zhmGecP+meyHpD6qxoAHce53VwyBoh+GS2UrtvHoqfTicuyHEQV2UDX7eDhcIAoAqtnX4NoPiwHjeYqaPtXbf6fKNQAQrUKy0I8wvGtwrIQV7PCeid+AWZJQE2lytCOAAAAAElFTkSuQmCC), auto; }
+  body.bg-blue {
+    background-color: #06033A; }
 
 .pageWrapper {
   -webkit-font-smoothing: antialiased;
@@ -641,7 +643,8 @@ body {
     font-family: "Twilio Sans Mono", sans-serif;
     background: transparent;
     border: none;
-    position: relative; }
+    position: relative;
+    padding-left: 22px; }
     .pageWrapper .close:before {
       content: "";
       display: block;
@@ -649,8 +652,8 @@ body {
       height: 14px;
       position: absolute;
       top: calc(50% - 1px);
-      left: -8px;
-      transform: translate(-100%, -50%);
+      left: 0;
+      transform: translate(0, -50%);
       background: url(../images/close.svg) no-repeat center center;
       background-size: contain; }
   .pageWrapper h1, .pageWrapper h2, .pageWrapper h3, .pageWrapper h4, .pageWrapper h5, .pageWrapper h6, .pageWrapper .h1, .pageWrapper .h2, .pageWrapper .h3, .pageWrapper .h4, .pageWrapper .h5, .pageWrapper .h6 {
@@ -754,7 +757,8 @@ body {
     font-size: 5rem;
     line-height: 1.05em; }
   .pageWrapper .btn {
-    text-decoration: none; }
+    text-decoration: none;
+    cursor: pointer; }
   .pageWrapper .btn-outline {
     font-size: 1.125rem;
     line-height: 1.216em;
@@ -763,7 +767,9 @@ body {
     font-family: "Twilio Sans Mono", sans-serif;
     text-align: center;
     padding: 12px 23px;
-    display: inline-block; }
+    display: inline-block;
+    border: none;
+    background-color: transparent; }
   .pageWrapper .btn-dark {
     padding: 12px 22px;
     background: #121C2D;
@@ -775,6 +781,9 @@ body {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: white; }
+    .pageWrapper .btn-dark.extraPadding {
+      padding-left: 40px;
+      padding-right: 40px; }
   .pageWrapper .subhead {
     font-size: 1.875rem;
     line-height: 1.3em;
@@ -823,7 +832,7 @@ body {
     .pageWrapper .pLarge, .pageWrapper .pLarge p {
       font-size: 1.313rem;
       line-height: 1.6em; }
-    .pageWrapper h1, .pageWrapper .h1 {
+    .pageWrapper h1, .pageWrapper .h1, .pageWrapper .thanksHero h1 {
       font-size: 2.5rem;
       line-height: 1.2em; }
     .pageWrapper .trends h3 {
@@ -870,8 +879,6 @@ body {
     .pageWrapper .downArrowModule:hover img {
       animation: none;
       transform: translate(0, -4px) !important; }
-  .pageWrapper #cover {
-    transition: all cubic-bezier(0.22, 1, 0.36, 1); }
 @keyframes float {
   0% {
     transform: translate(0, -13px); }
@@ -1161,7 +1168,7 @@ body {
         transform: translate(42px, 0); }
   .pageWrapper .block-hero {
     padding-bottom: 0px; }
-    .pageWrapper .block-hero:not(.trendsHero) .leftOfImage {
+    .pageWrapper .block-hero:not(.trendsHero, .thanksHero) .leftOfImage {
       width: 100%; }
     .pageWrapper .block-hero .leftOfImage {
       z-index: 2;
@@ -1171,7 +1178,8 @@ body {
       .pageWrapper .block-hero .leftOfImage .img-fluid {
         margin-top: 60px;
         margin-bottom: -40px;
-        width: 520px; }
+        width: 520px;
+        max-width: calc(50% - 120px); }
     .pageWrapper .block-hero .leftImageHero {
       width: calc(50% - 40px);
       max-width: 640px;
@@ -1192,6 +1200,14 @@ body {
         margin: 21px 0 66px 0; }
       .pageWrapper .block-hero.trendsHero .subhead {
         max-width: 50%; }
+    .pageWrapper .block-hero.thanksHero {
+      padding-bottom: 132px;
+      padding-top: 0; }
+      .pageWrapper .block-hero.thanksHero h1 {
+        margin: 21px 0 48px 0;
+        width: 800px; }
+      .pageWrapper .block-hero.thanksHero .btn {
+        margin-top: 51px; }
     @media screen and (max-width: 1439px) {
       .pageWrapper .block-hero.trendsHero {
         padding-bottom: 94px; }
@@ -1211,7 +1227,13 @@ body {
           height: calc(100% + 88px);
           object-fit: cover; }
         .pageWrapper .block-hero.trendsHero .subhead {
-          max-width: 33.333%; } }
+          max-width: 33.333%; }
+      .pageWrapper .block-hero.thanksHero .leftOfImage h1 {
+        width: auto;
+        max-width: 380px;
+        margin-bottom: 23px; }
+      .pageWrapper .block-hero.thanksHero .leftOfImage p {
+        max-width: calc(50% - 40px); } }
     @media screen and (max-width: 719px) {
       .pageWrapper .block-hero .leftImageHero {
         right: -20px;
@@ -1223,7 +1245,9 @@ body {
         width: 50%;
         right: -20px; }
       .pageWrapper .block-hero.trendsHero .subhead {
-        max-width: 225px; } }
+        max-width: 225px; }
+      .pageWrapper .block-hero.thanksHero .leftOfImage p {
+        max-width: 100%; } }
   .pageWrapper .block-after-hero {
     padding-top: 128px;
     padding-bottom: 40px;
@@ -1827,9 +1851,9 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    display: none;
     background-color: rgba(18, 28, 45, 0);
-    backdrop-filter: blur(0px); }
+    backdrop-filter: blur(0px);
+    z-index: -1; }
     .pageWrapper #cover.show {
       display: block;
       background-color: rgba(18, 28, 45, 0.5);
@@ -1846,8 +1870,8 @@ body {
     max-height: calc(100vh - 60px);
     background-color: white;
     min-height: 72vh;
-    display: none;
-    opacity: 0; }
+    opacity: 0;
+    z-index: -1; }
     .pageWrapper .formPopup.show {
       display: block;
       opacity: 1;
@@ -1857,7 +1881,8 @@ body {
       top: -20px;
       right: 0;
       transform: translate(0, -100%);
-      color: white; }
+      color: white;
+      cursor: pointer; }
     .pageWrapper .formPopup .popupContent {
       max-width: calc(672px + 80px);
       padding: 0 40px;
@@ -1870,12 +1895,38 @@ body {
       flex-wrap: wrap;
       justify-content: space-between;
       max-width: 100% !important;
-      margin-top: 40px !important; }
+      margin-top: 40px !important;
+      background-color: white !important; }
       .pageWrapper .formPopup form.mktoForm .mktoFormRow {
         width: calc(50% - 11px);
         margin-bottom: 11px !important; }
         .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(7) {
           width: 100%; }
+          .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(7) .mktoFieldWrap {
+            position: relative;
+            top: 0;
+            left: 0; }
+            .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(7) .mktoFieldWrap:before, .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(7) .mktoFieldWrap:after {
+              content: "";
+              display: block;
+              position: absolute;
+              background-color: white;
+              pointer-events: none;
+              z-index: 2; }
+            .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(7) .mktoFieldWrap:after {
+              width: 14px;
+              height: 14px;
+              border-bottom: 1px solid #C4C4C4;
+              border-right: 1px solid #C4C4C4;
+              transform: rotate(45deg);
+              transform-origin: center;
+              bottom: 17px;
+              right: 19px; }
+            .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(7) .mktoFieldWrap:before {
+              bottom: 1px;
+              right: 1px;
+              height: 42px;
+              width: 44px; }
         .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(8), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(9), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(10), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(11), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(12), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(13), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(14), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(15), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(16), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(17), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(18), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(19), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(20), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(21) {
           display: none; }
       .pageWrapper .formPopup form.mktoForm .mktoButtonRow {
@@ -1897,7 +1948,16 @@ body {
         border-radius: 0 !important;
         font-size: 18px !important;
         color: #121C2D;
-        padding: 22px 12px !important; }
+        background-color: white !important; }
+        .pageWrapper .formPopup form.mktoForm input[type=text]:not(select), .pageWrapper .formPopup form.mktoForm input[type=email]:not(select), .pageWrapper .formPopup form.mktoForm textarea:not(select), .pageWrapper .formPopup form.mktoForm select:not(select), .pageWrapper .formPopup form.mktoForm select[multiple=multiple]:not(select), .pageWrapper .formPopup form.mktoForm input[type=tel]:not(select) {
+          padding: 22px 12px !important; }
+        .pageWrapper .formPopup form.mktoForm input[type=text]:is(select), .pageWrapper .formPopup form.mktoForm input[type=email]:is(select), .pageWrapper .formPopup form.mktoForm textarea:is(select), .pageWrapper .formPopup form.mktoForm select:is(select), .pageWrapper .formPopup form.mktoForm select[multiple=multiple]:is(select), .pageWrapper .formPopup form.mktoForm input[type=tel]:is(select) {
+          padding: 2px 8px !important;
+          height: 44px !important; }
+        .pageWrapper .formPopup form.mktoForm input[type=text]:focus, .pageWrapper .formPopup form.mktoForm input[type=email]:focus, .pageWrapper .formPopup form.mktoForm textarea:focus, .pageWrapper .formPopup form.mktoForm select:focus, .pageWrapper .formPopup form.mktoForm select[multiple=multiple]:focus, .pageWrapper .formPopup form.mktoForm input[type=tel]:focus {
+          border: 1px solid #121C2D !important; }
+      .pageWrapper .formPopup form.mktoForm select::placeholder {
+        color: black; }
       .pageWrapper .formPopup form.mktoForm .mktoError .mktoErrorMsg {
         transform: translate(0, 3px); }
     .pageWrapper .formPopup .belowTheForm {
@@ -1915,12 +1975,22 @@ body {
         line-height: 1.750em; }
         .pageWrapper .formPopup .belowTheForm div p a {
           font-weight: bold;
-          color: inherit;
-          text-decoration: none; }
+          color: inherit; }
+  .pageWrapper #cover, .pageWrapper .formPopup {
+    transition: background-color 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0s, backdrop-filter 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0s, opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0s, z-index 0s linear 0.5s; }
+    .pageWrapper #cover.show, .pageWrapper .formPopup.show {
+      transition: background-color 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0s, backdrop-filter 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0s, opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0s, z-index 0s linear 0s; }
   @media screen and (max-width: 930px) {
     .pageWrapper .formPopup .popupContent {
       margin: 82px auto 80px auto;
-      max-height: calc(100% - 160px); } }
+      max-height: calc(100% - 160px); }
+    .pageWrapper .formPopup .belowTheForm {
+      margin-top: 24px;
+      flex-flow: column; }
+      .pageWrapper .formPopup .belowTheForm button, .pageWrapper .formPopup .belowTheForm div {
+        max-width: 100%; }
+      .pageWrapper .formPopup .belowTheForm div {
+        margin-top: 20px; } }
   @media screen and (max-width: 719px) {
     .pageWrapper .formPopup {
       height: calc(100vh - 130px); }
@@ -1934,12 +2004,6 @@ body {
   @media screen and (max-height: 500px) {
     .pageWrapper .formPopup form.mktoForm .mktoFormRow {
       width: 100%; }
-    .pageWrapper .formPopup .belowTheForm {
-      flex-flow: column; }
-      .pageWrapper .formPopup .belowTheForm button, .pageWrapper .formPopup .belowTheForm div {
-        max-width: 100%; }
-      .pageWrapper .formPopup .belowTheForm div {
-        margin-top: 20px; }
     .pageWrapper .formPopup {
       height: calc(100vh - 130px); }
       .pageWrapper .formPopup .popupContent {
@@ -1951,13 +2015,7 @@ body {
           font-size: 2.5rem; } }
   @media screen and (max-width: 500px) {
     .pageWrapper .formPopup form.mktoForm .mktoFormRow {
-      width: 100%; }
-    .pageWrapper .formPopup .belowTheForm {
-      flex-flow: column; }
-      .pageWrapper .formPopup .belowTheForm button, .pageWrapper .formPopup .belowTheForm div {
-        max-width: 100%; }
-      .pageWrapper .formPopup .belowTheForm div {
-        margin-top: 20px; } }
+      width: 100%; } }
   .pageWrapper, .pageWrapper * {
     padding: 0;
     margin: 0; }

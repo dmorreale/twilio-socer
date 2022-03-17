@@ -112,17 +112,16 @@ $(document).ready(async function () {
     if (loc.indexOf('form_engagement') != -1) {
       $('#cover,.mktoForm_3201').addClass('show');
     }
+    if (loc.indexOf('form_expert') != -1) {
+      $('#cover,.mktoForm_3202').addClass('show');
+    }
   }
 
   $('.downArrowModule').click(function () {
     scrollTo($(this).closest('section').next(), 1200)
   })
 
-  $('#cover').click(function() {
-    closeCoverAndPopups();
-  });
-
-  $('.formPopup .close').click(function() {
+  $('#cover, .formPopup .close').click(function() {
     closeCoverAndPopups();
   });
 
@@ -130,6 +129,23 @@ $(document).ready(async function () {
     $('#cover').removeClass('show');
     $('.formPopup.show').removeClass('show');
   }
+
+  $('.json-ctabuttontext').click(function() {
+    showPopup($('.mktoForm_3201'));
+  });
+
+  $('.json-ctabuttoncontact').click(function() {
+    showPopup($('.mktoForm_3202'));
+  });
+
+  function showPopup(popup) {
+    $('#cover').addClass('show');
+    popup.addClass('show');
+  }
+
+  $('.formPopup .belowTheForm button').click(function() {
+    $(this).parent().parent().find('.mktoButton').click();
+  });
 
   $(document).scroll(function () {
     var t = $(window).scrollTop()
