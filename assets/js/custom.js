@@ -47,9 +47,7 @@ $(document).ready(async function () {
 		  if(curPage == obj["Page"] || obj["Page"] == 'general'){
 			  $('.json-' + obj["Element"]).each(function(){
 				  var text = obj["Content"].replace("[value]", "<strong class='chart-value'></strong>");
-				  console.log(obj["Element"]);
-				  console.log(obj["Content"]);
-				  console.log(text);
+				  var text = text.replace("[value]", "<strong class='chart-value2'></strong>");
 				  $(this).html(text);
 			  });
 		  }
@@ -420,6 +418,12 @@ async function renderChartGroup(val, tl, tr, bl, br) {
           })
           chartGroupCharts[index] = new ApexCharts(div, chartOptions)
           //chartGroupCharts[index].render()
+			if (chartGroupData[index][0].length === 2) {
+				div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[1];
+			} else if (chartGroupData[index][0].length === 4) {
+				div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[2];
+				div.nextElementSibling.querySelector(".chart-value2").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[3];
+			}
           break
 
         default:
@@ -532,6 +536,12 @@ function updateChartGroup(selection) {
                   : ['Companies', 'Customers'],
             },
           })
+			if (chartGroupData[index][0].length === 2) {
+				div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[1];
+			} else if (chartGroupData[index][0].length === 4) {
+				div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[2];
+				div.nextElementSibling.querySelector(".chart-value2").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[3];
+			}
           break
 
         default:
