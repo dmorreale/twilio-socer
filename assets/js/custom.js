@@ -139,7 +139,7 @@ $(document).ready(async function () {
       if (typeof maxDistance !== typeof undefined && maxDistance !== false) {
         maxDistance = parseInt(maxDistance)
       } else {
-        maxDistance = false
+        maxDistance = 60
       }
       if (paraStart > $(this).offset().top) {
         var transform = Math.floor(paraDif * speed)
