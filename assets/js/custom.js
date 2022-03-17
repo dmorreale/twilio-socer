@@ -75,6 +75,11 @@ $(document).ready(async function () {
     $('.hover-follow').css({ left: posX + 'px' });
 	$(this).find('.hover-follow img').css({ top: topper + 'px' });  
   });
+	
+  $('.video-container img').click(function(e){
+	  $(this).css({zIndex: -1});
+	  $(this).next()[0].contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+  });
 
   $('.nav-cta__button').click(function () {
     if ($(this).hasClass('active')) {
@@ -122,12 +127,14 @@ $(document).ready(async function () {
   $('.downArrowModule').click(function () {
     scrollTo($(this).closest('section').next(), 1200)
   })
-
+	
   $(document).scroll(function () {
-    var t = $(window).scrollTop()
+    var t = $(window).scrollTop();
+	 
     $('.leftImageHero').each(function () {
       var topPosition = $(window).scrollTop() - $(this).offset().top
       topPosition = topPosition * 0.2
+	  if(topPosition > 30) topPosition = 30;
       $(this).css('top', topPosition + 'px')
     })
 
@@ -146,17 +153,21 @@ $(document).ready(async function () {
       if (typeof maxDistance !== typeof undefined && maxDistance !== false) {
         maxDistance = parseInt(maxDistance)
       } else {
-        maxDistance = 60
+        maxDistance = 100
       }
+	  
       if (paraStart > $(this).offset().top) {
-        var transform = Math.floor(paraDif * speed)
-        if (maxDistance && transform > maxDistance) transform = maxDistance
+        var transform = Math.floor(paraDif * speed) - maxDistance;
+        if (maxDistance && transform >= 0) transform = 0;
         var translate = 'translateY(' + transform + 'px)'
         $cur.css({
           transform: translate,
         })
       } else {
-        $cur.removeAttr('style')
+        var translate = 'translateY(' + (-1 * maxDistance) + 'px)'
+        $cur.css({
+          transform: translate,
+        })
       }
     })
 

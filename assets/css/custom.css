@@ -1294,6 +1294,22 @@ body {
     .pageWrapper .casestudy .case {
       background: #FFF;
       border: 1px solid #F22F46; }
+    .pageWrapper .casestudy .video-container {
+      position: relative;
+      cursor: pointer; }
+      .pageWrapper .casestudy .video-container img {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: auto;
+        z-index: 1; }
+      .pageWrapper .casestudy .video-container iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 0; }
     .pageWrapper .casestudy h2 {
       padding: 25px 38px;
       border-bottom: 1px solid #F22F46;
