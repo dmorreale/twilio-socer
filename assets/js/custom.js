@@ -63,13 +63,18 @@ $(document).ready(async function () {
     var width = $(this).find('.hover-follow').width(),
       centerX = width / 2,
       posX = e.pageX - centerX,
-      maxX = $(window).width() - width
+      maxX = $(window).width() - width,
+	  mousePosY = e.pageY - $(this).offset().top - $(this).height()/2,
+	  topper = Math.floor(Math.sin( mousePosY/200 * (Math.PI/2) ) * 12);
+	  
+	  //console.log('m: ' + topper);
 
     if (posX < 0) posX = 0
     if (posX > maxX) posX = maxX
 
-    $('.hover-follow').css({ left: posX + 'px' })
-  })
+    $('.hover-follow').css({ left: posX + 'px' });
+	$(this).find('.hover-follow img').css({ top: topper + 'px' });  
+  });
 
   $('.nav-cta__button').click(function () {
     if ($(this).hasClass('active')) {
@@ -365,7 +370,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
 				}
 			)
 		
-			div.innerHTML = `<span>${chartGroupData[index].find((e) => e[0] === 'Global')[1]} YEARS</span>`
+			div.innerHTML = `<span>${chartGroupData[index].find((e) => e[0] === 'Global')[1]} YEARS</span>`;
 			div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[1];
 			break
 
@@ -419,7 +424,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
           chartGroupCharts[index] = new ApexCharts(div, chartOptions)
           //chartGroupCharts[index].render()
 			if (chartGroupData[index][0].length === 2) {
-				div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[1];
+				//div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[1];
 			} else if (chartGroupData[index][0].length === 4) {
 				div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[2];
 				div.nextElementSibling.querySelector(".chart-value2").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[3];
