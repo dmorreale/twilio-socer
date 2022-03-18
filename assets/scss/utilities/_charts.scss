@@ -3,7 +3,6 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 	width:320px;
-	margin:40px auto;
 	
 	> div {
 		width:21px;
@@ -21,9 +20,6 @@
 }
 
 .chart-grid .chart-text{
-	position: relative;
-	top:50%;
-	transform:translateY(-50%);
 	font-family: $font-mono;
 	font-size: 60px;
 	font-style: normal;
@@ -33,11 +29,6 @@
 	text-align: center;
 	
 	span {
-		position:relative;
-		top:50%;
-		left:0;
-		display:inline-block;
-		transform:translate(0,-50%);
 		&:before {
 			content:'';
 			display:block;
@@ -95,8 +86,15 @@
 	padding-left:0;
 }
 
-.chart-wrapper [class^="chart-"]:not(.chart-text,.chart-caption) {
-	margin:108px auto 72px;
+.chart-wrapper > div:first-child {
+	margin:54px auto 18px;
+	min-height:460px;
+	.chart-placeholder {
+		position:relative;
+		top:50%;
+		left:0;
+		transform:translate(0,-50%);
+	}
 	.apexcharts-series {
 		path.apexcharts-bar-area {
 			stroke:$red;
@@ -105,7 +103,7 @@
 	}
 }
 
-.chart-placeholder {
+.chart-placeholder:not(.chart-text) {
 	min-height:350px;
 }
 

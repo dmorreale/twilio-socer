@@ -21,7 +21,9 @@ Todo:
 
 	test - Custom arrow on the select box
 	Customized error notifications
-	functionality of the sign-up form - needs to re-direct after submission - probably needs to be adjusted on the form's end or we need to look at the api 
+	functionality of the sign-up form - needs to re-direct after submission - probably needs to be adjusted on the form's end or we need to look at the api
+
+	the sliding images are not all the same size...
 
 
 Outstanding chart issues:

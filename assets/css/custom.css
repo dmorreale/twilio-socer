@@ -812,7 +812,8 @@ body {
     font-size: 3.75rem !important;
     line-height: 1.167em !important;
     font-weight: 400 !important;
-    font-family: "Twilio Sans Display", sans-serif !important; }
+    font-family: "Twilio Sans Display", sans-serif !important;
+    transform: translate(0, -10px); }
   @media screen and (max-width: 1439px) {
     .pageWrapper h1, .pageWrapper .h1 {
       font-size: 6.250rem;
@@ -1087,8 +1088,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 320px;
-    margin: 40px auto; }
+    width: 320px; }
     .pageWrapper .dot-chart > div {
       width: 21px;
       height: 21px;
@@ -1100,9 +1100,6 @@ body {
     .pageWrapper .dot-chart .filled {
       background-color: #F22F46; }
   .pageWrapper .chart-grid .chart-text {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
     font-family: "Twilio Sans Mono", sans-serif;
     font-size: 60px;
     font-style: normal;
@@ -1110,19 +1107,13 @@ body {
     line-height: 64px;
     letter-spacing: 0em;
     text-align: center; }
-    .pageWrapper .chart-grid .chart-text span {
-      position: relative;
-      top: 50%;
-      left: 0;
-      display: inline-block;
-      transform: translate(0, -50%); }
-      .pageWrapper .chart-grid .chart-text span:before {
-        content: '';
-        display: block;
-        background: url(../images/right-arrow.svg) no-repeat center;
-        background-size: contain;
-        width: 106px;
-        height: 32px; }
+    .pageWrapper .chart-grid .chart-text span:before {
+      content: '';
+      display: block;
+      background: url(../images/right-arrow.svg) no-repeat center;
+      background-size: contain;
+      width: 106px;
+      height: 32px; }
   .pageWrapper .intro-data-chart, .pageWrapper .twilio-data-chart {
     padding-bottom: 0; }
     .pageWrapper .intro-data-chart + .chart-caption, .pageWrapper .twilio-data-chart + .chart-caption {
@@ -1150,12 +1141,18 @@ body {
       margin-top: 20px !important; }
   .pageWrapper .stackedBarChart .apexcharts-legend {
     padding-left: 0; }
-  .pageWrapper .chart-wrapper [class^="chart-"]:not(.chart-text, .chart-caption) {
-    margin: 108px auto 72px; }
-    .pageWrapper .chart-wrapper [class^="chart-"]:not(.chart-text, .chart-caption) .apexcharts-series path.apexcharts-bar-area {
+  .pageWrapper .chart-wrapper > div:first-child {
+    margin: 54px auto 18px;
+    min-height: 460px; }
+    .pageWrapper .chart-wrapper > div:first-child .chart-placeholder {
+      position: relative;
+      top: 50%;
+      left: 0;
+      transform: translate(0, -50%); }
+    .pageWrapper .chart-wrapper > div:first-child .apexcharts-series path.apexcharts-bar-area {
       stroke: #F22F46;
       stroke-width: 1px; }
-  .pageWrapper .chart-placeholder {
+  .pageWrapper .chart-placeholder:not(.chart-text) {
     min-height: 350px; }
   .pageWrapper .chart-placeholder, .pageWrapper .apexcharts-canvas {
     max-width: 100%;

@@ -161,15 +161,16 @@ var barChartOptions = {
   ],
   chart: {
     type: 'bar',
-    height: 212,
+    height: 300,
     toolbar: {
       show: false,
     },
-	width: 500,
+	  width: 600,
   },
   plotOptions: {
     bar: {
       horizontal: true,
+      barHeight: '40%',
       dataLabels: {
         position:'top',
       },
@@ -231,7 +232,7 @@ var barChartOptions = {
   },
   yaxis: {
     labels: {
-      offsetX: -14,
+      offsetX: -9,
       maxWidth:224
     }
   },
@@ -366,7 +367,7 @@ var stackedBar100Options = {
   },
   yaxis: {
     labels: {
-      offsetX: -14,
+      offsetX: -9,
     },
   },
   grid: {

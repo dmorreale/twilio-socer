@@ -328,7 +328,56 @@ async function renderChartGroup(val, tl, tr, bl, br) {
                       .map((el) => el[1])
                   : chartGroupData[index].map((val) => val.Regions),
             },
+            yaxis: {
+              labels: {
+                offsetX: -9,
+                maxWidth:280
+              },
+            },
           })
+          if(div.getAttribute('number-of-bars') == '3') {
+            chartOptions = merge(chartOptions, {
+              chart: {
+                type: 'bar',
+                height: 180,
+                toolbar: {
+                  show: false,
+                },
+                width: 600,
+              },
+              plotOptions: {
+                bar: {
+                  horizontal: true,
+                  barHeight: '45%',
+                  dataLabels: {
+                    position:'top',
+                  },
+                },
+              },
+            })
+          }
+          if(div.getAttribute('number-of-bars') == '6') {
+            chartOptions = merge(chartOptions, {
+              chart: {
+                type: 'bar',
+                height: 300,
+                toolbar: {
+                  show: false,
+                },
+                width: 600,
+              },
+              plotOptions: {
+                bar: {
+                  horizontal: true,
+                  barHeight: '50%',
+                  dataLabels: {
+                    position:'top',
+                  },
+                },
+              },
+            })
+          }
+
           chartGroupCharts[index] = new ApexCharts(div, chartOptions)
           //chartGroupCharts[index].render()
           break
@@ -364,8 +413,40 @@ async function renderChartGroup(val, tl, tr, bl, br) {
                 .reverse(),
             },
             chart: {
-              height: 384,
+              height: 450,
               width: 499,
+            },
+            plotOptions: {
+              bar: {
+                horizontal: true,
+                barHeight: '60%',
+                dataLabels: {
+                  position:'top',
+                },
+              },
+            },
+            colors: ['#F22F46', 'transparent'],
+            stroke: {
+              show: true,
+              width: 1,
+              colors: ['#F22F46'],
+            },
+            legend: {
+              show: true,
+              horizontalAlign: 'left',
+              height: 80,
+              markers: {
+                width: 18,
+                height: 18,
+                strokeWidth: '1px',
+                strokeColor: '#F22F46',
+                radius: 0
+              },
+            },
+            fill: {
+              type: 'solid',
+              colors: ['#F22F46', 'transparent'],
+              opacity: 1,
             },
           })
           chartGroupCharts[index] = new ApexCharts(div, chartOptions)
