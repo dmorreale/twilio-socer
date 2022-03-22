@@ -41,10 +41,24 @@ $(document).ready(async function () {
   }, 1000)
 
 	var curPage = $('body').data('page');
+	var language = $('html').attr('lang') == 'en' ? '' : $('html').attr('lang') + '/';
+	
 	//load the text from the json doc.
-	await $.getJSON("assets/json/twiliosocer2022.json", function(json) {
+	await $.getJSON("assets/json/" + language + "twiliosocer2022.json", function(json) {
 	  json.forEach(function(obj) { 
 		  if(curPage == obj["Page"] || obj["Page"] == 'general'){
+			    
+				if(obj["Element"] == 'socialdescription'){
+					var url = encodeURIComponent(location.href),
+						description = encodeURIComponent(obj["Content"]);
+					$('.social-twitter').each(function(){
+						$(this).attr('href', ('https://twitter.com/intent/tweet?text=' + description + '%0A%0A' + url)).attr('target', '_blank');
+					});
+					$('.social-linkedin').each(function(){
+						$(this).attr('href', ('https://www.linkedin.com/shareArticle?mini=true&url=' + url +'&summary=' + description)).attr('target', '_blank');
+					});
+				}
+			  
 			  $('.json-' + obj["Element"]).each(function(){
 				  var text = obj["Content"].replace("[value]", "<strong class='chart-value'></strong>");
 				  var text = text.replace("[value]", "<strong class='chart-value2'></strong>");
@@ -468,7 +482,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
             ],
           })
           chartGroupCharts[index] = new ApexCharts(div, chartOptions)
-          div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((el) => el[0] === 'Global')[1];
+          div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((el) => el[0] === 'Global')[1];
           break
         
 		case 'dot':
@@ -480,7 +494,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
           )
 
           updateDotCharts('Global', chartGroupData[index], div);
-		  div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[1];
+		  div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[1];
           break
 		
 		case 'text':
@@ -492,7 +506,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
 			)
 		
 			div.innerHTML = `<span>${chartGroupData[index].find((e) => e[0] === 'Global')[1]} YEARS</span>`;
-			div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[1];
+			div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[1];
 			break
 
         case 'column':
@@ -545,10 +559,10 @@ async function renderChartGroup(val, tl, tr, bl, br) {
           chartGroupCharts[index] = new ApexCharts(div, chartOptions)
           //chartGroupCharts[index].render()
 			if (chartGroupData[index][0].length === 2) {
-				//div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[1];
+				div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[1];
 			} else if (chartGroupData[index][0].length === 4) {
-				div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[2];
-				div.nextElementSibling.querySelector(".chart-value2").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[3];
+				div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[2];
+				div.parentElement.nextElementSibling.querySelector(".chart-value2").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[3];
 			}
           break
 
@@ -608,19 +622,19 @@ function updateChartGroup(selection) {
               ),
             ],
           })
-		  div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[1];
+		  div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[1];
           break
 
         case 'dot':
 
           updateDotCharts(selection, chartGroupData[index], div);
-		  div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[1];
+		  div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[1];
           break
 			  
 		case 'text':
 			
 			div.innerHTML = `<span>${chartGroupData[index].find((e) => e[0] === selection)[1]} YEARS</span>`
-			div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[1];
+			div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[1];
 			break
 
         case 'column':
@@ -663,10 +677,10 @@ function updateChartGroup(selection) {
             },
           })
 			if (chartGroupData[index][0].length === 2) {
-				div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[1];
+				div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[1];
 			} else if (chartGroupData[index][0].length === 4) {
-				div.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[2];
-				div.nextElementSibling.querySelector(".chart-value2").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[3];
+				div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[2];
+				div.parentElement.nextElementSibling.querySelector(".chart-value2").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[3];
 			}
           break
 

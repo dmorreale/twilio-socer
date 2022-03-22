@@ -1,0 +1,1022 @@
+[
+  {
+    "Page": "general",
+    "Element": "uishare",
+    "Content": "Partager"
+  },
+  {
+    "Page": "general",
+    "Element": "uilanguage",
+    "Content": "Langue"
+  },
+  {
+    "Page": "general",
+    "Element": "uimenu",
+    "Content": "Menu"
+  },
+  {
+    "Page": "general",
+    "Element": "navoverview",
+    "Content": "Présentation"
+  },
+  {
+    "Page": "general",
+    "Element": "navtrend",
+    "Content": "Tendance"
+  },
+  {
+    "Page": "general",
+    "Element": "trend1",
+    "Content": "L'engagement client numérique génère un retour sur investissement important"
+  },
+  {
+    "Page": "general",
+    "Element": "trend2",
+    "Content": "La personnalisation est essentielle"
+  },
+  {
+    "Page": "general",
+    "Element": "trend3",
+    "Content": "Vers un monde sans cookie"
+  },
+  {
+    "Page": "general",
+    "Element": "trend4",
+    "Content": "Les entreprises et les consommateurs ne partagent pas le même point de vue sur la confiance"
+  },
+  {
+    "Page": "general",
+    "Element": "trend5",
+    "Content": "La fatigue numérique est bien réelle"
+  },
+  {
+    "Page": "general",
+    "Element": "trendread",
+    "Content": "En savoir plus"
+  },
+  {
+    "Page": "general",
+    "Element": "engagementhead",
+    "Content": "Cinq tendances en matière d'engagement client pour 2022"
+  },
+  {
+    "Page": "general",
+    "Element": "casehead",
+    "Content": "Gros plan sur le développement de l'engagement"
+  },
+  {
+    "Page": "general",
+    "Element": "ctahead",
+    "Content": "Lire le rapport complet"
+  },
+  {
+    "Page": "general",
+    "Element": "ctadescription",
+    "Content": "Téléchargez notre rapport sur l'état de l'engagement client pour obtenir une analyse approfondie de l'avenir de l'engagement numérique."
+  },
+  {
+    "Page": "general",
+    "Element": "ctabuttontext",
+    "Content": "Télécharger le rapport"
+  },
+  {
+    "Page": "general",
+    "Element": "ctabuttoncontact",
+    "Content": "Contactez-nous"
+  },
+  {
+    "Page": "general",
+    "Element": "methodologyhead",
+    "Content": "Méthodologie"
+  },
+  {
+    "Page": "general",
+    "Element": "methodologypara1",
+    "Content": "Pour rédiger le rapport 2022 sur l'État de l'Engagement Client, Twilio s'est appuyé sur trois sources principales."
+  },
+  {
+    "Page": "general",
+    "Element": "methodologypara2",
+    "Content": "Twilio a fait appel à Lawless Research pour mener des recherches dans le cadre du rapport à partir d'une enquête réalisée auprès de plus de 3 000 décideurs d'entreprise et plus de 4 500 consommateurs aux États-Unis, au Royaume-Uni, en Allemagne, en Australie, en France, en Espagne, en Italie, au Japon et à Singapour. "
+  },
+  {
+    "Page": "general",
+    "Element": "methodologypara3",
+    "Content": "Le rapport inclut également des données agrégées recueillies à partir de milliards d'interactions sur la plateforme Twilio, révélant des tendances dans la façon dont les entreprises qui utilisent les produits Twilio et Twilio Segment interagissent avec leurs clients.\n"
+  },
+  {
+    "Page": "general",
+    "Element": "signupheading",
+    "Content": "Rapport 2022 sur l'état de la communication avec les clients"
+  },
+  {
+    "Page": "general",
+    "Element": "signupdesciption",
+    "Content": "Téléchargez le rapport pour avoir un aperçu des résultats complets obtenus auprès de plus de 3 000 décideurs et 4 500 consommateurs."
+  },
+  {
+    "Page": "general",
+    "Element": "signupheadinggetintouch",
+    "Content": "Vous souhaitez découvrir comment Twilio peut vous aider à tirer parti des tendances énoncées dans le rapport 2022 sur l'État de l'Engagement Client ? Remplissez le formulaire ci-dessous pour échanger avec un expert."
+  },
+  {
+    "Page": "general",
+    "Element": "signupdesciptiongetintouch",
+    "Content": "Nous vous contacterons au sujet de votre demande et partagerons du contenu et des mises à jour concernant la plateforme d'engagement client Twilio. Nous utilisons vos informations conformément à notre <a href=\"https://www.twilio.com/legal/privacy\">politique de confidentialité</a>. Vous pouvez mettre à jour vos préférences à tout moment."
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield1",
+    "Content": "Prénom"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield2",
+    "Content": "Nom"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield3",
+    "Content": "Adresse e-mail"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield4",
+    "Content": "Numéro de téléphone"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield5",
+    "Content": "Société"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield6",
+    "Content": "Fonction"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield7",
+    "Content": "Pays"
+  },
+  {
+    "Page": "general",
+    "Element": "signuprequired",
+    "Content": "Champ obligatoire"
+  },
+  {
+    "Page": "general",
+    "Element": "signupsubmit",
+    "Content": "Télécharger le rapport"
+  },
+  {
+    "Page": "general",
+    "Element": "signupsubmitgetintouch",
+    "Content": "Discutons-en"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfooter",
+    "Content": "Nous vous contacterons au sujet de votre demande et partagerons du contenu et des mises à jour concernant la plateforme d'engagement client Twilio. Nous utilisons vos informations conformément à notre <a href=\"https://www.twilio.com/legal/privacy\">politique de confidentialité</a>. Vous pouvez mettre à jour vos préférences à tout moment."
+  },
+  {
+    "Page": "general",
+    "Element": "thankyouheader",
+    "Content": "Merci d'avoir téléchargé le rapport 2022 sur l'État de l'Engagement Client."
+  },
+  {
+    "Page": "general",
+    "Element": "thankyouheadergetintouch",
+    "Content": "Merci de nous avoir contactés."
+  },
+  {
+    "Page": "general",
+    "Element": "thankyoudescription",
+    "Content": "Nous vous contacterons au sujet de votre demande et partagerons du contenu et des mises à jour concernant la plateforme d'engagement client Twilio. Nous utilisons vos informations conformément à notre <a href=\"https://www.twilio.com/legal/privacy\">politique de confidentialité</a>. Vous pouvez mettre à jour vos préférences à tout moment."
+  },
+  {
+    "Page": "general",
+    "Element": "thankyoudownload",
+    "Content": "Télécharger le PDF"
+  },
+  {
+    "Page": "homepage",
+    "Element": "metatitle",
+    "Content": "Rapport Twilio sur l'État de l'Engagement Client en 2022"
+  },
+  {
+    "Page": "homepage",
+    "Element": "metadescription",
+    "Content": "Twilio, la plateforme leader de communication et d'engagement client dans le cloud, partage les informations de milliers de décideurs d'entreprises internationales et de consommateurs sur les tendances qui façonnent l'avenir de l'engagement client."
+  },
+  {
+    "Page": "homepage",
+    "Element": "socialdescription",
+    "Content": "Découvrez les conclusions du rapport 2022 de Twilio #StateofCustomerEngagementReport, qui présente les tendances qui façonnent l'avenir de l'engagement client"
+  },
+  {
+    "Page": "homepage",
+    "Element": "headline",
+    "Content": "Rapport sur l'état de <br>l'engagement client <br><span>2022</span>"
+  },
+  {
+    "Page": "homepage",
+    "Element": "leadparagraph",
+    "Content": "L'accélération de l'engagement client numérique dans le monde post-pandémie ne montre aucun signe de ralentissement. Twilio, la plateforme leader de communication et d'engagement client dans le cloud, a discuté avec plus de 3 000 décideurs et 4 500 consommateurs pour comprendre comment le numérique continue de se développer au niveau mondial. Notre étude révèle comment les entreprises peuvent ajuster leurs stratégies pour tirer parti de ces tendances en pleine croissance. \n"
+  },
+  {
+    "Page": "homepage",
+    "Element": "descriptivepara1",
+    "Content": "Le rapport 2022 sur l'État de l'Engagement Client révèle que l'engagement client numérique a eu un impact significatif en augmentant en moyenne de 70 % le chiffre d'affaires des entreprises qui ont investi. Sans surprise, ces mêmes entreprises prévoient de presque doubler leurs investissements d'ici 2025."
+  },
+  {
+    "Page": "homepage",
+    "Element": "descriptivepara2",
+    "Content": "Cependant, le rythme rapide des changements signifie également que les entreprises devront s'adapter sans attendre. La personnalisation est désormais essentielle à la fidélisation des clients, et la protection des données relève d'une plus grande importance pour les consommateurs. Les opinions actuelles des consommateurs sur ces sujets sont différentes de ce que croient parfois les entreprises."
+  },
+  {
+    "Page": "homepage",
+    "Element": "descriptivepara3",
+    "Content": "Autre signe avant-coureur : Firefox et Safari ont déjà bloqué l'accès aux cookies tiers, et Google Chrome fera de même courant 2023. Pour créer des expériences personnalisées, les entreprises devront utiliser des données propriétaires, un domaine dans lequel la plupart d'entre elles ont encore beaucoup de progrès à faire. "
+  },
+  {
+    "Page": "homepage",
+    "Element": "pullquote1",
+    "Content": "L'investissement dans l'engagement client numérique permet une augmentation moyenne de <span class=\"circle\">70 %</span> du chiffre d'affaires des entreprises"
+  },
+  {
+    "Page": "homepage",
+    "Element": "pullquote2",
+    "Content": "<span class=\"circle\">81 %</span> des entreprises dépendent entièrement ou en grande partie des cookies tiers"
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummaryhead",
+    "Content": "Synthèse"
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarypara1",
+    "Content": "Nos recherches ont révélé que les entreprises qui placent l'engagement client numérique au cœur de leur activité en tirent des avantages considérables. Cette croissance s'accompagne cependant de défis, car les consommateurs ne voient pas toujours les choses de la même manière que les équipes marketing. Les entreprises capables de combler cet écart ont désormais la possibilité de devenir des leaders en matière d'engagement client, en créant des expériences de pointe qui permettent de conquérir des consommateurs et de les fidéliser."
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarypara2",
+    "Content": "Notre enquête approfondie sur les comportements des consommateurs et des entreprises B2C a révélé les cinq principes fondamentaux suivants en matière d'engagement client."
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullethead1",
+    "Content": "Optez pour le numérique"
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullet1",
+    "Content": "<strong>70 %</strong> : cela correspond à l'augmentation moyenne des revenus des entreprises ayant investi dans l'engagement client numérique au cours des deux dernières années."
+  },
+  {
+    "Page": "",
+    "Element": "executivesummarybullethead2",
+    "Content": "Optez pour la personnalisation"
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullet2",
+    "Content": "<strong>75 %</strong> des entreprises estiment proposer des expériences personnalisées de qualité. Mais plus de la moitié des consommateurs sont en désaccord avec ce constat. La marge de progression est donc encore très grande. "
+  },
+  {
+    "Page": "",
+    "Element": "executivesummarybullethead3",
+    "Content": "Renoncez à vos cookies"
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullet3",
+    "Content": "<strong>81 %</strong> des entreprises sont totalement ou en grande partie tributaires des cookies tiers, même si cette source de données essentielle ne sera plus disponible après 2023. "
+  },
+  {
+    "Page": "",
+    "Element": "executivesummarybullethead4",
+    "Content": "Instaurez la confiance"
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullet4",
+    "Content": "<strong>95 %</strong> des entreprises B2C estiment que les consommateurs ont confiance dans leur capacité à protéger les données, mais seuls 65 % des consommateurs leur font confiance. "
+  },
+  {
+    "Page": "",
+    "Element": "executivesummarybullethead5",
+    "Content": "Communiquez de manière plus intelligente"
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullet5",
+    "Content": "La génération Z et la génération Y sont <strong>deux fois</strong> plus susceptibles que les baby-boomers d'avoir ressenti de la fatigue numérique au cours des 30 derniers jours. La qualité des interactions avec les clients devient plus importante que la quantité."
+  },
+  {
+    "Page": "trend1",
+    "Element": "metatitle",
+    "Content": "Rapport Twilio sur l'État de l'Engagement Client : L'engagement client numérique génère un retour sur investissement important"
+  },
+  {
+    "Page": "trend1",
+    "Element": "headline",
+    "Content": "L'engagement client <br>numérique génère <br>un retour sur investissement important"
+  },
+  {
+    "Page": "trend1",
+    "Element": "subheadline",
+    "Content": "Un investissement plus important a conduit à une augmentation du chiffre d'affaires des marques qui adoptent l'engagement numérique"
+  },
+  {
+    "Page": "trend1",
+    "Element": "descriptivehead",
+    "Content": "Notre point de vue"
+  },
+  {
+    "Page": "trend1",
+    "Element": "descriptivepara1",
+    "Content": "Les données ne pourraient pas être plus claires. Les entreprises qui ont pris des mesures pour investir dans l'engagement client numérique ont vu leurs revenus augmenter de 70 % en moyenne. Elles prévoient que d'ici 2025, leur investissement dans ce domaine stratégique sera quasiment multiplié par deux, soit une hausse de 94 %."
+  },
+  {
+    "Page": "trend1",
+    "Element": "descriptivepara2",
+    "Content": "En moyenne, plus de la moitié des communications des entreprises B2C avec les consommateurs sont numériques, et les personnes interrogées prévoient une augmentation de 21 % dans le monde au cours des trois prochaines années."
+  },
+  {
+    "Page": "trend1",
+    "Element": "descriptivepara3",
+    "Content": "Ce résultat est en phase avec les attentes des consommateurs qui déclarent que plus de la moitié de leurs interactions avec les marques devront être numériques d'ici trois ans."
+  },
+  {
+    "Page": "trend1",
+    "Element": "descriptivepara4",
+    "Content": "Il est donc évident que l'investissement dans l'engagement client numérique est crucial pour les entreprises B2C qui souhaitent se développer et s'imposer sur leur marché."
+  },
+  {
+    "Page": "trend1",
+    "Element": "descriptivepara5",
+    "Content": "<strong>Principe n° 1 : Optez pour le numérique.</strong>"
+  },
+  {
+    "Page": "trend1",
+    "Element": "introchartcaption",
+    "Content": "Nombre d'années gagné par les entreprises en matière d'engagement numérique pendant la pandémie"
+  },
+  {
+    "Page": "trend1",
+    "Element": "pullquote1",
+    "Content": "L'investissement dans l'engagement numérique va <span class=\"underline\">presque doubler</span> d'ici 2025"
+  },
+  {
+    "Page": "trend1",
+    "Element": "datahead",
+    "Content": "Les interactions numériques sur Twilio ont triplé"
+  },
+  {
+    "Page": "trend1",
+    "Element": "datapara1",
+    "Content": "Au cours des trois dernières années, les interactions numériques sur la plateforme Twilio ont triplé. De plus en plus d'entreprises utilisent nos services pour améliorer leur stratégie omnicanal et leur engagement numérique auprès des clients."
+  },
+  {
+    "Page": "trend1",
+    "Element": "datapara2",
+    "Content": "Cette croissance met en évidence la façon dont le passage rapide au numérique crée des opportunités d'engagement avec les clients, tout en maintenant l'aspect vital de la relation humaine."
+  },
+  {
+    "Page": "trend1",
+    "Element": "datachartcaption",
+    "Content": "Interactions numériques sur la plateforme Twilio en 2019, 2020 et 2021"
+  },
+  {
+    "Page": "trend1",
+    "Element": "subtitle",
+    "Content": "La Colombie en tête du classement en matière d'augmentation des revenus"
+  },
+  {
+    "Page": "trend1",
+    "Element": "subtitlepara1",
+    "Content": "L'Australie s'est démarquée à l'échelle mondiale, avec des entreprises reportant une accélération de huit ans. Les chiffres publiés par l'Italie, l'Espagne et le Royaume-Uni sont supérieurs à la moyenne, avec 7,2 ans, 6,8 ans et 6,7 ans, respectivement."
+  },
+  {
+    "Page": "trend1",
+    "Element": "subtitlepara2",
+    "Content": "En termes de revenus, trois pays d'Amérique latine ont enregistré une hausse de 91 % ou plus après avoir investi massivement dans l'engagement client numérique au cours des deux dernières années. La Colombie et le Brésil se sont hissés au premier rang, avec 95 % chacun, tandis que les entreprises mexicaines ont observé une croissance de 91 %. Les États-Unis sont arrivés en quatrième position, avec un taux toujours impressionnant de 79 %."
+  },
+  {
+    "Page": "trend1",
+    "Element": "pullquote2",
+    "Content": "La région Asie-Pacifique & Japon a connu une accélération de <span class=\"circle\">sept ans</span> de sa stratégie de transformation numérique"
+  },
+  {
+    "Page": "trend1",
+    "Element": "quad-top-left",
+    "Content": "Impact moyen sur le chiffre d'affaires de l'investissement dans la transformation numérique par rapport à la moyenne mondiale"
+  },
+  {
+    "Page": "trend1",
+    "Element": "quad-top-right",
+    "Content": "Selon les entreprises, la pandémie a accéléré l'engagement numérique de [value] ans"
+  },
+  {
+    "Page": "trend1",
+    "Element": "quad-bottom-left",
+    "Content": "D'ici 2025, les consommateurs s'attendent à ce que [value] des interactions avec les marques soient numériques"
+  },
+  {
+    "Page": "trend1",
+    "Element": "quad-bottom-right",
+    "Content": "Délai indiqué par les consommateurs depuis qu'ils ont reçu une communication de marque via un canal numérique"
+  },
+  {
+    "Page": "trend1",
+    "Element": "spotlightname",
+    "Content": "Allianz Direct : transformation du centre de contact en moins d'un an"
+  },
+  {
+    "Page": "trend1",
+    "Element": "spotlightpara1",
+    "Content": "Allianz Direct, une compagnie d'assurance qui s'adresse directement aux consommateurs, a lancé une plateforme d'assurance révolutionnaire en moins d'un an avec l'aide de Twilio Flex, une plateforme de centre de contact basée sur le cloud. Les responsables d'Allianz Direct ont choisi Twilio Flex après avoir conclu que les autres solutions n'étaient pas suffisamment agiles pour optimiser l'expérience client numérique qu'ils souhaitaient proposer dans les délais requis. Aujourd'hui, 700 agents Allianz Direct font confiance à la plateforme reposant sur Twilio. Laura Malinsky, responsable des opérations chez Allianz Direct a déclaré : « La solution Flex est basée sur le cloud. Elle est entièrement personnalisable, facile à utiliser et son développement n'a nécessité qu'une poignée d'ingénieurs. » *"
+  },
+  {
+    "Page": "trend1",
+    "Element": "spotlightpara2",
+    "Content": "<em>*Source : Présentation vidéo de la conférence Twilio SIGNAL 2021.</em>"
+  },
+  {
+    "Page": "trend2",
+    "Element": "metatitle",
+    "Content": "Rapport Twilio sur l'État de l'Engagement Client : La personnalisation est essentielle"
+  },
+  {
+    "Page": "trend2",
+    "Element": "headline",
+    "Content": "La personnalisation <br>est essentielle"
+  },
+  {
+    "Page": "trend2",
+    "Element": "subheadline",
+    "Content": "Les entreprises pensent qu'elles sont efficaces en matière de personnalisation, mais les consommateurs ne sont pas d'accord"
+  },
+  {
+    "Page": "trend2",
+    "Element": "descriptivehead",
+    "Content": "Notre point de vue"
+  },
+  {
+    "Page": "trend2",
+    "Element": "descriptivepara1",
+    "Content": "La personnalisation est le fondement de tout engagement client numérique efficace. 98 % des entreprises déclarent qu'elle permet de renforcer l'engagement client, et 83 % des consommateurs le reconnaissent."
+  },
+  {
+    "Page": "trend2",
+    "Element": "descriptivepara2",
+    "Content": "Cependant, il existe un décalage notable entre la façon dont les entreprises perçoivent leurs efforts de personnalisation et la façon dont les consommateurs les vivent. 88 % des entreprises déclarent que la personnalisation est extrêmement ou très importante pour leur stratégie d'engagement. Cela laisse supposer qu'elles font les efforts nécessaires pour apporter une touche véritablement personnelle à chaque interaction. Pourtant, bien que 75 % des entreprises déclarent fournir des services personnalisés de qualité ou d'excellence, 52 % des clients ne sont pas d'accord."
+  },
+  {
+    "Page": "trend2",
+    "Element": "descriptivepara3",
+    "Content": "En résumé, si les entreprises croient fermement à la personnalisation, les clients font rarement l'expérience d'un tel service. 84 % des entreprises déclarent toujours ou souvent offrir des services personnalisés, tandis que la moitié seulement des consommateurs sont d'accord."
+  },
+  {
+    "Page": "trend2",
+    "Element": "descriptivepara4",
+    "Content": "Plus important encore, les consommateurs semblent sous-estimer l'impact de la personnalisation sur leur relation avec une marque, et en fin de compte, sur leur comportement d'achat. Bien qu'ils disent que leurs dépenses n'augmenteront en moyenne que de 18 % grâce à l'utilisation de la personnalisation, les entreprises révèlent que l'augmentation moyenne de ces dépenses est plus proche de 46 %. Et le risque est important : près des deux tiers des consommateurs affirment qu'ils cesseront d'utiliser une marque s'ils n'obtiennent pas une expérience personnalisée. "
+  },
+  {
+    "Page": "trend2",
+    "Element": "descriptivepara5",
+    "Content": "Cette tendance souligne la nécessité, pour les marques, de mieux comprendre l'impact des services personnalisés pour les clients. Force est de constater que ces services permettent d'accroître les revenus et de renforcer la fidélisation. Les entreprises qui investissent davantage dans ce domaine ont donc l'opportunité de dynamiser la croissance, et de développer et fidéliser leur base clients."
+  },
+  {
+    "Page": "trend2",
+    "Element": "descriptivepara6",
+    "Content": "<strong>Principe n° 2 : Optez pour la personnalisation.</strong>"
+  },
+  {
+    "Page": "trend2",
+    "Element": "introchartcaption",
+    "Content": "Comparaison entre l'évaluation de la personnalisation par les entreprises et l'expérience des consommateurs"
+  },
+  {
+    "Page": "trend2",
+    "Element": "pullquote1",
+    "Content": "<span class=\"circle\">98 %</span> des entreprises déclarent que la personnalisation augmente la fidélité des clients"
+  },
+  {
+    "Page": "trend2",
+    "Element": "datahead",
+    "Content": "Twilio Segment constate une augmentation des applications de personnalisation"
+  },
+  {
+    "Page": "trend2",
+    "Element": "datapara1",
+    "Content": "Twilio Segment a observé une nette augmentation du nombre de clients utilisant des applications axées sur la personnalisation. "
+  },
+  {
+    "Page": "trend2",
+    "Element": "datapara2",
+    "Content": "Il s'agit d'outils que les entreprises utilisent pour créer des expériences uniques, tout en bénéficiant d'une visibilité complète sur la façon dont les clients interagissent avec leurs services. 18 % des clients Segment ont utilisé ces outils du catalogue d'intégration de Segment en 2021, contre 13 % en 2019. Cela se traduit par une hausse de près de 40 % (38 %) du nombre de clients sur cette période de deux ans."
+  },
+  {
+    "Page": "trend2",
+    "Element": "datachartcaption",
+    "Content": "Augmentation de l'utilisation des apps de personnalisation sur la plateforme Twilio Segment"
+  },
+  {
+    "Page": "trend2",
+    "Element": "subtitle",
+    "Content": "La personnalisation est extrêmement importante pour les entreprises au Brésil, en Colombie et au Mexique"
+  },
+  {
+    "Page": "trend2",
+    "Element": "subtitlepara1",
+    "Content": "La personnalisation joue un rôle majeur en Amérique latine. Au Brésil, en Colombie et au Mexique, les trois quarts des consommateurs disent qu'ils cesseront d'utiliser une marque si leur expérience n'est pas personnalisée."
+  },
+  {
+    "Page": "trend2",
+    "Element": "subtitlepara2",
+    "Content": "Il est intéressant de noter que la France et l'Allemagne affichent un taux élevé, car ce sont des pays qui ont traditionnellement fait preuve d'une plus grande prudence quant à l'utilisation des données personnelles."
+  },
+  {
+    "Page": "trend2",
+    "Element": "subtitlepara3",
+    "Content": "Au Japon, où les entreprises placent la personnalisation à un niveau inférieur par rapport aux autres pays, ce chiffre chute à 69 %. Étant donné son importance dans la relation client, l'investissement dans la personnalisation peut être un domaine d'amélioration pour les marques japonaises."
+  },
+  {
+    "Page": "trend2",
+    "Element": "quad-top-left",
+    "Content": "[value] des entreprises déclarent que la personnalisation est importante"
+  },
+  {
+    "Page": "trend2",
+    "Element": "quad-top-right",
+    "Content": "[value] des entreprises affirment que la personnalisation augmente les dépenses des consommateurs. [value] des consommateurs sont d'accord."
+  },
+  {
+    "Page": "trend2",
+    "Element": "quad-bottom-left",
+    "Content": "[value] des entreprises pensent qu'une expérience personnalisée augmente la fidélité à la marque. [value] des consommateurs sont d'accord."
+  },
+  {
+    "Page": "trend2",
+    "Element": "quad-bottom-right",
+    "Content": "Comparaison entre l'évaluation de la personnalisation par les entreprises et par les consommateurs"
+  },
+  {
+    "Page": "trend2",
+    "Element": "spotlightname",
+    "Content": "Intuit : stimuler l'engagement client"
+  },
+  {
+    "Page": "trend2",
+    "Element": "spotlightpara1",
+    "Content": "Intuit, la plateforme technologique mondiale qui a développé TurboTax, QuickBooks, Mint, Credit Karma et Mailchimp, s'efforce de personnaliser l'expérience de plus de 100 millions de clients dans le monde. Pour communiquer plus efficacement avec ces clients, Intuit s'appuie sur Twilio Segment, la plateforme de données clients (CDP) leader sur le marché. Selon Marianna Tessel, Directrice de la Technologie chez Intuit, les capacités de Segment ont permis à l'équipe marketing TurboTax d'améliorer considérablement l'engagement client au cours de la période fiscale de l'année dernière.*"
+  },
+  {
+    "Page": "trend2",
+    "Element": "spotlightpara2",
+    "Content": "<em>*Source : Présentation vidéo de la conférence Twilio SIGNAL 2021.</em>"
+  },
+  {
+    "Page": "trend3",
+    "Element": "metatitle",
+    "Content": "Rapport Twilio sur l'État de l'Engagement Client : Vers un monde sans cookie"
+  },
+  {
+    "Page": "trend3",
+    "Element": "headline",
+    "Content": "Vers un monde<br>sans cookie"
+  },
+  {
+    "Page": "trend3",
+    "Element": "subheadline",
+    "Content": "Les entreprises ont un an pour se préparer à ne plus dépendre des données tierces"
+  },
+  {
+    "Page": "trend3",
+    "Element": "descriptivehead",
+    "Content": "Notre point de vue"
+  },
+  {
+    "Page": "trend3",
+    "Element": "descriptivepara1",
+    "Content": "Même si les fabricants de navigateurs vont progressivement supprimer les cookies tiers d'ici 2023, 81 % des entreprises déclarent en être totalement ou en grande partie tributaires et que les conséquences de leur disparition seront graves."
+  },
+  {
+    "Page": "trend3",
+    "Element": "descriptivepara2",
+    "Content": "La majorité des entreprises (55 %) déclarent ne pas être parfaitement préparées à ce monde sans cookie imminent. Par ailleurs, 42 % des entreprises prévoient que les prochains changements réduiront la rentabilité des investissements publicitaires et diminueront la capacité à évaluer l'efficacité des campagnes."
+  },
+  {
+    "Page": "trend3",
+    "Element": "descriptivepara3",
+    "Content": "Il est impératif de s'adapter à cette évolution, car 85 % des consommateurs souhaitent que les marques utilisent uniquement des données propriétaires lors de la création de services personnalisés. Les entreprises doivent plus que jamais se préparer à ce monde sans cookie."
+  },
+  {
+    "Page": "trend3",
+    "Element": "descriptivepara4",
+    "Content": "<strong>Principe n° 3 : Renoncez à vos cookies.</strong>"
+  },
+  {
+    "Page": "trend3",
+    "Element": "introchartcaption",
+    "Content": "Entreprises qui dépendent de données tierces pour la moitié ou plus de leurs campagnes marketing"
+  },
+  {
+    "Page": "trend3",
+    "Element": "pullquote1",
+    "Content": "<span class=\"circle\">81 %</span> des entreprises restent dépendantes des cookies tiers"
+  },
+  {
+    "Page": "trend3",
+    "Element": "datahead",
+    "Content": "Twilio Segment montre qu'il est de plus en plus urgent de collecter des données propriétaires"
+  },
+  {
+    "Page": "trend3",
+    "Element": "datapara1",
+    "Content": "Les données Segment révèlent que la collecte de données propriétaires est en hausse car les entreprises se préparent à la disparition des cookies. Plus de 20 % des clients Segment utilisent Node.js, qui est la première source de collecte de données côté serveur à figurer dans le top 5."
+  },
+  {
+    "Page": "trend3",
+    "Element": "datapara2",
+    "Content": "De même, les données Segment montrent également une forte croissance dans l'utilisation d'applications dans les domaines de l'analyse et le stockage données (Data Warehouse). C'est logique : les entreprises qui détiennent leurs données les stockeront et les analyseront. Elles seront ainsi en mesure de prendre des décisions plus éclairées et d'offrir une meilleure personnalisation."
+  },
+  {
+    "Page": "trend3",
+    "Element": "datachartcaption",
+    "Content": "Croissance dans le temps de l'utilisation d'apps de stockage des données et d'analyse sur Segment"
+  },
+  {
+    "Page": "trend3",
+    "Element": "subtitle",
+    "Content": "Les pays les mieux préparés dépendent le moins des cookies"
+  },
+  {
+    "Page": "trend3",
+    "Element": "subtitlepara1",
+    "Content": "Sur les 12 pays étudiés, seuls trois (Italie, Espagne et Brésil) ont déclaré que la majorité des entreprises étaient parfaitement préparées pour un monde sans cookie. Ces trois pays ont également signalé le niveau de dépendance le plus faible vis-à-vis des données de tiers."
+  },
+  {
+    "Page": "trend3",
+    "Element": "subtitlepara2",
+    "Content": "L'Italie a mis en place des directives strictes en matière de données tierces qui ont été renforcées en 2021. Cela suggère que les pays dont les réglementations sur la confidentialité sont plus strictes peuvent être mieux préparés à prospérer dans un monde sans cookie."
+  },
+  {
+    "Page": "trend3",
+    "Element": "subtitlepara3",
+    "Content": "En comparaison, 18 % des marques japonaises ont reconnu ne pas être prêtes pour un avenir sans cookie. Le Mexique se classe en deuxième position, 6 % de ses marques déclarant ne pas être prêtes pour un avenir sans cookie."
+  },
+  {
+    "Page": "trend3",
+    "Element": "pullquote2",
+    "Content": "En Italie, en Espagne et au Brésil, <span class=\"underline\">la majorité</span> des entreprises affirment être prêtes pour un monde sans cookie"
+  },
+  {
+    "Page": "trend3",
+    "Element": "quad-top-left",
+    "Content": "[value] des entreprises déclarent être parfaitement préparées à la fin des cookies"
+  },
+  {
+    "Page": "trend3",
+    "Element": "quad-top-right",
+    "Content": "[value] des entreprises dépendant de données tierces"
+  },
+  {
+    "Page": "trend3",
+    "Element": "quad-bottom-left",
+    "Content": "[value] des entreprises s'attendent à ce qu'un monde sans cookie entraîne une baisse du retour sur investissement des dépenses publicitaires et de la capacité à mesurer l'efficacité des campagnes"
+  },
+  {
+    "Page": "trend3",
+    "Element": "quad-bottom-right",
+    "Content": "[value] des consommateurs pensent que les entreprises doivent utiliser uniquement des données propriétaires"
+  },
+  {
+    "Page": "trend3",
+    "Element": "spotlightname",
+    "Content": "Nubank : la FinTech pionnière définit la norme en adoptant une approche principalement axée sur le numérique"
+  },
+  {
+    "Page": "trend3",
+    "Element": "spotlightpara1",
+    "Content": "Nubank, l'une des plus grandes plateformes bancaires numériques au monde, élimine la complexité et les frais élevés actuellement associés aux banques. Grâce à la simplicité d'utilisation des services et aux coûts attractifs que propose Nubank, les clients de tous horizons adoptent en masse ce système. Cristina Junqueira, co-fondatrice du groupe, a fait appel à Twilio pour gérer plus efficacement la croissance rapide de l'entreprise et a déclaré : « Nous sommes passés de 100 000 à 54 millions de clients, nous avons donc atteint une plus grande stabilité et sécurité dans les demandes. La plateforme Twilio offre de nombreuses possibilités de personnalisation. Nous pourrons donc nous y appuyer au fil du temps. Elle a été un élément clé de notre stratégie d'engagement client. »*"
+  },
+  {
+    "Page": "trend3",
+    "Element": "spotlightpara2",
+    "Content": "<em>*Source : Présentation vidéo de la conférence Twilio SIGNAL 2021.</em>"
+  },
+  {
+    "Page": "trend4",
+    "Element": "metatitle",
+    "Content": "Rapport Twilio sur l'État de l'Engagement Client : Les entreprises et les consommateurs ne sont pas d'accord sur la confiance"
+  },
+  {
+    "Page": "trend4",
+    "Element": "headline",
+    "Content": "Les entreprises et<br>les consommateurs ne partagent pas<br>le même point de vue sur la confiance"
+  },
+  {
+    "Page": "trend4",
+    "Element": "subheadline",
+    "Content": "Les marques pensent qu'elles sont à la hauteur en matière de confidentialité et de données, mais les consommateurs exigent mieux"
+  },
+  {
+    "Page": "trend4",
+    "Element": "descriptivehead",
+    "Content": "Notre point de vue"
+  },
+  {
+    "Page": "trend4",
+    "Element": "descriptivepara1",
+    "Content": "De toute évidence, la confiance doit être rétablie en matière de données et de confidentialité. Les marques affirment déployer des efforts considérables en matière de confidentialité et de sécurité des données, mais les consommateurs souhaitent qu'elles en fassent encore plus. Notre étude révèle que, bien que 95 % des entreprises B2C soient convaincues que les consommateurs ont confiance dans leur capacité à protéger leurs données, seuls 65 % d'entre eux leur font confiance."
+  },
+  {
+    "Page": "trend4",
+    "Element": "descriptivepara2",
+    "Content": "Cette problématique va au-delà de la protection des données. Les consommateurs craignent que les entreprises ne fassent pas preuve d'une transparence totale sur la façon dont leurs données sont utilisées ou qu'elles ne respectent pas les préférences qu'ils ont définies. 71 % des consommateurs souhaitent que les marques assurent une meilleure protection de leurs données, mais seules 55 % des entreprises sont convaincues que c'est ce que leurs clients veulent."
+  },
+  {
+    "Page": "trend4",
+    "Element": "descriptivepara3",
+    "Content": "La transparence a un impact direct sur la confiance des consommateurs. Les marques peuvent gagner la confiance de leurs clients en communiquant plus clairement sur la façon dont elles collectent, protègent et utilisent les données pour améliorer les expériences. "
+  },
+  {
+    "Page": "trend4",
+    "Element": "descriptivepara4",
+    "Content": "<strong>Principe n° 4 : Rétablissez la confiance.</strong>"
+  },
+  {
+    "Page": "trend4",
+    "Element": "introchartcaption",
+    "Content": "Comparaison entre les entreprises affirmant que leurs consommateurs exigent une plus grande confidentialité et les consommateurs déclarant vouloir que les entreprises en fassent plus pour protéger leur vie privée"
+  },
+  {
+    "Page": "trend4",
+    "Element": "pullquote1",
+    "Content": "<span class=\"circle\">71 %</span> des consommateurs veulent que les marques assurent une meilleure protection de leurs données"
+  },
+  {
+    "Page": "trend4",
+    "Element": "subtitle",
+    "Content": "Les consommateurs brésiliens et mexicains exigent davantage de confidentialité et de transparence, mais les consommateurs européens se sentent mieux protégés"
+  },
+  {
+    "Page": "trend4",
+    "Element": "subtitlepara1",
+    "Content": "À l'échelle mondiale, 71 % des consommateurs exigent que les entreprises B2C assurent une plus grande confidentialité et transparence. Dans les pays d'Amérique latine, une part de consommateurs supérieure à la moyenne veut que les marques respectent ces mesures. En dépit de cela, 31 % des consommateurs brésiliens déclarent avoir une très grande confiance dans la capacité des marques à protéger leur vie privée. Il en va de même au Mexique (41 %) alors que la moyenne mondiale est de 23 %."
+  },
+  {
+    "Page": "trend4",
+    "Element": "subtitlepara2",
+    "Content": "En Allemagne, 50 % des entreprises déclarent que les consommateurs veulent une meilleure protection de leurs données, et ce taux passe à 48 % au Royaume-Uni et à 45 % en France. Cependant, se sentir mieux protégé ne signifie pas que la confiance est plus élevée. 14 % des consommateurs français confient avoir très peu confiance dans la capacité des marques à protéger leurs données. En Espagne, ils représentent 11 %. Au total, 7 % des consommateurs dans le monde disent avoir un niveau de confiance aussi faible."
+  },
+  {
+    "Page": "trend4",
+    "Element": "pullquote2",
+    "Content": "En moyenne, <span class=\"circle\">23 %</span> des consommateurs du monde entier font confiance aux entreprises pour protéger leur vie privée"
+  },
+  {
+    "Page": "trend4",
+    "Element": "quad-top-left",
+    "Content": "[value] des entreprises déclarent que leurs consommateurs exigent une plus grande confidentialité. [value} des consommateurs veulent que les entreprises en fassent plus pour protéger leur vie privée"
+  },
+  {
+    "Page": "trend4",
+    "Element": "quad-top-right",
+    "Content": "Niveau de confiance des consommateurs quant au fait que les entreprises prendront diverses mesures en matière de confidentialité"
+  },
+  {
+    "Page": "trend4",
+    "Element": "quad-bottom-left",
+    "Content": "[value] des consommateurs sont frustrés par des expériences numériques incohérentes avec les marques"
+  },
+  {
+    "Page": "trend4",
+    "Element": "quad-bottom-right",
+    "Content": "[value] des entreprises déclarent que les consommateurs arrêteront d'acheter leurs produits si elles ne répondent pas à leurs exigences en matière de confidentialité des données"
+  },
+  {
+    "Page": "trend4",
+    "Element": "spotlightname",
+    "Content": "The Trevor Project : Utilisation de SMS pour sauver des vies"
+  },
+  {
+    "Page": "trend4",
+    "Element": "spotlightpara1",
+    "Content": "Toutes les entreprises souhaitent faire preuve de réactivité à l'égard de leurs clients. Mais pour The Trevor Project, un organisme dont la mission porte sur la prévention du suicide, l'intervention en cas d'urgence et le soutien des jeunes de la communauté LGBTQ, les vies dépendent littéralement de la capacité de l'organisme à leur offrir rapidement l'aide dont ils ont besoin. Amit Paley, PDG et Directeur Exécutif chez The Trevor Project, a supervisé un partenariat avec Twilio visant à développer un système automatisé qui analyse les SMS entrants et signale les messages des personnes en danger. Le système a permis d'accélérer chaque interaction de 10 secondes et chaque échange par SMS de 10 minutes. Résultat : « Chaque personne avec laquelle nous discutons obtient l'aide dont elle a besoin plus rapidement », explique Amit.*"
+  },
+  {
+    "Page": "trend4",
+    "Element": "spotlightpara2",
+    "Content": "<em>*Source : Présentation vidéo de la conférence Twilio SIGNAL 2021.</em>"
+  },
+  {
+    "Page": "trend5",
+    "Element": "metatitle",
+    "Content": "Rapport Twilio sur l'État de l'Engagement Client en 2022 : La fatigue numérique est bien réelle"
+  },
+  {
+    "Page": "trend5",
+    "Element": "headline",
+    "Content": "La fatigue numérique <br>est bien réelle"
+  },
+  {
+    "Page": "trend5",
+    "Element": "subheadline",
+    "Content": "Les entreprises doivent s'en prémunir en misant sur la qualité de l'engagement plutôt que sur la quantité"
+  },
+  {
+    "Page": "trend5",
+    "Element": "descriptivehead",
+    "Content": "Notre point de vue"
+  },
+  {
+    "Page": "trend5",
+    "Element": "descriptivepara1",
+    "Content": "Le problème lié à la fatigue numérique ne cesse de s'intensifier. En moyenne, 36% des consommateurs dans le monde déclarent avoir souffert de fatigue numérique au cours des 30 derniers jours. Mais les données deviennent plus pertinentes lorsqu'elles sont réparties par génération : plus les utilisateurs sont jeunes, plus ils souffrent de fatigue liée à l'exposition aux écrans (allant jusqu'à 47 % de la génération Z). Lorsque près de la moitié de ce segment déclare ne plus supporter la vie numérique, il est clair que ce problème doit être traité en urgence."
+  },
+  {
+    "Page": "trend5",
+    "Element": "descriptivepara2",
+    "Content": "La frustration liée à une expérience utilisateur médiocre peut aggraver ce problème. 56 % des consommateurs déclarent qu'ils ne feront plus appel à une entreprise s'ils ont été mécontents d'un échange. 18 % disent qu'ils préféreraient se passer d'Internet pendant une journée plutôt que de s'adresser à l'équipe d'assistance d'une entreprise."
+  },
+  {
+    "Page": "trend5",
+    "Element": "descriptivepara3",
+    "Content": "Grâce à une utilisation prudente des données et à la personnalisation, les entreprises peuvent créer des moyens plus adaptés pour communiquer avec les consommateurs, favorisant ainsi leur fidélité. Elles doivent donc limiter les interactions inutiles et se concentrer sur ce qui est important pour les clients."
+  },
+  {
+    "Page": "trend5",
+    "Element": "descriptivepara4",
+    "Content": "<strong>Principe n° 5 : Communiquez de manière plus intelligente.</strong>"
+  },
+  {
+    "Page": "trend5",
+    "Element": "introchartcaption",
+    "Content": "Pourcentage de consommateurs qui déclarent avoir subi une fatigue numérique au cours du mois dernier"
+  },
+  {
+    "Page": "trend5",
+    "Element": "pullquote1",
+    "Content": "<span class=\"circle\">47 %</span> des personnes issues de la génération Z ont connu une fatigue numérique au cours des 30 derniers jours"
+  },
+  {
+    "Page": "trend5",
+    "Element": "subtitle",
+    "Content": "La fatigue numérique varie d'un pays à l'autre"
+  },
+  {
+    "Page": "trend5",
+    "Element": "subtitlepara1",
+    "Content": "Il existe des variations claires entre les pays concernant la fatigue numérique. Elle est à son plus haut niveau en France, avec 47 % des consommateurs qui en ont souffert au cours des 30 derniers jours, contre une moyenne mondiale de 36 %. Le Brésil et le Mexique suivent, avec respectivement 44 % et 43 %."
+  },
+  {
+    "Page": "trend5",
+    "Element": "subtitlepara2",
+    "Content": "C'est dans ces deux derniers pays que les entreprises déclarent que les consommateurs sont plus susceptibles d'arrêter d'acheter leurs produits si elles ne répondent pas aux exigences de confidentialité des données des consommateurs. Cela suggère qu'une préoccupation plus importante dans ces pays autour de ces problèmes est également liée à la fatigue numérique."
+  },
+  {
+    "Page": "trend5",
+    "Element": "subtitlepara3",
+    "Content": "Malgré ces variations, il n'y a pas de différences régionales majeures en matière de fatigue numérique. Il s'agit d'un problème qui doit être pris en compte à l'échelle mondiale."
+  },
+  {
+    "Page": "trend5",
+    "Element": "pullquote2",
+    "Content": "La fatigue numérique est à son plus haut niveau en France, avec <span class=\"circle\">47 %</span> des consommateurs qui ont récemment signalé l'avoir ressentie"
+  },
+  {
+    "Page": "trend5",
+    "Element": "quad-top-left",
+    "Content": "[value] des consommateurs indiquent avoir souffert de fatigue numérique au cours des 30 derniers jours"
+  },
+  {
+    "Page": "trend5",
+    "Element": "quad-top-right",
+    "Content": "[value] des consommateurs déclarent qu'ils cesseront de faire appel à une entreprise s'ils ont été mécontents de leurs échanges avec le service client"
+  },
+  {
+    "Page": "trend5",
+    "Element": "quad-bottom-left",
+    "Content": "[value] des consommateurs préféreraient se passer d'Internet pendant une journée, passer les contrôles de sécurité d'un aéroport ou se raser la tête plutôt que d'appeler le service client"
+  },
+  {
+    "Page": "trend5",
+    "Element": "quad-bottom-right",
+    "Content": "Niveau de confiance que les entreprises croient que les consommateurs ont dans la capacité de la marque à respecter leurs préférences en matière de communication."
+  },
+  {
+    "Page": "trend5",
+    "Element": "spotlightname",
+    "Content": "Electrolux : remplacement en urgence du centre de contact lors d'une crise"
+  },
+  {
+    "Page": "trend5",
+    "Element": "spotlightpara1",
+    "Content": "Les responsables d'Electrolux ont dû prendre des mesures suite à deux coups durs. Tout d'abord, le centre de contact de l'entreprise, basé en Malaisie, a été frappé par la foudre, mettant ainsi les systèmes critiques hors service. Ensuite, en raison de la COVID-19, le gouvernement n'a pas autorisé le fabricant d'appareils électroménagers présent depuis un siècle à envoyer des techniciens locaux sur le site pour effectuer des réparations. Shane Rose et son équipe ont immédiatement réagi : ils ont mis à disposition un nouveau numéro d'assistance gratuit et ont transféré les opérations du centre de contact vers Twilio, le tout en moins de 24 heures. Leur réactivité et la technologie de Twilio ont permis au centre de contact de poursuivre son activité sans aucun temps d'arrêt. Shane Rose a parlé « d'un travail véritablement incroyable ».*"
+  },
+  {
+    "Page": "trend5",
+    "Element": "spotlightpara2",
+    "Content": "<em>*Source : Présentation vidéo de la conférence Twilio SIGNAL 2021.</em>"
+  },
+  {
+    "Page": "general",
+    "Element": "localecountry",
+    "Content": "Pays"
+  },
+  {
+    "Page": "general",
+    "Element": "localeaustralia",
+    "Content": "Australie"
+  },
+  {
+    "Page": "general",
+    "Element": "localebrazil",
+    "Content": "Brésil"
+  },
+  {
+    "Page": "general",
+    "Element": "localecolombia",
+    "Content": "Colombie"
+  },
+  {
+    "Page": "general",
+    "Element": "localefrance",
+    "Content": "France"
+  },
+  {
+    "Page": "general",
+    "Element": "localegermany",
+    "Content": "Allemagne"
+  },
+  {
+    "Page": "general",
+    "Element": "localeglobal",
+    "Content": "Monde entier"
+  },
+  {
+    "Page": "general",
+    "Element": "localeitaly",
+    "Content": "Italie"
+  },
+  {
+    "Page": "general",
+    "Element": "localejapan",
+    "Content": "Japon"
+  },
+  {
+    "Page": "general",
+    "Element": "localemexico",
+    "Content": "Mexique"
+  },
+  {
+    "Page": "general",
+    "Element": "localesingapore",
+    "Content": "Singapour"
+  },
+  {
+    "Page": "general",
+    "Element": "localespain",
+    "Content": "Espagne"
+  },
+  {
+    "Page": "general",
+    "Element": "localeuk",
+    "Content": "Royaume-Uni"
+  },
+  {
+    "Page": "general",
+    "Element": "localeus",
+    "Content": "États-Unis"
+  },
+  {
+    "Page": "general",
+    "Element": "localeregion",
+    "Content": "Région"
+  },
+  {
+    "Page": "general",
+    "Element": "localenorthamerica",
+    "Content": "Amérique du Nord"
+  },
+  {
+    "Page": "general",
+    "Element": "localeasia",
+    "Content": "Asie-Pacifique/Japon"
+  },
+  {
+    "Page": "general",
+    "Element": "localeeurope",
+    "Content": "Europe"
+  },
+  {
+    "Page": "general",
+    "Element": "localelatinamerica",
+    "Content": "Amérique latine"
+  }
+]

@@ -1,0 +1,1022 @@
+[
+  {
+    "Page": "general",
+    "Element": "uishare",
+    "Content": "Teilen"
+  },
+  {
+    "Page": "general",
+    "Element": "uilanguage",
+    "Content": "Sprache"
+  },
+  {
+    "Page": "general",
+    "Element": "uimenu",
+    "Content": "Menü"
+  },
+  {
+    "Page": "general",
+    "Element": "navoverview",
+    "Content": "Überblick"
+  },
+  {
+    "Page": "general",
+    "Element": "navtrend",
+    "Content": "Trend"
+  },
+  {
+    "Page": "general",
+    "Element": "trend1",
+    "Content": "Digitale Kundeninteraktion sorgt für hohen ROI"
+  },
+  {
+    "Page": "general",
+    "Element": "trend2",
+    "Content": "Personalisierung ist entscheidend"
+  },
+  {
+    "Page": "general",
+    "Element": "trend3",
+    "Content": "Eine Welt ohne Cookies steht an"
+  },
+  {
+    "Page": "general",
+    "Element": "trend4",
+    "Content": "Unternehmen und Verbraucher sind sich beim Thema Vertrauen nicht einig"
+  },
+  {
+    "Page": "general",
+    "Element": "trend5",
+    "Content": "Digitale Erschöpfung ist ein echtes Problem"
+  },
+  {
+    "Page": "general",
+    "Element": "trendread",
+    "Content": "Weiterlesen"
+  },
+  {
+    "Page": "general",
+    "Element": "engagementhead",
+    "Content": "Fünf Trends bei der Kundeninteraktion imJahr 2022"
+  },
+  {
+    "Page": "general",
+    "Element": "casehead",
+    "Content": "Spotlight"
+  },
+  {
+    "Page": "general",
+    "Element": "ctahead",
+    "Content": "Lesen Sie den vollständigen Bericht"
+  },
+  {
+    "Page": "general",
+    "Element": "ctadescription",
+    "Content": ".Laden Sie unseren Bericht zum Stand der Kundeninteraktion herunter, um Zugriff auf eine tiefgreifende Analyse der Zukunft der digitalen Interaktion zu erhalten."
+  },
+  {
+    "Page": "general",
+    "Element": "ctabuttontext",
+    "Content": "Laden Sie den Bericht herunter"
+  },
+  {
+    "Page": "general",
+    "Element": "ctabuttoncontact",
+    "Content": "Kontaktieren Sie uns"
+  },
+  {
+    "Page": "general",
+    "Element": "methodologyhead",
+    "Content": "Methodik"
+  },
+  {
+    "Page": "general",
+    "Element": "methodologypara1",
+    "Content": "Twilio stützte sich bei der Erarbeitung des Berichts zum Stand der Kundeninteraktion 2022 auf drei Hauptquellen."
+  },
+  {
+    "Page": "general",
+    "Element": "methodologypara2",
+    "Content": "Twilio beauftrage Lawless Research mit der Durchführung der Originalstudie für den Bericht durch eine Umfrage von über 3.000 Entscheidungsträgern in Unternehmen sowie über 4.500 Verbrauchern in den USA, Großbritannien, Deutschland, Australien, Frankreich, Spanien, Italien, Japan und Singapur. "
+  },
+  {
+    "Page": "general",
+    "Element": "methodologypara3",
+    "Content": "Zudem stützt sich der Bericht auf aggregierte Daten aus Billionen von Interaktionen auf der Twilio-Plattform. Diese Daten zeigen Muster bei der Interaktion zwischen den Unternehmen, die Produkte von Twilio und Twilio Segment verwenden, und ihren Verbrauchern.\n"
+  },
+  {
+    "Page": "general",
+    "Element": "signupheading",
+    "Content": "Bericht zum Stand der Kundeninteraktion 2022"
+  },
+  {
+    "Page": "general",
+    "Element": "signupdesciption",
+    "Content": "Laden Sie sich den Bericht herunter und erhalten Sie einen Einblick in die vollständigen Ergebnisse aus Antworten von über 3.000 Entscheidungsträgern und 4.500 Verbrauchern."
+  },
+  {
+    "Page": "general",
+    "Element": "signupheadinggetintouch",
+    "Content": "Möchten Sie mehr darüber erfahren, wie Twilio Ihnen helfen kann, von den Trends zu profitieren, die im Bericht zum Stand der Kundeninteraktion 2022 erwähnt wurden? Füllen Sie das unten stehende Formular aus, um mit den Fachleuten zu sprechen."
+  },
+  {
+    "Page": "general",
+    "Element": "signupdesciptiongetintouch",
+    "Content": "Wir kontaktieren Sie in Bezug auf Ihre Anfrage und informieren Sie über Inhalte und Updates zur Customer-Engagement-Plattform von Twilio. Ihre Daten werden gemäß unserer <a href=\"https://www.twilio.com/legal/privacy\">Datenschutzrichtlinien</a> verarbeitet. Sie können Ihre Einstellungen jederzeit ändern."
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield1",
+    "Content": "Vorname"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield2",
+    "Content": "Nachname"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield3",
+    "Content": "E-Mail-Adresse"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield4",
+    "Content": "Telefonnummer"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield5",
+    "Content": "Name des Unternehmens"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield6",
+    "Content": "Position/Jobtitel"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield7",
+    "Content": "Land"
+  },
+  {
+    "Page": "general",
+    "Element": "signuprequired",
+    "Content": "Das Feld muss ausgefüllt werden"
+  },
+  {
+    "Page": "general",
+    "Element": "signupsubmit",
+    "Content": "Laden Sie den Bericht herunter"
+  },
+  {
+    "Page": "general",
+    "Element": "signupsubmitgetintouch",
+    "Content": "Hier erfahren Sie mehr."
+  },
+  {
+    "Page": "general",
+    "Element": "signupfooter",
+    "Content": "Wir kontaktieren Sie in Bezug auf Ihre Anfrage und informieren Sie über Inhalte und Updates zur Customer-Engagement-Plattform von Twilio. Ihre Daten werden gemäß unserer <a href=\"https://www.twilio.com/legal/privacy\">Datenschutzrichtlinien</a> verarbeitet. Sie können Ihre Einstellungen jederzeit ändern."
+  },
+  {
+    "Page": "general",
+    "Element": "thankyouheader",
+    "Content": "Vielen Dank, dass Sie den Bericht zum Stand der Kundeninteraktion 2022 heruntergeladen haben."
+  },
+  {
+    "Page": "general",
+    "Element": "thankyouheadergetintouch",
+    "Content": "Vielen Dank, dass Sie uns kontaktiert haben."
+  },
+  {
+    "Page": "general",
+    "Element": "thankyoudescription",
+    "Content": "Wir kontaktieren Sie in Bezug auf Ihre Anfrage und informieren Sie über Inhalte und Updates zur Customer-Engagement-Plattform von Twilio. Ihre Daten werden gemäß unserer <a href=\"https://www.twilio.com/legal/privacy\">Datenschutzrichtlinien</a> verarbeitet. Sie können Ihre Einstellungen jederzeit ändern."
+  },
+  {
+    "Page": "general",
+    "Element": "thankyoudownload",
+    "Content": "PDF herunterladen"
+  },
+  {
+    "Page": "homepage",
+    "Element": "metatitle",
+    "Content": "Bericht zum Stand der Kundeninteraktion 2022 von Twilio"
+  },
+  {
+    "Page": "homepage",
+    "Element": "metadescription",
+    "Content": "Twilio, die führende Plattform für cloudbasierte Kommunikation und Kundeninteraktion, teilt die Erkenntnisse von Tausenden von globalen Entscheidungsträgern in Unternehmen und von Verbrauchern über die Trends, die die Zukunft der Kundeninteraktion bestimmen."
+  },
+  {
+    "Page": "homepage",
+    "Element": "socialdescription",
+    "Content": "Informieren Sie sich über die Erkenntnisse aus dem Bericht zum Stand der Kundeninteraktion 2022 (#StateofCustomerEngagementReport) von Twilio. Darin erfahren Sie, welche Trends die Zukunft der Kundeninteraktion bestimmen."
+  },
+  {
+    "Page": "homepage",
+    "Element": "Headline",
+    "Content": "Bericht zum <br>Stand der <br>Kundeninteraktion <span>2022</span>"
+  },
+  {
+    "Page": "homepage",
+    "Element": "leadparagraph",
+    "Content": "Die Beschleunigung der digitalen Kundeninteraktion in der pandemiegeprägten Welt ist weiterhin stark. Twilio, die führende Plattform für cloudbasierte Kommunikation und Kundeninteraktion, hat mit über 3.000 führenden Entscheidungsträgern und 4.500 Verbrauchern gesprochen, um zu verstehen, wie die globale digitale Landschaft weiter wächst. Unsere Untersuchungen zeigen, wie Unternehmen ihre Strategien anpassen können, um sich diese Wachtumstrends zunutze zu machen. \n"
+  },
+  {
+    "Page": "homepage",
+    "Element": "descriptivepara1",
+    "Content": "Der Bericht zum Stand der Kundeninteraktion 2022 zeigt, dass digitale Kundeninteraktion wirksam ist. Unternehmen, die in sie investiert haben, konnten ihren Umsatz durchschnittlich um 70 % steigern. Es ist nicht überraschend, dass die gleichen Unternehmen davon ausgehen, dass sich ihre Investitionen bis 2025 nahezu verdoppeln werden."
+  },
+  {
+    "Page": "homepage",
+    "Element": "descriptivepara2",
+    "Content": "Der schnelle Wandel bedeutet aber auch, dass sich die Unternehmen schnell anpassen müssen. Die Personalisierung ist heute für die Kundenbindung unerlässlich und der Datenschutz hat bei den Verbrauchern an Bedeutung gewonnen. Und die derzeitige Meinung der Verbraucher zu diesen Themen weicht in einigen Aspekten von der Meinung der Unternehmen ab."
+  },
+  {
+    "Page": "homepage",
+    "Element": "descriptivepara3",
+    "Content": "Ein weiterer Warnhinweis: Firefox und Safari haben bereits den Zugriff auf Cookies von Drittanbietern blockiert. Google Chrome wird im Laufe des Jahres 2023 dasselbe tun. Um personalisierte Erlebnisse zu schaffen, müssen Unternehmen die Daten von Erstanbietern nutzen – ein Bereich, in dem die meisten Unternehmen noch viel Aufholbedarf haben. "
+  },
+  {
+    "Page": "homepage",
+    "Element": "pullquote1",
+    "Content": "Investitionen in die digitale Kundeninteraktion steigern den Umsatz von Unternehmen durchschnittlich um <span class=\"circle\">70 %</span>."
+  },
+  {
+    "Page": "homepage",
+    "Element": "pullquote2",
+    "Content": "<span class=\"circle\">81 %</span> der Unternehmen sind vollständig oder in beträchtlichem Maße auf Cookies von Drittanbietern angewiesen."
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummaryhead",
+    "Content": "Kurzfassung"
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarypara1",
+    "Content": "Unternehmen, die die digitale Kundeninteraktion in den Mittelpunkt ihres Geschäfts stellen, profitieren davon in besonderem Maße. Dieses Wachstum bringt jedoch auch Herausforderungen mit sich, denn die Verbraucher sehen die Dinge nicht immer so, wie die Marken, die sie als Zielgruppe ansprechen. Unternehmen, die diese Lücke schließen können, werden mit hoher Wahrscheinlichkeit große Erfolge bei der Kundeninteraktion erzielen und marktführende Erlebnissen schaffen, die die Verbraucher überzeugen und binden."
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarypara2",
+    "Content": "Folgende fünf Grundlagen der Kundeninteraktion haben sich aus unserer eingehenden Untersuchung des Verhaltens von Verbrauchern und B2C-Unternehmen ergeben."
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullethead1",
+    "Content": "Digital werden"
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullet1",
+    "Content": "Um durchschnittlich <strong>70 %</strong> konnten die Unternehmen ihren Umsatz steigern, die in den letzten zwei Jahren in die digitale Kundeninteraktion investiert haben."
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullethead2",
+    "Content": "Persönlich werden"
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullet2",
+    "Content": "<strong>75 %</strong> der Unternehmen sind davon überzeugt, dass sie gut personalisieren. Mehr als die Hälfte der Verbraucher sind jedoch anderer Meinung. Da ist also noch viel Luft nach oben. "
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullethead3",
+    "Content": "Cookies loswerden"
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullet3",
+    "Content": "<strong>81 %</strong> der Unternehmen sind vollständig oder in beträchtlichem Maße auf Cookies von Drittanbietern angewiesen – und das, obwohl diese wichtige Datenquelle nach 2023 nicht mehr zur Verfügung stehen wird. "
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullethead4",
+    "Content": "Vertrauen aufbauen"
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullet4",
+    "Content": "<strong>95 %</strong> der B2C-Unternehmen glauben, dass Verbraucher ihnen beim Schutz von Kundendaten vertrauen. Tatsächlich vertrauen ihnen aber nur 65 % der Verbraucher. "
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullethead5",
+    "Content": "Clever agieren"
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullet5",
+    "Content": "Bei der Generation Z und den Millenials ist die Wahrscheinlichkeit einer digitalen Erschöpfung in den letzten 30 Tagen <strong>mehr als doppelt</strong> so hoch wie bei Babyboomern. Bessere (nicht mehr) Interaktionen zu schaffen, kann erheblich dazu beitragen, dass das Unternehmen nicht darunter leidet."
+  },
+  {
+    "Page": "trend1",
+    "Element": "metatitle",
+    "Content": "Bericht zum Stand der Kundeninteraktion von Twilio: Digitale Kundeninteraktion sorgt für hohen ROI"
+  },
+  {
+    "Page": "trend1",
+    "Element": "Headline",
+    "Content": "Digitale Kundeninteraktion <br>sorgt für <br>hohen ROI"
+  },
+  {
+    "Page": "trend1",
+    "Element": "subheadline",
+    "Content": "Größere Investitionen haben zu höheren Umsätzen für Marken geführt, die auf digitale Kundeninteraktion setzen."
+  },
+  {
+    "Page": "trend1",
+    "Element": "descriptivehead",
+    "Content": "Unser Standpunkt"
+  },
+  {
+    "Page": "trend1",
+    "Element": "descriptivepara1",
+    "Content": "Die Daten könnten es nicht deutlicher zeigen. Unternehmen, die in die digitale Kundeninteraktion investiert haben, konnten ihre Umsätze um durchschnittlich 70 % steigern. Die Unternehmen erwarten, dass ihre Investitionen in diesen Schlüsselbereich bis 2025 um 94 % steigen, sich also nahezu verdoppeln werden."
+  },
+  {
+    "Page": "trend1",
+    "Element": "descriptivepara2",
+    "Content": "Im Durchschnitt ist mehr als die Hälfte der Kundeninteraktionen von B2C-Unternehmen digital, und die Befragten erwarten, dass dieser Anteil in den kommenden drei Jahren weltweit um weitere 21 % steigen wird."
+  },
+  {
+    "Page": "trend1",
+    "Element": "descriptivepara3",
+    "Content": "Das spiegelt auch die Wünsche der Verbraucher wider: Diese geben an, dass innerhalb von drei Jahren mehr als die Hälfte ihres Kontakts mit Marken digitaler Natur sein sollte."
+  },
+  {
+    "Page": "trend1",
+    "Element": "descriptivepara4",
+    "Content": "Es liegt also auf der Hand, dass Investitionen in die digitale Kundeninteraktion für B2C-Unternehmen von entscheidender Bedeutung sind, die in ihrem Segment wachsen möchten und Branchenführer sein wollen."
+  },
+  {
+    "Page": "trend1",
+    "Element": "descriptivepara5",
+    "Content": "<strong>Grundsatz Nr. 1: Digital werden.</strong>"
+  },
+  {
+    "Page": "trend1",
+    "Element": "introchartcaption",
+    "Content": "Zeitsprung der digitalen Kundeninteraktion von Unternehmen durch die Pandemie in Jahren"
+  },
+  {
+    "Page": "trend1",
+    "Element": "pullquote1",
+    "Content": "Die Investitionen in die digitale Kundeninteraktion werden sich bis 2025 voraussichtlich <span class=\"underline\">fast verdoppeln</span>."
+  },
+  {
+    "Page": "trend1",
+    "Element": "datahead",
+    "Content": "Digitale Interaktionen von Twilio verdreifachen sich"
+  },
+  {
+    "Page": "trend1",
+    "Element": "datapara1",
+    "Content": "Die digitalen Interaktionen über die Twilio-Plattform haben sich in den letzten drei Jahren verdreifacht. Immer mehr Unternehmen nutzen unsere Services, um ihre Omnichannel-Strategien und digitale Kundeninteraktionen zu verbessern."
+  },
+  {
+    "Page": "trend1",
+    "Element": "datapara2",
+    "Content": "Dieses Wachstum verdeutlicht, wie die extrem schnelle Umstellung auf die digitale Welt neue Möglichkeiten für die Interaktion mit der Kundschaft schafft. Gleichzeitig bleiben menschliche Verbindungen bestehen – ein enorm wichtiger Aspekt."
+  },
+  {
+    "Page": "trend1",
+    "Element": "datachartcaption",
+    "Content": "Digitale Interaktionen auf der Twilio-Plattform in 2019, 2020 und 2021"
+  },
+  {
+    "Page": "trend1",
+    "Element": "Untertitel",
+    "Content": "Kolumbien ist Vorreiter bei der Umsatzsteigerung"
+  },
+  {
+    "Page": "trend1",
+    "Element": "subtitlepara1",
+    "Content": "Australien war hier globaler Spitzenreiter – Unternehmen meldeten ein Vorausschreiten von acht Jahren. Italien, Spanien und das Vereinigte Königreich meldeten mit jeweils 7,2 Jahren, 6,8 Jahren und 6,7 Jahren überdurchschnittliche Werte."
+  },
+  {
+    "Page": "trend1",
+    "Element": "subtitlepara2",
+    "Content": "Drei Länder in Lateinamerika meldeten Umsatzsteigerungen von 91 % oder mehr, nachdem die Region in den vergangenen zwei Jahren stark in die digitale Kundeninteraktion investiert hatte. Kolumbien und Brasilien lagen mit jeweils 95 % an der Spitze, während mexikanische Unternehmen ein Wachstum von 91 % verzeichneten. An vierter Stelle lagen die USA mit immer noch beeindruckenden 79 %."
+  },
+  {
+    "Page": "trend1",
+    "Element": "pullquote2",
+    "Content": "Die Region Asien/Pazifik und Japan verzeichneten eine Beschleunigung der Strategie zur digitalen Transformation um <span class=\"circle\">7 Jahre</span>."
+  },
+  {
+    "Page": "trend1",
+    "Element": "quad-top-left",
+    "Content": "Durchschnittlicher Umsatz durch Investitionen in die digitale Transformation im Vergleich zum weltweiten Durchschnitt"
+  },
+  {
+    "Page": "trend1",
+    "Element": "quad-top-right",
+    "Content": "Unternehmen geben an, dass die Pandemie die digitale Interaktion um [value] Jahre beschleunigt hat."
+  },
+  {
+    "Page": "trend1",
+    "Element": "quad-bottom-left",
+    "Content": "Verbraucher erwarten, dass [value] der Interaktionen mit Marken bis 2025 digital sein werden."
+  },
+  {
+    "Page": "trend1",
+    "Element": "quad-bottom-right",
+    "Content": "Wie lange die letzte Markenkommunikation über einen digitalen Kanal nach Angaben der Verbraucher her ist"
+  },
+  {
+    "Page": "trend1",
+    "Element": "spotlightname",
+    "Content": "Allianz Direct: Transformation des Contact Centers in weniger als einem Jahr"
+  },
+  {
+    "Page": "trend1",
+    "Element": "spotlightpara1",
+    "Content": "Der Direktversicherer Allianz Direct hat in weniger als einem Jahr mithilfe unserer cloudbasierten Contact Center-Plattform Twilio Flex eine hochmoderne Versicherungsplattform eingeführt. Die Geschäftsführer von Allianz Direct entschieden sich für Flex, nachdem sie festgestellt hatten, dass die Alternativen nicht flexibel genug waren, um die gewünschte digitale Kundenerfahrung in der erforderlichen Zeit zu ermöglichen. Heute verlassen sich bei Allianz Direct 700 Beschäftigte auf die von Twilio betriebenen Plattform. Laura Malinsky, Head of Operations bei Allianz Direct, sagt dazu: „Flex ist cloudbasiert, vollständig anpassbar, benutzerfreundlich und wurde von nur einer Handvoll Ingenieure entwickelt.“ *"
+  },
+  {
+    "Page": "trend1",
+    "Element": "spotlightpara2",
+    "Content": "<em>*Quelle: *Twilio SIGNAL-Konferenz 2021 Videopräsentation.</em>"
+  },
+  {
+    "Page": "trend2",
+    "Element": "metatitle",
+    "Content": "Bericht zum Stand der Kundeninteraktion von Twilio: Personalisierung ist entscheidend"
+  },
+  {
+    "Page": "trend2",
+    "Element": "Headline",
+    "Content": "Personalisierung <br>ist entscheidend"
+  },
+  {
+    "Page": "trend2",
+    "Element": "subheadline",
+    "Content": "Unternehmen glauben, dass sie die Personalisierung gut handhaben, aber Verbraucher sind anderer Meinung."
+  },
+  {
+    "Page": "trend2",
+    "Element": "descriptivehead",
+    "Content": "Unser Standpunkt"
+  },
+  {
+    "Page": "trend2",
+    "Element": "descriptivepara1",
+    "Content": "Personalisierung ist das Fundament einer guten digitalen Kundeninteraktion. 98 % Prozent der Unternehmen geben an, dass Personalisierung zu einer höheren Kundenbindung führt. Dem stimmen 83 % der Verbraucher zu."
+  },
+  {
+    "Page": "trend2",
+    "Element": "descriptivepara2",
+    "Content": "Zwischen der Wahrnehmung der Unternehmen ihrer Anstrengungen für die Personalisierung und den Erfahrungen der Verbraucher besteht jedoch eine deutliche Diskrepanz. 88 % der Unternehmen geben an, dass die Personalisierung für ihre Interaktionsstrategie äußerst oder sehr wichtig ist. Man könnte also annehmen, dass sich die Unternehmen bemühen, jeder Interaktion eine persönliche Note zu geben. Doch während 75 % der Unternehmen angeben, gute oder ausgezeichnete personalisierte Dienstleistungen anzubieten, stimmen 52 % der Kundschaft dieser Aussage nicht zu."
+  },
+  {
+    "Page": "trend2",
+    "Element": "descriptivepara3",
+    "Content": "Kurz gesagt: Während die Unternehmen fest an die Personalisierung glauben, erlebt die Kundschaft einen solchen Service nur selten selbst. 84 % der Unternehmen geben an, dass sie immer oder oft personalisierte Dienste anbieten, aber nur die Hälfte der Verbraucher stimmen dem zu."
+  },
+  {
+    "Page": "trend2",
+    "Element": "descriptivepara4",
+    "Content": "Noch entscheidender ist, dass die Verbraucher scheinbar unterschätzen, wie sehr die Personalisierung ihre Verbundenheit zu einer Marke und letztlich ihr Kaufverhalten beeinflusst. Obwohl Verbraucher glauben, dass ihre Ausgaben durch den Einsatz von Personalisierung im Durchschnitt nur um 18 % steigen, berichten Unternehmen, dass der durchschnittliche Anstieg tatsächlich bei 46 % liegt. Nicht zu personalisieren hätte schwere Folgen: Fast zwei Drittel der Verbraucher geben an, dass sie eine Marke nicht mehr kaufen würden, wenn ihr Erlebnis nicht personalisiert wäre. "
+  },
+  {
+    "Page": "trend2",
+    "Element": "descriptivepara5",
+    "Content": "Dieser Trend zeigt, dass die Marken ihr Verständnis davon weiterentwickeln müssen, wie die Kundschaft personalisierte Dienste erlebt. Es ist unbestritten, dass das Angebot solcher Dienste den Umsatz und die Loyalität steigern kann. Unternehmen mit höheren Investitionen in diesem Bereich haben also die Chance, ihr Wachstum zu steigern und ihren Kundenstamm zu vergrößern und zu binden."
+  },
+  {
+    "Page": "trend2",
+    "Element": "descriptivepara6",
+    "Content": "<strong>Grundsatz Nr. 2: Persönlich punktet.</strong>"
+  },
+  {
+    "Page": "trend2",
+    "Element": "introchartcaption",
+    "Content": "Bewertung der Personalisierung durch Unternehmen im Vergleich zur Verbrauchererfahrung"
+  },
+  {
+    "Page": "trend2",
+    "Element": "pullquote1",
+    "Content": "<span class=\"circle\">98 %</span> der Unternehmen geben an, dass Personalisierung zu einer höheren Kundenloyalität führt."
+  },
+  {
+    "Page": "trend2",
+    "Element": "datahead",
+    "Content": "Twilio Segment verzeichnet Anstieg bei Personalisierungs-Apps"
+  },
+  {
+    "Page": "trend2",
+    "Element": "datapara1",
+    "Content": "Twilio Segment verzeichnet einen bemerkenswerten Anstieg bei Nutzergruppen, die auf Personalisierung spezialisierte Apps nutzen. "
+  },
+  {
+    "Page": "trend2",
+    "Element": "datapara2",
+    "Content": "Mit diesen Tools können Unternehmen einzigartige Erlebnisse schaffen und gleichzeitig ein vollständiges Bild davon gewinnen, wie die Kundschaft ihre Dienste nutzt und mit ihnen interagieren. 18 % der Kundschaft von Segment nutzen solche Tools aus dem Integrationskatalog von Segment im Jahr 2021, 2019 waren es noch 13 %. Das entspricht einem Wachstum von fast 40 % (38 %) der Nutzerzahlen in diesem Zweijahreszeitraum."
+  },
+  {
+    "Page": "trend2",
+    "Element": "datachartcaption",
+    "Content": "Anstieg der Nutzung von Personalisierungs-Apps auf der Plattform Twilio Segment"
+  },
+  {
+    "Page": "trend2",
+    "Element": "Untertitel",
+    "Content": "Personalisierung ist für Unternehmen in Brasilien, Kolumbien und Mexiko extrem wichtig"
+  },
+  {
+    "Page": "trend2",
+    "Element": "subtitlepara1",
+    "Content": "Die Personalisierung ist in Lateinamerika sehr wichtig. In Brasilien, Kolumbien und Mexiko geben drei Viertel der Verbraucher an, dass sie eine Marke, die auf personalisierte Erfahrungen verzichtet, nicht mehr nutzen würden."
+  },
+  {
+    "Page": "trend2",
+    "Element": "subtitlepara2",
+    "Content": "Interessanterweise sind die Werte in Frankreich und Deutschland besonders hoch, obwohl diese Länder traditionell für einen vorsichtigen Umgang mit persönlichen Daten bekannt sind."
+  },
+  {
+    "Page": "trend2",
+    "Element": "subtitlepara3",
+    "Content": "In Japan räumen Unternehmen der Personalisierung im Vergleich zu anderen Ländern eine geringere Priorität ein und die Zahl sinkt dementsprechend auf 69 %. In Anbetracht der Bedeutung, die sie für erfolgreiche Kundenbeziehungen hat, könnten Investitionen in die Personalisierung für japanische Marken Chancen bieten"
+  },
+  {
+    "Page": "trend2",
+    "Element": "quad-top-left",
+    "Content": "[value] der Unternehmen geben an, dass Personalisierung wichtig ist."
+  },
+  {
+    "Page": "trend2",
+    "Element": "quad-top-right",
+    "Content": "[value] der Unternehmen geben an, dass die Ausgaben der Verbraucher durch den Einsatz von Personalisierung steigen. [value] der Verbraucher stimmen dem zu."
+  },
+  {
+    "Page": "trend2",
+    "Element": "quad-bottom-left",
+    "Content": "[value] der Unternehmen glauben, dass ein personalisiertes Erlebnis die Markentreue erhöht. [value] der Verbraucher stimmen dem zu."
+  },
+  {
+    "Page": "trend2",
+    "Element": "quad-bottom-right",
+    "Content": "Bewertung der Personalisierung durch Unternehmen und durch Verbraucher im Vergleich"
+  },
+  {
+    "Page": "trend2",
+    "Element": "spotlightname",
+    "Content": "Intuit: Kundeninteraktion fördern"
+  },
+  {
+    "Page": "trend2",
+    "Element": "spotlightpara1",
+    "Content": "Intuit, globale Technologieplattform und Herausgeber von TurboTax, QuickBooks, Mint, Credit Karma und Mailchimp, macht es sich zum Ziel, das Erlebnis für mehr als 100 Millionen Kunden weltweit zu personalisieren. Um die Kommunikation mit diesen Kunden zu verbessern, verlässt sich Intuit auf Twilio Segment, die marktführende Kundendatenplattform (CDP). Laut Marianna Tessel, Chief Technology Officer von Intuit, ermöglichten die Funktionen von Segment dem TurboTax-Marketingteam während der Steuersaison im letzten Jahr erhebliche Verbesserungen bei der Kundeninteraktion.*"
+  },
+  {
+    "Page": "trend2",
+    "Element": "spotlightpara2",
+    "Content": "<em>*Quelle: *Twilio SIGNAL-Konferenz 2021 Videopräsentation.</em>"
+  },
+  {
+    "Page": "trend3",
+    "Element": "metatitle",
+    "Content": "Bericht zum Stand der Kundeninteraktion von Twilio: Eine Welt ohne Cookies naht"
+  },
+  {
+    "Page": "trend3",
+    "Element": "Headline",
+    "Content": "Eine Welt<br>ohne Cookies naht."
+  },
+  {
+    "Page": "trend3",
+    "Element": "subheadline",
+    "Content": "Unternehmen haben ein Jahr Zeit, um sich vorzubereiten und von Drittanbieterdaten unabhängig zu machen."
+  },
+  {
+    "Page": "trend3",
+    "Element": "descriptivehead",
+    "Content": "Unser Standpunkt"
+  },
+  {
+    "Page": "trend3",
+    "Element": "descriptivepara1",
+    "Content": "Obwohl Browserhersteller Cookies von Drittanbietern bis 2023 abschaffen, geben 81 % der Unternehmen an, entweder vollständig oder in erheblichem Maße von ihnen abhängig zu sein und dass sie den fehlenden Zugang zu ihnen als geschäftsschädigend einstufen."
+  },
+  {
+    "Page": "trend3",
+    "Element": "descriptivepara2",
+    "Content": "Die Mehrheit der Unternehmen, 55 %, gibt an, dass sie auf die neue Welt ohne Cookies nicht vollständig vorbereitet sind. 42 % der Unternehmen prognostizieren, dass die bevorstehenden Veränderungen zu einem geringeren ROI bei den Werbeausgaben und einer geringeren Fähigkeit zur Messung der Effizienz von Kampagnen führen werden."
+  },
+  {
+    "Page": "trend3",
+    "Element": "descriptivepara3",
+    "Content": "Die Anpassung an diesen Wandel ist unabdingbar, insbesondere da sich 85 % der Verbraucher wünschen, dass Marken bei der Erstellung personalisierter Dienste nur Daten von Erstanbietern verwenden. Unternehmen können ihre Vorbereitungen auf diese Welt ohne Cookies nicht länger aufschieben."
+  },
+  {
+    "Page": "trend3",
+    "Element": "descriptivepara4",
+    "Content": "<strong>Grundsatz Nr. 3: Werden Sie Ihre Cookies los.</strong>"
+  },
+  {
+    "Page": "trend3",
+    "Element": "introchartcaption",
+    "Content": "Unternehmen, die für die Hälfte oder mehr ihres Marketings auf Daten von Drittanbietern angewiesen sind"
+  },
+  {
+    "Page": "trend3",
+    "Element": "pullquote1",
+    "Content": "<span class=\"circle\">81 %</span> der Unternehmen sind weiterhin vollständig auf Cookies von Drittanbietern angewiesen."
+  },
+  {
+    "Page": "trend3",
+    "Element": "datahead",
+    "Content": "Twilio Segment zeigt zunehmende Dringlichkeit der Erfassung von Erstanbieterdaten"
+  },
+  {
+    "Page": "trend3",
+    "Element": "datapara1",
+    "Content": "Daten aus Segment zeigen, dass die Erfassung von Erstanbieter-Daten zunimmt, da sich Unternehmen auf eine Welt ohne Cookies vorbereiten. Mehr als 20 % der Segment-Kunden nutzen Node.js, die erste serverseitige Datenerfassungsquelle, die es in unserer Plattform unter die Top Fünf geschafft hat."
+  },
+  {
+    "Page": "trend3",
+    "Element": "datapara2",
+    "Content": "Ebenso bilden die Daten von Segment eine starke Zunahme bei der App-Nutzung für Bereiche wie Analytik und Data Warehousing ab. Dies ergibt Sinn: Unternehmen, die ihre eigenen Daten besitzen, werden diese Daten speichern und analysieren, wodurch sie intelligentere Entscheidungen treffen und eine bessere Personalisierung anbieten können."
+  },
+  {
+    "Page": "trend3",
+    "Element": "datachartcaption",
+    "Content": "Zeitliche Entwicklung der Nutzung von Apps zur Speicherung und Analyse von Daten auf Segment"
+  },
+  {
+    "Page": "trend3",
+    "Element": "Untertitel",
+    "Content": "Die am besten vorbereiteten Länder sind am wenigsten auf Cookies angewiesen."
+  },
+  {
+    "Page": "trend3",
+    "Element": "subtitlepara1",
+    "Content": "Von den 12 untersuchten Ländern gab nur in drei Ländern – Italien, Spanien und Brasilien – die Mehrheit der Unternehmen an, dass sie auf eine Welt ohne Cookies vollständig vorbereitet sind. Diese drei Länder meldeten auch die geringste Abhängigkeit von Drittanbieterdaten."
+  },
+  {
+    "Page": "trend3",
+    "Element": "subtitlepara2",
+    "Content": "Italien hat strenge Richtlinien für Drittanbieter-Daten, die 2021 weiter verschärft wurden. Dies deutet darauf hin, dass Länder mit strengeren Datenschutzrichtlinien besser auf Geschäfte in einer Welt ohne Cookies vorbereitet sein könnten."
+  },
+  {
+    "Page": "trend3",
+    "Element": "subtitlepara3",
+    "Content": "Im Vergleich dazu gaben 18 % der japanischen Marken an, dass sie überhaupt nicht auf eine Zukunft ohne Cookies vorbereitet seien. An zweiter Stelle lag Mexiko mit 6 % der Unternehmen, die angaben, überhaupt nicht auf eine Zukunft ohne Cookies vorbereitet zu sein."
+  },
+  {
+    "Page": "trend3",
+    "Element": "pullquote2",
+    "Content": "In Italien, Spanien und Brasilien gibt die <span class=\"underline\">Mehrheit</span> der Unternehmen an, auf eine Welt ohne Cookies vorbereitet zu sein."
+  },
+  {
+    "Page": "trend3",
+    "Element": "quad-top-left",
+    "Content": "[value] der Unternehmen geben an, voll und ganz auf eine Welt ohne Cookies vorbereitet zu sein."
+  },
+  {
+    "Page": "trend3",
+    "Element": "quad-top-right",
+    "Content": "[value] der Unternehmen sind auf Cookies von Drittanbietern angewiesen."
+  },
+  {
+    "Page": "trend3",
+    "Element": "quad-bottom-left",
+    "Content": "[value] der Unternehmen erwarten, dass eine Welt ohne Cookies den ROI von Werbeausgaben verringern und die Effektivität von Kampagnen schwerer messbar machen würde."
+  },
+  {
+    "Page": "trend3",
+    "Element": "quad-bottom-right",
+    "Content": "[value] der Verbraucher sind der Meinung, dass Unternehmen nur Erstanbieterdaten verwenden sollten."
+  },
+  {
+    "Page": "trend3",
+    "Element": "spotlightname",
+    "Content": "Nubank: Fintech-Vorreiter setzt mit Digital First-Ansatz Maßstäbe"
+  },
+  {
+    "Page": "trend3",
+    "Element": "spotlightpara1",
+    "Content": "Nubank, eine der weltweit größten digitalen Bankplattformen, macht Schluss mit Komplexität und hohen Gebühren, die bei Banken heute Gang und Gäbe sind. Die Unkompliziertheit und die niedrigen Kosten von Nubank haben dazu geführt, dass Kunden aller Art in Scharen zu diesem Dienst strömen. Mitbegründerin Christina Junqueira wandte sich an Twilio, um das schnelle Wachstum zu bewältigen, und sagt: „Unser Kundenstamm hat sich von 100.000 auf 54 Millionen Kunden vergrößert und wir haben nun mehr Stabilität und Sicherheit für künftige Anforderungen erreicht. Die Plattform von Twilio ermöglicht viel Anpassung, sodass wir Stück für Stück darauf aufbauen können. Sie hat einen wichtigen Teil unserer Strategie für Kundeninteraktion ermöglicht.“*"
+  },
+  {
+    "Page": "trend3",
+    "Element": "spotlightpara2",
+    "Content": "<em>*Quelle: *Twilio SIGNAL-Konferenz 2021 Videopräsentation.</em>"
+  },
+  {
+    "Page": "trend4",
+    "Element": "metatitle",
+    "Content": "Bericht zum Stand der Kundeninteraktion von Twilio: Unternehmen und Verbraucher sind sich beim Thema Vertrauen nicht einig"
+  },
+  {
+    "Page": "trend4",
+    "Element": "Headline",
+    "Content": "Unternehmen und<br>Verbraucher sind sich beim<br>Thema Vertrauen nicht einig"
+  },
+  {
+    "Page": "trend4",
+    "Element": "subheadline",
+    "Content": "Marken glauben, dass sie den Datenschutz gut handhaben, aber Verbraucher fordern Verbesserungen."
+  },
+  {
+    "Page": "trend4",
+    "Element": "descriptivehead",
+    "Content": "Unser Standpunkt"
+  },
+  {
+    "Page": "trend4",
+    "Element": "descriptivepara1",
+    "Content": "Es gibt ein deutliches Vertrauensgefälle bei den Themen Daten und Privatsphäre. Marken geben an, sich sehr um Datenschutz und Datensicherheit zu bemühen – die Verbraucher aber wünschen sich einen noch höheren Einsatz von ihnen. Unsere Untersuchungen zeigen, dass zwar 95 % der B2C-Unternehmen glauben, dass die Verbraucher auf den Datenschutz im Unternehmen vertrauen. Tatsächlich vertrauen allerdings nur 65 % der Verbraucher den Marken, mit denen sie Geschäfte machen."
+  },
+  {
+    "Page": "trend4",
+    "Element": "descriptivepara2",
+    "Content": "Dieses Problem geht über den Datenschutz hinaus. Verbraucher fürchten, dass Unternehmen im Hinblick auf die Verwendung ihrer Daten nicht vollständig transparent sind, oder die von ihnen festgelegten Präferenzen nicht berücksichtigen. 71 % der Verbraucher wünschen sich mehr Datenschutz seitens der Marken, während nur 55 % der Unternehmen glauben, dass ihre Kunden dies wollen."
+  },
+  {
+    "Page": "trend4",
+    "Element": "descriptivepara3",
+    "Content": "Transparenz wirkt sich direkt auf das Vertrauen der Verbraucher aus. Marken können das Vertrauen ihrer Kundschaft gewinnen und eine bessere Kundenerfahrung schaffen, indem sie klarer kommunizieren, wie sie Daten sammeln, schützen und nutzen. "
+  },
+  {
+    "Page": "trend4",
+    "Element": "descriptivepara4",
+    "Content": "<strong>Grundsatz Nr. 4: Das Vertrauensgefälle glätten.</strong>"
+  },
+  {
+    "Page": "trend4",
+    "Element": "introchartcaption",
+    "Content": "Unternehmen, die angeben, dass ihre Kundschaft mehr Datenschutz fordert im Vergleich zu Verbrauchern, die angeben, dass die Unternehmen mehr für den Schutz ihrer Privatsphäre tun sollen"
+  },
+  {
+    "Page": "trend4",
+    "Element": "pullquote1",
+    "Content": "<span class=\"circle\">71 %</span> der Verbraucher geben an, dass sie mehr Datenschutz von Marken wünschen."
+  },
+  {
+    "Page": "trend4",
+    "Element": "Untertitel",
+    "Content": "Verbraucher in Brasilien und Mexiko fordern mehr Datenschutz und Transparenz, aber Verbraucher in Europa fühlen sich besser geschützt."
+  },
+  {
+    "Page": "trend4",
+    "Element": "subtitlepara1",
+    "Content": "Weltweit fordern 71 % der Verbraucher mehr Datenschutz und Transparenz von B2C-Unternehmen. In den lateinamerikanischen Ländern ist der Anteil derer, die solche Maßnahmen von den Marken verlangen, überdurchschnittlich hoch. Trotzdem sagen 31 % der brasilianischen Verbraucher, dass sie großes Vertrauen in Marken haben, was den Schutz ihrer Privatsphäre angeht. 41 % der Verbraucher in Mexiko sind derselben Meinung, während der weltweite Durchschnitt bei 23 % liegt."
+  },
+  {
+    "Page": "trend4",
+    "Element": "subtitlepara2",
+    "Content": "In Deutschland geben 50 % der Unternehmen an, dass die Verbraucher einen besseren Schutz ihrer Daten wünschen, im Vereinigten Königreich sind es 48 % und in Frankreich 45 %. Das Gefühl, besser geschützt zu sein, bedeutet jedoch nicht, dass das Vertrauen größer ist. Vierzehn Prozent der Verbraucher in Frankreich geben an, dass sie ein sehr geringes Vertrauen in die Fähigkeit der Marken haben, ihre Daten zu schützen, in Spanien stimmen 11 % dem zu. Insgesamt sagen 7 % der Verbraucher weltweit, dass sie diesbezüglich ein geringes Vertrauen haben."
+  },
+  {
+    "Page": "trend4",
+    "Element": "pullquote2",
+    "Content": "Im Durchschnitt vertrauen <span class=\"circle\">23 %</span> der Verbraucher weltweit darauf, dass Unternehmen ihre Privatsphäre schützen."
+  },
+  {
+    "Page": "trend4",
+    "Element": "quad-top-left",
+    "Content": "[value] der Unternehmen geben an, dass ihre Kundschaft besseren Datenschutz fordert. [value} der Verbraucher wollen, dass die Unternehmen mehr für den Schutz ihrer Privatsphäre tun."
+  },
+  {
+    "Page": "trend4",
+    "Element": "quad-top-right",
+    "Content": "Vertrauen der Verbraucher, dass Unternehmen verschiedene Maßnahmen zum Schutz der Privatsphäre ergreifen werden"
+  },
+  {
+    "Page": "trend4",
+    "Element": "quad-bottom-left",
+    "Content": "[value] der Verbraucher sind wegen inkonsistenter digitaler Markenerfahrungen unzufrieden."
+  },
+  {
+    "Page": "trend4",
+    "Element": "quad-bottom-right",
+    "Content": "[value] der Unternehmen geben an, dass die Verbraucher ihre Produkte nicht mehr kaufen, wenn sie ihre Datenschutzanforderungen nicht erfüllen."
+  },
+  {
+    "Page": "trend4",
+    "Element": "spotlightname",
+    "Content": "The Trevor Project: Mit Textnachrichten Leben retten"
+  },
+  {
+    "Page": "trend4",
+    "Element": "spotlightpara1",
+    "Content": "Alle Organisationen wollen schnell auf Bedürfnisse reagieren. Bei The Trevor Project, einer Organisation zur Suizidprävention und Krisenintervention, die sich auf die Unterstützung von Jugendlichen aus der LGBTQ-Szene konzentriert, hängen buchstäblich Leben von der Fähigkeit der Organisation ab, Menschen schnell mit Hilfsmöglichkeiten zu verbinden. Amit Paley, CEO und Executive Director des Trevor Project, beaufsichtigte eine Partnerschaft mit Twilio, um ein automatisiertes System zu entwickeln, das eingehende Texte analysiert und Nachrichten mit hohem Risiko kennzeichnet. Das System verkürzte jede Interaktion um 10 Sekunden und jede Textkonversation um 10 Minuten. Und das Ergebnis? „Jede einzelne Person, mit der wir sprechen, bekommt schneller die Hilfe, die sie braucht“, so Amit."
+  },
+  {
+    "Page": "trend4",
+    "Element": "spotlightpara2",
+    "Content": "<em>*Quelle: *Twilio SIGNAL-Konferenz 2021 Videopräsentation.</em>"
+  },
+  {
+    "Page": "trend5",
+    "Element": "metatitle",
+    "Content": "Bericht zum Stand der Kundeninteraktion 2022 von Twilio: Digitale Erschöpfung ist ein echtes Problem"
+  },
+  {
+    "Page": "trend5",
+    "Element": "Headline",
+    "Content": "Digitale Erschöpfung <br>ist ein echtes Problem"
+  },
+  {
+    "Page": "trend5",
+    "Element": "subheadline",
+    "Content": "Unternehmen müssen sich dagegen wappnen, indem sie nicht mehr, sondern besser mit Kunden interagieren."
+  },
+  {
+    "Page": "trend5",
+    "Element": "descriptivehead",
+    "Content": "Unser Standpunkt"
+  },
+  {
+    "Page": "trend5",
+    "Element": "descriptivepara1",
+    "Content": "Digitale Erschöpfung ist ein wachsendes Problem. Im Durchschnitt geben 36% der Verbraucher weltweit an, in den letzten 30 Tagen unter digitaler Erschöpfung gelitten zu haben. Die Daten werden jedoch noch interessanter, wenn man sie nach Generationen aufschlüsselt: Je jünger die Generation, desto mehr Menschen leiden unter digitaler Erschöpfung; bei Generation Z etwa sind es bereits 47 %. Wenn fast die Hälfte der heranwachsenden Bevölkerung angibt, dass sie der digitalen Welt überdrüssig sind, gibt es einen klaren und dringenden Bedarf, dieses Problem direkt anzugehen."
+  },
+  {
+    "Page": "trend5",
+    "Element": "descriptivepara2",
+    "Content": "Frustrierende Erfahrungen beim Kundensupport tragen möglicherweise zu diesem Problem bei. 56 % der Verbraucher geben an, dass sie nach einer schlechten Interaktion keine weiteren Geschäfte mit einem Unternehmen machen würden. 18 % geben an, dass sie lieber einen Tag lang auf das Internet verzichten würden, als mit dem Support-Team eines Unternehmens zu sprechen."
+  },
+  {
+    "Page": "trend5",
+    "Element": "descriptivepara3",
+    "Content": "Durch einen sorgfältigen Einsatz von Daten und Personalisierung können Unternehmen bedeutsamere Möglichkeiten zur Interaktion mit Kunden schaffen und so die Loyalität fördern. Das bedeutet, bedeutungslose Interaktionen zu minimieren und sich stattdessen auf das zu konzentrieren, was der Kundschaft wichtig ist."
+  },
+  {
+    "Page": "trend5",
+    "Element": "descriptivepara4",
+    "Content": "<strong>Grundsatz Nr. 5: Clever agieren.</strong>"
+  },
+  {
+    "Page": "trend5",
+    "Element": "introchartcaption",
+    "Content": "Anteil der Verbraucher, die angeben, in den letzten 30 Tagen an digitaler Erschöpfung gelitten zu haben"
+  },
+  {
+    "Page": "trend5",
+    "Element": "pullquote1",
+    "Content": "<span class=\"circle\">47 %</span> der Generation Z haben in den letzten 30 Tagen digitale Erschöpfung erlebt."
+  },
+  {
+    "Page": "trend5",
+    "Element": "Untertitel",
+    "Content": "Die digitale Erschöpfung unterscheidet sich von Land zu Land"
+  },
+  {
+    "Page": "trend5",
+    "Element": "subtitlepara1",
+    "Content": "Es gibt deutliche länderspezifische Unterschiede bei digitaler Erschöpfung. Am stärksten ist sie in Frankreich, wo 47 % der Verbraucher angaben, in den letzten 30 Tagen darunter gelitten zu haben. Der weltweite Durchschnitt im Vergleich dazu ist 36 %. Brasilien und Mexiko folgen mit 44 % bzw. 43 %."
+  },
+  {
+    "Page": "trend5",
+    "Element": "subtitlepara2",
+    "Content": "In den beiden zuletzt genannten Ländern geben die Unternehmen an, dass die Verbraucher eher bereit sind, auf den Kauf ihrer Produkte zu verzichten, wenn diese nicht die Datenschutzanforderungen der Verbraucher erfüllen. Dies deutet darauf hin, dass in diesen Ländern eine größere Besorgnis über diese Probleme herrscht, was auch mit der digitalen Erschöpfung zusammenhängt."
+  },
+  {
+    "Page": "trend5",
+    "Element": "subtitlepara3",
+    "Content": "Trotz der Abweichungen ist die Schlussfolgerung zur digitalen Erschöpfung in allen Regionen gleich: Es handelt sich um ein Problem, das global berücksichtigt werden muss."
+  },
+  {
+    "Page": "trend5",
+    "Element": "pullquote2",
+    "Content": "Die digitale Erschöpfung ist in Frankreich am höchsten: <span class=\"circle\">47 %</span> der Verbraucher gaben an, in letzten Zeit darunter gelitten zu haben."
+  },
+  {
+    "Page": "trend5",
+    "Element": "quad-top-left",
+    "Content": "[value] der Verbraucher geben an, dass sie in den letzten 30 Tagen unter digitaler Erschöpfung gelitten haben."
+  },
+  {
+    "Page": "trend5",
+    "Element": "quad-top-right",
+    "Content": "[value] der Verbraucher geben an, dass sie nach einer frustrierenden Erfahrung beim Kundensupport keine weiteren Geschäfte mit einem Unternehmen machen werden."
+  },
+  {
+    "Page": "trend5",
+    "Element": "quad-bottom-left",
+    "Content": "[value] der Verbraucher würden lieber einen Tag lang auf das Internet verzichten, durch die Sicherheitskontrolle am Flughafen gehen oder sich den Kopf rasieren, als den Kundendienst anzurufen."
+  },
+  {
+    "Page": "trend5",
+    "Element": "quad-bottom-right",
+    "Content": "Vertrauen, das die Verbraucher nach Ansicht der Unternehmen in die Fähigkeit der Marken haben, ihre Kommunikationspräferenzen zu berücksichtigen"
+  },
+  {
+    "Page": "trend5",
+    "Element": "spotlightname",
+    "Content": "Electrolux: Schneller Austausch des Contact Centers in einer Krise"
+  },
+  {
+    "Page": "trend5",
+    "Element": "spotlightpara1",
+    "Content": "Die Geschäftsführer von Electrolux sahen sich mit einem schmerzhaften Doppelschlag konfrontiert. Erstens hatte ein Blitz in das Kontaktzentrum in Malaysia eingeschlagen und wichtige Systeme lahm gelegt. Zweitens autorisierte die Regierung es aufgrund von COVID-19 nicht, dass der Haushaltsgerätehersteller mit jahrhundertelanger Tradition lokale Techniker zur Reparatur in die Anlage schickte. Shane Rose und sein Team reagierten schnell: Sie richteten eine neue gebührenfreie Telefonnummer für den Kundensupport ein und stellten den Betrieb des Zentrums auf Twilio um – und das alles in weniger als 24 Stunden. Dank ihres schnellen Handelns und der Technologie von Twilio war das Contact Center ohne Ausfallzeiten weiterhin verfügbar. Shane beschrieb dies als „eine wirklich erstaunliche Leistung“."
+  },
+  {
+    "Page": "trend5",
+    "Element": "spotlightpara2",
+    "Content": "<em>*Quelle: *Twilio SIGNAL-Konferenz 2021 Videopräsentation.</em>"
+  },
+  {
+    "Page": "general",
+    "Element": "localecountry",
+    "Content": "Land"
+  },
+  {
+    "Page": "general",
+    "Element": "localeaustralia",
+    "Content": "Australien"
+  },
+  {
+    "Page": "general",
+    "Element": "localebrazil",
+    "Content": "Brasilien"
+  },
+  {
+    "Page": "general",
+    "Element": "localecolombia",
+    "Content": "Kolumbien"
+  },
+  {
+    "Page": "general",
+    "Element": "localefrance",
+    "Content": "Frankreich"
+  },
+  {
+    "Page": "general",
+    "Element": "localegermany",
+    "Content": "Deutschland"
+  },
+  {
+    "Page": "general",
+    "Element": "localeglobal",
+    "Content": "Global"
+  },
+  {
+    "Page": "general",
+    "Element": "localeitaly",
+    "Content": "Italien"
+  },
+  {
+    "Page": "general",
+    "Element": "localejapan",
+    "Content": "Japan"
+  },
+  {
+    "Page": "general",
+    "Element": "localemexico",
+    "Content": "Mexiko"
+  },
+  {
+    "Page": "general",
+    "Element": "localesingapore",
+    "Content": "Singapur"
+  },
+  {
+    "Page": "general",
+    "Element": "localespain",
+    "Content": "Spanien"
+  },
+  {
+    "Page": "general",
+    "Element": "localeuk",
+    "Content": "Großbritannien"
+  },
+  {
+    "Page": "general",
+    "Element": "localeus",
+    "Content": "USA"
+  },
+  {
+    "Page": "general",
+    "Element": "localeregion",
+    "Content": "Region"
+  },
+  {
+    "Page": "general",
+    "Element": "localenorthamerica",
+    "Content": "Nordamerika"
+  },
+  {
+    "Page": "general",
+    "Element": "localeasia",
+    "Content": "Asien und Pazifik/Japan"
+  },
+  {
+    "Page": "general",
+    "Element": "localeeurope",
+    "Content": "Europa"
+  },
+  {
+    "Page": "general",
+    "Element": "localelatinamerica",
+    "Content": "Lateinamerika"
+  }
+]

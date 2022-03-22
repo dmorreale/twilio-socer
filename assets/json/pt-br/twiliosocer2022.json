@@ -1,0 +1,1022 @@
+[
+  {
+    "Page": "general",
+    "Element": "uishare",
+    "Content": "Compartilhar"
+  },
+  {
+    "Page": "general",
+    "Element": "uilanguage",
+    "Content": "Idioma"
+  },
+  {
+    "Page": "general",
+    "Element": "uimenu",
+    "Content": "Menu"
+  },
+  {
+    "Page": "general",
+    "Element": "navoverview",
+    "Content": "Visão geral"
+  },
+  {
+    "Page": "general",
+    "Element": "navtrend",
+    "Content": "Tendência"
+  },
+  {
+    "Page": "general",
+    "Element": "trend1",
+    "Content": "O engajamento digital do cliente gera um grande ROI"
+  },
+  {
+    "Page": "general",
+    "Element": "trend2",
+    "Content": "A personalização é fundamental"
+  },
+  {
+    "Page": "general",
+    "Element": "trend3",
+    "Content": "Um mundo sem cookies está chegando"
+  },
+  {
+    "Page": "general",
+    "Element": "trend4",
+    "Content": "As empresas e os consumidores não estão tão confiantes"
+  },
+  {
+    "Page": "general",
+    "Element": "trend5",
+    "Content": "A fadiga digital é real"
+  },
+  {
+    "Page": "general",
+    "Element": "trendread",
+    "Content": "Leia mais"
+  },
+  {
+    "Page": "general",
+    "Element": "engagementhead",
+    "Content": "Cinco tendências de engajamento do cliente para 2022"
+  },
+  {
+    "Page": "general",
+    "Element": "casehead",
+    "Content": "Criador de Engajamento em Destaque"
+  },
+  {
+    "Page": "general",
+    "Element": "ctahead",
+    "Content": "Leia o relatório completo"
+  },
+  {
+    "Page": "general",
+    "Element": "ctadescription",
+    "Content": "Baixe nosso Relatório de Engajamento para uma análise detalhada do futuro do engajamento digital."
+  },
+  {
+    "Page": "general",
+    "Element": "ctabuttontext",
+    "Content": "Baixe o relatório"
+  },
+  {
+    "Page": "general",
+    "Element": "ctabuttoncontact",
+    "Content": "Entre em contato"
+  },
+  {
+    "Page": "general",
+    "Element": "methodologyhead",
+    "Content": "Metodologia"
+  },
+  {
+    "Page": "general",
+    "Element": "methodologypara1",
+    "Content": "Para criar o Relatório de engajamento do cliente em 2022, a Twilio se baseou em três fontes principais."
+  },
+  {
+    "Page": "general",
+    "Element": "methodologypara2",
+    "Content": "A Twilio contratou a Lawless Research para realizar pesquisas originais sobre o relatório de um estudo com mais de 3.000 tomadores de decisões corporativos, bem como opiniões de mais de 4.500 consumidores nos Estados Unidos, Reino Unido, Alemanha, Austrália, França, Espanha, Itália, Japão e Cingapura. "
+  },
+  {
+    "Page": "general",
+    "Element": "methodologypara3",
+    "Content": "O relatório também inclui dados agregados coletados de trilhões de interações na plataforma Twilio, revelando os padrões de como as organizações que usam os produtos o Twilio e o Twilio Segment estão interagindo com os clientes.\n"
+  },
+  {
+    "Page": "general",
+    "Element": "signupheading",
+    "Content": "Relatório do Engajamento do Cliente em 2022"
+  },
+  {
+    "Page": "general",
+    "Element": "signupdesciption",
+    "Content": "Baixe o relatório para obter insights sobre os resultados completos do estudo com mais de 3.000 dos principais tomadores de decisões e 4.500 consumidores."
+  },
+  {
+    "Page": "general",
+    "Element": "signupheadinggetintouch",
+    "Content": "Tem interesse em explorar como a Twilio pode ajudar a aproveitar as tendências reveladas no Relatório do engajamento do cliente em 2022? Preencha o formulário abaixo para falar com um especialista."
+  },
+  {
+    "Page": "general",
+    "Element": "signupdesciptiongetintouch",
+    "Content": "Entraremos em contato para falar a respeito da sua solicitação e compartilhar conteúdo e atualizações sobre a plataforma de engajamento do cliente da Twilio. Usamos suas informações de acordo com a nossa <a href=\"https://www.twilio.com/legal/privacy\">política de privacidade</a>. Atualize suas preferências a qualquer momento."
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield1",
+    "Content": "Nome"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield2",
+    "Content": "Sobrenome"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield3",
+    "Content": "Endereço de e-mail"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield4",
+    "Content": "Número de telefone"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield5",
+    "Content": "Nome da empresa"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield6",
+    "Content": "Cargo"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfield7",
+    "Content": "País"
+  },
+  {
+    "Page": "general",
+    "Element": "signuprequired",
+    "Content": "Campo obrigatório"
+  },
+  {
+    "Page": "general",
+    "Element": "signupsubmit",
+    "Content": "Baixe o relatório"
+  },
+  {
+    "Page": "general",
+    "Element": "signupsubmitgetintouch",
+    "Content": "Vamos conversar"
+  },
+  {
+    "Page": "general",
+    "Element": "signupfooter",
+    "Content": "Entraremos em contato para falar a respeito da sua solicitação e compartilhar conteúdo e atualizações sobre a plataforma de engajamento do cliente da Twilio. Usamos suas informações de acordo com a nossa <a href=\"https://www.twilio.com/legal/privacy\">política de privacidade</a>. Atualize suas preferências a qualquer momento."
+  },
+  {
+    "Page": "general",
+    "Element": "thankyouheader",
+    "Content": "Obrigado por baixar o Relatório do engajamento do cliente em 2022."
+  },
+  {
+    "Page": "general",
+    "Element": "thankyouheadergetintouch",
+    "Content": "Obrigado por entrar em contato."
+  },
+  {
+    "Page": "general",
+    "Element": "thankyoudescription",
+    "Content": "Entraremos em contato para falar a respeito da sua solicitação e compartilhar conteúdo e atualizações sobre a plataforma de engajamento do cliente da Twilio. Usamos suas informações de acordo com a nossa <a href=\"https://www.twilio.com/legal/privacy\">política de privacidade</a>. Atualize suas preferências a qualquer momento."
+  },
+  {
+    "Page": "general",
+    "Element": "thankyoudownload",
+    "Content": "Faça download do PDF"
+  },
+  {
+    "Page": "homepage",
+    "Element": "metatitle",
+    "Content": "Relatório do engajamento do cliente em 2022 da Twilio"
+  },
+  {
+    "Page": "homepage",
+    "Element": "metadescription",
+    "Content": "A Twilio, a principal plataforma de comunicações em nuvem e engajamento do cliente, compartilha insights de milhares de tomadores de decisões corporativos mundiais e consumidores sobre as tendências que estão moldando o futuro do engajamento do cliente."
+  },
+  {
+    "Page": "homepage",
+    "Element": "socialdescription",
+    "Content": "Confira os insights do #StateofCustomerEngagementReport da Twilio em 2022, que mostram as tendências que estão moldando o futuro do engajamento do cliente"
+  },
+  {
+    "Page": "homepage",
+    "Element": "headline",
+    "Content": "Relatório do <br>Engajamento do cliente <br>em <span>2022</span>"
+  },
+  {
+    "Page": "homepage",
+    "Element": "leadparagraph",
+    "Content": "A aceleração do engajamento digital do cliente no mundo após a pandemia não mostra sinais de desaceleração. A Twilio, a principal plataforma de comunicações em nuvem e engajamento do cliente, conversou com mais de 3.000 dos principais tomadores de decisões e 4.500 consumidores para entender como o cenário digital global continua se expandindo. Nossa pesquisa revela como as organizações podem ajustar as estratégias para capitalizar essas tendências de crescimento. \n"
+  },
+  {
+    "Page": "homepage",
+    "Element": "descriptivepara1",
+    "Content": "O Relatório de Engajamento do Cliente em 2022 revela que o engajamento digital do cliente causou um impacto significativo, aumentando a receita em 70% em média para as empresas que investiram nisso. Não é de surpreender que essas mesmas empresas esperem quase dobrar o investimento até 2025."
+  },
+  {
+    "Page": "homepage",
+    "Element": "descriptivepara2",
+    "Content": "No entanto, o ritmo acelerado da mudança também significa que as empresas precisarão se adaptar rapidamente. A personalização agora é essencial para a retenção de clientes e a proteção de dados ganhou maior importância entre os consumidores. Mas, as opiniões atuais dos consumidores sobre esses tópicos divergem do que as empresas acreditam em certos lugares."
+  },
+  {
+    "Page": "homepage",
+    "Element": "descriptivepara3",
+    "Content": "Outro sinal de aviso: O Firefox e o Safari já bloquearam o acesso a cookies de terceiros e o Google Chrome fará o mesmo em 2023. A criação de experiências personalizadas exigirá que as organizações adotem dados próprios, uma área em que a maioria das empresas ainda tem muito trabalho a fazer. "
+  },
+  {
+    "Page": "homepage",
+    "Element": "pullquote1",
+    "Content": "O investimento em engajamento digital do cliente gera um aumento de <span class=\"circle\">70%</span> na receita em média para as empresas"
+  },
+  {
+    "Page": "homepage",
+    "Element": "pullquote2",
+    "Content": "<span class=\"circle\">81%</span> das empresas dependem total ou substancialmente de cookies de terceiros"
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummaryhead",
+    "Content": "Sumário"
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarypara1",
+    "Content": "Nossa pesquisa revela que as organizações que colocam o engajamento digital do cliente à frente dos negócios colhem imensas recompensas. Esse crescimento tem seus desafios, porque os consumidores nem sempre veem as coisas da mesma maneira que as marcas divulgam. As empresas que conseguem eliminar essa lacuna agora têm a chance de liderar o engajamento do cliente, criando experiências líderes de mercado que conquistam os consumidores e os mantêm fiéis."
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarypara2",
+    "Content": "Estes são os cinco fundamentos do engajamento do cliente, que surgiram de nossa profunda investigação das atitudes do consumidor e das empresas B2C."
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullethead1",
+    "Content": "Torne-o digital"
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullet1",
+    "Content": "<strong>70%</strong> – É o aumento médio da receita de primeira linha entre as empresas que investiram no engajamento digital dos clientes nos últimos dois anos."
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullethead2",
+    "Content": "Torne-o pessoal"
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullet2",
+    "Content": "<strong>75%</strong> das empresas consideram que estão proporcionando experiências personalizadas. Mas mais da metade dos consumidores discorda. Há muito espaço para melhorias. "
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullethead3",
+    "Content": "Livre-se de seus cookies"
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullet3",
+    "Content": "<strong>81%</strong> das empresas dependem total ou substancialmente de cookies de terceiros, embora essa fonte de dados crítica não estará disponível após 2023. "
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullethead4",
+    "Content": "Conquiste confiança"
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullet4",
+    "Content": "<strong>95%</strong> das empresas B2C acreditam que os consumidores confiam na capacidade delas de proteger dados, embora apenas 65% dos consumidores realmente confiem nessas empresas. "
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullethead5",
+    "Content": "Interaja com mais inteligência"
+  },
+  {
+    "Page": "homepage",
+    "Element": "executivesummarybullet5",
+    "Content": "A geração Z e a geração Y são <strong>mais de duas vezes</strong> mais propensas que os baby boomers de terem experimentado fadiga digital nos últimos 30 dias. Criar melhores interações (não mais) pode garantir que os negócios não sofram como resultado"
+  },
+  {
+    "Page": "trend1",
+    "Element": "metatitle",
+    "Content": "Relatório do engajamento do cliente da Twilio: O engajamento digital do cliente gera um grande ROI"
+  },
+  {
+    "Page": "trend1",
+    "Element": "headline",
+    "Content": "O engajamento digital <br>do cliente gera <br>um grande ROI"
+  },
+  {
+    "Page": "trend1",
+    "Element": "subheadline",
+    "Content": "Um maior investimento levou a um aumento de receitas para marcas que adotam o engajamento digital"
+  },
+  {
+    "Page": "trend1",
+    "Element": "descriptivehead",
+    "Content": "Nossa abordagem"
+  },
+  {
+    "Page": "trend1",
+    "Element": "descriptivepara1",
+    "Content": "Os dados não podiam ser mais claros. As empresas que investiram no engajamento digital do cliente viram as receitas aumentarem em média 70%. Elas esperam que até 2025 o investimento nessa área principal quase duplique, aumentando em 94%."
+  },
+  {
+    "Page": "trend1",
+    "Element": "descriptivepara2",
+    "Content": "Em média, mais de metade das interações de empresas B2C com os consumidores é digital, e os entrevistados esperam que aumente mais 21% globalmente nos próximos três anos."
+  },
+  {
+    "Page": "trend1",
+    "Element": "descriptivepara3",
+    "Content": "Isso está alinhado ao que os consumidores querem: Eles dizem que mais de metade das interações com as marcas deve ser digital dentro de três anos."
+  },
+  {
+    "Page": "trend1",
+    "Element": "descriptivepara4",
+    "Content": "Por isso, fica evidente que o investimento no engajamento digital do cliente é crucial para empresas B2C que querem crescer e liderar no mercado."
+  },
+  {
+    "Page": "trend1",
+    "Element": "descriptivepara5",
+    "Content": "<strong>Fundamento nº 1: Torne-o digital.</strong>"
+  },
+  {
+    "Page": "trend1",
+    "Element": "introchartcaption",
+    "Content": "O número de anos que a pandemia acelerou o engajamento digital das empresas"
+  },
+  {
+    "Page": "trend1",
+    "Element": "pullquote1",
+    "Content": "O investimento em engajamento digital está previsto para <span class=\"underline\">quase dobrar</span> até 2025"
+  },
+  {
+    "Page": "trend1",
+    "Element": "datahead",
+    "Content": "As interações digitais da Twilio triplicam"
+  },
+  {
+    "Page": "trend1",
+    "Element": "datapara1",
+    "Content": "As interações digitais em toda a plataforma Twilio triplicaram nos últimos três anos, já que cada vez mais empresas usam nossos serviços para melhorar a estratégia omnichannel e o engajamento digital com os clientes."
+  },
+  {
+    "Page": "trend1",
+    "Element": "datapara2",
+    "Content": "Esse crescimento destaca como a rápida mudança para o digital está criando novas oportunidades para o engajamento com os clientes, mantendo o aspecto extremamente importante da conexão humana."
+  },
+  {
+    "Page": "trend1",
+    "Element": "datachartcaption",
+    "Content": "Interações digitais na plataforma Twilio em 2019, 2020 e 2021"
+  },
+  {
+    "Page": "trend1",
+    "Element": "subtitle",
+    "Content": "A Colômbia lidera o aumento da receita"
+  },
+  {
+    "Page": "trend1",
+    "Element": "subtitlepara1",
+    "Content": "A Austrália se destacou globalmente, com empresas relatando uma aceleração de oito anos. Itália, Espanha e Reino Unido relataram valores superiores à média, com 7,2 anos, 6,8 anos e 6,7 anos, respectivamente."
+  },
+  {
+    "Page": "trend1",
+    "Element": "subtitlepara2",
+    "Content": "Em termos de receita, os três maiores países da América Latina relataram aumentos de 91% ou mais após investirem fortemente no engajamento digital dos clientes nos últimos dois anos. A Colômbia e o Brasil estão à frente, com 95% cada, enquanto as empresas mexicanas perceberam um crescimento de 91%. Os Estados Unidos vieram em quarto lugar, com impressionantes 79%."
+  },
+  {
+    "Page": "trend1",
+    "Element": "pullquote2",
+    "Content": "A região da Ásia-Pacífico e Japão teve uma aceleração de <span class=\"circle\">7 anos</span> na estratégia de transformação digital"
+  },
+  {
+    "Page": "trend1",
+    "Element": "quad-top-left",
+    "Content": "Impacto médio da receita do investimento em transformação digital em comparação com a média global"
+  },
+  {
+    "Page": "trend1",
+    "Element": "quad-top-right",
+    "Content": "As empresas dizem que a pandemia acelerou o engajamento digital em [value] anos"
+  },
+  {
+    "Page": "trend1",
+    "Element": "quad-bottom-left",
+    "Content": "Até 2025, os consumidores esperam que [value] das interações com as marcas seja digital"
+  },
+  {
+    "Page": "trend1",
+    "Element": "quad-bottom-right",
+    "Content": "Desde quando os consumidores disseram que não receberam uma comunicação da marca por meio de um canal digital"
+  },
+  {
+    "Page": "trend1",
+    "Element": "spotlightname",
+    "Content": "Allianz Direct: Transformação do contact center em menos de um ano"
+  },
+  {
+    "Page": "trend1",
+    "Element": "spotlightpara1",
+    "Content": "A Allianz Direct, uma companhia de seguros direto ao consumidor, lançou uma plataforma de seguros transformadora em menos de um ano com a ajuda do Flex da Twilio, a plataforma de contact center baseada em nuvem. Os gerentes da Allianz Direct escolheram o Flex após concluírem que as alternativas não eram ágeis o suficiente para potencializar a experiência digital do cliente que eles queriam dentro do tempo necessário. Hoje, 700 agentes da Allianz Direct contam com a plataforma Twilio. Laura Malinsky, chefe de operações da Allianz Direct diz: \"O Flex é baseado em nuvem, totalmente personalizável, fácil de usar e precisou de apenas alguns engenheiros para montar.\" *"
+  },
+  {
+    "Page": "trend1",
+    "Element": "spotlightpara2",
+    "Content": "<em>*Fonte: Apresentação em vídeo da Conferência SIGNAL da Twilio 2021.</em>"
+  },
+  {
+    "Page": "trend2",
+    "Element": "metatitle",
+    "Content": "Relatório do engajamento do cliente da Twilio: A personalização é fundamental"
+  },
+  {
+    "Page": "trend2",
+    "Element": "headline",
+    "Content": "Personalização <br>é fundamental"
+  },
+  {
+    "Page": "trend2",
+    "Element": "subheadline",
+    "Content": "As empresas acreditam que estão fazendo bem a personalização, mas os consumidores discordam"
+  },
+  {
+    "Page": "trend2",
+    "Element": "descriptivehead",
+    "Content": "Nossa abordagem"
+  },
+  {
+    "Page": "trend2",
+    "Element": "descriptivepara1",
+    "Content": "A personalização é a base de todo o bom engajamento digital do cliente. 98% das empresas dizem que isso aumenta o engajamento do cliente e 83% dos consumidores concordam."
+  },
+  {
+    "Page": "trend2",
+    "Element": "descriptivepara2",
+    "Content": "No entanto, há uma notável desconexão entre como as empresas percebem os próprios esforços de personalização e como os consumidores os vivenciam. Com 88% das empresas dizendo que a personalização é extremamente ou muito importante para a estratégia de engajamento, você pode supor que elas estejam se esforçando para oferecer um toque verdadeiramente pessoal em cada interação. No entanto, embora 75% das empresas afirmem fornecer serviços personalizados bons ou excelentes, 52% dos clientes discordam."
+  },
+  {
+    "Page": "trend2",
+    "Element": "descriptivepara3",
+    "Content": "Em resumo, enquanto as empresas acreditam piamente na personalização, os clientes raramente experimentam esse serviço por si mesmos. 84% das empresas afirmam oferecer serviços personalizados sempre ou com frequência, enquanto apenas metade dos consumidores concorda."
+  },
+  {
+    "Page": "trend2",
+    "Element": "descriptivepara4",
+    "Content": "Ainda mais determinante, os consumidores parecem subestimar o quanto a personalização influencia o relacionamento deles com uma marca e, em última análise, o comportamento de compra. Embora os consumidores digam que os gastos deles aumentarão em média apenas 18% com o uso da personalização, as empresas relatam que o aumento médio é de mais de 46%. E a desvantagem é grande. Quase dois terços dos consumidores dizem que deixarão de usar uma marca se ela não personalizar a experiência deles. "
+  },
+  {
+    "Page": "trend2",
+    "Element": "descriptivepara5",
+    "Content": "Essa tendência mostra a necessidade das marcas desenvolverem ainda mais a compreensão de como os clientes experimentam serviços personalizados. Não há como negar que a oferta desses serviços pode aumentar a receita e a fidelidade, assim, as organizações que investem mais nessa área têm a oportunidade de aumentar o crescimento, além de expandir e reter a base de clientes."
+  },
+  {
+    "Page": "trend2",
+    "Element": "descriptivepara6",
+    "Content": "<strong>Fundamento nº 2: Torne-o pessoal.</strong>"
+  },
+  {
+    "Page": "trend2",
+    "Element": "introchartcaption",
+    "Content": "Como as empresas classificam a personalização em relação à experiência dos consumidores"
+  },
+  {
+    "Page": "trend2",
+    "Element": "pullquote1",
+    "Content": "<span class=\"circle\">98%</span> das empresas dizem que a personalização aumenta a fidelidade do cliente"
+  },
+  {
+    "Page": "trend2",
+    "Element": "datahead",
+    "Content": "O Twilio Segment vê crescimento em aplicativos de personalização"
+  },
+  {
+    "Page": "trend2",
+    "Element": "datapara1",
+    "Content": "O Twilio Segment observou um aumento notável nos clientes que usam aplicativos especializados em personalização. "
+  },
+  {
+    "Page": "trend2",
+    "Element": "datapara2",
+    "Content": "Essas são ferramentas usadas pelas empresas para criar experiências únicas e obter uma visão completa de como os clientes usam e interagem com os serviços. 18% dos clientes do Segment usaram as ferramentas do catálogo de integração do Segment em 2021, em comparação a 13% em 2019. Isso se traduz em um crescimento de quase 40% (38%) na contagem de clientes nesse período de dois anos."
+  },
+  {
+    "Page": "trend2",
+    "Element": "datachartcaption",
+    "Content": "Crescimento no uso do aplicativo de personalização na plataforma do Twilio Segment"
+  },
+  {
+    "Page": "trend2",
+    "Element": "subtitle",
+    "Content": "A personalização é extremamente importante para as empresas no Brasil, Colômbia e México"
+  },
+  {
+    "Page": "trend2",
+    "Element": "subtitlepara1",
+    "Content": "A personalização é muito importante na América Latina. No Brasil, Colômbia e México, três quartos dos consumidores dizem que deixarão de usar uma marca se a experiência deles não for personalizada."
+  },
+  {
+    "Page": "trend2",
+    "Element": "subtitlepara2",
+    "Content": "A França e a Alemanha são curiosamente altas, pois são países que tradicionalmente têm demonstrado maior cuidado com o uso de dados pessoais."
+  },
+  {
+    "Page": "trend2",
+    "Element": "subtitlepara3",
+    "Content": "No Japão, onde as empresas priorizam menos a personalização em comparação com outros países, o valor cai para 69%. Dada a importância de ter um relacionamento bem-sucedido com os clientes, o investimento em personalização pode ser uma área de oportunidade para as marcas japonesas."
+  },
+  {
+    "Page": "trend2",
+    "Element": "quad-top-left",
+    "Content": "[value] das empresas dizem que a personalização é importante"
+  },
+  {
+    "Page": "trend2",
+    "Element": "quad-top-right",
+    "Content": "[value] das empresas dizem que a personalização aumenta os gastos do consumidor. [value] dos consumidores concorda."
+  },
+  {
+    "Page": "trend2",
+    "Element": "quad-bottom-left",
+    "Content": "[value] das empresas acham que uma experiência personalizada aumenta a fidelidade à marca. [value] dos consumidores concorda."
+  },
+  {
+    "Page": "trend2",
+    "Element": "quad-bottom-right",
+    "Content": "Como as empresas classificam a própria personalização em relação a como os consumidores avaliam"
+  },
+  {
+    "Page": "trend2",
+    "Element": "spotlightname",
+    "Content": "Intuit: Como impulsionar o engajamento do cliente"
+  },
+  {
+    "Page": "trend2",
+    "Element": "spotlightpara1",
+    "Content": "Intuit, a plataforma de tecnologia global que fabrica TurboTax, QuickBooks, Mint, Credit Karma e MailChimp, esforça-se para personalizar a experiência para mais de 100 milhões de clientes em todo o mundo. Para melhorar a comunicação com esses clientes, a Intuit conta com o Segment da Twilio, a plataforma de dados de clientes (CDP) líder do mercado. De acordo com Marianna Tessel, diretora de tecnologia da Intuit, os recursos do Segment permitiram que a equipe de marketing do TurboTax impulsionasse melhorias significativas no engajamento do cliente durante a temporada fiscal do ano passado.*"
+  },
+  {
+    "Page": "trend2",
+    "Element": "spotlightpara2",
+    "Content": "<em>*Fonte: Apresentação em vídeo da Conferência SIGNAL da Twilio 2021.</em>"
+  },
+  {
+    "Page": "trend3",
+    "Element": "metatitle",
+    "Content": "Relatório do engajamento do cliente da Twilio: Um mundo sem cookies está chegando"
+  },
+  {
+    "Page": "trend3",
+    "Element": "headline",
+    "Content": "Um mundo sem cookies<br>está chegando"
+  },
+  {
+    "Page": "trend3",
+    "Element": "subheadline",
+    "Content": "As empresas têm um ano para se preparar e parar de depender dos dados de terceiros"
+  },
+  {
+    "Page": "trend3",
+    "Element": "descriptivehead",
+    "Content": "Nossa abordagem"
+  },
+  {
+    "Page": "trend3",
+    "Element": "descriptivepara1",
+    "Content": "Embora os criadores de navegadores eliminem os cookies de terceiros até 2023, 81% das empresas dizem que dependem totalmente ou substancialmente deles, e que serão seriamente prejudicadas pela perda de acesso."
+  },
+  {
+    "Page": "trend3",
+    "Element": "descriptivepara2",
+    "Content": "A maioria das empresas, 55%, diz não estar totalmente preparada para esse mundo inevitável sem cookies. Enquanto isso, 42% das empresas preveem que as mudanças inevitáveis levarão a um ROI mais baixo nos gastos com anúncios e à diminuição da capacidade de medir a eficiência da campanha."
+  },
+  {
+    "Page": "trend3",
+    "Element": "descriptivepara3",
+    "Content": "Adaptar-se a essa mudança é fundamental, especialmente porque 85% dos consumidores querem que as marcas usem apenas dados próprios ao criar serviços personalizados. As empresas não podem mais atrasar a preparação para esse mundo sem cookies."
+  },
+  {
+    "Page": "trend3",
+    "Element": "descriptivepara4",
+    "Content": "<strong>Fundamento nº 3: Livre-se de seus cookies.</strong>"
+  },
+  {
+    "Page": "trend3",
+    "Element": "introchartcaption",
+    "Content": "Empresas que dependem de dados de terceiros para metade ou mais da metade do marketing"
+  },
+  {
+    "Page": "trend3",
+    "Element": "pullquote1",
+    "Content": "<span class=\"circle\">81%</span> das empresas permanecem dependentes de cookies de terceiros"
+  },
+  {
+    "Page": "trend3",
+    "Element": "datahead",
+    "Content": "O Twilio Segment mostra que a urgência da coleta de dados próprios está aumentando"
+  },
+  {
+    "Page": "trend3",
+    "Element": "datapara1",
+    "Content": "Os dados do Segment mostram que a coleta de dados de próprios está aumentando conforme as empresas se preparam para um mundo sem cookies. Mais de 20% dos clientes do Segment estão usando Node.js, que é a primeira fonte de coleta de dados do lado do servidor a descobrir as cinco principais tendências em nossa plataforma."
+  },
+  {
+    "Page": "trend3",
+    "Element": "datapara2",
+    "Content": "Da mesma forma, os dados do Segment também mostram um alto crescimento do uso de aplicativos em análises e data warehouse. Isso faz sentido: As empresas que são donas dos dados farão o armazenamento e a análise desses dados, permitindo que tomem decisões mais inteligentes e ofereçam melhor personalização."
+  },
+  {
+    "Page": "trend3",
+    "Element": "datachartcaption",
+    "Content": "Crescimento ao longo do tempo em data warehouse e uso de aplicativos de análise no Segment"
+  },
+  {
+    "Page": "trend3",
+    "Element": "subtitle",
+    "Content": "Os países mais bem preparados dependem menos de cookies"
+  },
+  {
+    "Page": "trend3",
+    "Element": "subtitlepara1",
+    "Content": "Dos 12 países pesquisados, apenas três – Itália, Espanha e Brasil – tinham a maioria das empresas dizendo que estavam totalmente preparadas para um mundo sem cookies. Esses três países também relataram o menor grau de dependência de dados de terceiros."
+  },
+  {
+    "Page": "trend3",
+    "Element": "subtitlepara2",
+    "Content": "A Itália tem diretrizes rigorosas de dados de terceiros que foram reforçadas em 2021, sugerindo que países com normas de privacidade mais rígidas podem estar mais bem preparados para fazer negócios em um mundo sem cookies."
+  },
+  {
+    "Page": "trend3",
+    "Element": "subtitlepara3",
+    "Content": "Em comparação, 18% das marcas japonesas disseram que não estavam preparadas para um futuro sem cookies. O México foi o segundo com 6% de relatos de que não estão preparados para um futuro sem cookies."
+  },
+  {
+    "Page": "trend3",
+    "Element": "pullquote2",
+    "Content": "Na Itália, na Espanha e no Brasil, <span class=\"underline\">a maioria</span> das empresas afirma estar preparada para um mundo sem cookies"
+  },
+  {
+    "Page": "trend3",
+    "Element": "quad-top-left",
+    "Content": "[value] das empresas dizem que estão totalmente preparadas para um mundo sem cookies"
+  },
+  {
+    "Page": "trend3",
+    "Element": "quad-top-right",
+    "Content": "[value] de empresas dependentes de dados de terceiros"
+  },
+  {
+    "Page": "trend3",
+    "Element": "quad-bottom-left",
+    "Content": "[value] das empresas espera que um mundo sem cookies resulte em um ROI mais baixo nos gastos com anúncios e na diminuição da capacidade de medir a eficácia da campanha"
+  },
+  {
+    "Page": "trend3",
+    "Element": "quad-bottom-right",
+    "Content": "[value] dos consumidores acham que as empresas devem usar apenas dados próprios"
+  },
+  {
+    "Page": "trend3",
+    "Element": "spotlightname",
+    "Content": "Nubank: Umas das fintechs pioneiras no mercado, define o padrão com a abordagem de prioridade digital"
+  },
+  {
+    "Page": "trend3",
+    "Element": "spotlightpara1",
+    "Content": "A Nubank, uma das maiores plataformas bancárias digitais do mundo, elimina a complexidade e as altas taxas associadas aos bancos atualmente. Como resultado da simplicidade e do baixo custo da Nubank, clientes de todos os tipos estão migrando para o serviço. A co-fundadora Christina Junqueira recorreu à Twilio para ajudar a gerenciar o rápido crescimento e diz: \"À medida que passamos de 100.000 clientes para 54 milhões, conseguimos mais estabilidade e segurança nas chamadas. A plataforma da Twilio permite bastante personalização, então é algo que podemos criar ao longo do tempo. Ela possibilitou uma parte importante da nossa estratégia de engajamento com o cliente.\"*"
+  },
+  {
+    "Page": "trend3",
+    "Element": "spotlightpara2",
+    "Content": "<em>*Fonte: Apresentação em vídeo da Conferência SIGNAL da Twilio 2021.</em>"
+  },
+  {
+    "Page": "trend4",
+    "Element": "metatitle",
+    "Content": "Relatório do engajamento do cliente da Twilio: As empresas e os consumidores não estão tão confiantes"
+  },
+  {
+    "Page": "trend4",
+    "Element": "headline",
+    "Content": "Empresas e<br>consumidores não<br>estão tão confiantes"
+  },
+  {
+    "Page": "trend4",
+    "Element": "subheadline",
+    "Content": "As marcas acreditam que estão se saindo bem com a privacidade e os dados, mas os consumidores exigem melhorias"
+  },
+  {
+    "Page": "trend4",
+    "Element": "descriptivehead",
+    "Content": "Nossa abordagem"
+  },
+  {
+    "Page": "trend4",
+    "Element": "descriptivepara1",
+    "Content": "Há uma clara lacuna de confiança em relação aos problemas de dados e privacidade. As marcas dizem que estão fazendo um enorme esforço para privacidade e segurança de dados, mas os consumidores querem que elas façam ainda mais. Nossa pesquisa mostra que, embora 95% das empresas B2C acreditem que os consumidores confiam nelas para proteger os dados, apenas 65% deles realmente confiam nas marcas com as quais fazem negócios."
+  },
+  {
+    "Page": "trend4",
+    "Element": "descriptivepara2",
+    "Content": "Essa questão é mais profunda do que a proteção de dados. Os consumidores estão preocupados com o fato das empresas não serem totalmente transparentes sobre como os dados são usados ou respeitarem as preferências que eles definiram. Entre os consumidores, 71% dizem que querem mais privacidade de dados das marcas, mas apenas 55% das empresas acreditam que isso é o que seus clientes querem."
+  },
+  {
+    "Page": "trend4",
+    "Element": "descriptivepara3",
+    "Content": "A transparência afeta diretamente a confiança do consumidor, e as marcas podem conquistar a confiança de seus clientes comunicando mais claramente como coletam, protegem e usam os dados para criar melhores experiências do cliente. "
+  },
+  {
+    "Page": "trend4",
+    "Element": "descriptivepara4",
+    "Content": "<strong>Fundamento nº 4: Elimine a lacuna de confiança.</strong>"
+  },
+  {
+    "Page": "trend4",
+    "Element": "introchartcaption",
+    "Content": "Empresas que dizem que os consumidores exigem maior privacidade, em comparação com os consumidores que dizem que desejam que as empresas façam mais para proteger a privacidade deles"
+  },
+  {
+    "Page": "trend4",
+    "Element": "pullquote1",
+    "Content": "<span class=\"circle\">71%</span> dos consumidores afirmam que querem mais privacidade de dados das marcas"
+  },
+  {
+    "Page": "trend4",
+    "Element": "subtitle",
+    "Content": "Os consumidores brasileiros e mexicanos exigem maior privacidade e transparência, mas os consumidores europeus se sentem mais protegidos"
+  },
+  {
+    "Page": "trend4",
+    "Element": "subtitlepara1",
+    "Content": "Globalmente, 71% dos consumidores estão exigindo maior privacidade e transparência de empresas B2C. Nos países da América Latina, uma proporção maior do que a média está exigindo tal ação das marcas. Apesar disso, 31% dos consumidores brasileiros dizem ter um nível muito alto de confiança nas marcas para proteger a privacidade, com 41% no México dizendo o mesmo, em comparação com a média global de 23%."
+  },
+  {
+    "Page": "trend4",
+    "Element": "subtitlepara2",
+    "Content": "Na Alemanha, 50% das empresas dizem que os consumidores querem que os dados fiquem mais protegidos e isso cai para 48% no Reino Unido e para 45% na França. No entanto, sentir-se mais bem protegido não significa que a confiança seja maior. Quatorze por cento dos consumidores na França dizem que têm um nível muito baixo de confiança na capacidade das marcas de proteger os dados, com 11% na Espanha concordando. No geral, 7% dos consumidores em todo o mundo afirmam ter um nível tão baixo de confiança."
+  },
+  {
+    "Page": "trend4",
+    "Element": "pullquote2",
+    "Content": "Em média, <span class=\"circle\">23%</span> dos consumidores em todo o mundo confiam nas empresas para proteger sua privacidade"
+  },
+  {
+    "Page": "trend4",
+    "Element": "quad-top-left",
+    "Content": "[value] das empresas afirmam que seus consumidores exigem maior privacidade. [value} dos consumidores querem que as empresas façam mais para proteger a privacidade deles"
+  },
+  {
+    "Page": "trend4",
+    "Element": "quad-top-right",
+    "Content": "Nível de confiança dos consumidores de que as empresas adotarão várias medidas relacionadas à privacidade"
+  },
+  {
+    "Page": "trend4",
+    "Element": "quad-bottom-left",
+    "Content": "[value] dos consumidores está frustrado por experiências digitais inconsistentes com as marcas"
+  },
+  {
+    "Page": "trend4",
+    "Element": "quad-bottom-right",
+    "Content": "[value] das empresas afirmam que os consumidores pararão de comprar os produtos se elas não atenderem aos requisitos de privacidade de dados"
+  },
+  {
+    "Page": "trend4",
+    "Element": "spotlightname",
+    "Content": "O Trevor Project: Mensagens de texto para salvar vidas"
+  },
+  {
+    "Page": "trend4",
+    "Element": "spotlightpara1",
+    "Content": "Todas as organizações buscam responder rapidamente às pessoas que atendem. Mas para o Trevor Project, uma organização de prevenção ao suicídio e intervenção de crise focada em ajudar os jovens LGBTQ, as vidas dependem literalmente da capacidade da organização de conectar rapidamente as pessoas com ajuda. Amit Paley, CEO e diretor executivo do Trevor Project, supervisionou uma parceria com a Twilio para criar um sistema automatizado que analisa textos recebidos e sinaliza mensagens de pessoas em alto risco. O sistema cortou 10 segundos de cada interação e 10 minutos de cada conversa de texto. Resultado? \"Cada pessoa com quem conversamos está recebendo a ajuda necessária mais rapidamente\", disse Amit.*"
+  },
+  {
+    "Page": "trend4",
+    "Element": "spotlightpara2",
+    "Content": "<em>*Fonte: Apresentação em vídeo da Conferência SIGNAL da Twilio 2021.</em>"
+  },
+  {
+    "Page": "trend5",
+    "Element": "metatitle",
+    "Content": "Relatório do Engajamento do Cliente da Twilio em 2022: A fadiga digital é real"
+  },
+  {
+    "Page": "trend5",
+    "Element": "headline",
+    "Content": "A fadiga digital <br>é real"
+  },
+  {
+    "Page": "trend5",
+    "Element": "subheadline",
+    "Content": "As empresas precisam se proteger contra isso com um melhor engajamento, não maior"
+  },
+  {
+    "Page": "trend5",
+    "Element": "descriptivehead",
+    "Content": "Nossa abordagem"
+  },
+  {
+    "Page": "trend5",
+    "Element": "descriptivepara1",
+    "Content": "A fadiga digital é um problema cada vez maior. Em média, 36% dos consumidores em todo o mundo diz ter experimentado fadiga digital nos últimos 30 dias. Os dados se tornam mais interessantes quando divididos por geração, no entanto: Quanto mais jovem a geração, mais as pessoas experimentam a fadiga digital, chegando a 47% na geração Z. Quando quase metade dos dados demográficos de crescimento diz que está cansado da vida digital, há uma necessidade clara e urgente de resolver esse problema."
+  },
+  {
+    "Page": "trend5",
+    "Element": "descriptivepara2",
+    "Content": "Experiências frustrantes de suporte ao cliente podem estar contribuindo para o problema. 56% dos consumidores dizem que parariam de fazer negócios com uma empresa após uma interação ruim. 18% dizem que prefeririam perder a Internet por um dia do que falar com a equipe de suporte de uma empresa."
+  },
+  {
+    "Page": "trend5",
+    "Element": "descriptivepara3",
+    "Content": "Com o uso cuidadoso de dados e personalização, as empresas podem criar formas mais significativas de engajamento com os consumidores, promovendo a fidelidade como resultado. Isso significa minimizar interações irrelevantes e, em vez disso, focar no que é importante para os clientes."
+  },
+  {
+    "Page": "trend5",
+    "Element": "descriptivepara4",
+    "Content": "<strong>Fundamento nº 5: Interaja com mais inteligência.</strong>"
+  },
+  {
+    "Page": "trend5",
+    "Element": "introchartcaption",
+    "Content": "Porcentagem dos consumidores que diz ter experimentado fadiga digital no último mês"
+  },
+  {
+    "Page": "trend5",
+    "Element": "pullquote1",
+    "Content": "<span class=\"circle\">47%</span> da geração Z experimentou fadiga digital nos últimos 30 dias"
+  },
+  {
+    "Page": "trend5",
+    "Element": "subtitle",
+    "Content": "A fadiga digital varia entre as fronteiras"
+  },
+  {
+    "Page": "trend5",
+    "Element": "subtitlepara1",
+    "Content": "A fadiga digital mostra variações claras em todos os países. É mais elevada na França, com 47% dos consumidores relatando ter sofrido com isso nos últimos 30 dias, contra uma média global de 36%. Em seguida estão o Brasil e o México, com 44% e 43%, respectivamente."
+  },
+  {
+    "Page": "trend5",
+    "Element": "subtitlepara2",
+    "Content": "É nestes dois últimos países que as empresas relatam que os consumidores têm mais probabilidade de parar de comprar os produtos se elas não atenderem aos requisitos de privacidade de dados dos consumidores. Isso sugere que uma preocupação maior nesses países em torno dessas questões também está se somando à fadiga digital."
+  },
+  {
+    "Page": "trend5",
+    "Element": "subtitlepara3",
+    "Content": "Apesar das variações, não existem diferenças regionais importantes quando se trata de fadiga digital. É um problema que precisa ser considerado globalmente."
+  },
+  {
+    "Page": "trend5",
+    "Element": "pullquote2",
+    "Content": "A fadiga digital é mais alta na França, com <span class=\"circle\">47%</span> dos consumidores relatando ter sofrido com isso recentemente"
+  },
+  {
+    "Page": "trend5",
+    "Element": "quad-top-left",
+    "Content": "[value] dos consumidores dizem que sofreram de fadiga digital nos últimos 30 dias"
+  },
+  {
+    "Page": "trend5",
+    "Element": "quad-top-right",
+    "Content": "[value] dos consumidores dizem que parariam de fazer negócios com uma empresa após experiências frustrantes de suporte ao cliente"
+  },
+  {
+    "Page": "trend5",
+    "Element": "quad-bottom-left",
+    "Content": "[value] dos consumidores preferiria perder a conexão com a Internet por um dia, passar pela segurança do aeroporto ou raspar a cabeça do que chamar o atendimento ao cliente"
+  },
+  {
+    "Page": "trend5",
+    "Element": "quad-bottom-right",
+    "Content": "Nível de confiança que as empresas acreditam que os consumidores têm na capacidade da marca de respeitar as preferências de comunicação"
+  },
+  {
+    "Page": "trend5",
+    "Element": "spotlightname",
+    "Content": "Electrolux: Substituição rápida do contact center em uma crise"
+  },
+  {
+    "Page": "trend5",
+    "Element": "spotlightpara1",
+    "Content": "Os gerentes da Electrolux se viram respondendo a um doloroso golpe duplo. Primeiro, um raio atingiu o contact center na Malásia e desativou sistemas vitais. Segundo, por causa da COVID-19, o governo não permitiria que o fabricante secular de eletrodomésticos enviasse técnicos locais às instalações para fazer reparos. Shane Rose e sua equipe reagiram rapidamente: Eles emitiram um novo número gratuito de atendimento ao cliente e mudaram as operações do centro para a Twilio, tudo em menos de 24 horas. O pensamento rápido e a tecnologia da Twilio permitiram que o contact center permanecesse operando sem tempo de inatividade. Shane descreveu isso como \"Um esforço realmente incrível\".*"
+  },
+  {
+    "Page": "trend5",
+    "Element": "spotlightpara2",
+    "Content": "<em>*Fonte: Apresentação em vídeo da Conferência SIGNAL da Twilio 2021.</em>"
+  },
+  {
+    "Page": "general",
+    "Element": "localecountry",
+    "Content": "País"
+  },
+  {
+    "Page": "general",
+    "Element": "localeaustralia",
+    "Content": "Austrália"
+  },
+  {
+    "Page": "general",
+    "Element": "localebrazil",
+    "Content": "Brasil"
+  },
+  {
+    "Page": "general",
+    "Element": "localecolombia",
+    "Content": "Colômbia"
+  },
+  {
+    "Page": "general",
+    "Element": "localefrance",
+    "Content": "França"
+  },
+  {
+    "Page": "general",
+    "Element": "localegermany",
+    "Content": "Alemanha"
+  },
+  {
+    "Page": "general",
+    "Element": "localeglobal",
+    "Content": "Global"
+  },
+  {
+    "Page": "general",
+    "Element": "localeitaly",
+    "Content": "Itália"
+  },
+  {
+    "Page": "general",
+    "Element": "localejapan",
+    "Content": "Japão"
+  },
+  {
+    "Page": "general",
+    "Element": "localemexico",
+    "Content": "México"
+  },
+  {
+    "Page": "general",
+    "Element": "localesingapore",
+    "Content": "Cingapura"
+  },
+  {
+    "Page": "general",
+    "Element": "localespain",
+    "Content": "Espanha"
+  },
+  {
+    "Page": "general",
+    "Element": "localeuk",
+    "Content": "Reino Unido"
+  },
+  {
+    "Page": "general",
+    "Element": "localeus",
+    "Content": "Estados Unidos"
+  },
+  {
+    "Page": "general",
+    "Element": "localeregion",
+    "Content": "Região"
+  },
+  {
+    "Page": "general",
+    "Element": "localenorthamerica",
+    "Content": "América do Norte"
+  },
+  {
+    "Page": "general",
+    "Element": "localeasia",
+    "Content": "Ásia-Pacífico/Japão"
+  },
+  {
+    "Page": "general",
+    "Element": "localeeurope",
+    "Content": "Europa"
+  },
+  {
+    "Page": "general",
+    "Element": "localelatinamerica",
+    "Content": "América Latina"
+  }
+]
