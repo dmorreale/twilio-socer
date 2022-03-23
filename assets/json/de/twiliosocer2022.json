@@ -391,7 +391,7 @@
   },
   {
     "Page": "trend1",
-    "Element": "Untertitel",
+    "Element": "subtitle",
     "Content": "Kolumbien ist Vorreiter bei der Umsatzsteigerung"
   },
   {
@@ -526,7 +526,7 @@
   },
   {
     "Page": "trend2",
-    "Element": "Untertitel",
+    "Element": "subtitle",
     "Content": "Personalisierung ist für Unternehmen in Brasilien, Kolumbien und Mexiko extrem wichtig"
   },
   {
@@ -651,7 +651,7 @@
   },
   {
     "Page": "trend3",
-    "Element": "Untertitel",
+    "Element": "subtitle",
     "Content": "Die am besten vorbereiteten Länder sind am wenigsten auf Cookies angewiesen."
   },
   {
@@ -761,7 +761,7 @@
   },
   {
     "Page": "trend4",
-    "Element": "Untertitel",
+    "Element": "subtitle",
     "Content": "Verbraucher in Brasilien und Mexiko fordern mehr Datenschutz und Transparenz, aber Verbraucher in Europa fühlen sich besser geschützt."
   },
   {
@@ -866,7 +866,7 @@
   },
   {
     "Page": "trend5",
-    "Element": "Untertitel",
+    "Element": "subtitle",
     "Content": "Die digitale Erschöpfung unterscheidet sich von Land zu Land"
   },
   {
