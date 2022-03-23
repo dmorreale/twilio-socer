@@ -41,7 +41,22 @@ $(document).ready(async function () {
   }, 1000)
 
 	var curPage = $('body').data('page');
-	var language = $('html').attr('lang') == 'en' ? '' : $('html').attr('lang') + '/';
+	var langcode = $('html').attr('lang');
+	var language = langcode == 'en' ? '' : langcode + '/';
+	
+	var link = location.pathname ? location.pathname + '/' : '/';
+	
+	if(langcode == 'en'){
+		$('[hreflang="de"]').attr('href', ('/de' + location.pathname));
+		$('[hreflang="fr"]').attr('href', ('/fr' + location.pathname));
+	} else {
+		$('[hreflang="de"]').attr('href', location.pathname.replace(langcode, 'de'));
+		$('[hreflang="fr"]').attr('href', location.pathname.replace(langcode, 'fr'));
+	}
+	if( link != '/'){
+	 $('[hreflang="en"]').attr('href', location.pathname.replace(langcode + '/', ''));  
+	}  
+	
 	
 	//load the text from the json doc.
 	await $.getJSON("/assets/json/" + language + "twiliosocer2022.json", function(json) {
