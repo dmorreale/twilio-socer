@@ -574,7 +574,9 @@ async function renderChartGroup(val, tl, tr, bl, br) {
           chartGroupCharts[index] = new ApexCharts(div, chartOptions)
           //chartGroupCharts[index].render()
 			if (chartGroupData[index][0].length === 2) {
-				div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[1];
+				if(div.parentElement.parentElement.querySelector(".chart-value") !== null ){
+				  div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[1]; 
+				}
 			} else if (chartGroupData[index][0].length === 4) {
 				div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[2];
 				div.parentElement.nextElementSibling.querySelector(".chart-value2").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[3];
@@ -692,7 +694,9 @@ function updateChartGroup(selection) {
             },
           })
 			if (chartGroupData[index][0].length === 2) {
-				div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[1];
+				if(div.parentElement.parentElement.querySelector(".chart-value") !== null ){
+					div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[1];
+				}
 			} else if (chartGroupData[index][0].length === 4) {
 				div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[2];
 				div.parentElement.nextElementSibling.querySelector(".chart-value2").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[3];

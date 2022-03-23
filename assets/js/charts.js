@@ -43,7 +43,7 @@ var columnChartOptions = {
     colors: ['#F22F46'],
     opacity: 1,
     image: {
-      src: ['./assets/images/bar-with-lines.svg'],
+      src: ['/assets/images/bar-with-lines.svg'],
       width: 100,
       height: 300
     },
