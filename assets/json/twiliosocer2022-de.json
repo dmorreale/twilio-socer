@@ -275,7 +275,7 @@
     "Content": "Um durchschnittlich <strong>70 %</strong> konnten die Unternehmen ihren Umsatz steigern, die in den letzten zwei Jahren in die digitale Kundeninteraktion investiert haben."
   },
   {
-    "Page": "",
+    "Page": "homepage",
     "Element": "executivesummarybullethead2",
     "Content": "Persönlich werden"
   },
@@ -285,7 +285,7 @@
     "Content": "<strong>75 %</strong> der Unternehmen sind davon überzeugt, dass sie gut personalisieren. Mehr als die Hälfte der Verbraucher sind jedoch anderer Meinung. Da ist also noch viel Luft nach oben. "
   },
   {
-    "Page": "",
+    "Page": "homepage",
     "Element": "executivesummarybullethead3",
     "Content": "Cookies loswerden"
   },
@@ -295,7 +295,7 @@
     "Content": "<strong>81 %</strong> der Unternehmen sind vollständig oder in beträchtlichem Maße auf Cookies von Drittanbietern angewiesen – und das, obwohl diese wichtige Datenquelle nach 2023 nicht mehr zur Verfügung stehen wird. "
   },
   {
-    "Page": "",
+    "Page": "homepage",
     "Element": "executivesummarybullethead4",
     "Content": "Vertrauen aufbauen"
   },
@@ -305,7 +305,7 @@
     "Content": "<strong>95 %</strong> der B2C-Unternehmen glauben, dass Verbraucher ihnen beim Schutz von Kundendaten vertrauen. Tatsächlich vertrauen ihnen aber nur 65 % der Verbraucher. "
   },
   {
-    "Page": "",
+    "Page": "homepage",
     "Element": "executivesummarybullethead5",
     "Content": "Clever agieren"
   },
@@ -782,7 +782,7 @@
   {
     "Page": "trend4",
     "Element": "quad-top-left",
-    "Content": "[value] der Unternehmen geben an, dass ihre Kundschaft besseren Datenschutz fordert. [value} der Verbraucher wollen, dass die Unternehmen mehr für den Schutz ihrer Privatsphäre tun."
+    "Content": "[value] der Unternehmen geben an, dass ihre Kundschaft besseren Datenschutz fordert. [value] der Verbraucher wollen, dass die Unternehmen mehr für den Schutz ihrer Privatsphäre tun."
   },
   {
     "Page": "trend4",
