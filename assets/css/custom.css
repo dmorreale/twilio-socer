@@ -1173,8 +1173,8 @@ body {
       flex-flow: column;
       align-items: flex-start; }
       .pageWrapper .block-hero .leftOfImage .img-fluid {
-        margin-top: 60px;
-        margin-bottom: -40px;
+        margin-top: 81px;
+        margin-bottom: 50px;
         width: 520px;
         max-width: calc(50% - 120px); }
     .pageWrapper .block-hero .leftImageHero {
@@ -1252,10 +1252,12 @@ body {
     .pageWrapper .block-after-hero .fourEightyWidth {
       margin-top: -248px; }
     .pageWrapper .block-after-hero .pullquotelarge {
-      margin-top: 226px; }
+      margin-top: 220px; }
+      .pageWrapper .block-after-hero .pullquotelarge.mt-450 {
+        margin-top: 450px; }
     .pageWrapper .block-after-hero .threeTwentyWidth {
-      margin-top: 68px;
-      margin-bottom: 160px; }
+      margin-top: 140px;
+      margin-bottom: 210px; }
     .pageWrapper .block-after-hero .eyebrow {
       margin-top: 117px; }
   .pageWrapper .trendsHero + .block-after-hero {
@@ -1265,7 +1267,7 @@ body {
   @media screen and (max-width: 1199px) {
     .pageWrapper .block-after-hero .fourEightyWidth {
       margin-top: 81px; }
-    .pageWrapper .block-after-hero .pullquotelarge {
+    .pageWrapper .block-after-hero .pullquotelarge, .pageWrapper .block-after-hero .pullquotelarge.mt-450 {
       margin-top: 54px; }
     .pageWrapper .block-after-hero .space-left {
       margin-left: 0; }
