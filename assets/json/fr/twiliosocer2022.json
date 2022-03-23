@@ -275,7 +275,7 @@
     "Content": "<strong>70 %</strong> : cela correspond à l'augmentation moyenne des revenus des entreprises ayant investi dans l'engagement client numérique au cours des deux dernières années."
   },
   {
-    "Page": "",
+    "Page": "homepage",
     "Element": "executivesummarybullethead2",
     "Content": "Optez pour la personnalisation"
   },
@@ -285,7 +285,7 @@
     "Content": "<strong>75 %</strong> des entreprises estiment proposer des expériences personnalisées de qualité. Mais plus de la moitié des consommateurs sont en désaccord avec ce constat. La marge de progression est donc encore très grande. "
   },
   {
-    "Page": "",
+    "Page": "homepage",
     "Element": "executivesummarybullethead3",
     "Content": "Renoncez à vos cookies"
   },
@@ -295,7 +295,7 @@
     "Content": "<strong>81 %</strong> des entreprises sont totalement ou en grande partie tributaires des cookies tiers, même si cette source de données essentielle ne sera plus disponible après 2023. "
   },
   {
-    "Page": "",
+    "Page": "homepage",
     "Element": "executivesummarybullethead4",
     "Content": "Instaurez la confiance"
   },
@@ -305,7 +305,7 @@
     "Content": "<strong>95 %</strong> des entreprises B2C estiment que les consommateurs ont confiance dans leur capacité à protéger les données, mais seuls 65 % des consommateurs leur font confiance. "
   },
   {
-    "Page": "",
+    "Page": "homepage",
     "Element": "executivesummarybullethead5",
     "Content": "Communiquez de manière plus intelligente"
   },
