@@ -44,7 +44,7 @@ $(document).ready(async function () {
 	var language = $('html').attr('lang') == 'en' ? '' : $('html').attr('lang') + '/';
 	
 	//load the text from the json doc.
-	await $.getJSON("assets/json/" + language + "twiliosocer2022.json", function(json) {
+	await $.getJSON("/assets/json/" + language + "twiliosocer2022.json", function(json) {
 	  json.forEach(function(obj) { 
 		  if(curPage == obj["Page"] || obj["Page"] == 'general'){
 			    
@@ -318,7 +318,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
       switch (type) {
         case 'bar':
           chartGroupData[index] = await $.getJSON(
-            `json/by_${div.dataset.getBy ?? 'header'}/${div.dataset.source}`,
+            `/json/by_${div.dataset.getBy ?? 'header'}/${div.dataset.source}`,
             (data) => {
               tl = data
             }
@@ -398,7 +398,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
 
         case 'double-bar':
           chartGroupData[index] = await $.getJSON(
-            `json/by_row/${div.dataset.source}`,
+            `/json/by_row/${div.dataset.source}`,
             (data) => {
               tl = data
             }
@@ -469,7 +469,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
 
         case 'radial-bar':
           chartGroupData[index] = await $.getJSON(
-            `json/by_row/${div.dataset.source}`,
+            `/json/by_row/${div.dataset.source}`,
             (data) => {
               tl = data
             }
@@ -487,7 +487,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
         
 		case 'dot':
           chartGroupData[index] = await $.getJSON(
-            `json/by_row/${div.dataset.source}`,
+            `/json/by_row/${div.dataset.source}`,
             (data) => {
               tl = data
             }
@@ -499,7 +499,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
 		
 		case 'text':
 			chartGroupData[index] = await $.getJSON(
-				`json/by_row/${div.dataset.source}`,
+				`/json/by_row/${div.dataset.source}`,
 				(data) => {
 				  tl = data
 				}
@@ -511,7 +511,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
 
         case 'column':
           chartGroupData[index] = await $.getJSON(
-            `json/by_row/${div.dataset.source}`,
+            `/json/by_row/${div.dataset.source}`,
             (data) => {
               tl = data
             }
