@@ -1,3 +1,4 @@
+const sitePath = '/';
 const chartGroupData = []
 const chartGroupCharts = []
 const merge = (...arguments) => {
@@ -46,18 +47,18 @@ $(document).ready(async function () {
 	
 	var link = location.pathname ? location.pathname + '/' : '/';
 	
-	if(langcode == 'en'){
-		$('[hreflang="de"]').attr('href', ('/de' + location.pathname));
-		$('[hreflang="fr"]').attr('href', ('/fr' + location.pathname));
-	} else {
-		$('[hreflang="de"]').attr('href', location.pathname.replace(langcode, 'de'));
-		$('[hreflang="fr"]').attr('href', location.pathname.replace(langcode, 'fr'));
-	}
-	if( link != '/'){
-	 $('[hreflang="en"]').attr('href', location.pathname.replace(langcode + '/', ''));  
-	}  
 	
-	
+	$('.language-nav a').each(function(e){
+		var thisLang = $(this).attr('hreflang');
+		if(langcode == 'en' && thisLang != 'en'){
+			$(this).attr('href', ( sitePath + thisLang + location.pathname.replace(sitePath, '/')));
+		} else if(thisLang == 'en'){
+			$(this).attr('href', location.pathname.replace((sitePath + langcode + '/'), sitePath));
+		} else {
+			$(this).attr('href', ( sitePath + thisLang + location.pathname.replace((sitePath + langcode), '')));
+		}
+	});
+		
 	//load the text from the json doc.
 	await $.getJSON("/assets/json/" + language + "twiliosocer2022.json", function(json) {
 	  json.forEach(function(obj) { 
@@ -282,7 +283,8 @@ $(document).ready(async function () {
     var $parent = $el.closest('.selector')
 
     if (!$el.attr('data-default')) {
-      var val = $el.text()
+      var val = $el.attr('data-value')
+	  var label = $el.text()
 
       $parent.removeClass('opened')
 
@@ -294,7 +296,7 @@ $(document).ready(async function () {
         $(this).text($(this).attr('data-default')) //reset the other
       })
 
-      $parent.find('> A').text(val)
+      $parent.find('> A').text(label)
       //console.log(val);
       updateChartGroup(val)
     }
