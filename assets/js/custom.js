@@ -1,4 +1,8 @@
-const sitePath = '/';
+const trendRegex = /\/trend\-[1-5]/;
+const langRegex = /\/(de|pt-br|fr|es-es|ed-mx|ja)/;
+const sitePath = window.location.pathname.replace(trendRegex, '').replace('/thank-you', '').replace(langRegex, '');
+const siteRoot = window.location.href.includes('/trend-') || window.location.href.includes('/thank-you') ? window.location.href.replace(trendRegex, '').replace('/thank-you', '').replace(langRegex, '') : window.location.href.replace(langRegex, '');
+const jsonRoot = siteRoot + 'assets/json/numbers/' + document.getElementsByTagName("html")[0].getAttribute('lang') + '/';
 const chartGroupData = []
 const chartGroupCharts = []
 const merge = (...arguments) => {
@@ -43,10 +47,9 @@ $(document).ready(async function () {
 
 	var curPage = $('body').data('page');
 	var langcode = $('html').attr('lang');
-	var language = langcode == 'en' ? '' : langcode + '/';
+	var language = langcode + '/';
 	
 	var link = location.pathname ? location.pathname + '/' : '/';
-	
 	
 	$('.language-nav a').each(function(e){
 		var thisLang = $(this).attr('hreflang');
@@ -60,7 +63,8 @@ $(document).ready(async function () {
 	});
 		
 	//load the text from the json doc.
-	await $.getJSON("/assets/json/" + language + "twiliosocer2022.json", function(json) {
+	var textJSON = siteRoot + 'assets/json/text/' + language + 'twiliosocer2022.json';
+	await $.getJSON(textJSON, function(json) {
 	  json.forEach(function(obj) { 
 		  if(curPage == obj["Page"] || obj["Page"] == 'general'){
 			    
@@ -96,8 +100,6 @@ $(document).ready(async function () {
       maxX = $(window).width() - width,
 	  mousePosY = e.pageY - $(this).offset().top - $(this).height()/2,
 	  topper = Math.floor(Math.sin( mousePosY/200 * (Math.PI/2) ) * 12);
-	  
-	  //console.log('m: ' + topper);
 
     if (posX < 0) posX = 0
     if (posX > maxX) posX = maxX
@@ -111,7 +113,8 @@ $(document).ready(async function () {
 	  $(this).next()[0].contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
   });
 
-  $('.nav-cta__button').click(function () {
+  $('.nav-cta__button').click(function (e) {
+	  e.preventDefault();
     if ($(this).hasClass('active')) {
       $(this).removeClass('active')
     } else {
@@ -121,7 +124,8 @@ $(document).ready(async function () {
     $(this).next().slideToggle()
   })
 
-  $('.nav-cta__button--hamburger').click(function () {
+  $('.nav-cta__button--hamburger').click(function (e) {
+	  e.preventDefault();
     if ($(this).hasClass('active')) {
       $(this).removeClass('active').find('.text').text('Menu')
       $('.nav-wrapper.active').removeClass('active')
@@ -148,7 +152,6 @@ $(document).ready(async function () {
   if (location.hash) {
     var loc = location.hash.substring(1)
     loc = loc.toLowerCase()
-    //console.log(loc,loc.indexOf('form_engagement'));
     if (loc.indexOf('form_engagement') != -1) {
       $('#cover,.mktoForm_3201').addClass('show');
     }
@@ -297,7 +300,6 @@ $(document).ready(async function () {
       })
 
       $parent.find('> A').text(label)
-      //console.log(val);
       updateChartGroup(val)
     }
   })
@@ -312,7 +314,6 @@ function updateDotCharts(val, dataSet, $elem) {
 
     for(var i = 0; i < dataSet.length; i++) {
       if(dataSet[i][0]) {
-        //console.log(dataSet[i][0],val);
         if(dataSet[i][0] == val) {
           percentage = dataSet[i][1];
           percentage = parseInt(percentage.replace('%', ''));
@@ -335,7 +336,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
       switch (type) {
         case 'bar':
           chartGroupData[index] = await $.getJSON(
-            `/json/by_${div.dataset.getBy ?? 'header'}/${div.dataset.source}`,
+            jsonRoot + div.dataset.source,
             (data) => {
               tl = data
             }
@@ -415,7 +416,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
 
         case 'double-bar':
           chartGroupData[index] = await $.getJSON(
-            `/json/by_row/${div.dataset.source}`,
+            jsonRoot + div.dataset.source,
             (data) => {
               tl = data
             }
@@ -486,7 +487,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
 
         case 'radial-bar':
           chartGroupData[index] = await $.getJSON(
-            `/json/by_row/${div.dataset.source}`,
+            jsonRoot + div.dataset.source,
             (data) => {
               tl = data
             }
@@ -504,7 +505,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
         
 		case 'dot':
           chartGroupData[index] = await $.getJSON(
-            `/json/by_row/${div.dataset.source}`,
+            jsonRoot + div.dataset.source,
             (data) => {
               tl = data
             }
@@ -516,7 +517,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
 		
 		case 'text':
 			chartGroupData[index] = await $.getJSON(
-				`/json/by_row/${div.dataset.source}`,
+				jsonRoot + div.dataset.source,
 				(data) => {
 				  tl = data
 				}
@@ -528,7 +529,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
 
         case 'column':
           chartGroupData[index] = await $.getJSON(
-            `/json/by_row/${div.dataset.source}`,
+            jsonRoot + div.dataset.source,
             (data) => {
               tl = data
             }

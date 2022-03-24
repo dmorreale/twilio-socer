@@ -626,8 +626,8 @@ body {
       padding-top: 28px; }
     .pageWrapper .orderedList li::marker, .pageWrapper .orderedList .oLHeader {
       font-family: "Twilio Sans Text", sans-serif;
-      font-size: 1.5rem;
-      line-height: 1.1em; }
+      font-size: 2rem;
+      line-height: 1.4em; }
     .pageWrapper .orderedList p {
       padding-left: 21px; }
     .pageWrapper .orderedList .oLHeader span {

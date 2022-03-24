@@ -121,7 +121,7 @@
                 </div>
                 <div class="navDropRightColumn">
                   <img src="../../assets/images/threeLayerImage.png" />
-                  <a class="btn btn-outline json-load json-ctabuttontext" href="../../assets/documents/blank.pdf" download>Download The Report</a>
+                  <a class="btn btn-outline json-load json-ctabuttontext" >Download The Report</a>
                 </div>
               </div>
             </div>
@@ -271,7 +271,7 @@
               <div class="chart-wrapper column half">
                 <div class="chart-inner-wrapper">
                   <div class="chart-placeholder dot-chart"
-                    data-chart-type="dot"
+                    data-chart-type="dot" data-aos="fade-up" data-aos-delay="50" data-aos-offset="120"
                     data-source="trend_3_explore_top_left.json"></div>
                 </div>
                 <div class="chart-caption json-load json-quad-top-left"></div>
@@ -295,7 +295,7 @@
               <div class="chart-wrapper column half">
                 <div class="chart-inner-wrapper">
                   <div class="chart-placeholder dot-chart"
-                    data-chart-type="dot"
+                    data-chart-type="dot" data-aos="fade-up" data-aos-delay="50" data-aos-offset="120"
                     data-source="trend_3_explore_bottom_right.json"></div>
                 </div>
                 <div class="chart-caption json-load json-quad-bottom-right"></div>
@@ -483,10 +483,10 @@
 
       const renderCharts = async () => {
         let introChartData, twilioChartData
-        await $.getJSON('/json/by_row/trend_3_intro_chart.json', (data) => {
+        await $.getJSON(jsonRoot + 'trend_3_intro_chart.json', (data) => {
           introChartData = data
         })
-        await $.getJSON('/json/by_row/trend_3_twilio_data.json', (data) => {
+        await $.getJSON(jsonRoot + 'trend_3_twilio_data.json', (data) => {
           twilioChartData = data
         })
 

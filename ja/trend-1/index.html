@@ -122,7 +122,7 @@
                 </div>
                 <div class="navDropRightColumn">
                   <img src="../../assets/images/threeLayerImage.png" />
-                  <a class="btn btn-outline json-load json-ctabuttontext" href="../../assets/documents/blank.pdf" download>Download The Report</a>
+                  <a class="btn btn-outline json-load json-ctabuttontext" >Download The Report</a>
                 </div>
               </div>
             </div>
@@ -281,7 +281,7 @@
               <div class="chart-inner-wrapper">
         				<div class="chart-placeholder chart-text"
         				  data-chart-type="text"
-        				  data-source="trend_1_explore_top_right.json"></div>
+        				  data-source="trend_1_explore_top_right.json" data-aos="fade-up" data-aos-delay="50" data-aos-offset="120"></div>
               </div>
               <div class="chart-caption json-load json-quad-top-right"></div>
             </div>
@@ -485,10 +485,10 @@
 
       const renderCharts = async () => {
         let introChartData, twilioChartData
-        await $.getJSON('/json/by_row/trend_1_intro_chart.json', (data) => {
+        await $.getJSON(jsonRoot + 'trend_1_intro_chart.json', (data) => {
           introChartData = data
         })
-        await $.getJSON('/json/by_row/trend_1_twilio_data.json', (data) => {
+        await $.getJSON(jsonRoot + 'trend_1_twilio_data.json', (data) => {
           twilioChartData = data
         })
 
