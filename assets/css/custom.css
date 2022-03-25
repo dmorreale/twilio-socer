@@ -1128,9 +1128,9 @@ body {
   .pageWrapper .twilio-data-chart {
     min-height: 320px; }
   .pageWrapper .apexcharts-legend {
-    align-content: baseline; }
+    align-content: baseline;
+    transform: translate(0, 50px) !important; }
     .pageWrapper .apexcharts-legend-series {
-      margin-top: 66px !important;
       margin-right: 30px !important; }
     .pageWrapper .apexcharts-legend-text {
       transform: translate(0, -5px);
@@ -1166,6 +1166,10 @@ body {
         transform: translate(-42px, 0); }
       .pageWrapper .chart-placeholder[data-chart-type="column"] .apexcharts-plot-series g:nth-child(2) path, .pageWrapper .chart-placeholder[data-chart-type="column"] .apexcharts-plot-series g:nth-child(4) text, .pageWrapper .apexcharts-canvas[data-chart-type="column"] .apexcharts-plot-series g:nth-child(2) path, .pageWrapper .apexcharts-canvas[data-chart-type="column"] .apexcharts-plot-series g:nth-child(4) text {
         transform: translate(42px, 0); }
+  .pageWrapper .chart-placeholder[data-chart-type="radial-bar"] .apexcharts-canvas {
+    width: 100% !important; }
+  .pageWrapper .chart-placeholder[data-chart-type="radial-bar"] svg {
+    width: 100% !important; }
   .pageWrapper .block-hero {
     padding-bottom: 0px; }
     .pageWrapper .block-hero:not(.trendsHero, .thanksHero) .leftOfImage {
