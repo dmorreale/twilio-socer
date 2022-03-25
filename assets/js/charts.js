@@ -158,6 +158,11 @@ var radialBarOptions = {
   xaxis: {},
 }
 
+var chartSixhundredWidth = 600;
+if(document.documentElement.clientWidth < 640) {
+  chartSixhundredWidth = (document.documentElement.clientWidth - 40);
+}
+
 var barChartOptions = {
   series: [
     {
@@ -170,7 +175,7 @@ var barChartOptions = {
     toolbar: {
       show: false,
     },
-	  width: 600,
+	  width: chartSixhundredWidth,
   },
   plotOptions: {
     bar: {
