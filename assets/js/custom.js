@@ -153,6 +153,17 @@ $(document).ready(async function () {
   }
   preload()
 
+  if(location.hash) {
+    var loc = location.hash.substring(1)
+    loc = loc.toLowerCase()
+    if (loc.indexOf('form_engagement') != -1) {
+      $('#cover,.mktoForm_3201').addClass('show');
+    }
+    if (loc.indexOf('form_expert') != -1) {
+      $('#cover,.mktoForm_3202').addClass('show');
+    }
+  }
+
   $('.downArrowModule').click(function () {
     scrollTo($(this).closest('section').next(), 1200)
   })
@@ -181,6 +192,13 @@ $(document).ready(async function () {
 
   $('.formPopup .belowTheForm button').click(function() {
     $(this).parent().parent().find('.mktoButton').click();
+  });
+
+  $('.formPopup form').keypress(function(event){
+    var keycode = (event.keyCode ? event.keyCode : event.which);
+    if(keycode == '13'){
+      $(this).find('.mktoButton').click();
+    }
   });
 
   $(document).scroll(function () {
