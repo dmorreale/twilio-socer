@@ -44,7 +44,7 @@ $(document).ready(async function () {
     $(window).resize()
     aosResetNav()
   }, 1000)
-
+	
 	var curPage = $('body').data('page');
 	var langcode = $('html').attr('lang');
 	var language = langcode + '/';
@@ -77,6 +77,10 @@ $(document).ready(async function () {
 					$('.social-linkedin').each(function(){
 						$(this).attr('href', ('https://www.linkedin.com/shareArticle?mini=true&url=' + url +'&summary=' + description)).attr('target', '_blank');
 					});
+				}
+			  
+			  	if(obj["Element"] == 'localeglobal'){
+					$('.selector > a').attr('data-default', obj["Content"]);
 				}
 			  
 			  $('.json-' + obj["Element"]).each(function(){
@@ -284,6 +288,7 @@ $(document).ready(async function () {
     e.preventDefault()
     var $el = $(this)
     var $parent = $el.closest('.selector')
+	var defaultVal = document.getElementById('selectRegion').firstElementChild.getAttribute('data-default');
 
     if (!$el.attr('data-default')) {
       var val = $el.attr('data-value')
@@ -291,7 +296,7 @@ $(document).ready(async function () {
 
       $parent.removeClass('opened')
 
-      if (val == 'Global') {
+      if (val == defaultVal) {
         val = $parent.find('> A').attr('data-default') //reset to default
       }
 
@@ -300,7 +305,7 @@ $(document).ready(async function () {
       })
 
       $parent.find('> A').text(label)
-      updateChartGroup(val)
+      updateChartGroup(label)
     }
   })
   renderChartGroup()
@@ -333,6 +338,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
   await Array.from(document.querySelectorAll('.chart-placeholder')).map(
     async (div, index) => {
       const type = div.dataset.chartType
+	  var defaultVal = document.getElementById('selectRegion').firstElementChild.getAttribute('data-default');
       switch (type) {
         case 'bar':
           chartGroupData[index] = await $.getJSON(
@@ -347,16 +353,16 @@ async function renderChartGroup(val, tl, tr, bl, br) {
                 data:
                   div.dataset.getBy === 'row'
                     ? chartGroupData[index]
-                        .filter((el) => el[0] === 'Global')
+                        .filter((el) => el[0] === defaultVal)
                         .map((el) => el[2])
-                    : chartGroupData[index].map((val) => val['Global']),
+                    : chartGroupData[index].map((val) => val[defaultVal]),
               },
             ],
             xaxis: {
               categories:
                 div.dataset.getBy === 'row'
                   ? chartGroupData[index]
-                      .filter((el) => el[0] === 'Global')
+                      .filter((el) => el[0] === defaultVal)
                       .map((el) => el[1])
                   : chartGroupData[index].map((val) => val.Regions),
             },
@@ -426,21 +432,21 @@ async function renderChartGroup(val, tl, tr, bl, br) {
               {
                 name: 'Companies',
                 data: chartGroupData[index]
-                  .filter((el) => el[0] === 'Global')
+                  .filter((el) => el[0] === defaultVal)
                   .map((el) => parseInt(el[2]))
                   .reverse(),
               },
               {
                 name: 'Consumers',
                 data: chartGroupData[index]
-                  .filter((el) => el[0] === 'Global')
+                  .filter((el) => el[0] === defaultVal)
                   .map((el) => parseInt(el[3]))
                   .reverse(),
               },
             ],
             xaxis: {
               categories: chartGroupData[index]
-                .filter((el) => el[0] === 'Global')
+                .filter((el) => el[0] === defaultVal)
                 .map((el) => el[1])
                 .reverse(),
             },
@@ -495,12 +501,12 @@ async function renderChartGroup(val, tl, tr, bl, br) {
           var chartOptions = merge(radialBarOptions, {
             series: [
               parseInt(
-                chartGroupData[index].find((el) => el[0] === 'Global')[1]
+                chartGroupData[index].find((el) => el[0] === defaultVal)[1]
               ),
             ],
           })
           chartGroupCharts[index] = new ApexCharts(div, chartOptions)
-          div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((el) => el[0] === 'Global')[1];
+          div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((el) => el[0] === defaultVal)[1];
           break
         
 		case 'dot':
@@ -511,8 +517,8 @@ async function renderChartGroup(val, tl, tr, bl, br) {
             }
           )
 
-          updateDotCharts('Global', chartGroupData[index], div);
-		  div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[1];
+          updateDotCharts(defaultVal, chartGroupData[index], div);
+		  div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === defaultVal)[1];
           break
 		
 		case 'text':
@@ -523,8 +529,8 @@ async function renderChartGroup(val, tl, tr, bl, br) {
 				}
 			)
 		
-			div.innerHTML = `<span>${chartGroupData[index].find((e) => e[0] === 'Global')[1]} YEARS</span>`;
-			div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[1];
+			div.innerHTML = `<span>${chartGroupData[index].find((e) => e[0] === defaultVal)[1]} YEARS</span>`;
+			div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === defaultVal)[1];
 			break
 
         case 'column':
@@ -540,12 +546,12 @@ async function renderChartGroup(val, tl, tr, bl, br) {
               return [
                 {
                   data: [
-                    chartGroupData[index].find((e) => e[0] === 'Global')[1],
+                    chartGroupData[index].find((e) => e[0] === defaultVal)[1],
                   ],
                 },
                 {
                   data: [
-                    chartGroupData[index].find((e) => e[0] === 'Global')[1],
+                    chartGroupData[index].find((e) => e[0] === defaultVal)[1],
                   ],
                 },
               ]
@@ -553,12 +559,12 @@ async function renderChartGroup(val, tl, tr, bl, br) {
               return [
                 {
                   data: [
-                    chartGroupData[index].find((e) => e[0] === 'Global')[2],
+                    chartGroupData[index].find((e) => e[0] === defaultVal)[2],
                   ],
                 },
                 {
                   data: [
-                    chartGroupData[index].find((e) => e[0] === 'Global')[3],
+                    chartGroupData[index].find((e) => e[0] === defaultVal)[3],
                   ],
                 },
               ]
@@ -570,7 +576,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
             xaxis: {
               categories:
                 chartGroupData[index][0].length === 2
-                  ? ['Global', 'Global']
+                  ? [defaultVal, defaultVal]
                   : ['Companies', 'Customers'],
             },
           })
@@ -578,11 +584,11 @@ async function renderChartGroup(val, tl, tr, bl, br) {
           //chartGroupCharts[index].render()
 			if (chartGroupData[index][0].length === 2) {
 				if(div.parentElement.parentElement.querySelector(".chart-value") !== null ){
-				  div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[1]; 
+				  div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === defaultVal)[1]; 
 				}
 			} else if (chartGroupData[index][0].length === 4) {
-				div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[2];
-				div.parentElement.nextElementSibling.querySelector(".chart-value2").innerHTML = chartGroupData[index].find((e) => e[0] === 'Global')[3];
+				div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === defaultVal)[2];
+				div.parentElement.nextElementSibling.querySelector(".chart-value2").innerHTML = chartGroupData[index].find((e) => e[0] === defaultVal)[3];
 			}
           break
 
@@ -594,6 +600,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
 }
 
 function updateChartGroup(selection) {
+  var defaultVal = document.getElementById('selectRegion').firstElementChild.getAttribute('data-default');
   Array.from(document.querySelectorAll('.chart-placeholder')).map(
     (div, index) => {
       const type = div.dataset.chartType
@@ -668,7 +675,7 @@ function updateChartGroup(selection) {
                 },
                 {
                   data: [
-                    chartGroupData[index].find((e) => e[0] === 'Global')[1],
+                    chartGroupData[index].find((e) => e[0] === defaultVal)[1],
                   ],
                 },
               ]
@@ -692,7 +699,7 @@ function updateChartGroup(selection) {
             xaxis: {
               categories:
                 chartGroupData[index][0].length === 2
-                  ? [selection, 'Global']
+                  ? [selection, defaultVal]
                   : ['Companies', 'Customers'],
             },
           })
