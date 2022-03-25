@@ -1,7 +1,7 @@
 const trendRegex = /\/trend\-[1-5]/;
-const langRegex = /\/(de|pt-br|fr|es-es|ed-mx|ja)/;
-const sitePath = window.location.pathname.replace(trendRegex, '').replace('/thank-you', '').replace(langRegex, '');
-const siteRoot = window.location.href.includes('/trend-') || window.location.href.includes('/thank-you') ? window.location.href.replace(trendRegex, '').replace('/thank-you', '').replace(langRegex, '') : window.location.href.replace(langRegex, '');
+const langRegex = /\/(de|pt-br|fr|es-es|ed-mx|ja)\//;
+const sitePath = window.location.pathname.replace(trendRegex, '').replace('/thank-you', '').replace(langRegex, '/');
+const siteRoot = window.location.href.includes('/trend-') || window.location.href.includes('/thank-you') ? window.location.href.replace(trendRegex, '').replace('/thank-you', '').replace(langRegex, '/') : window.location.href.replace(langRegex, '/');
 const jsonRoot = siteRoot + 'assets/json/numbers/' + document.getElementsByTagName("html")[0].getAttribute('lang') + '/';
 const chartGroupData = []
 const chartGroupCharts = []

@@ -1,7 +1,7 @@
 [
   {
     "Regions": "Very high",
-    "Asia-Pacific/Japan": "38%",
+    "Asia Pacific/Japan": "38%",
     "Europe": "43%",
     "Latin America": "50%",
     "Global": "44%",
@@ -21,7 +21,7 @@
   },
   {
     "Regions": "Moderately high",
-    "Asia-Pacific/Japan": "35%",
+    "Asia Pacific/Japan": "35%",
     "Europe": "40%",
     "Latin America": "35%",
     "Global": "37%",
@@ -41,7 +41,7 @@
   },
   {
     "Regions": "Slightly high",
-    "Asia-Pacific/Japan": "18%",
+    "Asia Pacific/Japan": "18%",
     "Europe": "13%",
     "Latin America": "11%",
     "Global": "13%",
@@ -61,7 +61,7 @@
   },
   {
     "Regions": "Slightly low",
-    "Asia-Pacific/Japan": "4%",
+    "Asia Pacific/Japan": "4%",
     "Europe": "2%",
     "Latin America": "2%",
     "Global": "2%",
@@ -81,7 +81,7 @@
   },
   {
     "Regions": "Moderately low",
-    "Asia-Pacific/Japan": "2%",
+    "Asia Pacific/Japan": "2%",
     "Europe": "1%",
     "Latin America": "1%",
     "Global": "1%",
@@ -101,7 +101,7 @@
   },
   {
     "Regions": "Very low",
-    "Asia-Pacific/Japan": "1%",
+    "Asia Pacific/Japan": "1%",
     "Europe": "1%",
     "Latin America": "0%",
     "Global": "1%",

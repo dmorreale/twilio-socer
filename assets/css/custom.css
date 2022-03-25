@@ -601,6 +601,9 @@ body {
   body.bg-blue {
     background-color: #06033A; }
 
+[lang="ja"] .pageWrapper .nav .nav-cta__button--hamburger span.text {
+  width: 50px; }
+
 .pageWrapper {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
