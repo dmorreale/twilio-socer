@@ -373,6 +373,10 @@ async function renderChartGroup(val, tl, tr, bl, br) {
               },
             },
           })
+          var chartSixhundredWidth = 600;
+          if(document.documentElement.clientWidth < 640) {
+            chartSixhundredWidth = (document.documentElement.clientWidth - 40);
+          }
           if(div.getAttribute('number-of-bars') == '3') {
             chartOptions = merge(chartOptions, {
               chart: {
@@ -381,7 +385,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
                 toolbar: {
                   show: false,
                 },
-                width: 600,
+                width: chartSixhundredWidth,
               },
               plotOptions: {
                 bar: {
@@ -402,7 +406,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
                 toolbar: {
                   show: false,
                 },
-                width: 600,
+                width: chartSixhundredWidth,
               },
               plotOptions: {
                 bar: {
@@ -427,6 +431,10 @@ async function renderChartGroup(val, tl, tr, bl, br) {
               tl = data
             }
           )
+          var chartFivehundredWidth = 499;
+          if(document.documentElement.clientWidth < 540) {
+            chartFivehundredWidth = (document.documentElement.clientWidth - 40);
+          }
           var chartOptions = merge(barChartOptions, {
             series: [
               {
@@ -452,7 +460,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
             },
             chart: {
               height: 450,
-              width: 499,
+              width: chartFivehundredWidth,
             },
             plotOptions: {
               bar: {

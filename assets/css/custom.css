@@ -1139,9 +1139,8 @@ body {
   .pageWrapper .chart-wrapper {
     border-bottom: 1px solid #F22F46; }
   .pageWrapper .intro-data-chart .apexcharts-legend, .pageWrapper .chart-wrapper .apexcharts-legend, .pageWrapper .stackedBarChart .apexcharts-legend {
-    padding-left: 98px; }
-    .pageWrapper .intro-data-chart .apexcharts-legend-series, .pageWrapper .chart-wrapper .apexcharts-legend-series, .pageWrapper .stackedBarChart .apexcharts-legend-series {
-      margin-top: 20px !important; }
+    padding-left: 98px;
+    transform: translate(0, 20px) !important; }
   .pageWrapper .stackedBarChart .apexcharts-legend {
     padding-left: 0; }
   .pageWrapper .chart-wrapper > div:first-child {
@@ -1956,7 +1955,9 @@ body {
               right: 1px;
               height: 42px;
               width: 44px; }
-        .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(8), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(9), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(10), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(11), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(12), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(13), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(14), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(15), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(16), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(17), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(18), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(19), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(20), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(21) {
+        .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(8) {
+          width: 100%; }
+        .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(9), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(10), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(11), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(12), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(13), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(14), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(15), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(16), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(17), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(18), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(19), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(20), .pageWrapper .formPopup form.mktoForm .mktoFormRow:nth-of-type(21) {
           display: none; }
       .pageWrapper .formPopup form.mktoForm .mktoButtonRow {
         display: none; }
@@ -1993,7 +1994,7 @@ body {
       display: flex;
       align-items: flex-start;
       justify-content: space-between;
-      margin-top: 54px; }
+      margin-top: 45px; }
       .pageWrapper .formPopup .belowTheForm button, .pageWrapper .formPopup .belowTheForm div {
         max-width: calc(50% - 11px); }
       .pageWrapper .formPopup .belowTheForm button {
