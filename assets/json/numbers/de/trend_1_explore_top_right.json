@@ -1,22 +1,22 @@
 [
   [
-    "Australia",
+    "Australien",
     "8"
   ],
   [
-    "Brazil",
+    "Brasilien",
     "5.2"
   ],
   [
-    "Colombia",
+    "Kolumbien",
     "7.2"
   ],
   [
-    "France",
+    "Frankreich",
     "6.1"
   ],
   [
-    "Germany",
+    "Deutschland",
     "6.4"
   ],
   [
@@ -24,7 +24,7 @@
     "6.5"
   ],
   [
-    "Italy",
+    "Italien",
     "7.2"
   ],
   [
@@ -32,23 +32,23 @@
     "6.2"
   ],
   [
-    "Mexico",
+    "Mexiko",
     "5.8"
   ],
   [
-    "Singapore",
+    "Singapur",
     "6.8"
   ],
   [
-    "Spain",
+    "Spanien",
     "6.8"
   ],
   [
-    "United Kingdom",
+    "Großbritannien",
     "6.7"
   ],
   [
-    "United States",
+    "USA",
     "6"
   ],
   [],
@@ -61,19 +61,19 @@
     "6.5"
   ],
   [
-    "United States",
+    "USA",
     "6"
   ],
   [
-    "Asia Pacific/Japan",
+    "Asien und Pazifik/Japan",
     "7"
   ],
   [
-    "Europe",
+    "Europa",
     "6.6"
   ],
   [
-    "Latin America",
+    "Lateinamerika",
     "6"
   ]
 ]

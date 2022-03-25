@@ -1,14 +1,14 @@
-[
+Region[
   [
-    "Australia",
+    "Australie",
     "52%"
   ],
   [
-    "Brazil",
+    "Brésil",
     "63%"
   ],
   [
-    "Colombia",
+    "Colombie",
     "60%"
   ],
   [
@@ -16,39 +16,39 @@
     "50%"
   ],
   [
-    "Germany",
+    "Allemagne",
     "50%"
   ],
   [
-    "Global",
+    "Monde entier",
     "55%"
   ],
   [
-    "Italy",
+    "Italie",
     "54%"
   ],
   [
-    "Japan",
+    "Japon",
     "51%"
   ],
   [
-    "Mexico",
+    "Mexique",
     "62%"
   ],
   [
-    "Singapore",
+    "Singapour",
     "53%"
   ],
   [
-    "Spain",
+    "Espagne",
     "68%"
   ],
   [
-    "United Kingdom",
+    "Royaume-Uni",
     "51%"
   ],
   [
-    "United States",
+    "États-Unis",
     "52%"
   ],
   [],
@@ -57,15 +57,15 @@
     "Percentage"
   ],
   [
-    "Global",
+    "Monde entier",
     "55%"
   ],
   [
-    "North America",
+    "États-Unis",
     "52%"
   ],
   [
-    "Asia Pacific/Japan",
+    "Asie-Pacifique/Japon",
     "52%"
   ],
   [
@@ -73,7 +73,7 @@
     "55%"
   ],
   [
-    "Latin America",
+    "Amérique latine",
     "56%"
   ]
 ]

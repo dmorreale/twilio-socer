@@ -83,7 +83,9 @@
             transform:translate(-4px,0);
         }
         .hover-follow {
-		  opacity:1;
+			@media screen and (min-width:768px){
+				opacity:1;
+			}
 			
 			img{
 				transform:scale(1.2) translateY(-5px);

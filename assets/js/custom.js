@@ -125,7 +125,7 @@ $(document).ready(async function () {
   })
 
   $('.nav-cta__button--hamburger').click(function (e) {
-	  e.preventDefault();
+	e.preventDefault();
     if ($(this).hasClass('active')) {
       $(this).removeClass('active').find('.text').text('Menu')
       $('.nav-wrapper.active').removeClass('active')

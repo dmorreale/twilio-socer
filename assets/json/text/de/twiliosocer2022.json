@@ -37,7 +37,7 @@
   {
     "Page": "general",
     "Element": "trend3",
-    "Content": "Eine Welt ohne Cookies steht an"
+    "Content": "Eine Welt ohne Cookies naht"
   },
   {
     "Page": "general",
@@ -57,7 +57,7 @@
   {
     "Page": "general",
     "Element": "engagementhead",
-    "Content": "Fünf Trends bei der Kundeninteraktion imJahr 2022"
+    "Content": "FÜNF TRENDS BEI DER KUNDENINTERAKTION IM JAHR 2022"
   },
   {
     "Page": "general",
@@ -72,7 +72,7 @@
   {
     "Page": "general",
     "Element": "ctadescription",
-    "Content": ".Laden Sie unseren Bericht zum Stand der Kundeninteraktion herunter, um Zugriff auf eine tiefgreifende Analyse der Zukunft der digitalen Interaktion zu erhalten."
+    "Content": "Laden Sie unseren Bericht zum Stand der Kundeninteraktion herunter, um Zugriff auf eine tiefgreifende Analyse der Zukunft der digitalen Interaktion zu erhalten."
   },
   {
     "Page": "general",
@@ -97,7 +97,7 @@
   {
     "Page": "general",
     "Element": "methodologypara2",
-    "Content": "Twilio beauftrage Lawless Research mit der Durchführung der Originalstudie für den Bericht durch eine Umfrage von über 3.000 Entscheidungsträgern in Unternehmen sowie über 4.500 Verbrauchern in den USA, Großbritannien, Deutschland, Australien, Frankreich, Spanien, Italien, Japan und Singapur. "
+    "Content": "Twilio beauftrage Lawless Research mit der Durchführung der Originalstudie für den Bericht durch eine Umfrage von über 3.400 Entscheidungsträgern in Unternehmen sowie über 4.500 Verbrauchern in den USA, Großbritannien, Deutschland, Australien, Frankreich, Spanien, Italien, Japan und Singapur. "
   },
   {
     "Page": "general",
@@ -112,7 +112,7 @@
   {
     "Page": "general",
     "Element": "signupdesciption",
-    "Content": "Laden Sie sich den Bericht herunter und erhalten Sie einen Einblick in die vollständigen Ergebnisse aus Antworten von über 3.000 Entscheidungsträgern und 4.500 Verbrauchern."
+    "Content": "Laden Sie sich den Bericht herunter und erhalten Sie einen Einblick in die vollständigen Ergebnisse aus Antworten von über 3.400 Entscheidungsträgern und 4.500 Verbrauchern."
   },
   {
     "Page": "general",
@@ -222,7 +222,7 @@
   {
     "Page": "homepage",
     "Element": "leadparagraph",
-    "Content": "Die Beschleunigung der digitalen Kundeninteraktion in der pandemiegeprägten Welt ist weiterhin stark. Twilio, die führende Plattform für cloudbasierte Kommunikation und Kundeninteraktion, hat mit über 3.000 führenden Entscheidungsträgern und 4.500 Verbrauchern gesprochen, um zu verstehen, wie die globale digitale Landschaft weiter wächst. Unsere Untersuchungen zeigen, wie Unternehmen ihre Strategien anpassen können, um sich diese Wachtumstrends zunutze zu machen. \n"
+    "Content": "Die Beschleunigung der digitalen Kundeninteraktion in der pandemiegeprägten Welt ist weiterhin stark. Twilio, die führende Plattform für cloudbasierte Kommunikation und Kundeninteraktion, hat mit über 3.400 führenden Entscheidungsträgern und 4.500 Verbrauchern gesprochen, um zu verstehen, wie die globale digitale Landschaft weiter wächst. Unsere Untersuchungen zeigen, wie Unternehmen ihre Strategien anpassen können, um sich diese Wachtumstrends zunutze zu machen. \n"
   },
   {
     "Page": "homepage",
@@ -237,7 +237,12 @@
   {
     "Page": "homepage",
     "Element": "descriptivepara3",
-    "Content": "Ein weiterer Warnhinweis: Firefox und Safari haben bereits den Zugriff auf Cookies von Drittanbietern blockiert. Google Chrome wird im Laufe des Jahres 2023 dasselbe tun. Um personalisierte Erlebnisse zu schaffen, müssen Unternehmen die Daten von Erstanbietern nutzen – ein Bereich, in dem die meisten Unternehmen noch viel Aufholbedarf haben. "
+    "Content": "Halten Sie sich auch über folgende Veränderungen auf dem Laufenden: Firefox und Safari haben bereits den Zugriff auf Cookies von Drittanbietern blockiert. Google Chrome wird im Laufe des Jahres 2023 dasselbe tun. Diese neue „cookiefreie“ Welt bedingt die Nutzung von Erstanbieterdaten, um personalisierte Erlebnisse zu schaffen. In Zukunft ist es nicht nur die richtige Herangehensweise, Daten von Erstanbietern zu nutzen – es ist die einzige Option."
+  },
+  {
+    "Page": "homepage",
+    "Element": "descriptivepara4",
+    "Content": "Der Bericht zum Stand der Kundeninteraktion 2022 von Twilio zeigt, dass die Kundeninteraktion auch in den kommenden Jahren ein wichtiger Bestandteil jeder erfolgreichen Geschäftsstrategie sein wird. Unternehmen, die die Lektionen zur Bedeutung von Personalisierung, Datenverantwortung und Vertrauen beherzigen, werden auch in Zukunft die Früchte des neuen digitalen Zeitalters ernten. Dabei werden Online-Erfahrungen für Verbraucher besser und vertrauenswürdiger."
   },
   {
     "Page": "homepage",
@@ -297,7 +302,7 @@
   {
     "Page": "homepage",
     "Element": "executivesummarybullethead4",
-    "Content": "Vertrauen aufbauen"
+    "Content": "Das Vertrauensgefälle glätten"
   },
   {
     "Page": "homepage",
@@ -337,7 +342,7 @@
   {
     "Page": "trend1",
     "Element": "descriptivepara1",
-    "Content": "Die Daten könnten es nicht deutlicher zeigen. Unternehmen, die in die digitale Kundeninteraktion investiert haben, konnten ihre Umsätze um durchschnittlich 70 % steigern. Die Unternehmen erwarten, dass ihre Investitionen in diesen Schlüsselbereich bis 2025 um 94 % steigen, sich also nahezu verdoppeln werden."
+    "Content": "Die Daten könnten es nicht deutlicher zeigen. Unternehmen, die in die digitale Kundeninteraktion investiert haben, konnten ihre Umsätze um durchschnittlich 70 % steigern. Die Unternehmen erwarten, dass ihre Investitionen in diesen Schlüsselbereich bis 2025 um 93.5 % steigen, sich also nahezu verdoppeln werden."
   },
   {
     "Page": "trend1",
@@ -442,7 +447,7 @@
   {
     "Page": "trend1",
     "Element": "spotlightpara2",
-    "Content": "<em>*Quelle: *Twilio SIGNAL-Konferenz 2021 Videopräsentation.</em>"
+    "Content": "<em>*Quelle: Twilio SIGNAL-Konferenz 2021 Videopräsentation.</em>"
   },
   {
     "Page": "trend2",
@@ -472,7 +477,7 @@
   {
     "Page": "trend2",
     "Element": "descriptivepara2",
-    "Content": "Zwischen der Wahrnehmung der Unternehmen ihrer Anstrengungen für die Personalisierung und den Erfahrungen der Verbraucher besteht jedoch eine deutliche Diskrepanz. 88 % der Unternehmen geben an, dass die Personalisierung für ihre Interaktionsstrategie äußerst oder sehr wichtig ist. Man könnte also annehmen, dass sich die Unternehmen bemühen, jeder Interaktion eine persönliche Note zu geben. Doch während 75 % der Unternehmen angeben, gute oder ausgezeichnete personalisierte Dienstleistungen anzubieten, stimmen 52 % der Kundschaft dieser Aussage nicht zu."
+    "Content": "Zwischen der Wahrnehmung der Unternehmen ihrer Anstrengungen für die Personalisierung und den Erfahrungen der Verbraucher besteht jedoch eine deutliche Diskrepanz. 88 % der Unternehmen geben an, dass die Personalisierung für ihre Interaktionsstrategie äußerst oder sehr wichtig ist. Man könnte also annehmen, dass sich die Unternehmen bemühen, jeder Interaktion eine persönliche Note zu geben. Doch während 75 % der Unternehmen angeben, gute oder ausgezeichnete personalisierte Dienstleistungen anzubieten, stimmen 48 % der Kundschaft dieser Aussage nicht zu."
   },
   {
     "Page": "trend2",
@@ -577,7 +582,7 @@
   {
     "Page": "trend2",
     "Element": "spotlightpara2",
-    "Content": "<em>*Quelle: *Twilio SIGNAL-Konferenz 2021 Videopräsentation.</em>"
+    "Content": "<em>*Quelle: Twilio SIGNAL-Konferenz 2021 Videopräsentation.</em>"
   },
   {
     "Page": "trend3",
@@ -702,12 +707,12 @@
   {
     "Page": "trend3",
     "Element": "spotlightpara1",
-    "Content": "Nubank, eine der weltweit größten digitalen Bankplattformen, macht Schluss mit Komplexität und hohen Gebühren, die bei Banken heute Gang und Gäbe sind. Die Unkompliziertheit und die niedrigen Kosten von Nubank haben dazu geführt, dass Kunden aller Art in Scharen zu diesem Dienst strömen. Mitbegründerin Christina Junqueira wandte sich an Twilio, um das schnelle Wachstum zu bewältigen, und sagt: „Unser Kundenstamm hat sich von 100.000 auf 54 Millionen Kunden vergrößert und wir haben nun mehr Stabilität und Sicherheit für künftige Anforderungen erreicht. Die Plattform von Twilio ermöglicht viel Anpassung, sodass wir Stück für Stück darauf aufbauen können. Sie hat einen wichtigen Teil unserer Strategie für Kundeninteraktion ermöglicht.“*"
+    "Content": "Nubank, eine der weltweit größten digitalen bankplattformen, macht Schluss mit Komplexität und hohen Gebühren, die bei Banken heute Gang und Gäbe sind. Die Unkompliziertheit und die niedrigen Kosten von Nubank haben dazu geführt, dass Kunden aller Art in Scharen zu diesem Dienst strömen. Mitbegründerin Christina Junqueira wandte sich an Twilio, um das schnelle Wachstum zu bewältigen, und sagt: „Unser Kundenstamm hat sich von 100.000 auf 54 Millionen Kunden vergrößert und wir haben nun mehr Stabilität und Sicherheit für künftige Anforderungen erreicht. Die Plattform von Twilio ermöglicht viel Anpassung, sodass wir Stück für Stück darauf aufbauen können. Sie hat einen wichtigen Teil unserer Strategie für Kundeninteraktion ermöglicht.“*"
   },
   {
     "Page": "trend3",
     "Element": "spotlightpara2",
-    "Content": "<em>*Quelle: *Twilio SIGNAL-Konferenz 2021 Videopräsentation.</em>"
+    "Content": "<em>*Quelle: Twilio SIGNAL-Konferenz 2021 Videopräsentation.</em>"
   },
   {
     "Page": "trend4",
@@ -717,7 +722,7 @@
   {
     "Page": "trend4",
     "Element": "headline",
-    "Content": "Unternehmen und<br>Verbraucher sind sich beim<br>Thema Vertrauen nicht einig"
+    "Content": "Unternehmen und<br>Verbraucher sind<br> sich beim Thema Vertrauen<br> nicht einig"
   },
   {
     "Page": "trend4",
@@ -812,7 +817,7 @@
   {
     "Page": "trend4",
     "Element": "spotlightpara2",
-    "Content": "<em>*Quelle: *Twilio SIGNAL-Konferenz 2021 Videopräsentation.</em>"
+    "Content": "<em>*Quelle: Twilio SIGNAL-Konferenz 2021 Videopräsentation.</em>"
   },
   {
     "Page": "trend5",
@@ -872,7 +877,7 @@
   {
     "Page": "trend5",
     "Element": "subtitlepara1",
-    "Content": "Es gibt deutliche länderspezifische Unterschiede bei digitaler Erschöpfung. Am stärksten ist sie in Frankreich, wo 47 % der Verbraucher angaben, in den letzten 30 Tagen darunter gelitten zu haben. Der weltweite Durchschnitt im Vergleich dazu ist 36 %. Brasilien und Mexiko folgen mit 44 % bzw. 43 %."
+    "Content": "Es gibt deutliche länderspezifische Unterschiede bei digitaler Erschöpfung. Am stärksten ist sie in Frankreich, wo 47 % der Verbraucher angaben, in den letzten 30 Tagen darunter gelitten zu haben. Der weltweite Durchschnitt im Vergleich dazu ist 36 %. Brasilien und Kolumbien folgen mit 44 % bzw. 43 %."
   },
   {
     "Page": "trend5",
@@ -922,7 +927,7 @@
   {
     "Page": "trend5",
     "Element": "spotlightpara2",
-    "Content": "<em>*Quelle: *Twilio SIGNAL-Konferenz 2021 Videopräsentation.</em>"
+    "Content": "<em>*Quelle: Twilio SIGNAL-Konferenz 2021 Videopräsentation.</em>"
   },
   {
     "Page": "general",

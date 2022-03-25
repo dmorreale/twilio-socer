@@ -97,7 +97,7 @@
   {
     "Page": "general",
     "Element": "methodologypara2",
-    "Content": "Twilio contrató a Lawless Research para realizar una investigación original para el informe a partir de una encuesta a más de 3000 responsables de la toma de decisiones empresariales, además de las opiniones de más 4500 consumidores en Estados Unidos, Reino Unido, Alemania, Australia, Francia, España, Italia, Japón y Singapur. "
+    "Content": "Twilio contrató a Lawless Research para realizar una investigación original para el informe a partir de una encuesta a más de 3400 responsables de la toma de decisiones empresariales, además de las opiniones de más 4500 consumidores en Estados Unidos, Reino Unido, Alemania, Australia, Francia, España, Italia, Japón y Singapur. "
   },
   {
     "Page": "general",
@@ -112,7 +112,7 @@
   {
     "Page": "general",
     "Element": "signupdesciption",
-    "Content": "Descargue el informe para obtener más información sobre los resultados completos que hemos obtenido de más de 3000 responsables líderes de la toma de decisiones y 4500 consumidores."
+    "Content": "Descargue el informe para obtener más información sobre los resultados completos que hemos obtenido de más de 3400 responsables líderes de la toma de decisiones y 4500 consumidores."
   },
   {
     "Page": "general",
@@ -222,7 +222,7 @@
   {
     "Page": "homepage",
     "Element": "leadparagraph",
-    "Content": "La aceleración de la interacción digital con el cliente en el mundo tras la pandemia no muestra signos de ralentización. Twilio, la plataforma líder de comunicaciones en la nube e interacción con el cliente, habló con más de 3000 responsables líderes de la toma de decisiones y 4500 consumidores para comprender cómo se sigue expandiendo el panorama digital global. Nuestra investigación revela cómo pueden ajustar las organizaciones sus estrategias para rentabilizar esas tendencias de crecimiento. \n"
+    "Content": "La aceleración de la interacción digital con el cliente en el mundo tras la pandemia no muestra signos de ralentización. Twilio, la plataforma líder de comunicaciones en la nube e interacción con el cliente, habló con más de 3400 responsables líderes de la toma de decisiones y 4500 consumidores para comprender cómo se sigue expandiendo el panorama digital global. Nuestra investigación revela cómo pueden ajustar las organizaciones sus estrategias para rentabilizar esas tendencias de crecimiento. \n"
   },
   {
     "Page": "homepage",
@@ -237,7 +237,12 @@
   {
     "Page": "homepage",
     "Element": "descriptivepara3",
-    "Content": "Otra señal de advertencia: Firefox y Safari ya han bloqueado el acceso a cookies de terceros, y Google Chrome hará lo mismo en 2023. La creación de experiencias personalizadas requerirá que las organizaciones adopten el uso de datos propios, un área en la que la mayoría de las empresas aún tienen mucho que hacer. "
+    "Content": "Otro cambio importante al que prestar atención: Firefox y Safari ya han bloqueado el acceso a cookies de terceros, y Google Chrome hará lo mismo en 2023. En el cercano mundo «sin cookies», crear experiencias personalizadas requerirá la adopción de datos sin intermediarios. De ahora en adelante, aceptar los datos sin intermediarios no es solo lo correcto, sino que ya no es una opción. "
+  },
+  {
+    "Page": "homepage",
+    "Element": "descriptivepara4",
+    "Content": "El Informe del estado de la interacción con los clientes de 2022 de Twilio muestra que la interacción con el cliente se convertirá en una parte incluso más fundamental de cualquier estrategia empresarial exitosa durante los próximos años. Las empresas que adoptan estas lecciones sobre la importancia de la personalización, la propiedad de los datos y la confianza seguirán cosechando las recompensas de esta nueva era digital, y los consumidores disfrutarán de experiencias mejores y más fiables en línea. "
   },
   {
     "Page": "homepage",
@@ -297,7 +302,7 @@
   {
     "Page": "homepage",
     "Element": "executivesummarybullethead4",
-    "Content": "Genere confianza"
+    "Content": "Salve la brecha de la confianza"
   },
   {
     "Page": "homepage",
@@ -337,7 +342,7 @@
   {
     "Page": "trend1",
     "Element": "descriptivepara1",
-    "Content": "Los datos no pudieron ser más claros. Las empresas que realizaron movimientos para invertir en la interacción digital con los clientes han visto que sus ingresos brutos aumentan una media del 70 %. Esperan que para el año 2025 su inversión en esta área clave sea casi el doble, aumentando en un 94 %."
+    "Content": "Los datos no pudieron ser más claros. Las empresas que realizaron movimientos para invertir en la interacción digital con los clientes han visto que sus ingresos brutos aumentan una media del 70 %. Esperan que para el año 2025 su inversión en esta área clave sea casi el doble, aumentando en un 93.5 %."
   },
   {
     "Page": "trend1",
@@ -472,7 +477,7 @@
   {
     "Page": "trend2",
     "Element": "descriptivepara2",
-    "Content": "Sin embargo, existe una notable desconexión entre la forma en que las empresas perciben sus esfuerzos de personalización y la manera en que los consumidores los experimentan. Con un 88 % de las empresas que dicen que la personalización es extremadamente o muy importante para su estrategia de interacción, se podría asumir que están haciendo el esfuerzo de ofrecer un contacto verdaderamente personal con cada interacción. Sin embargo, aunque el 75 % de las empresas afirman ofrecer servicios personalizados buenos o excelentes, el 52 % de los consumidores no están de acuerdo."
+    "Content": "Sin embargo, existe una notable desconexión entre la forma en que las empresas perciben sus esfuerzos de personalización y la manera en que los consumidores los experimentan. Con un 88 % de las empresas que dicen que la personalización es extremadamente o muy importante para su estrategia de interacción, se podría asumir que están haciendo el esfuerzo de ofrecer un contacto verdaderamente personal con cada interacción. Sin embargo, aunque el 75 % de las empresas afirman ofrecer servicios personalizados buenos o excelentes, el 48 % de los consumidores no están de acuerdo."
   },
   {
     "Page": "trend2",
@@ -872,7 +877,7 @@
   {
     "Page": "trend5",
     "Element": "subtitlepara1",
-    "Content": "La fatiga digital muestra variaciones claras entre los países. Es mayor en Francia, con un 47 % de los consumidores que indican que la han sufrido en los últimos 30 días, frente a la media global del 36 %. Le siguen Brasil y México, con un 44 % y un 43 % respectivamente."
+    "Content": "La fatiga digital muestra variaciones claras entre los países. Es mayor en Francia, con un 47 % de los consumidores que indican que la han sufrido en los últimos 30 días, frente a la media global del 36 %. Le siguen Brasil y Colombia, con un 44 % y un 43 % respectivamente."
   },
   {
     "Page": "trend5",

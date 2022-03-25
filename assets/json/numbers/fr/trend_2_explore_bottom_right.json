@@ -1,30 +1,30 @@
 [
   [
-    "Asia Pacific/Japan",
+    "Asie-Pacifique/Japon",
     "Bad",
     "",
     "1%"
   ],
   [
-    "Asia Pacific/Japan",
+    "Asie-Pacifique/Japon",
     "Poor",
     "8%",
     "4%"
   ],
   [
-    "Asia Pacific/Japan",
+    "Asie-Pacifique/Japon",
     "Average",
     "25%",
     "52%"
   ],
   [
-    "Asia Pacific/Japan",
+    "Asie-Pacifique/Japon",
     "Good",
     "46%",
     "37%"
   ],
   [
-    "Asia Pacific/Japan",
+    "Asie-Pacifique/Japon",
     "Excellent",
     "20%",
     "5%"
@@ -60,181 +60,181 @@
     "4%"
   ],
   [
-    "Latin America",
+    "Amérique latine",
     "Bad",
     "0%",
     "1%"
   ],
   [
-    "Latin America",
+    "Amérique latine",
     "Poor",
     "3%",
     "5%"
   ],
   [
-    "Latin America",
+    "Amérique latine",
     "Average",
     "17%",
     "41%"
   ],
   [
-    "Latin America",
+    "Amérique latine",
     "Good",
     "49%",
     "44%"
   ],
   [
-    "Latin America",
+    "Amérique latine",
     "Excellent",
     "31%",
     "10%"
   ],
   [
-    "Global",
+    "Monde entier",
     "Bad",
     "1%",
     "1%"
   ],
   [
-    "Global",
+    "Monde entier",
     "Poor",
     "5%",
     "5%"
   ],
   [
-    "Global",
+    "Monde entier",
     "Average",
     "19%",
     "46%"
   ],
   [
-    "Global",
+    "Monde entier",
     "Good",
     "48%",
     "41%"
   ],
   [
-    "Global",
+    "Monde entier",
     "Excellent",
     "27%",
     "7%"
   ],
   [
-    "United States",
+    "États-Unis",
     "Bad",
     "0%",
     "1%"
   ],
   [
-    "United States",
+    "États-Unis",
     "Poor",
     "2%",
     "5%"
   ],
   [
-    "United States",
+    "États-Unis",
     "Average",
     "16%",
     "46%"
   ],
   [
-    "United States",
+    "États-Unis",
     "Good",
     "54%",
     "41%"
   ],
   [
-    "United States",
+    "États-Unis",
     "Excellent",
     "28%",
     "8%"
   ],
   [
-    "Australia",
+    "Australie",
     "Bad",
     "1%",
     "1%"
   ],
   [
-    "Australia",
+    "Australie",
     "Poor",
     "2%",
     "4%"
   ],
   [
-    "Australia",
+    "Australie",
     "Average",
     "16%",
     "52%"
   ],
   [
-    "Australia",
+    "Australie",
     "Good",
     "55%",
     "38%"
   ],
   [
-    "Australia",
+    "Australie",
     "Excellent",
     "26%",
     "5%"
   ],
   [
-    "Brazil",
+    "Brésil",
     "Bad",
     "0%",
     "1%"
   ],
   [
-    "Brazil",
+    "Brésil",
     "Poor",
     "1%",
     "3%"
   ],
   [
-    "Brazil",
+    "Brésil",
     "Average",
     "11%",
     "37%"
   ],
   [
-    "Brazil",
+    "Brésil",
     "Good",
     "47%",
     "47%"
   ],
   [
-    "Brazil",
+    "Brésil",
     "Excellent",
     "41%",
     "13%"
   ],
   [
-    "Colombia",
+    "Colombie",
     "Bad",
     "2%",
     "0%"
   ],
   [
-    "Colombia",
+    "Colombie",
     "Poor",
     "12%",
     "6%"
   ],
   [
-    "Colombia",
+    "Colombie",
     "Average",
     "23%",
     "37%"
   ],
   [
-    "Colombia",
+    "Colombie",
     "Good",
     "39%",
     "51%"
   ],
   [
-    "Colombia",
+    "Colombie",
     "Excellent",
     "26%",
     "6%"
@@ -270,211 +270,211 @@
     "5%"
   ],
   [
-    "Germany",
+    "Allemagne",
     "Bad",
     "2%",
     "1%"
   ],
   [
-    "Germany",
+    "Allemagne",
     "Poor",
     "9%",
     "5%"
   ],
   [
-    "Germany",
+    "Allemagne",
     "Average",
     "20%",
     "50%"
   ],
   [
-    "Germany",
+    "Allemagne",
     "Good",
     "45%",
     "39%"
   ],
   [
-    "Germany",
+    "Allemagne",
     "Excellent",
     "24%",
     "5%"
   ],
   [
-    "Italy",
+    "Italie",
     "Bad",
     "2%",
     "2%"
   ],
   [
-    "Italy",
+    "Italie",
     "Poor",
     "2%",
     "10%"
   ],
   [
-    "Italy",
+    "Italie",
     "Average",
     "9%",
     "48%"
   ],
   [
-    "Italy",
+    "Italie",
     "Good",
     "48%",
     "37%"
   ],
   [
-    "Italy",
+    "Italie",
     "Excellent",
     "39%",
     "4%"
   ],
   [
-    "Japan",
+    "Japon",
     "Bad",
     "1%",
     "1%"
   ],
   [
-    "Japan",
+    "Japon",
     "Poor",
     "15%",
     "4%"
   ],
   [
-    "Japan",
+    "Japon",
     "Average",
     "39%",
     "59%"
   ],
   [
-    "Japan",
+    "Japon",
     "Good",
     "29%",
     "30%"
   ],
   [
-    "Japan",
+    "Japon",
     "Excellent",
     "16%",
     "6%"
   ],
   [
-    "Mexico",
+    "Mexique",
     "Bad",
     "1%",
     "1%"
   ],
   [
-    "Mexico",
+    "Mexique",
     "Poor",
     "2%",
     "4%"
   ],
   [
-    "Mexico",
+    "Mexique",
     "Average",
     "22%",
     "35%"
   ],
   [
-    "Mexico",
+    "Mexique",
     "Good",
     "49%",
     "46%"
   ],
   [
-    "Mexico",
+    "Mexique",
     "Excellent",
     "26%",
     "14%"
   ],
   [
-    "Singapore",
+    "Singapour",
     "Bad",
     "2%",
     "2%"
   ],
   [
-    "Singapore",
+    "Singapour",
     "Poor",
     "6%",
     "5%"
   ],
   [
-    "Singapore",
+    "Singapour",
     "Average",
     "17%",
     "47%"
   ],
   [
-    "Singapore",
+    "Singapour",
     "Good",
     "56%",
     "41%"
   ],
   [
-    "Singapore",
+    "Singapour",
     "Excellent",
     "19%",
     "5%"
   ],
   [
-    "Spain",
+    "Espagne",
     "Bad",
     "2%",
     "3%"
   ],
   [
-    "Spain",
+    "Espagne",
     "Poor",
     "7%",
     "10%"
   ],
   [
-    "Spain",
+    "Espagne",
     "Average",
     "11%",
     "50%"
   ],
   [
-    "Spain",
+    "Espagne",
     "Good",
     "38%",
     "34%"
   ],
   [
-    "Spain",
+    "Espagne",
     "Excellent",
     "42%",
     "3%"
   ],
   [
-    "United Kingdom",
+    "Royaume-Uni",
     "Bad",
     "0%",
     "1%"
   ],
   [
-    "United Kingdom",
+    "Royaume-Uni",
     "Poor",
     "0%",
     "5%"
   ],
   [
-    "United Kingdom",
+    "Royaume-Uni",
     "Average",
     "26%",
     "52%"
   ],
   [
-    "United Kingdom",
+    "Royaume-Uni",
     "Good",
     "54%",
     "39%"
   ],
   [
-    "United Kingdom",
+    "Royaume-Uni",
     "Excellent",
     "20%",
     "3%"

@@ -97,7 +97,7 @@
   {
     "Page": "general",
     "Element": "methodologypara2",
-    "Content": "A Twilio contratou a Lawless Research para realizar pesquisas originais sobre o relatório de um estudo com mais de 3.000 tomadores de decisões corporativos, bem como opiniões de mais de 4.500 consumidores nos Estados Unidos, Reino Unido, Alemanha, Austrália, França, Espanha, Itália, Japão e Cingapura. "
+    "Content": "A Twilio contratou a Lawless Research para realizar pesquisas originais sobre o relatório de um estudo com mais de 3.400 tomadores de decisões corporativos, bem como opiniões de mais de 4.500 consumidores nos Estados Unidos, Reino Unido, Alemanha, Austrália, França, Espanha, Itália, Japão e Cingapura. "
   },
   {
     "Page": "general",
@@ -112,7 +112,7 @@
   {
     "Page": "general",
     "Element": "signupdesciption",
-    "Content": "Baixe o relatório para obter insights sobre os resultados completos do estudo com mais de 3.000 dos principais tomadores de decisões e 4.500 consumidores."
+    "Content": "Baixe o relatório para obter insights sobre os resultados completos do estudo com mais de 3.400 dos principais tomadores de decisões e 4.500 consumidores."
   },
   {
     "Page": "general",
@@ -222,7 +222,7 @@
   {
     "Page": "homepage",
     "Element": "leadparagraph",
-    "Content": "A aceleração do engajamento digital do cliente no mundo após a pandemia não mostra sinais de desaceleração. A Twilio, a principal plataforma de comunicações em nuvem e engajamento do cliente, conversou com mais de 3.000 dos principais tomadores de decisões e 4.500 consumidores para entender como o cenário digital global continua se expandindo. Nossa pesquisa revela como as organizações podem ajustar as estratégias para capitalizar essas tendências de crescimento. \n"
+    "Content": "A aceleração do engajamento digital do cliente no mundo após a pandemia não mostra sinais de desaceleração. A Twilio, a principal plataforma de comunicações em nuvem e engajamento do cliente, conversou com mais de 3.400 dos principais tomadores de decisões e 4.500 consumidores para entender como o cenário digital global continua se expandindo. Nossa pesquisa revela como as organizações podem ajustar as estratégias para capitalizar essas tendências de crescimento. \n"
   },
   {
     "Page": "homepage",
@@ -237,7 +237,12 @@
   {
     "Page": "homepage",
     "Element": "descriptivepara3",
-    "Content": "Outro sinal de aviso: O Firefox e o Safari já bloquearam o acesso a cookies de terceiros e o Google Chrome fará o mesmo em 2023. A criação de experiências personalizadas exigirá que as organizações adotem dados próprios, uma área em que a maioria das empresas ainda tem muito trabalho a fazer. "
+    "Content": "Outra grande mudança para prestar atenção: O Firefox e o Safari já bloquearam o acesso a cookies de terceiros e o Google Chrome fará o mesmo em 2023. No futuro mundo 'sem cookies', a criação de experiências personalizadas exigirá a adoção de dados próprios. A adoção de dados próprios não é apenas a coisa certa a fazer, já deixou de ser uma escolha. "
+  },
+  {
+    "Page": "homepage",
+    "Element": "descriptivepara4",
+    "Content": "O Relatório de engajamento do cliente em 2022 da Twilio mostra que o engajamento do cliente se tornará uma parte ainda mais vital de qualquer estratégia de negócios bem-sucedida nos próximos anos. As empresas que adotam essas lições sobre a importância da personalização, da propriedade dos dados e da confiança continuarão a colher os frutos dessa nova era digital, e os consumidores desfrutarão de experiências on-line melhores e mais confiáveis. "
   },
   {
     "Page": "homepage",
@@ -297,7 +302,7 @@
   {
     "Page": "homepage",
     "Element": "executivesummarybullethead4",
-    "Content": "Conquiste confiança"
+    "Content": "Elimine a lacuna de confiança"
   },
   {
     "Page": "homepage",
@@ -337,7 +342,7 @@
   {
     "Page": "trend1",
     "Element": "descriptivepara1",
-    "Content": "Os dados não podiam ser mais claros. As empresas que investiram no engajamento digital do cliente viram as receitas aumentarem em média 70%. Elas esperam que até 2025 o investimento nessa área principal quase duplique, aumentando em 94%."
+    "Content": "Os dados não podiam ser mais claros. As empresas que investiram no engajamento digital do cliente viram as receitas aumentarem em média 70%. Elas esperam que até 2025 o investimento nessa área principal quase duplique, aumentando em 93.5%."
   },
   {
     "Page": "trend1",
@@ -472,7 +477,7 @@
   {
     "Page": "trend2",
     "Element": "descriptivepara2",
-    "Content": "No entanto, há uma notável desconexão entre como as empresas percebem os próprios esforços de personalização e como os consumidores os vivenciam. Com 88% das empresas dizendo que a personalização é extremamente ou muito importante para a estratégia de engajamento, você pode supor que elas estejam se esforçando para oferecer um toque verdadeiramente pessoal em cada interação. No entanto, embora 75% das empresas afirmem fornecer serviços personalizados bons ou excelentes, 52% dos clientes discordam."
+    "Content": "No entanto, há uma notável desconexão entre como as empresas percebem os próprios esforços de personalização e como os consumidores os vivenciam. Com 88% das empresas dizendo que a personalização é extremamente ou muito importante para a estratégia de engajamento, você pode supor que elas estejam se esforçando para oferecer um toque verdadeiramente pessoal em cada interação. No entanto, embora 75% das empresas afirmem fornecer serviços personalizados bons ou excelentes, 48% dos clientes discordam."
   },
   {
     "Page": "trend2",
@@ -872,7 +877,7 @@
   {
     "Page": "trend5",
     "Element": "subtitlepara1",
-    "Content": "A fadiga digital mostra variações claras em todos os países. É mais elevada na França, com 47% dos consumidores relatando ter sofrido com isso nos últimos 30 dias, contra uma média global de 36%. Em seguida estão o Brasil e o México, com 44% e 43%, respectivamente."
+    "Content": "A fadiga digital mostra variações claras em todos os países. É mais elevada na França, com 47% dos consumidores relatando ter sofrido com isso nos últimos 30 dias, contra uma média global de 36%. Em seguida estão o Brasil e o Colômbia, com 44% e 43%, respectivamente."
   },
   {
     "Page": "trend5",

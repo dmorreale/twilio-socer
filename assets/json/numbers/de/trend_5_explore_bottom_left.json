@@ -1,22 +1,22 @@
 [
   [
-    "Australia",
+    "Australien",
     "43%"
   ],
   [
-    "Brazil",
+    "Brasilien",
     "52%"
   ],
   [
-    "Colombia",
+    "Kolumbien",
     "49%"
   ],
   [
-    "France",
+    "Frankreich",
     "31%"
   ],
   [
-    "Germany",
+    "Deutschland",
     "42%"
   ],
   [
@@ -24,7 +24,7 @@
     "43%"
   ],
   [
-    "Italy",
+    "Italien",
     "51%"
   ],
   [
@@ -32,23 +32,23 @@
     "22%"
   ],
   [
-    "Mexico",
+    "Mexiko",
     "41%"
   ],
   [
-    "Singapore",
+    "Singapur",
     "50%"
   ],
   [
-    "Spain",
+    "Spanien",
     "34%"
   ],
   [
-    "United Kingdom",
-    "48%"
+    "Großbritannien",
+    "44%"
   ],
   [
-    "United States",
+    "USA",
     "48%"
   ],
   [],
@@ -61,19 +61,19 @@
     "43%"
   ],
   [
-    "North America",
+    "USA",
     "48%"
   ],
   [
-    "Asia Pacific/Japan",
+    "Asien und Pazifik/Japan",
     "38%"
   ],
   [
-    "Europe",
+    "Europa",
     "41%"
   ],
   [
-    "Latin America",
+    "Lateinamerika",
     "47%"
   ]
 ]

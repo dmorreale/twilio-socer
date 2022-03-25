@@ -113,6 +113,15 @@
 		span.text {
 			width:28.81px;
 		}
+		span.text.hide{
+			display:none;
+		}
+		span.close{
+			display:none;
+		}
+		span.close.show{
+			display:inline;
+		}
 		&.active {
 			span.icon {
 				transform:rotate(-180deg);

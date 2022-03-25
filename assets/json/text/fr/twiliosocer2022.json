@@ -97,7 +97,7 @@
   {
     "Page": "general",
     "Element": "methodologypara2",
-    "Content": "Twilio a fait appel à Lawless Research pour mener des recherches dans le cadre du rapport à partir d'une enquête réalisée auprès de plus de 3 000 décideurs d'entreprise et plus de 4 500 consommateurs aux États-Unis, au Royaume-Uni, en Allemagne, en Australie, en France, en Espagne, en Italie, au Japon et à Singapour. "
+    "Content": "Twilio a fait appel à Lawless Research pour mener des recherches dans le cadre du rapport à partir d'une enquête réalisée auprès de plus de 3 400 décideurs d'entreprise et plus de 4 500 consommateurs aux États-Unis, au Royaume-Uni, en Allemagne, en Australie, en France, en Espagne, en Italie, au Japon et à Singapour. "
   },
   {
     "Page": "general",
@@ -112,7 +112,7 @@
   {
     "Page": "general",
     "Element": "signupdesciption",
-    "Content": "Téléchargez le rapport pour avoir un aperçu des résultats complets obtenus auprès de plus de 3 000 décideurs et 4 500 consommateurs."
+    "Content": "Téléchargez le rapport pour avoir un aperçu des résultats complets obtenus auprès de plus de 3 400 décideurs et 4 500 consommateurs."
   },
   {
     "Page": "general",
@@ -222,7 +222,7 @@
   {
     "Page": "homepage",
     "Element": "leadparagraph",
-    "Content": "L'accélération de l'engagement client numérique dans le monde post-pandémie ne montre aucun signe de ralentissement. Twilio, la plateforme leader de communication et d'engagement client dans le cloud, a discuté avec plus de 3 000 décideurs et 4 500 consommateurs pour comprendre comment le numérique continue de se développer au niveau mondial. Notre étude révèle comment les entreprises peuvent ajuster leurs stratégies pour tirer parti de ces tendances en pleine croissance. \n"
+    "Content": "L'accélération de l'engagement client numérique dans le monde post-pandémie ne montre aucun signe de ralentissement. Twilio, la plateforme leader de communication et d'engagement client dans le cloud, a discuté avec plus de 3 400 décideurs et 4 500 consommateurs pour comprendre comment le numérique continue de se développer au niveau mondial. Notre étude révèle comment les entreprises peuvent ajuster leurs stratégies pour tirer parti de ces tendances en pleine croissance. \n"
   },
   {
     "Page": "homepage",
@@ -237,7 +237,12 @@
   {
     "Page": "homepage",
     "Element": "descriptivepara3",
-    "Content": "Autre signe avant-coureur : Firefox et Safari ont déjà bloqué l'accès aux cookies tiers, et Google Chrome fera de même courant 2023. Pour créer des expériences personnalisées, les entreprises devront utiliser des données propriétaires, un domaine dans lequel la plupart d'entre elles ont encore beaucoup de progrès à faire. "
+    "Content": "Autre changement important à prendre en compte : Firefox et Safari ont déjà bloqué l'accès aux cookies tiers, et Google Chrome fera de même courant 2023. Dans le monde à venir « sans cookie », la création d'expériences personnalisées nécessitera d'utiliser des données propriétaires. À l'avenir, l'utilisation de données propriétaires ne sera pas simplement la bonne conduite à adopter, ce sera la seule solution. "
+  },
+  {
+    "Page": "homepage",
+    "Element": "descriptivepara4",
+    "Content": "Le Rapport 2022 de Twilio sur l'état de l'engagement client montre que, dans les années à venir, la réussite de toute stratégie commerciale reposera davantage sur l'engagement client. Les entreprises qui tirent parti de ces enseignements concernant l'importance de la personnalisation, de la propriété des données et de la confiance continueront à récolter les fruits de cette nouvelle ère numérique. Pour leur part, les clients profiteront d'expériences en ligne plus fiables. "
   },
   {
     "Page": "homepage",
@@ -297,7 +302,7 @@
   {
     "Page": "homepage",
     "Element": "executivesummarybullethead4",
-    "Content": "Instaurez la confiance"
+    "Content": "Rétablissez la confiance"
   },
   {
     "Page": "homepage",
@@ -337,7 +342,7 @@
   {
     "Page": "trend1",
     "Element": "descriptivepara1",
-    "Content": "Les données ne pourraient pas être plus claires. Les entreprises qui ont pris des mesures pour investir dans l'engagement client numérique ont vu leurs revenus augmenter de 70 % en moyenne. Elles prévoient que d'ici 2025, leur investissement dans ce domaine stratégique sera quasiment multiplié par deux, soit une hausse de 94 %."
+    "Content": "Les données ne pourraient pas être plus claires. Les entreprises qui ont pris des mesures pour investir dans l'engagement client numérique ont vu leurs revenus augmenter de 70 % en moyenne. Elles prévoient que d'ici 2025, leur investissement dans ce domaine stratégique sera quasiment multiplié par deux, soit une hausse de 93.5 %."
   },
   {
     "Page": "trend1",
@@ -472,7 +477,7 @@
   {
     "Page": "trend2",
     "Element": "descriptivepara2",
-    "Content": "Cependant, il existe un décalage notable entre la façon dont les entreprises perçoivent leurs efforts de personnalisation et la façon dont les consommateurs les vivent. 88 % des entreprises déclarent que la personnalisation est extrêmement ou très importante pour leur stratégie d'engagement. Cela laisse supposer qu'elles font les efforts nécessaires pour apporter une touche véritablement personnelle à chaque interaction. Pourtant, bien que 75 % des entreprises déclarent fournir des services personnalisés de qualité ou d'excellence, 52 % des clients ne sont pas d'accord."
+    "Content": "Cependant, il existe un décalage notable entre la façon dont les entreprises perçoivent leurs efforts de personnalisation et la façon dont les consommateurs les vivent. 88 % des entreprises déclarent que la personnalisation est extrêmement ou très importante pour leur stratégie d'engagement. Cela laisse supposer qu'elles font les efforts nécessaires pour apporter une touche véritablement personnelle à chaque interaction. Pourtant, bien que 75 % des entreprises déclarent fournir des services personnalisés de qualité ou d'excellence, 48 % des clients ne sont pas d'accord."
   },
   {
     "Page": "trend2",
@@ -872,7 +877,7 @@
   {
     "Page": "trend5",
     "Element": "subtitlepara1",
-    "Content": "Il existe des variations claires entre les pays concernant la fatigue numérique. Elle est à son plus haut niveau en France, avec 47 % des consommateurs qui en ont souffert au cours des 30 derniers jours, contre une moyenne mondiale de 36 %. Le Brésil et le Mexique suivent, avec respectivement 44 % et 43 %."
+    "Content": "Il existe des variations claires entre les pays concernant la fatigue numérique. Elle est à son plus haut niveau en France, avec 47 % des consommateurs qui en ont souffert au cours des 30 derniers jours, contre une moyenne mondiale de 36 %. Le Brésil et le Colombie suivent, avec respectivement 44 % et 43 %."
   },
   {
     "Page": "trend5",
