@@ -397,7 +397,7 @@
   {
     "Page": "trend1",
     "Element": "subtitle",
-    "Content": "Colombia leads the way on increased revenue"
+    "Content": "Colombia and Brazil lead the way on increased revenue"
   },
   {
     "Page": "trend1",
@@ -417,7 +417,7 @@
   {
     "Page": "trend1",
     "Element": "quad-top-left",
-    "Content": "Average revenue impact from investment in digital transformation, vs. global average"
+    "Content": "Average revenue impact from investment in digital customer engagement, vs. global average"
   },
   {
     "Page": "trend1",
@@ -557,7 +557,7 @@
   {
     "Page": "trend2",
     "Element": "quad-top-right",
-    "Content": "[value] of companies say personalization increases consumer spending. [value] of consumers agree."
+    "Content": "Average increase in amount consumers spend when engagement is personalized"
   },
   {
     "Page": "trend2",
