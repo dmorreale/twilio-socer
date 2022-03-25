@@ -1,6 +1,6 @@
 [
   {
-    "Regions": "Very high",
+    "Regions": "Muito alto",
     "Ásia-Pacífico/Japão": "38%",
     "Europa": "43%",
     "América Latina": "50%",
@@ -10,17 +10,17 @@
     "Brasil": "60%",
     "Colômbia": "49%",
     "França": "37%",
-    "Alemanha": "43%",
+    "Alemanha": "45%",
     "Itália": "44%",
-    "Japão": "23%",
+    "Japão": "25%",
     "México": "50%",
     "Cingapura": "41%",
     "Espanha": "55%",
     "Reino Unido": "40%",
-    "Estados Unidos": "45%"
+    "Estados Unidos": "46%"
   },
   {
-    "Regions": "Moderately high",
+    "Regions": "Moderadamente alto",
     "Ásia-Pacífico/Japão": "35%",
     "Europa": "40%",
     "América Latina": "35%",
@@ -32,15 +32,15 @@
     "França": "39%",
     "Alemanha": "37%",
     "Itália": "42%",
-    "Japão": "37%",
+    "Japão": "40%",
     "México": "32%",
-    "Cingapura": "34%",
+    "Cingapura": "38%",
     "Espanha": "37%",
     "Reino Unido": "42%",
     "Estados Unidos": "38%"
   },
   {
-    "Regions": "Slightly high",
+    "Regions": "Ligeiramente alto",
     "Ásia-Pacífico/Japão": "18%",
     "Europa": "13%",
     "América Latina": "11%",
@@ -52,7 +52,7 @@
     "França": "17%",
     "Alemanha": "15%",
     "Itália": "9%",
-    "Japão": "22%",
+    "Japão": "23%",
     "México": "13%",
     "Cingapura": "19%",
     "Espanha": "6%",
@@ -60,7 +60,7 @@
     "Estados Unidos": "11%"
   },
   {
-    "Regions": "Slightly low",
+    "Regions": "Um pouco baixo",
     "Ásia-Pacífico/Japão": "4%",
     "Europa": "2%",
     "América Latina": "2%",
@@ -80,7 +80,7 @@
     "Estados Unidos": "2%"
   },
   {
-    "Regions": "Moderately low",
+    "Regions": "Moderadamente baixo",
     "Ásia-Pacífico/Japão": "2%",
     "Europa": "1%",
     "América Latina": "1%",
@@ -100,7 +100,7 @@
     "Estados Unidos": "2%"
   },
   {
-    "Regions": "Very low",
+    "Regions": "Muito baixo",
     "Ásia-Pacífico/Japão": "1%",
     "Europa": "1%",
     "América Latina": "0%",

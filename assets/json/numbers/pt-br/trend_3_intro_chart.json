@@ -1,22 +1,22 @@
 [
   [
-    "All third-party data",
+    "Todos os dados de terceiros",
     "12%"
   ],
   [
-    "Mostly third-party data",
+    "Principalmente dados de terceiros",
     "23%"
   ],
   [
-    "Even mix of third-party data and first-party customer data",
+    "Dados de terceiros e dados próprios de clientes",
     "46%"
   ],
   [
-    "Mostly first-party customer data",
+    "Principalmente dados próprios de clientes",
     "15%"
   ],
   [
-    "All first-party customer data",
+    "Todos os dados próprios de clientes",
     "5%"
   ]
 ]

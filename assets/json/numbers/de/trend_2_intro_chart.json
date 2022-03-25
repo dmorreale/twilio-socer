@@ -1,26 +1,26 @@
 [
   [
-    "Bad",
+    "Schlecht",
     "1%",
     "1%"
   ],
   [
-    "Poor",
+    "Mangelhaft",
     "5%",
     "5%"
   ],
   [
-    "Average",
+    "Durchschnittlich",
     "19%",
     "46%"
   ],
   [
-    "Good",
+    "Gut",
     "48%",
     "41%"
   ],
   [
-    "Excellent",
+    "Ausgezeichnet",
     "27%",
     "7%"
   ]

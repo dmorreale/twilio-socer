@@ -1018,5 +1018,70 @@
     "Page": "general",
     "Element": "localelatinamerica",
     "Content": "Latin America"
+  },
+  {
+    "Page": "homepage",
+    "Element": "explorehighlight",
+    "Content": "重要なポイントはこちら"
+  },
+  {
+    "Page": "general",
+    "Element": "exploreregional",
+    "Content": "地域データはこちら"
+  },
+  {
+    "Page": "general",
+    "Element": "filterregion",
+    "Content": "地域別"
+  },
+  {
+    "Page": "general",
+    "Element": "filtercountry",
+    "Content": "国別"
+  },
+  {
+    "Page": "general",
+    "Element": "seal",
+    "Content": "シール"
+  },
+  {
+    "Page": "general",
+    "Element": "region",
+    "Content": "地域"
+  },
+  {
+    "Page": "general",
+    "Element": "logo",
+    "Content": "ロゴ"
+  },
+  {
+    "Page": "general",
+    "Element": "profile",
+    "Content": "プロファイル"
+  },
+  {
+    "Page": "trend2",
+    "Element": "pullquote2",
+    "Content": "日本の企業では、パーソナライゼーションを「極めて重要」のとするのはわずか69%です。"
+  },
+  {
+    "Page": "general",
+    "Element": "close",
+    "Content": "閉じる"
+  },
+  {
+    "Page": "general",
+    "Element": "companies",
+    "Content": "企業"
+  },
+  {
+    "Page": "general",
+    "Element": "consumers",
+    "Content": "消費者"
+  },
+  {
+    "Page": "general",
+    "Element": "sharetrend",
+    "Content": "このトレンドをシェア"
   }
 ]

@@ -1,7 +1,10 @@
+var pathName = window.location.pathname;
+var address = window.location.href;
+console.log(pathName);
 const trendRegex = /\/trend\-[1-5]/;
-const langRegex = /\/(de|pt-br|fr|es-es|ed-mx|ja)\//;
-const sitePath = window.location.pathname.replace(trendRegex, '').replace('/thank-you', '').replace(langRegex, '/');
-const siteRoot = window.location.href.includes('/trend-') || window.location.href.includes('/thank-you') ? window.location.href.replace(trendRegex, '').replace('/thank-you', '').replace(langRegex, '/') : window.location.href.replace(langRegex, '/');
+const langRegex = /\/(de|pt-br|fr|es-es|es-mx|ja)\//;
+const sitePath = pathName.replace(trendRegex, '').replace('/thank-you', '').replace(langRegex, '/');
+const siteRoot =address.includes('/trend-') || address.includes('/thank-you') ? address.replace(trendRegex, '').replace('/thank-you', '').replace(langRegex, '/') : address.replace(langRegex, '/');
 const jsonRoot = siteRoot + 'assets/json/numbers/' + document.getElementsByTagName("html")[0].getAttribute('lang') + '/';
 const chartGroupData = []
 const chartGroupCharts = []
@@ -79,8 +82,24 @@ $(document).ready(async function () {
 					});
 				}
 			  
+			    if(obj["Element"] == 'uimenu'){
+					$('#menuText').attr('data-menu', obj["Content"]);
+				}
+			  
+			    if(obj["Element"] == 'close'){
+					$('#menuText').attr('data-close', obj["Content"]);
+				}
+			  
 			  	if(obj["Element"] == 'localeglobal'){
 					$('.selector > a').attr('data-default', obj["Content"]);
+				}
+			  
+			    if(obj["Element"] == 'companies'){
+					$('body').attr('data-company', obj["Content"]);
+				}
+			  
+			    if(obj["Element"] == 'consumers'){
+					$('body').attr('data-customers', obj["Content"]);
 				}
 			  
 			  $('.json-' + obj["Element"]).each(function(){
@@ -131,12 +150,12 @@ $(document).ready(async function () {
   $('.nav-cta__button--hamburger').click(function (e) {
 	e.preventDefault();
     if ($(this).hasClass('active')) {
-      $(this).removeClass('active').find('.text').text('Menu')
+      $(this).removeClass('active').find('.text').text($('.nav-cta__button--hamburger .text').attr('data-menu'))
       $('.nav-wrapper.active').removeClass('active')
       $('body').removeClass('noScroll')
       aosResetNav()
     } else {
-      $(this).addClass('active').find('.text').text('Close')
+      $(this).addClass('active').find('.text').text($('.nav-cta__button--hamburger .text').attr('data-close'))
       $('.nav-wrapper').addClass('active')
       $('body').addClass('noScroll')
       AOS.refreshHard()
@@ -445,14 +464,14 @@ async function renderChartGroup(val, tl, tr, bl, br) {
           var chartOptions = merge(barChartOptions, {
             series: [
               {
-                name: 'Companies',
+                name: document.getElementsByTagName("body")[0].getAttribute('data-company'),
                 data: chartGroupData[index]
                   .filter((el) => el[0] === defaultVal)
                   .map((el) => parseInt(el[2]))
                   .reverse(),
               },
               {
-                name: 'Consumers',
+                name: document.getElementsByTagName("body")[0].getAttribute('data-customers'),
                 data: chartGroupData[index]
                   .filter((el) => el[0] === defaultVal)
                   .map((el) => parseInt(el[3]))
@@ -592,7 +611,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
               categories:
                 chartGroupData[index][0].length === 2
                   ? [defaultVal, defaultVal]
-                  : ['Companies', 'Customers'],
+                  : [document.getElementsByTagName("body")[0].getAttribute('data-company'), document.getElementsByTagName("body")[0].getAttribute('data-customers')],
             },
           })
           chartGroupCharts[index] = new ApexCharts(div, chartOptions)
@@ -639,14 +658,14 @@ function updateChartGroup(selection) {
           chartGroupCharts[index].updateOptions({
             series: [
               {
-                name: 'Companies',
+                name: document.getElementsByTagName("body")[0].getAttribute('data-company'),
                 data: chartGroupData[index]
                   .filter((el) => el[0] === selection)
                   .map((el) => parseInt(el[2]))
                   .reverse(),
               },
               {
-                name: 'Consumers',
+                name: document.getElementsByTagName("body")[0].getAttribute('data-customers'),
                 data: chartGroupData[index]
                   .filter((el) => el[0] === selection)
                   .map((el) => parseInt(el[3]))
@@ -715,7 +734,7 @@ function updateChartGroup(selection) {
               categories:
                 chartGroupData[index][0].length === 2
                   ? [selection, defaultVal]
-                  : ['Companies', 'Customers'],
+                  : [document.getElementsByTagName("body")[0].getAttribute('data-company'), document.getElementsByTagName("body")[0].getAttribute('data-customers')],
             },
           })
 			if (chartGroupData[index][0].length === 2) {

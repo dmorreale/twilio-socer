@@ -1023,5 +1023,70 @@
     "Page": "general",
     "Element": "localelatinamerica",
     "Content": "Latinoamérica"
+  },
+  {
+    "Page": "homepage",
+    "Element": "explorehighlight",
+    "Content": "Explorar puntos destacados"
+  },
+  {
+    "Page": "general",
+    "Element": "exploreregional",
+    "Content": "Explorar los datos regionales"
+  },
+  {
+    "Page": "general",
+    "Element": "filterregion",
+    "Content": "Filtrar por región"
+  },
+  {
+    "Page": "general",
+    "Element": "filtercountry",
+    "Content": "Filtrar por país"
+  },
+  {
+    "Page": "general",
+    "Element": "seal",
+    "Content": "Sello"
+  },
+  {
+    "Page": "general",
+    "Element": "region",
+    "Content": "Región"
+  },
+  {
+    "Page": "general",
+    "Element": "logo",
+    "Content": "Logotipo"
+  },
+  {
+    "Page": "general",
+    "Element": "profile",
+    "Content": "Perfil"
+  },
+  {
+    "Page": "trend2",
+    "Element": "pullquote2",
+    "Content": "Solo el 69 % de las empresas en Japón siente que la personalización es extremadamente importante"
+  },
+  {
+    "Page": "general",
+    "Element": "close",
+    "Content": "Cerrar"
+  },
+  {
+    "Page": "general",
+    "Element": "companies",
+    "Content": "Empresas"
+  },
+  {
+    "Page": "general",
+    "Element": "consumers",
+    "Content": "Consumidores"
+  },
+  {
+    "Page": "general",
+    "Element": "sharetrend",
+    "Content": "Compartir esta tendencia"
   }
 ]

@@ -217,12 +217,12 @@
   {
     "Page": "homepage",
     "Element": "headline",
-    "Content": "Rapport sur l'état de <br>l'engagement client <br><span>2022</span>"
+    "Content": "Rapport sur l'État de <br>l'Engagement Client <br><span>2022</span>"
   },
   {
     "Page": "homepage",
     "Element": "leadparagraph",
-    "Content": "L'accélération de l'engagement client numérique dans le monde post-pandémie ne montre aucun signe de ralentissement. Twilio, la plateforme leader de communication et d'engagement client dans le cloud, a discuté avec plus de 3 400 décideurs et 4 500 consommateurs pour comprendre comment le numérique continue de se développer au niveau mondial. Notre étude révèle comment les entreprises peuvent ajuster leurs stratégies pour tirer parti de ces tendances en pleine croissance. \n"
+    "Content": "L'accélération de l'engagement client numérique dans le monde post-pandémie ne montre aucun signe de ralentissement. Twilio, la Plateforme Leader de Communication et d'Engagement Client dans le Cloud, a échangé avec plus de 3 400 décideurs et 4 500 consommateurs pour comprendre comment le numérique continue de se développer au niveau mondial. Notre étude révèle comment les entreprises peuvent ajuster leurs stratégies pour tirer parti de ces tendances en pleine croissance. \n"
   },
   {
     "Page": "homepage",
@@ -232,17 +232,17 @@
   {
     "Page": "homepage",
     "Element": "descriptivepara2",
-    "Content": "Cependant, le rythme rapide des changements signifie également que les entreprises devront s'adapter sans attendre. La personnalisation est désormais essentielle à la fidélisation des clients, et la protection des données relève d'une plus grande importance pour les consommateurs. Les opinions actuelles des consommateurs sur ces sujets sont différentes de ce que croient parfois les entreprises."
+    "Content": "Cependant, le rythme rapide des changements signifie également que les entreprises doivent s'adapter sans attendre. La personnalisation est désormais essentielle à la fidélisation des clients, et la protection des données relève d'une plus grande importance pour les consommateurs. Les opinions actuelles des consommateurs sur ces sujets sont différentes de ce que croient parfois les entreprises."
   },
   {
     "Page": "homepage",
     "Element": "descriptivepara3",
-    "Content": "Autre changement important à prendre en compte : Firefox et Safari ont déjà bloqué l'accès aux cookies tiers, et Google Chrome fera de même courant 2023. Dans le monde à venir « sans cookie », la création d'expériences personnalisées nécessitera d'utiliser des données propriétaires. À l'avenir, l'utilisation de données propriétaires ne sera pas simplement la bonne conduite à adopter, ce sera la seule solution. "
+    "Content": "Autre changement important à prendre en compte : Firefox et Safari ont déjà bloqué l'accès aux cookies tiers, et Google Chrome fera de même courant 2023. Dans le monde à venir « sans cookie », la création d'expériences personnalisées nécessitera d'utiliser des données propriétaires. L'utilisation de données propriétaires ne sera pas simplement la bonne conduite à adopter, ce sera la seule solution. "
   },
   {
     "Page": "homepage",
     "Element": "descriptivepara4",
-    "Content": "Le Rapport 2022 de Twilio sur l'état de l'engagement client montre que, dans les années à venir, la réussite de toute stratégie commerciale reposera davantage sur l'engagement client. Les entreprises qui tirent parti de ces enseignements concernant l'importance de la personnalisation, de la propriété des données et de la confiance continueront à récolter les fruits de cette nouvelle ère numérique. Pour leur part, les clients profiteront d'expériences en ligne plus fiables. "
+    "Content": "Le Rapport 2022 de Twilio sur l'État de l'Engagement Client montre que, dans les années à venir, la réussite de toute stratégie commerciale reposera davantage sur l'engagement client. Les entreprises qui tirent parti de ces enseignements concernant l'importance de la personnalisation, de la propriété des données et de la confiance continueront à récolter les fruits de cette nouvelle ère numérique. Pour leur part, les clients profiteront d'expériences en ligne plus fiables. "
   },
   {
     "Page": "homepage",
@@ -1023,5 +1023,70 @@
     "Page": "general",
     "Element": "localelatinamerica",
     "Content": "Amérique latine"
+  },
+  {
+    "Page": "homepage",
+    "Element": "explorehighlight",
+    "Content": "Découvrez les tendances"
+  },
+  {
+    "Page": "general",
+    "Element": "exploreregional",
+    "Content": "Explorer les données régionales"
+  },
+  {
+    "Page": "general",
+    "Element": "filterregion",
+    "Content": "Filtrer par région"
+  },
+  {
+    "Page": "general",
+    "Element": "filtercountry",
+    "Content": "Filtrer par pays"
+  },
+  {
+    "Page": "general",
+    "Element": "seal",
+    "Content": "Seal"
+  },
+  {
+    "Page": "general",
+    "Element": "region",
+    "Content": "Région"
+  },
+  {
+    "Page": "general",
+    "Element": "logo",
+    "Content": "Logo"
+  },
+  {
+    "Page": "general",
+    "Element": "profile",
+    "Content": "Profil"
+  },
+  {
+    "Page": "trend2",
+    "Element": "pullquote2",
+    "Content": "Seules 69 % des entreprises japonaises estiment que la personnalisation est extrêmement importante"
+  },
+  {
+    "Page": "general",
+    "Element": "close",
+    "Content": "Fermer"
+  },
+  {
+    "Page": "general",
+    "Element": "companies",
+    "Content": "Entreprises"
+  },
+  {
+    "Page": "general",
+    "Element": "consumers",
+    "Content": "Consommateurs"
+  },
+  {
+    "Page": "general",
+    "Element": "sharetrend",
+    "Content": "Partagez cette tendance"
   }
 ]

@@ -97,7 +97,7 @@
   {
     "Page": "general",
     "Element": "methodologypara2",
-    "Content": "A Twilio contratou a Lawless Research para realizar pesquisas originais sobre o relatório de um estudo com mais de 3.400 tomadores de decisões corporativos, bem como opiniões de mais de 4.500 consumidores nos Estados Unidos, Reino Unido, Alemanha, Austrália, França, Espanha, Itália, Japão e Cingapura. "
+    "Content": "A Twilio contratou a Lawless Research para realizar pesquisas originais sobre o relatório de um estudo com mais de 3.400 tomadores de decisões corporativos, bem como opiniões de mais de 4.500 consumidores na Austrália, Brasil, Colômbia, França, Alemanha, Itália, Japão, México, Singapura, Espanha, Reino Unido e Estados Unidos.lia, França, Espanha, Itália, Japão e Cingapura."
   },
   {
     "Page": "general",
@@ -217,7 +217,7 @@
   {
     "Page": "homepage",
     "Element": "headline",
-    "Content": "Relatório do <br>Engajamento do cliente <br>em <span>2022</span>"
+    "Content": "Relatório do <br>Engajamento do Cliente <br>em <span>2022</span>"
   },
   {
     "Page": "homepage",
@@ -397,7 +397,7 @@
   {
     "Page": "trend1",
     "Element": "subtitle",
-    "Content": "A Colômbia lidera o aumento da receita"
+    "Content": "A Colômbia e o Brasil lideram o aumento da receita"
   },
   {
     "Page": "trend1",
@@ -1023,5 +1023,70 @@
     "Page": "general",
     "Element": "localelatinamerica",
     "Content": "América Latina"
+  },
+  {
+    "Page": "homepage",
+    "Element": "explorehighlight",
+    "Content": "Explore os destaques"
+  },
+  {
+    "Page": "general",
+    "Element": "exploreregional",
+    "Content": "Explore os dados regionais"
+  },
+  {
+    "Page": "general",
+    "Element": "filterregion",
+    "Content": "Filtrar por região"
+  },
+  {
+    "Page": "general",
+    "Element": "filtercountry",
+    "Content": "Filtrar por país"
+  },
+  {
+    "Page": "general",
+    "Element": "seal",
+    "Content": "Carimbo"
+  },
+  {
+    "Page": "general",
+    "Element": "region",
+    "Content": "Região"
+  },
+  {
+    "Page": "general",
+    "Element": "logo",
+    "Content": "Logotipo"
+  },
+  {
+    "Page": "general",
+    "Element": "profile",
+    "Content": "Perfil"
+  },
+  {
+    "Page": "trend2",
+    "Element": "pullquote2",
+    "Content": "Apenas 69% das empresas do Japão consideram a personalização extremamente importante"
+  },
+  {
+    "Page": "general",
+    "Element": "close",
+    "Content": "Fechar"
+  },
+  {
+    "Page": "general",
+    "Element": "companies",
+    "Content": "Empresas"
+  },
+  {
+    "Page": "general",
+    "Element": "consumers",
+    "Content": "Consumidores"
+  },
+  {
+    "Page": "general",
+    "Element": "sharetrend",
+    "Content": "Compartilhe essa tendência"
   }
 ]

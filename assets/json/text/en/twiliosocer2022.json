@@ -212,7 +212,7 @@
   {
     "Page": "general",
     "Element": "socialdescription",
-    "Content": "Check out the insights from the 2022 Twilio #StateofCustomerEngagementReport, which show the trends shaping the future of customer engagement"
+    "Content": "Check out Twilio’s 2022 #StateOfCustomerEngagement Report, highlighting key trends shaping the future of customer engagement."
   },
   {
     "Page": "homepage",
@@ -825,6 +825,11 @@
     "Content": "<em>*Source: Twilio SIGNAL Conference 2021 video presentation.</em>"
   },
   {
+    "Page": "trend4",
+    "Element": "spotlightpara4",
+    "Content": "<em>Content Warning: The following material highlights a Twilio nonprofit customer working to prevent suicide in the LGBTQ youth community.</em>"
+  },
+  {
     "Page": "trend5",
     "Element": "metatitle",
     "Content": "Twilio State of Customer Engagement Report 2022: Digital fatigue is real"
@@ -1028,5 +1033,20 @@
     "Page": "general",
     "Element": "localelatinamerica",
     "Content": "Latin America"
+  },
+  {
+    "Page": "general",
+    "Element": "close",
+    "Content": "Close"
+  },
+  {
+    "Page": "general",
+    "Element": "companies",
+    "Content": "Companies"
+  },
+  {
+    "Page": "general",
+    "Element": "consumers",
+    "Content": "Customers"
   }
 ]

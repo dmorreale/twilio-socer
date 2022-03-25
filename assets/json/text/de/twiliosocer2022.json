@@ -1023,5 +1023,70 @@
     "Page": "general",
     "Element": "localelatinamerica",
     "Content": "Lateinamerika"
+  },
+  {
+    "Page": "homepage",
+    "Element": "explorehighlight",
+    "Content": "Sehen Sie sich die Highlights an."
+  },
+  {
+    "Page": "general",
+    "Element": "exploreregional",
+    "Content": "Sehen Sie sich die regionalen Daten an."
+  },
+  {
+    "Page": "general",
+    "Element": "filterregion",
+    "Content": "Nach Region filtern"
+  },
+  {
+    "Page": "general",
+    "Element": "filtercountry",
+    "Content": "Nach Land filtern"
+  },
+  {
+    "Page": "general",
+    "Element": "seal",
+    "Content": "Siegel"
+  },
+  {
+    "Page": "general",
+    "Element": "region",
+    "Content": "Region"
+  },
+  {
+    "Page": "general",
+    "Element": "logo",
+    "Content": "Logo"
+  },
+  {
+    "Page": "general",
+    "Element": "profile",
+    "Content": "Profil"
+  },
+  {
+    "Page": "trend2",
+    "Element": "pullquote2",
+    "Content": "Nur 69 % der japanischen Unternehmen gaben an, dass sie Personalisierung für sehr wichtig halten."
+  },
+  {
+    "Page": "general",
+    "Element": "close",
+    "Content": "Schließen"
+  },
+  {
+    "Page": "general",
+    "Element": "companies",
+    "Content": "Unternehmen"
+  },
+  {
+    "Page": "general",
+    "Element": "consumers",
+    "Content": "Kundschaft"
+  },
+  {
+    "Page": "general",
+    "Element": "sharetrend",
+    "Content": "Diesen Trend teilen"
   }
 ]

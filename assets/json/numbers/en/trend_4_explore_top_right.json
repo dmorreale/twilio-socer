@@ -1,7 +1,7 @@
 [
   {
     "Regions": "Protect data privacy",
-    "Asia Pacific/Japan": "71%",
+    "Asia-Pacific/Japan": "71%",
     "Europe": "58%",
     "Latin America": "68%",
     "Global": "65%",
@@ -21,7 +21,7 @@
   },
   {
     "Regions": "Be transparent about data usage",
-    "Asia Pacific/Japan": "69%",
+    "Asia-Pacific/Japan": "69%",
     "Europe": "54%",
     "Latin America": "67%",
     "Global": "62%",
@@ -41,7 +41,7 @@
   },
   {
     "Regions": "Honor communication preferences",
-    "Asia Pacific/Japan": "81%",
+    "Asia-Pacific/Japan": "81%",
     "Europe": "71%",
     "Latin America": "77%",
     "Global": "76%",
@@ -61,7 +61,7 @@
   },
   {
     "Regions": "Personalize engagement",
-    "Asia Pacific/Japan": "77%",
+    "Asia-Pacific/Japan": "77%",
     "Europe": "70%",
     "Latin America": "77%",
     "Global": "74%",
@@ -69,7 +69,7 @@
     "Australia": "73%",
     "Brazil": "82%",
     "Colombia": "75%",
-    "France": "63%",
+    "France": "66%",
     "Germany": "65%",
     "Italy": "73%",
     "Japan": "71%",
@@ -81,7 +81,7 @@
   },
   {
     "Regions": "Only use first party data",
-    "Asia Pacific/Japan": "69%",
+    "Asia-Pacific/Japan": "69%",
     "Europe": "55%",
     "Latin America": "62%",
     "Global": "61%",

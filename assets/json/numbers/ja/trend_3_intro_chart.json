@@ -1,22 +1,22 @@
 [
   [
-    "All third-party data",
+    "すべてサードパーティのデータ",
     "12%"
   ],
   [
-    "Mostly third-party data",
+    "主にサードパーティのデータ",
     "23%"
   ],
   [
-    "Even mix of third-party data and first-party customer data",
+    "サードパーティとファーストパーティの顧客データを半々",
     "46%"
   ],
   [
-    "Mostly first-party customer data",
+    "主にファーストパーティの顧客データ",
     "15%"
   ],
   [
-    "All first-party customer data",
+    "すべてファーストパーティの顧客データ",
     "5%"
   ]
 ]
