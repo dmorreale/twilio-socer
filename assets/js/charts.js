@@ -94,11 +94,16 @@ var columnChartOptions = {
   },
 }
 
+var radialWidth = 500;
+if(document.documentElement.clientWidth < 540) {
+  radialWidth = (document.documentElement.clientWidth - 40);
+}
+
 var radialBarOptions = {
   series: [80],
   chart: {
-    height: 480,
-	width: 500,
+  height: radialWidth + 40,
+	width: radialWidth,
     type: 'radialBar',
     toolbar: {
       show: false,

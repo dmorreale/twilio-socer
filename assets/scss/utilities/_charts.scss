@@ -58,8 +58,8 @@
 }
 .apexcharts-legend {
 	align-content:baseline;
+	transform:translate(0,50px) !important;
 	&-series {
-		margin-top:66px !important;
 		margin-right:30px !important;
 	}
 	&-text {
@@ -120,5 +120,20 @@
 				transform:translate(42px,0);
 			}
 		}
+	}
+}
+
+.chart-placeholder[data-chart-type="radial-bar"] {
+	.apexcharts-canvas {
+		width:100% !important;
+	}
+	svg {
+		width:100% !important;
+	}
+}
+
+@media screen and (max-width:540px) {
+	.chart-placeholder[data-chart-type="radial-bar"] {
+		//transform:translate(0, -50%) scale(.5) !important;
 	}
 }
