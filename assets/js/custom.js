@@ -153,17 +153,6 @@ $(document).ready(async function () {
   }
   preload()
 
-  if (location.hash) {
-    var loc = location.hash.substring(1)
-    loc = loc.toLowerCase()
-    if (loc.indexOf('form_engagement') != -1) {
-      $('#cover,.mktoForm_3201').addClass('show');
-    }
-    if (loc.indexOf('form_expert') != -1) {
-      $('#cover,.mktoForm_3202').addClass('show');
-    }
-  }
-
   $('.downArrowModule').click(function () {
     scrollTo($(this).closest('section').next(), 1200)
   })
