@@ -621,8 +621,12 @@ async function renderChartGroup(val, tl, tr, bl, br) {
 				  div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === defaultVal)[1]; 
 				}
 			} else if (chartGroupData[index][0].length === 4) {
-				div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === defaultVal)[2];
-				div.parentElement.nextElementSibling.querySelector(".chart-value2").innerHTML = chartGroupData[index].find((e) => e[0] === defaultVal)[3];
+				if(div.parentElement.parentElement.querySelector(".chart-value") !== null ){
+					div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === defaultVal)[2];
+				} 
+				if(div.parentElement.parentElement.querySelector(".chart-value2") !== null ){
+					div.parentElement.nextElementSibling.querySelector(".chart-value2").innerHTML = chartGroupData[index].find((e) => e[0] === defaultVal)[3];
+				}
 			}
           break
 
@@ -742,8 +746,12 @@ function updateChartGroup(selection) {
 					div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[1];
 				}
 			} else if (chartGroupData[index][0].length === 4) {
-				div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[2];
-				div.parentElement.nextElementSibling.querySelector(".chart-value2").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[3];
+				if(div.parentElement.parentElement.querySelector(".chart-value") !== null ){
+					div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[2];
+				}
+				if(div.parentElement.parentElement.querySelector(".chart-value2") !== null ){
+					div.parentElement.nextElementSibling.querySelector(".chart-value2").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[3];
+				}
 			}
           break
 
