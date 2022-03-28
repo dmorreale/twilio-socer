@@ -401,7 +401,7 @@ async function renderChartGroup(val, tl, tr, bl, br) {
             yaxis: {
               labels: {
                 offsetX: -9,
-                maxWidth:280
+                maxWidth:550
               },
             },
           })

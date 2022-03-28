@@ -476,64 +476,159 @@
           twilioChartData = data
         })
 
-        var introChartOptions = {
-          ...barChartOptions,
-          series: [
-            {
-              data: introChartData.map((val) => val[1]),
-            },
-          ],
-          chart: {
-            type: 'bar',
-            height: 212,
-            toolbar: {
-              show: false,
-            },
-          },
-          plotOptions: {
-            bar: {
-              horizontal: true,
-              dataLabels: {
-                position:'top',
+        if(document.documentElement.clientWidth > 700) {
+          var introChartOptions = {
+            ...barChartOptions,
+            series: [
+              {
+                data: introChartData.map((val) => val[1]),
+              },
+            ],
+            chart: {
+              type: 'bar',
+              height: 212,
+              toolbar: {
+                show: false,
               },
             },
-          },
-          dataLabels: {
-            enabled: true,
-            formatter: (val) => val + '%',
-            textAnchor: 'start',
-            offsetX: 20,
-            style: {
-              fontSize: '14px',
-              colors: ['#121C2D'],
+            plotOptions: {
+              bar: {
+                horizontal: true,
+                dataLabels: {
+                  position:'top',
+                },
+              },
             },
-          },
-          colors: ['#F22F46'],
-          stroke: {
-            show: true,
-            width: 1,
+            dataLabels: {
+              enabled: true,
+              formatter: (val) => val + '%',
+              textAnchor: 'start',
+              offsetX: 20,
+              style: {
+                fontSize: '14px',
+                colors: ['#121C2D'],
+              },
+            },
             colors: ['#F22F46'],
-          },
-          fill: {
-            type: 'solid',
-            opacity: 1,
-            colors: ['#F22F46', 'transparent']
-          },
-          xaxis: {
-            labels: {
-              show: false
+            stroke: {
+              show: true,
+              width: 1,
+              colors: ['#F22F46'],
             },
-            axisBorder: {
+            fill: {
+              type: 'solid',
+              opacity: 1,
+              colors: ['#F22F46', 'transparent']
+            },
+            xaxis: {
+              labels: {
                 show: false
+              },
+              axisBorder: {
+                  show: false
+              },
+              axisTicks: {
+                show: false
+              }
             },
-            axisTicks: {
-              show: false
+            yaxis: {
+              labels: {
+                offsetX: -9,
+                maxWidth:500
+              }
             }
-          },
-          yaxis: {
-            labels: {
-              offsetX: -9,
-              maxWidth:224
+          }
+        }
+        else {
+          var introChartOptions = {
+            ...barChartOptions,
+            series: [
+              {
+                data: introChartData.map((val) => val[1]),
+              },
+            ],
+            chart: {
+              type: 'bar',
+              height: 650,
+              toolbar: {
+                show: false,
+              },
+              width: '100%',
+            },
+            plotOptions: {
+              bar: {
+                horizontal: false,
+                columnWidth: '63%',
+                endingShape: 'rounded',
+                dataLabels: {
+                  position: 'top',
+                },
+              },
+            },
+            dataLabels: {
+              enabled: true,
+              formatter: (val) => val + '%',
+              offsetY: -30,
+              style: {
+                fontSize: '14px',
+                colors: ['#121C2D'],
+              },
+            },
+            fill: {
+              colors: ['#F22F46'],
+              opacity: 1,
+            },
+            states: {
+              normal: {
+                filter: {
+                  type: 'none',
+                  value: 0,
+                }
+              },
+              hover: {
+                filter: {
+                  type: 'none',
+                  value: 0,
+                }
+              },
+              active: {
+                allowMultipleDataPointsSelection: false,
+                filter: {
+                  type: 'none',
+                  value: 0,
+                }
+              },
+            },
+            colors: ['#F22F46'],
+            stroke: {
+              show: true,
+              width: 1,
+              colors: ['#F22F46'],
+            },
+            yaxis: {
+              labels: {
+                show: false
+              },
+              axisBorder: {
+                  show: false
+              },
+              axisTicks: {
+                show: false
+              },
+            },
+            xaxis: {
+              labels: {
+                maxHeight:509,
+                hideOverlappingLabels: false,
+                rotate: -90,
+                offsetY: 9,
+              }
+            },
+            tooltip: {
+              enabled: false,
+            },
+            grid: {
+              show: false,
             }
           }
         }

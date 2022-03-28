@@ -476,8 +476,6 @@
           twilioChartData = data
         })
 
-        console.log('here');
-
         if(document.documentElement.clientWidth > 700) {
           var introChartOptions = {
             ...barChartOptions,
@@ -536,7 +534,7 @@
             yaxis: {
               labels: {
                 offsetX: -9,
-                maxWidth:400
+                maxWidth:500
               }
             }
           }
@@ -620,7 +618,7 @@
             },
             xaxis: {
               labels: {
-                maxHeight:409,
+                maxHeight:509,
                 hideOverlappingLabels: false,
                 rotate: -90,
                 offsetY: 9,
@@ -635,9 +633,6 @@
           }
         }
 
-        
-
-        console.log(introChartOptions);
 
         introChartOptions.xaxis.categories = introChartData
           .map((val) => val[0])

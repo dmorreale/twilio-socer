@@ -51,7 +51,7 @@ var columnChartOptions = {
   plotOptions: {
     bar: {
       horizontal: false,
-      columnWidth: '48%',
+      columnWidth: '41%',
       endingShape: 'rounded',
       dataLabels: {
         position: 'top',
@@ -82,6 +82,9 @@ var columnChartOptions = {
     axisBorder: { show: false },
     axisTicks: { show: false },
     categories: ['NAMAR'],
+    labels: {
+      maxHeight: 220,
+    },
   },
   legend: {
     show: false,
