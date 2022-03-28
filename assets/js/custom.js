@@ -406,8 +406,8 @@ async function renderChartGroup(val, tl, tr, bl, br) {
             },
           })
           var chartSixhundredWidth = 600;
-          if(document.documentElement.clientWidth < 640) {
-            chartSixhundredWidth = (document.documentElement.clientWidth - 40);
+          if(document.documentElement.clientWidth < 1360) {
+            chartSixhundredWidth = '100%';
           }
           if(div.getAttribute('number-of-bars') == '3') {
             chartOptions = merge(chartOptions, {

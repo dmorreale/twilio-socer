@@ -159,8 +159,8 @@ var radialBarOptions = {
 }
 
 var chartSixhundredWidth = 600;
-if(document.documentElement.clientWidth < 640) {
-  chartSixhundredWidth = (document.documentElement.clientWidth - 40);
+if(document.documentElement.clientWidth < 1360) {
+  chartSixhundredWidth = '100%';
 }
 
 var barChartOptions = {

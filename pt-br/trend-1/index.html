@@ -517,6 +517,15 @@
             colors: ['#F22F46'],
             opacity: 1,
           },
+          xaxis: {
+            axisBorder: { show: false },
+            axisTicks: { show: false },
+            labels: {
+              show: true,
+              rotate: -90,
+              maxHeight:220,
+            }
+          },
         }
         introChartOptions.xaxis.categories = introChartData.map((val) => val[0])
         outOfGroupCharts[0] = new ApexCharts(
