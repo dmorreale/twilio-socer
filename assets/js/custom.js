@@ -5,7 +5,7 @@ var address = window.location.href;
 if(address.indexOf("#") != -1) {
   address = address.substring(0,address.indexOf("#"));
 }
-console.log(address);
+//console.log(address);
 
 const trendRegex = /\/trend\-[1-5]/;
 const langRegex = /\/(de|pt-br|fr|es-es|es-mx|ja)\//;
