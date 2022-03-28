@@ -451,6 +451,76 @@ async function renderChartGroup(val, tl, tr, bl, br) {
               },
             })
           }
+          if(!div.getAttribute('number-of-bars')) {
+            if(document.documentElement.clientWidth > 700) {
+              
+            }
+            else {
+              chartOptions = merge(chartOptions, {
+                chart: {
+                  type: 'bar',
+                  height: 750,
+                  toolbar: {
+                    show: false,
+                  },
+                  width: '100%',
+                },
+                plotOptions: {
+                  bar: {
+                    horizontal: false,
+                    columnWidth: '63%',
+                    endingShape: 'rounded',
+                    dataLabels: {
+                      position: 'top',
+                    },
+                  },
+                },
+                dataLabels: {
+                  enabled: true,
+                  formatter: (val) => val + '%',
+                  offsetY: -30,
+                  textAnchor: 'middle',
+                  offsetX: 0,
+                  style: {
+                    fontSize: '14px',
+                    colors: ['#121C2D'],
+                  },
+                },
+                yaxis: {
+                  labels: {
+                    show: false,
+                    offsetx: 0,
+                  },
+                  axisBorder: {
+                      show: false
+                  },
+                  axisTicks: {
+                    show: false
+                  },
+                },
+                xaxis: {
+                  labels: {
+                    show:true,
+                    maxHeight:609,
+                    hideOverlappingLabels: false,
+                    rotate: -90,
+                    offsetY: 9,
+                  }
+                },
+                tooltip: {
+                  enabled: false,
+                },
+                grid: {
+                  show: false,
+                }
+              })
+            }
+          }
+
+          
+
+
+
 
           chartGroupCharts[index] = new ApexCharts(div, chartOptions)
           //chartGroupCharts[index].render()
