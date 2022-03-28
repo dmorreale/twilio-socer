@@ -684,6 +684,10 @@ async function renderChartGroup(val, tl, tr, bl, br) {
           var chartOptions = merge(columnChartOptions, {
             series: colSeries(),
             xaxis: {
+              labels: {
+                maxHeight: 220,
+                rotate:-90,
+              },
               categories:
                 chartGroupData[index][0].length === 2
                   ? [defaultVal, defaultVal]

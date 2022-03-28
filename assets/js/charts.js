@@ -82,9 +82,6 @@ var columnChartOptions = {
     axisBorder: { show: false },
     axisTicks: { show: false },
     categories: ['NAMAR'],
-    labels: {
-      maxHeight: 220,
-    },
   },
   legend: {
     show: false,

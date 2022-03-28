@@ -1160,7 +1160,7 @@ body {
     max-width: 100%;
     overflow: hidden; }
     .pageWrapper .chart-placeholder[data-chart-type="column"], .pageWrapper .apexcharts-canvas[data-chart-type="column"] {
-      max-width: 420px; }
+      min-width: 420px; }
       .pageWrapper .chart-placeholder[data-chart-type="column"] .apexcharts-plot-series g:nth-child(1) path, .pageWrapper .chart-placeholder[data-chart-type="column"] .apexcharts-plot-series g:nth-child(3) text, .pageWrapper .apexcharts-canvas[data-chart-type="column"] .apexcharts-plot-series g:nth-child(1) path, .pageWrapper .apexcharts-canvas[data-chart-type="column"] .apexcharts-plot-series g:nth-child(3) text {
         transform: translate(-59px, 0); }
       .pageWrapper .chart-placeholder[data-chart-type="column"] .apexcharts-plot-series g:nth-child(2) path, .pageWrapper .chart-placeholder[data-chart-type="column"] .apexcharts-plot-series g:nth-child(4) text, .pageWrapper .apexcharts-canvas[data-chart-type="column"] .apexcharts-plot-series g:nth-child(2) path, .pageWrapper .apexcharts-canvas[data-chart-type="column"] .apexcharts-plot-series g:nth-child(4) text {
@@ -1169,6 +1169,14 @@ body {
     width: 100% !important; }
   .pageWrapper .chart-placeholder[data-chart-type="radial-bar"] svg {
     width: 100% !important; }
+  @media screen and (max-width: 719px) {
+    .pageWrapper .chart-placeholder[data-chart-type="column"], .pageWrapper .apexcharts-canvas[data-chart-type="column"] {
+      min-width: 300px;
+      max-width: 300px; }
+      .pageWrapper .chart-placeholder[data-chart-type="column"] .apexcharts-plot-series g:nth-child(1) path, .pageWrapper .chart-placeholder[data-chart-type="column"] .apexcharts-plot-series g:nth-child(3) text, .pageWrapper .apexcharts-canvas[data-chart-type="column"] .apexcharts-plot-series g:nth-child(1) path, .pageWrapper .apexcharts-canvas[data-chart-type="column"] .apexcharts-plot-series g:nth-child(3) text {
+        transform: translate(-40px, 0); }
+      .pageWrapper .chart-placeholder[data-chart-type="column"] .apexcharts-plot-series g:nth-child(2) path, .pageWrapper .chart-placeholder[data-chart-type="column"] .apexcharts-plot-series g:nth-child(4) text, .pageWrapper .apexcharts-canvas[data-chart-type="column"] .apexcharts-plot-series g:nth-child(2) path, .pageWrapper .apexcharts-canvas[data-chart-type="column"] .apexcharts-plot-series g:nth-child(4) text {
+        transform: translate(40px, 0); } }
   .pageWrapper .block-hero {
     padding-bottom: 0px; }
     .pageWrapper .block-hero:not(.trendsHero, .thanksHero) .leftOfImage {
