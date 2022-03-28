@@ -1,6 +1,12 @@
 var pathName = window.location.pathname;
 var address = window.location.href;
-console.log(pathName);
+
+//if there is a hash, remove it from the address variable
+if(address.indexOf("#") != -1) {
+  address = address.substring(0,address.indexOf("#"));
+}
+console.log(address);
+
 const trendRegex = /\/trend\-[1-5]/;
 const langRegex = /\/(de|pt-br|fr|es-es|es-mx|ja)\//;
 const sitePath = pathName.replace(trendRegex, '').replace('/thank-you', '').replace(langRegex, '/');
@@ -178,9 +184,9 @@ $(document).ready(async function () {
     if (loc.indexOf('form_engagement') != -1) {
       $('#cover,.mktoForm_3201').addClass('show');
     }
-    if (loc.indexOf('form_expert') != -1) {
-      $('#cover,.mktoForm_3202').addClass('show');
-    }
+    //if (loc.indexOf('form_expert') != -1) {
+    //  $('#cover,.mktoForm_3202').addClass('show');
+    //}
   }
 
   $('.downArrowModule').click(function () {
