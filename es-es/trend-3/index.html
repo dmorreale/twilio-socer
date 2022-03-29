@@ -474,7 +474,7 @@
           introChartData = data
         })
         await $.getJSON(jsonRoot + 'trend_3_twilio_data.json', (data) => {
-          twilioChartData = data
+          twilioChartData2 = data
         })
 
         if(document.documentElement.clientWidth > 700) {
@@ -740,11 +740,11 @@
           series: [
             {
               data: newData[0],
-              name: 'Analytics'
+              name: twilioChartData2[0][0]
             },
             {
               data: newData[1],
-              name: 'Data Warehousing'
+              name: twilioChartData2[1][0]
             },
           ],
           yaxis: {

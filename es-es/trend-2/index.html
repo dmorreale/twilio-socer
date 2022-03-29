@@ -483,11 +483,11 @@
           ...barChartOptions,
           series: [
             {
-              name: 'Companies',
+              name: document.getElementsByTagName("body")[0].getAttribute('data-company'),
               data: introChartData.map((val) => val[1]).reverse(),
             },
             {
-              name: 'Consumers',
+              name: document.getElementsByTagName("body")[0].getAttribute('data-customers'),
               data: introChartData.map((val) => val[2]).reverse(),
             },
           ],

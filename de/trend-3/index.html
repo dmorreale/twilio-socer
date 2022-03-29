@@ -473,7 +473,7 @@
           introChartData = data
         })
         await $.getJSON(jsonRoot + 'trend_3_twilio_data.json', (data) => {
-          twilioChartData = data
+          twilioChartData2 = data
         })
 
         if(document.documentElement.clientWidth > 700) {
@@ -732,18 +732,16 @@
           newData[1][i] = { "x": new Date(arr1_2[i]).getTime(), "y": parseFloat(arr2_2[i]) }
         }
 
-        //console.log(newData);
-
         var twilioChartOptions = {
           ...lineChartOptions,
           series: [
             {
               data: newData[0],
-              name: 'Analytics'
+              name: twilioChartData2[0][0]
             },
             {
               data: newData[1],
-              name: 'Data Warehousing'
+              name: twilioChartData2[1][0]
             },
           ],
           yaxis: {
