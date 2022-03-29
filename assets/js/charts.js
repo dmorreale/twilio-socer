@@ -43,7 +43,7 @@ var columnChartOptions = {
     colors: ['#F22F46'],
     opacity: 1,
     image: {
-      src: [siteRoot + 'assets/images/bar-with-lines.svg'],
+      src: ['//d2wj5gcx1od95f.cloudfront.net/state-of-customer-engagement/assets/images/bar-with-lines.svg'],
       width: 100,
       height: 300
     },
@@ -51,7 +51,7 @@ var columnChartOptions = {
   plotOptions: {
     bar: {
       horizontal: false,
-      columnWidth: '41%',
+      columnWidth: '48%',
       endingShape: 'rounded',
       dataLabels: {
         position: 'top',
@@ -159,8 +159,8 @@ var radialBarOptions = {
 }
 
 var chartSixhundredWidth = 600;
-if(document.documentElement.clientWidth < 1360) {
-  chartSixhundredWidth = '100%';
+if(document.documentElement.clientWidth < 640) {
+  chartSixhundredWidth = (document.documentElement.clientWidth - 40);
 }
 
 var barChartOptions = {

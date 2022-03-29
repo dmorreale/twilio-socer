@@ -11,7 +11,7 @@ const trendRegex = /\/trend\-[1-5]/;
 const langRegex = /\/(de|pt-br|fr|es-es|es-mx|ja)\//;
 const sitePath = pathName.replace(trendRegex, '').replace('/thank-you', '').replace(langRegex, '/');
 const siteRoot =address.includes('/trend-') || address.includes('/thank-you') ? address.replace(trendRegex, '').replace('/thank-you', '').replace(langRegex, '/') : address.replace(langRegex, '/');
-const jsonRoot = siteRoot + 'assets/json/numbers/' + document.getElementsByTagName("html")[0].getAttribute('lang') + '/';
+const jsonRoot = '//d2wj5gcx1od95f.cloudfront.net/state-of-customer-engagement/assets/json/numbers/' + document.getElementsByTagName("html")[0].getAttribute('lang') + '/';
 const chartGroupData = []
 const chartGroupCharts = []
 const merge = (...arguments) => {
@@ -63,18 +63,16 @@ $(document).ready(async function () {
 	$('.language-nav a').each(function(e){
 		var thisLang = $(this).attr('hreflang');
 		if(langcode == 'en' && thisLang != 'en'){
-			$(this).attr('href', ( sitePath + thisLang + location.pathname.replace(sitePath, '/')));
+			$(this).attr('href', ('/' + thisLang + sitePath + location.pathname.replace(sitePath, '')));
 		} else if(thisLang == 'en'){
-			$(this).attr('href', location.pathname.replace((sitePath + langcode + '/'), sitePath));
+			$(this).attr('href', (location.pathname.replace(('/' + langcode + sitePath),sitePath)));
 		} else {
-			$(this).attr('href', ( sitePath + thisLang + location.pathname.replace((sitePath + langcode), '')));
+			$(this).attr('href', ('/' + thisLang + sitePath + location.pathname.replace(('/' + langcode + sitePath), '')));
 		}
 	});
-
-  console.log(langcode);
 		
 	//load the text from the json doc.
-	var textJSON = siteRoot + 'assets/json/text/' + language + 'twiliosocer2022.json';
+	var textJSON = '//d2wj5gcx1od95f.cloudfront.net/state-of-customer-engagement/assets/json/text/' + language + 'twiliosocer2022.json';
 	await $.getJSON(textJSON, function(json) {
 	  json.forEach(function(obj) { 
 		  if(curPage == obj["Page"] || obj["Page"] == 'general'){
@@ -403,13 +401,13 @@ async function renderChartGroup(val, tl, tr, bl, br) {
             yaxis: {
               labels: {
                 offsetX: -9,
-                maxWidth:550
+                maxWidth:280
               },
             },
           })
           var chartSixhundredWidth = 600;
-          if(document.documentElement.clientWidth < 1360) {
-            chartSixhundredWidth = '100%';
+          if(document.documentElement.clientWidth < 640) {
+            chartSixhundredWidth = (document.documentElement.clientWidth - 40);
           }
           if(div.getAttribute('number-of-bars') == '3') {
             chartOptions = merge(chartOptions, {
@@ -453,76 +451,6 @@ async function renderChartGroup(val, tl, tr, bl, br) {
               },
             })
           }
-          if(!div.getAttribute('number-of-bars')) {
-            if(document.documentElement.clientWidth > 700) {
-              
-            }
-            else {
-              chartOptions = merge(chartOptions, {
-                chart: {
-                  type: 'bar',
-                  height: 750,
-                  toolbar: {
-                    show: false,
-                  },
-                  width: '100%',
-                },
-                plotOptions: {
-                  bar: {
-                    horizontal: false,
-                    columnWidth: '63%',
-                    endingShape: 'rounded',
-                    dataLabels: {
-                      position: 'top',
-                    },
-                  },
-                },
-                dataLabels: {
-                  enabled: true,
-                  formatter: (val) => val + '%',
-                  offsetY: -30,
-                  textAnchor: 'middle',
-                  offsetX: 0,
-                  style: {
-                    fontSize: '14px',
-                    colors: ['#121C2D'],
-                  },
-                },
-                yaxis: {
-                  labels: {
-                    show: false,
-                    offsetx: 0,
-                  },
-                  axisBorder: {
-                      show: false
-                  },
-                  axisTicks: {
-                    show: false
-                  },
-                },
-                xaxis: {
-                  labels: {
-                    show:true,
-                    maxHeight:609,
-                    hideOverlappingLabels: false,
-                    rotate: -90,
-                    offsetY: 9,
-                  }
-                },
-                tooltip: {
-                  enabled: false,
-                },
-                grid: {
-                  show: false,
-                }
-              })
-            }
-          }
-
-          
-
-
-
 
           chartGroupCharts[index] = new ApexCharts(div, chartOptions)
           //chartGroupCharts[index].render()
@@ -686,10 +614,6 @@ async function renderChartGroup(val, tl, tr, bl, br) {
           var chartOptions = merge(columnChartOptions, {
             series: colSeries(),
             xaxis: {
-              labels: {
-                maxHeight: 220,
-                rotate:-90,
-              },
               categories:
                 chartGroupData[index][0].length === 2
                   ? [defaultVal, defaultVal]

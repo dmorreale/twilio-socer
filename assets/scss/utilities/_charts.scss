@@ -109,13 +109,13 @@
 	max-width:100%;
 	overflow:hidden;
 	&[data-chart-type="column"] {
-		min-width:420px;
+		max-width:350px;
 		.apexcharts-plot-series {
 			g:nth-child(1) path, g:nth-child(3) text {
-				transform:translate(-59px,0);
+				transform:translate(-42px,0);
 			}
 			g:nth-child(2) path, g:nth-child(4) text {
-				transform:translate(59px,0);
+				transform:translate(42px,0);
 			}
 		}
 	}
@@ -130,19 +130,3 @@
 	}
 }
 
-@media screen and (max-width:719px) {
-	.chart-placeholder, .apexcharts-canvas {
-		&[data-chart-type="column"] {
-			min-width:300px;
-			max-width:300px;
-			.apexcharts-plot-series {
-				g:nth-child(1) path, g:nth-child(3) text {
-					transform:translate(-40px,0);
-				}
-				g:nth-child(2) path, g:nth-child(4) text {
-					transform:translate(40px,0);
-				}
-			}
-		}
-	}
-}
