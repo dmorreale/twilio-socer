@@ -70,6 +70,8 @@ $(document).ready(async function () {
 			$(this).attr('href', ( sitePath + thisLang + location.pathname.replace((sitePath + langcode), '')));
 		}
 	});
+
+  console.log(langcode);
 		
 	//load the text from the json doc.
 	var textJSON = siteRoot + 'assets/json/text/' + language + 'twiliosocer2022.json';
