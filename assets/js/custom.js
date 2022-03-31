@@ -1,11 +1,15 @@
 var pathName = window.location.pathname;
 var address = window.location.href;
 
+//sanitize the address
 //if there is a hash, remove it from the address variable
 if(address.indexOf("#") != -1) {
   address = address.substring(0,address.indexOf("#"));
 }
-//console.log(address);
+//if there is a query string, remove it from the address variable
+if(address.indexOf("?") != -1) {
+  address = address.substring(0,address.indexOf("?"));
+}
 
 const trendRegex = /\/trend\-[1-5]/;
 const langRegex = /\/(de|pt-br|fr|es-es|es-mx|ja)\//;
