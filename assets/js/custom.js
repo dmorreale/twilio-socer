@@ -114,6 +114,10 @@ $(document).ready(async function () {
 					$('body').attr('data-customers', obj["Content"]);
 				}
 			  
+			  	if(obj["Element"] == 'year'){
+					$('body').attr('data-year', obj["Content"]);
+				}
+			  
 			  $('.json-' + obj["Element"]).each(function(){
 				  var text = obj["Content"].replace("[value]", "<strong class='chart-value'></strong>");
 				  var text = text.replace("[value]", "<strong class='chart-value2'></strong>");
@@ -644,8 +648,10 @@ async function renderChartGroup(val, tl, tr, bl, br) {
 				  tl = data
 				}
 			)
+			  
+			var year = document.getElementsByTagName("body")[0].getAttribute('data-year');
 		
-			div.innerHTML = `<span>${chartGroupData[index].find((e) => e[0] === defaultVal)[1]} YEARS</span>`;
+			div.innerHTML = `<span>${chartGroupData[index].find((e) => e[0] === defaultVal)[1]} ` + year + '</span>';
 			div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === defaultVal)[1];
 			break
 
@@ -783,8 +789,9 @@ function updateChartGroup(selection) {
           break
 			  
 		case 'text':
+			var year = document.getElementsByTagName("body")[0].getAttribute('data-year');
 			
-			div.innerHTML = `<span>${chartGroupData[index].find((e) => e[0] === selection)[1]} YEARS</span>`
+			div.innerHTML = `<span>${chartGroupData[index].find((e) => e[0] === selection)[1]} `  + year + '</span>';
 			div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[1];
 			break
 

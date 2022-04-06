@@ -1083,5 +1083,10 @@
     "Page": "general",
     "Element": "sharetrend",
     "Content": "このトレンドをシェア"
+  },
+  {
+    "Page": "general",
+    "Element": "year",
+    "Content": "年"
   }
 ]

@@ -682,7 +682,7 @@
   {
     "Page": "trend3",
     "Element": "quad-top-left",
-    "Content": "[value] das empresas dizem que estão totalmente preparadas para um mundo sem cookies"
+    "Content": "[value] das empresas dizem que não estão totalmente preparadas para um mundo sem cookies"
   },
   {
     "Page": "trend3",
@@ -1088,5 +1088,10 @@
     "Page": "general",
     "Element": "sharetrend",
     "Content": "Compartilhe essa tendência"
+  },
+  {
+    "Page": "general",
+    "Element": "consumers",
+    "Content": "anos"
   }
 ]

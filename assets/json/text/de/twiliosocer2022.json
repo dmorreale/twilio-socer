@@ -592,7 +592,7 @@
   {
     "Page": "trend3",
     "Element": "headline",
-    "Content": "Eine Welt<br>ohne Cookies naht."
+    "Content": "Eine Welt<br>ohne Cookies naht"
   },
   {
     "Page": "trend3",
@@ -1088,5 +1088,10 @@
     "Page": "general",
     "Element": "sharetrend",
     "Content": "Diesen Trend teilen"
+  },
+  {
+    "Page": "general",
+    "Element": "year",
+    "Content": "Jahre"
   }
 ]

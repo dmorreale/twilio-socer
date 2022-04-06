@@ -682,7 +682,7 @@
   {
     "Page": "trend3",
     "Element": "quad-top-left",
-    "Content": "[value] des entreprises déclarent être parfaitement préparées à la fin des cookies"
+    "Content": "[value] des entreprises qui déclarent être parfaitement préparées à la fin des cookies"
   },
   {
     "Page": "trend3",
@@ -1088,5 +1088,10 @@
     "Page": "general",
     "Element": "sharetrend",
     "Content": "Partagez cette tendance"
+  },
+  {
+    "Page": "general",
+    "Element": "year",
+    "Content": "ans"
   }
 ]
