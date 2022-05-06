@@ -58,6 +58,28 @@ $(document).ready(async function () {
     aosResetNav()
   }, 1000)
 	
+  function getCookie(cname) {
+		let name = cname + "=";
+		let decodedCookie = decodeURIComponent(document.cookie);
+		let ca = decodedCookie.split(';');
+		for(let i = 0; i <ca.length; i++) {
+			let c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	
+	var utmContent = getCookie('utm_content'),
+		utmCampaign = getCookie('utm_campaign'),
+		utmMedium = getCookie('utm_medium'),
+		utmSource = getCookie('utm_source'),
+		utmTerm = getCookie('utm_term');
+	
 	var curPage = $('body').data('page');
 	var langcode = $('html').attr('lang');
 	var language = langcode + '/';
@@ -223,6 +245,11 @@ $(document).ready(async function () {
   function showPopup(popup) {
     $('#cover').addClass('show');
     popup.addClass('show');
+	$('input[name=uTMContentInquiry]').val(utmContent);
+	$('input[name=uTMCampaignInquiry]').val(utmCampaign);
+	$('input[name=uTMMediumInquiry]').val(utmMedium);
+	$('input[name=uTMSourceInquiry]').val(utmSource);
+	$('input[name=uTMTermInquiry]').val(utmTerm);
   }
 
   $('.formPopup .belowTheForm button').click(function() {
