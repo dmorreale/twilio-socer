@@ -58,7 +58,14 @@ $(document).ready(async function () {
     aosResetNav()
   }, 1000)
 	
-  function getCookie(cname) {
+	function setCookie(cname, cvalue, exdays) {
+		const d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		let expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+	
+	function getCookie(cname) {
 		let name = cname + "=";
 		let decodedCookie = decodeURIComponent(document.cookie);
 		let ca = decodedCookie.split(';');
@@ -71,24 +78,17 @@ $(document).ready(async function () {
 				return c.substring(name.length, c.length);
 			}
 		}
-		return false;
-	}
-	
-	var utm_json = {content:'', campaign:'', medium:'',source:'',term:''}
-	var utm_codes = getCookie('utm_codes');
-	
-	if(utm_codes){
-		var utm_dc = decodeURIComponent(utm_codes),
-		utm_json = JSON.parse(utm_dc);
+		return '';
 	}
 	
 	const params = new URLSearchParams(window.location.search);
-
-	var utmContent = params.has('utm_content') ? params.get('utm_content') : utm_json.content,
-		utmCampaign = params.has('utm_campaign') ? params.get('utm_campaign') : utm_json.campaign,
-		utmMedium = params.has('utm_medium') ? params.get('utm_medium') : utm_json.medium,
-		utmSource = params.has('utm_source') ? params.get('utm_source') : utm_json.source,
-		utmTerm = params.has('utm_term') ? params.get('utm_term') : utm_json.term;
+	let tags = ['utm_content', 'utm_campaign', 'utm_medium', 'utm_source', 'utm_term'];
+	
+	for (let i = 0; i < tags.length; i++) {
+		if( params.has(tags[i])){
+		   setCookie(tags[i], params.get(tags[i]), 90);
+		}
+	}
 
 	var curPage = $('body').data('page');
 	var langcode = $('html').attr('lang');
@@ -253,11 +253,11 @@ $(document).ready(async function () {
   function showPopup(popup) {
     $('#cover').addClass('show');
     popup.addClass('show');
-	$('input[name=uTMContentInquiry]').val(utmContent);
-	$('input[name=uTMCampaignInquiry]').val(utmCampaign);
-	$('input[name=uTMMediumInquiry]').val(utmMedium);
-	$('input[name=uTMSourceInquiry]').val(utmSource);
-	$('input[name=uTMTermInquiry]').val(utmTerm);
+	$('input[name=uTMContentInquiry]').val(getCookie('utm_content'));
+	$('input[name=uTMCampaignInquiry]').val(getCookie('utm_campaign'));
+	$('input[name=uTMMediumInquiry]').val(getCookie('utm_medium'));
+	$('input[name=uTMSourceInquiry]').val(getCookie('utm_source'));
+	$('input[name=uTMTermInquiry]').val(getCookie('utm_term'));
   }
 
   $('.formPopup .belowTheForm button').click(function() {
