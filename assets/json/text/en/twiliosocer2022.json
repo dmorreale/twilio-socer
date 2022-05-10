@@ -682,7 +682,7 @@
   {
     "Page": "trend3",
     "Element": "quad-top-left",
-    "Content": "[value] of companies say they're fully prepared for a cookieless world"
+    "Content": "[value] of companies say they’re not fully prepared for a cookieless world"
   },
   {
     "Page": "trend3",
@@ -1048,5 +1048,10 @@
     "Page": "general",
     "Element": "consumers",
     "Content": "Customers"
+  },
+  {
+    "Page": "general",
+    "Element": "year",
+    "Content": "Years"
   }
 ]

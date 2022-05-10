@@ -682,7 +682,7 @@
   {
     "Page": "trend3",
     "Element": "quad-top-right",
-    "Content": "[valueの企業が、サードパーティcookieに依存"
+    "Content": "[value]の企業が、サードパーティcookieに依存"
   },
   {
     "Page": "trend3",
@@ -1083,5 +1083,10 @@
     "Page": "general",
     "Element": "sharetrend",
     "Content": "このトレンドをシェア"
+  },
+  {
+    "Page": "general",
+    "Element": "year",
+    "Content": "年"
   }
 ]

@@ -58,6 +58,38 @@ $(document).ready(async function () {
     aosResetNav()
   }, 1000)
 	
+	function setCookie(cname, cvalue, exdays) {
+		const d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		let expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+	
+	function getCookie(cname) {
+		let name = cname + "=";
+		let decodedCookie = decodeURIComponent(document.cookie);
+		let ca = decodedCookie.split(';');
+		for(let i = 0; i <ca.length; i++) {
+			let c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return '';
+	}
+	
+	const params = new URLSearchParams(window.location.search);
+	let tags = ['utm_content', 'utm_campaign', 'utm_medium', 'utm_source', 'utm_term'];
+	
+	for (let i = 0; i < tags.length; i++) {
+		if( params.has(tags[i])){
+		   setCookie(tags[i], params.get(tags[i]), 90);
+		}
+	}
+
 	var curPage = $('body').data('page');
 	var langcode = $('html').attr('lang');
 	var language = langcode + '/';
@@ -74,8 +106,6 @@ $(document).ready(async function () {
 			$(this).attr('href', ( sitePath + thisLang + location.pathname.replace((sitePath + langcode), '')));
 		}
 	});
-
-  console.log(langcode);
 		
 	//load the text from the json doc.
 	var textJSON = siteRoot + 'assets/json/text/' + language + 'twiliosocer2022.json';
@@ -112,6 +142,10 @@ $(document).ready(async function () {
 			  
 			    if(obj["Element"] == 'consumers'){
 					$('body').attr('data-customers', obj["Content"]);
+				}
+			  
+			  	if(obj["Element"] == 'year'){
+					$('body').attr('data-year', obj["Content"]);
 				}
 			  
 			  $('.json-' + obj["Element"]).each(function(){
@@ -219,6 +253,11 @@ $(document).ready(async function () {
   function showPopup(popup) {
     $('#cover').addClass('show');
     popup.addClass('show');
+	$('input[name=uTMContentInquiry]').val(getCookie('utm_content'));
+	$('input[name=uTMCampaignInquiry]').val(getCookie('utm_campaign'));
+	$('input[name=uTMMediumInquiry]').val(getCookie('utm_medium'));
+	$('input[name=uTMSourceInquiry]').val(getCookie('utm_source'));
+	$('input[name=uTMTermInquiry]').val(getCookie('utm_term'));
   }
 
   $('.formPopup .belowTheForm button').click(function() {
@@ -644,8 +683,10 @@ async function renderChartGroup(val, tl, tr, bl, br) {
 				  tl = data
 				}
 			)
+			  
+			var year = document.getElementsByTagName("body")[0].getAttribute('data-year');
 		
-			div.innerHTML = `<span>${chartGroupData[index].find((e) => e[0] === defaultVal)[1]} YEARS</span>`;
+			div.innerHTML = `<span>${chartGroupData[index].find((e) => e[0] === defaultVal)[1]} ` + year + '</span>';
 			div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === defaultVal)[1];
 			break
 
@@ -783,8 +824,9 @@ function updateChartGroup(selection) {
           break
 			  
 		case 'text':
+			var year = document.getElementsByTagName("body")[0].getAttribute('data-year');
 			
-			div.innerHTML = `<span>${chartGroupData[index].find((e) => e[0] === selection)[1]} YEARS</span>`
+			div.innerHTML = `<span>${chartGroupData[index].find((e) => e[0] === selection)[1]} `  + year + '</span>';
 			div.parentElement.nextElementSibling.querySelector(".chart-value").innerHTML = chartGroupData[index].find((e) => e[0] === selection)[1];
 			break
 
