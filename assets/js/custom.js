@@ -71,15 +71,25 @@ $(document).ready(async function () {
 				return c.substring(name.length, c.length);
 			}
 		}
-		return "";
+		return false;
 	}
 	
-	var utmContent = getCookie('utm_content'),
-		utmCampaign = getCookie('utm_campaign'),
-		utmMedium = getCookie('utm_medium'),
-		utmSource = getCookie('utm_source'),
-		utmTerm = getCookie('utm_term');
+	var utm_json = {content:'', campaign:'', medium:'',source:'',term:''}
+	var utm_codes = getCookie('utm_codes');
 	
+	if(utm_codes){
+		var utm_dc = decodeURIComponent(utm_codes),
+		utm_json = JSON.parse(utm_dc);
+	}
+	
+	const params = new URLSearchParams(window.location.search);
+
+	var utmContent = params.has('utm_content') ? params.get('utm_content') : utm_json.content,
+		utmCampaign = params.has('utm_campaign') ? params.get('utm_campaign') : utm_json.campaign,
+		utmMedium = params.has('utm_medium') ? params.get('utm_medium') : utm_json.medium,
+		utmSource = params.has('utm_source') ? params.get('utm_source') : utm_json.source,
+		utmTerm = params.has('utm_term') ? params.get('utm_term') : utm_json.term;
+
 	var curPage = $('body').data('page');
 	var langcode = $('html').attr('lang');
 	var language = langcode + '/';
@@ -96,8 +106,6 @@ $(document).ready(async function () {
 			$(this).attr('href', ( sitePath + thisLang + location.pathname.replace((sitePath + langcode), '')));
 		}
 	});
-
-  console.log(langcode);
 		
 	//load the text from the json doc.
 	var textJSON = siteRoot + 'assets/json/text/' + language + 'twiliosocer2022.json';
